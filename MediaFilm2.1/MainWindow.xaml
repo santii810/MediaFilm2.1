@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MediaFilm2._1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MediaFilm 2.1"  Width="1024" Height="768">
     <Grid>
-        
+
     </Grid>
 </Window>
