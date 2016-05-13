@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MediaFilm2._1"
         mc:Ignorable="d"
-        Title="MediaFilm 2.1"  Width="1024" Height="768">
+        Title="MediaFilm 2.1"  Width="1024" Height="768" ResizeMode="NoResize">
     <Grid>
-
+        <Frame Name="FrameHerramientaInicio"/>
+        <StackPanel Orientation="Horizontal">
+            <Border Style="{StaticResource BorderNegro}">
+            <StackPanel Height="730" Width="170" >
+                
+            </StackPanel>
+            </Border>
+            
+            <StackPanel Height="737" Width="840">
+                
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>

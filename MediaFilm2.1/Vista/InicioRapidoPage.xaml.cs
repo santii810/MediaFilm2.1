@@ -1,7 +1,5 @@
-﻿using MediaFilm2._1.Res;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,20 +16,13 @@ using System.Windows.Shapes;
 namespace MediaFilm2._1
 {
     /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
+    /// Lógica de interacción para InicioRapidoPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class InicioRapidoPage : Page
     {
-        public MainWindow()
+        public InicioRapidoPage()
         {
-            InitializeComponent();          
-
-            if (!File.Exists(Recursos.configURL))
-            {
-            //FrameHerramientaInicio.Source = new Uri(Recursos.InicioRapidoPageURL, UriKind.Relative);
-            }
-            
-
+            InitializeComponent();
         }
     }
 }

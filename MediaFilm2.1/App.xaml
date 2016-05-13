@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:MediaFilm2._1"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Diccionarios/DiccionarioContenedores.xaml"/>
+                <ResourceDictionary Source="Diccionarios/DiccionarioElementos.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

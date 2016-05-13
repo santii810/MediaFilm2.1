@@ -12,3 +12,8 @@ C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\MediaFilm2._1.P
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\MediaFilm2.1.csproj.GenerateResource.Cache
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\MediaFilm2.1.exe
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\MediaFilm2.1.pdb
+C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Vista\InicioRapidoPage.g.cs
+C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Vista\InicioRapidoPage.baml
+C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\App.baml
+C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Diccionarios\DiccionarioContenedores.baml
+C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Diccionarios\DiccionarioElementos.baml
