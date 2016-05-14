@@ -16,5 +16,10 @@ namespace MediaFilm2._1.Res
         {
             return "Fichero '" + name + "' borrado correctamente";
         }
+
+        internal static string errorBorrandoFichero(string name, Exception e)
+        {
+            return "Error borrando fichero " + name + " /t " + e.ToString();
+        }
     }
 }

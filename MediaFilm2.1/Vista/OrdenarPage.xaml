@@ -19,6 +19,21 @@
                     <Label Content="{StaticResource strRenombrarVideos}" Style="{StaticResource LabelMenuSecundario }"/>
                     <Image  Source="../Res/Iconos/ordenarVideos.png" Style="{StaticResource ImageMenuSecundario}"/>
                 </StackPanel>
+
+            </StackPanel>
+            <StackPanel Name="PanelResultadoRecogerVideos" Orientation="Horizontal" Height="550">
+            <Border Style="{StaticResource BorderBisque}">
+                <StackPanel Orientation="Vertical">
+
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="{StaticResource strVideosMovidos}" Style="{StaticResource LabelMenuSecundario}"/>
+                    <Label Content=" "/>
+                </StackPanel>
+                <ScrollViewer>
+                    <StackPanel Name="PanelResultadoFicherosMovidos"/>
+                </ScrollViewer>
+                </StackPanel>
+            </Border>
             </StackPanel>
         </StackPanel>
     </Grid>

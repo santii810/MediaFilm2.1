@@ -14,6 +14,9 @@
     <!--#region OrdenarPage -->
     <system:String x:Key="strRecogerVideos">Recoger videos</system:String>
     <system:String x:Key="strRenombrarVideos">Renombrar videos</system:String>
+    <system:String x:Key="strVideosMovidos">Videos movidos:</system:String>
+    <system:String x:Key="strFicherosBorrados">Ficheros borrados:</system:String>
+    
 
 
     <!--#endregion OrdenarPage -->

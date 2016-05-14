@@ -27,6 +27,7 @@ namespace MediaFilm2._1.Res
 
         #region tipoLog
         public const string LOG_TIPO_BORRADO = "Borrado";
+        public const string LOG_TIPO_ERROR_BORRANDO = "Error borrando";
 
         #endregion
 

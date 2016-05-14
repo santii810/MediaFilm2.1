@@ -10,6 +10,7 @@ namespace MediaFilm2._1.Modelo
     {
         public string directorioTorrent { get; set; }
         public string ficheroIOLog { get; set; }
+        public string ficheroErrorLog { get; set; }
 
 
     }

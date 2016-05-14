@@ -54,13 +54,12 @@ namespace MediaFilm2._1.Vista
                         {
                             File.SetAttributes(fichero.FullName, FileAttributes.Normal);
                             fichero.Delete();
+
                             IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_BORRADO, Mensajes.ficheroBorradoOk(fichero.Name), fichero));
                         }
-                        
-                         catch (Exception e)
+                        catch (Exception ex)
                         {
-                            ErrorLogger.insertar(new Log("Error borrando", "Error borrando '" + nombreFichero + "' \t" + e.ToString()));
-
+                            ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_BORRANDO, Mensajes.errorBorrandoFichero(fichero.Name, ex), fichero));
                         }
 
 

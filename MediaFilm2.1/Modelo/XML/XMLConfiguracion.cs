@@ -17,6 +17,7 @@ namespace MediaFilm2._1.Modelo.XML
 
         private const string DIRECTORIO_TORRENT_TAG_NAME = "directorioTorrent";
         private const string FICHERO_IO_LOGGER_TAG_NAME = "LogIO";
+        private const string FICHERO_ERROR_LOGGER_TAG_NAME = "LogError";
 
 
 
@@ -41,6 +42,7 @@ namespace MediaFilm2._1.Modelo.XML
             {
                 config.directorioTorrent = Documento.GetElementsByTagName(DIRECTORIO_TORRENT_TAG_NAME)[0].InnerText;
                 config.ficheroIOLog = Documento.GetElementsByTagName(FICHERO_IO_LOGGER_TAG_NAME)[0].InnerText;
+                config.ficheroErrorLog = Documento.GetElementsByTagName(FICHERO_ERROR_LOGGER_TAG_NAME)[0].InnerText;
             }
 
 
