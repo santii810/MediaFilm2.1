@@ -17,3 +17,4 @@ C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Vista\InicioRap
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\App.baml
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Diccionarios\DiccionarioContenedores.baml
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Diccionarios\DiccionarioElementos.baml
+C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Diccionarios\DiccionarioString.baml

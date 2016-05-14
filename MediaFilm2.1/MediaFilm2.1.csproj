@@ -63,6 +63,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Diccionarios\DiccionarioString.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Vista\InicioRapidoPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -109,7 +113,36 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Res\Iconos\abaco.png" />
+    <Resource Include="Res\Iconos\addDatos.png" />
+    <Resource Include="Res\Iconos\bluePoint.png" />
+    <Resource Include="Res\Iconos\download.png" />
+    <Resource Include="Res\Iconos\film.png" />
+    <Resource Include="Res\Iconos\greenPoint.png" />
+    <Resource Include="Res\Iconos\IO.png" />
+    <Resource Include="Res\Iconos\config.png" />
+    <Resource Include="Res\Iconos\ordenarVideos.jpg" />
+    <Resource Include="Res\Iconos\organize.png" />
+    <Resource Include="Res\Iconos\patron.png" />
+    <Resource Include="Res\Iconos\powerOff.png" />
+    <Resource Include="Res\Iconos\powerOn.png" />
+    <Resource Include="Res\Iconos\recorrerTorrent.png" />
+    <Resource Include="Res\Iconos\redPoint.png" />
+    <Resource Include="Res\Iconos\start.png" />
+    <Resource Include="Res\Iconos\sub.png" />
+    <Resource Include="Res\Iconos\suma.png" />
+    <Resource Include="Res\Iconos\yellowPoint.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Res\Iconos\mantenimiento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Res\Iconos\cloud.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -8,6 +8,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Diccionarios/DiccionarioContenedores.xaml"/>
                 <ResourceDictionary Source="Diccionarios/DiccionarioElementos.xaml"/>
+                <ResourceDictionary Source="Diccionarios/DiccionarioString.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

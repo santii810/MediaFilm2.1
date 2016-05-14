@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\App.xaml
-4792438864
+5439522507
 
 11336948618
 13738642453
-Diccionarios\DiccionarioContenedores.xaml;Diccionarios\DiccionarioElementos.xaml;Vista\InicioRapidoPage.xaml;MainWindow.xaml;
+Diccionarios\DiccionarioContenedores.xaml;Diccionarios\DiccionarioElementos.xaml;Diccionarios\DiccionarioString.xaml;Vista\InicioRapidoPage.xaml;MainWindow.xaml;
 
-False
+True
 

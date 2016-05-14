@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:MediaFilm2._1"
       mc:Ignorable="d" 
       d:DesignHeight="725" d:DesignWidth="1000"
-      Title="InicioRapidoPage" Background="Bisque">
+      Title="InicioRapidoPage" Background="Coral">
 
     <Grid>
      
