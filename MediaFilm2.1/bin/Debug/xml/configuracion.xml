@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Config>
-	<directorioTorrent>A:\torrent\Completo</directorioTorrent>
+	<DirectorioTorrent>A:\torrent\Completo</DirectorioTorrent>
 		<LogIO>xml\Logs\IOLogs.xml</LogIO>
-		<LogError>xml\Logs\ErrorLogs.xml</LogError>
+		<LogError>xml\Logs\ErrorLogs.xml</LogError>	
+		<DirectorioTrabajo>xml\Logs\ErrorLogs.xml</DirectorioTrabajo>
+
 </Config>

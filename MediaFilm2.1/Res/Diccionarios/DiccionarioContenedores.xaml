@@ -8,11 +8,19 @@
         <Setter Property="Background" Value="Bisque"/>
     </Style>
     <Style x:Key="PaginaPrincipal" TargetType="{x:Type Page}">
-        <Setter Property="Margin" Value="156,0,0,0"/>
+        <Setter Property="Margin" Value="170,0,0,0"/>
     </Style>
     <Style x:Key="BorderBisque" TargetType="{x:Type Border}">
         <Setter Property="BorderBrush" Value="Bisque"/>
-        <Setter Property="BorderThickness" Value="3"/>
-        <Setter Property="Margin" Value="2"/>
+        <Setter Property="BorderThickness" Value="5"/>
+        <Setter Property="Margin" Value="4"/>
+        <Setter Property="Margin" Value="10"/>
+    </Style>
+    <Style x:Key="StackPanelListas" TargetType="{x:Type StackPanel}">
+        <Setter Property="Orientation" Value="Vertical"/>
+    </Style>
+    <Style x:Key="Scroll" TargetType="{x:Type ScrollViewer}">
+        <Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
+        <Setter Property="HorizontalScrollBarVisibility" Value="Auto"/>
     </Style>
 </ResourceDictionary>

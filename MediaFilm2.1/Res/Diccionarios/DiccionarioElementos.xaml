@@ -24,7 +24,15 @@
         <Setter Property="HorizontalAlignment" Value="Center"/>
         <Setter Property="Margin" Value="10,0,0,0"/>
     </Style>
-
+    
+    <Style x:Key="LabelListas" TargetType="{x:Type Label}">
+        <Setter Property="FontSize" Value="17"/>
+        <!--<Setter Property="FontWeight" Value="Bold"/>-->
+        <Setter Property="FontFamily" Value="Tempus Sans ITC"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <!--<Setter Property="Margin" Value="10,0,0,0"/>-->
+    </Style>
+    
     <Style x:Key="ImageMenuSecundario" TargetType="{x:Type Image}">
         <Setter Property="Height" Value="150"/>
         <Setter Property="Margin" Value="15,0,0,0"/>

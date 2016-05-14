@@ -49,79 +49,46 @@ namespace MediaFilm2._1.Vista
                 {
                     if (fichero.Extension == ".txt" || fichero.Extension == ".!ut" || fichero.Extension == ".url" || fichero.Extension == ".jpg")
                     {
-                        string nombreFichero = fichero.Name;
                         try
                         {
                             File.SetAttributes(fichero.FullName, FileAttributes.Normal);
                             fichero.Delete();
-
-                            IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_BORRADO, Mensajes.ficheroBorradoOk(fichero.Name), fichero));
+                            PanelResultadoFicherosBorrados.Children.Add(CrearVistas.LabelLista((fichero.Name)));
+                            IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_BORRADO_OK, Mensajes.ficheroBorradoOk(fichero.Name), fichero));
                         }
                         catch (Exception ex)
                         {
+                            PanelResultadoErroresBorrando.Children.Add(CrearVistas.LabelLista(Mensajes.errorBorrandoFichero(fichero.Name)));
                             ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_BORRANDO, Mensajes.errorBorrandoFichero(fichero.Name, ex), fichero));
                         }
-
-
-
-
-
-
-
-                        //    if (borrarFichero(fichero, mainWindow))
-                        //    {
-                        //        ficherosBorrados++;
-                        //        mainWindow.panelResultadoFicherosBorrados.Children.Add(CrearVistas.getLabelResultado(fichero.Name));
-                        //    }
-                        //    else
-                        //    {
-                        //        errores++;
-                        //        mainWindow.panelResultadoErroresMoviendo.Children.Add(CrearVistas.getLabelResultado("Error borrando: " + fichero.Name));
-                        //    }
-                        //}
-                        //else if (fichero.Extension == ".mp4" || fichero.Extension == ".mkv" || fichero.Extension == ".avi")
-                        //{
-                        //    if (moverFichero(fichero, mainWindow))
-                        //    {
-                        //        videosMovidos++;
-                        //        mainWindow.panelResultadoVideosMovidos.Children.Add(CrearVistas.getLabelResultado(fichero.Name));
-                        //    }
-                        //    else
-                        //    {
-                        //        errores++;
-                        //        mainWindow.panelResultadoErroresMoviendo.Children.Add(CrearVistas.getLabelResultado("Error moviendo: " + fichero.Name));
-                        //    }
-                        //}
-                        //else if (fichero.Extension == ".rar" || fichero.Extension == ".zip")
-                        //{
-                        //    MessageBox.Show(fichero.ToString());
-                        //}
-                        //else
-                        //{
-
                     }
-
-
+                    else if (fichero.Extension == ".mp4" || fichero.Extension == ".mkv" || fichero.Extension == ".avi")
+                    {
+                        string pathDestino = config.directorioTrabajo + @"\" + fichero.Name;
+                        try
+                        {
+                            File.SetAttributes(fichero.FullName, FileAttributes.Normal);
+                            fichero.MoveTo(pathDestino);
+                            PanelResultadoVideosMovidos.Children.Add(CrearVistas.LabelLista(fichero.Name));
+                            IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_MOVIDO_OK, Mensajes.FicheroMovidoOK(fichero.Name), fichero));
+                        }
+                        catch (Exception ex)
+                        {
+                            ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_MOVIENDO, Mensajes.ErrorMoviendoFichero(fichero.Name, ex), fichero));
+                            PanelResultadoErroresBorrando.Children.Add(CrearVistas.LabelLista(Mensajes.ErrorMoviendoFichero(fichero.Name)));
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show(Mensajes.ExtensionNoRegistrada(fichero.Name));
+                    }
                 }
-
-
-
-
-
-
             }
             else
             {
                 MessageBox.Show(Mensajes.directorioNoEncontrado(dir.Name));
-
             }
-
-
-
-
         }
-
-
 
 
         static private List<FileInfo> listarFicheros(FileSystemInfo[] filesInfo)

@@ -15,13 +15,12 @@ namespace MediaFilm2._1.Modelo.XML
         XmlNode raiz;
         public XmlDocument Documento { get; set; }
 
-        private const string DIRECTORIO_TORRENT_TAG_NAME = "directorioTorrent";
+        private const string DIRECTORIO_TORRENT_TAG_NAME = "DirectorioTorrent";
         private const string FICHERO_IO_LOGGER_TAG_NAME = "LogIO";
         private const string FICHERO_ERROR_LOGGER_TAG_NAME = "LogError";
+        private const string DIRECTORIO_TRABAJO = "DirectorioTrabajo";
 
-
-
-
+    
         public bool cargarXML()
         {
             if (File.Exists(nombreFichero))
@@ -41,6 +40,7 @@ namespace MediaFilm2._1.Modelo.XML
             if (cargarXML())
             {
                 config.directorioTorrent = Documento.GetElementsByTagName(DIRECTORIO_TORRENT_TAG_NAME)[0].InnerText;
+                config.directorioTrabajo = Documento.GetElementsByTagName(DIRECTORIO_TRABAJO)[0].InnerText;
                 config.ficheroIOLog = Documento.GetElementsByTagName(FICHERO_IO_LOGGER_TAG_NAME)[0].InnerText;
                 config.ficheroErrorLog = Documento.GetElementsByTagName(FICHERO_ERROR_LOGGER_TAG_NAME)[0].InnerText;
             }

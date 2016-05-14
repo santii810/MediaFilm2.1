@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,9 +18,33 @@ namespace MediaFilm2._1.Res
             return "Fichero '" + name + "' borrado correctamente";
         }
 
-        internal static string errorBorrandoFichero(string name, Exception e)
+        internal static string errorBorrandoFichero(string name, Exception ex)
         {
-            return "Error borrando fichero " + name + " /t " + e.ToString();
+            return "Error borrando fichero " + name + " /t " + ex.ToString();
+        }
+        internal static string errorBorrandoFichero(string name)
+        {
+            return "Error borrando " + name;
+        }
+
+        internal static string FicheroMovidoOK(string name)
+        {
+            return "Fichero " + name + " movido correctamente";
+        }
+
+        internal static string ErrorMoviendoFichero(string name, Exception ex)
+        {
+            return "Error moviendo fichero " + name + " /t " + ex.ToString();
+        }
+
+        internal static string ErrorMoviendoFichero(string name)
+        {
+            return "Error moviendo " + name;
+        }
+
+        internal static string ExtensionNoRegistrada(string name)
+        {
+            return "Fichero con extension no registrada: " + name;
         }
     }
 }

@@ -66,6 +66,7 @@
     <Compile Include="Vista\ConfigPage.xaml.cs">
       <DependentUpon>ConfigPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Vista\CrearVistas.cs" />
     <Compile Include="Vista\DescargasPage.xaml.cs">
       <DependentUpon>DescargasPage.xaml</DependentUpon>
     </Compile>

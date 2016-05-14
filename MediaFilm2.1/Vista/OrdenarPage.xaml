@@ -21,19 +21,47 @@
                 </StackPanel>
 
             </StackPanel>
-            <StackPanel Name="PanelResultadoRecogerVideos" Orientation="Horizontal" Height="550">
-            <Border Style="{StaticResource BorderBisque}">
+            <StackPanel Name="PanelResultadoRecogerVideos" Orientation="Horizontal" Height="535">
+                <Border Style="{StaticResource BorderBisque}">
+                    <StackPanel Orientation="Vertical" Width="385">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="{StaticResource strVideosMovidos}" Margin="10,0,0,15" Style="{StaticResource LabelMenuSecundario}"/>
+                            <Label Name="LabelCantidadVideosMovidos" Content=" "/>
+                        </StackPanel>
+                        <ScrollViewer Style="{StaticResource Scroll}">
+                            <StackPanel Name="PanelResultadoVideosMovidos" Style="{StaticResource StackPanelListas}"/>
+                        </ScrollViewer>
+                    </StackPanel>
+                </Border>
+
                 <StackPanel Orientation="Vertical">
 
-                <StackPanel Orientation="Horizontal">
-                    <Label Content="{StaticResource strVideosMovidos}" Style="{StaticResource LabelMenuSecundario}"/>
-                    <Label Content=" "/>
+                    <Border Style="{StaticResource BorderBisque}">
+                        <StackPanel Orientation="Vertical" Width="385" Height="238">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="{StaticResource strFicherosBorrados}" Margin="10,0,0,15" Style="{StaticResource LabelMenuSecundario}"/>
+                                <Label Name="LabelCantidadFicherosBorrados" Content=" "/>
+                            </StackPanel>
+                            <ScrollViewer Style="{StaticResource Scroll}">
+                                <StackPanel Name="PanelResultadoFicherosBorrados" Style="{StaticResource StackPanelListas}"/>
+                            </ScrollViewer>
+                        </StackPanel>
+                    </Border>
+                    <Border Style="{StaticResource BorderBisque}">
+                        <StackPanel Orientation="Vertical" Width="385" Height="237">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="{StaticResource strErroresBorrando}" Margin="10,0,0,15" Style="{StaticResource LabelMenuSecundario}"/>
+                                <Label Name="LabelCantidadErroresBorrando" Content=" "/>
+                            </StackPanel>
+                            <ScrollViewer Style="{StaticResource Scroll}">
+                                <StackPanel Name="PanelResultadoErroresBorrando" Style="{StaticResource StackPanelListas}"/>
+                            </ScrollViewer>
+                        </StackPanel>
+                    </Border>
+
+
+
                 </StackPanel>
-                <ScrollViewer>
-                    <StackPanel Name="PanelResultadoFicherosMovidos"/>
-                </ScrollViewer>
-                </StackPanel>
-            </Border>
             </StackPanel>
         </StackPanel>
     </Grid>
