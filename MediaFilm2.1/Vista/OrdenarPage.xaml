@@ -9,6 +9,17 @@
       Title="OrdenarPage" Background="White" Height="737" Width="860" Style="{StaticResource PaginaPrincipal}">
 
     <Grid>
-        <Label Content="ordenarpage"></Label>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical">
+                    <Label Content="{StaticResource strRecogerVideos}" Style="{StaticResource LabelMenuSecundario}"/>
+                    <Image  Source="../Res/Iconos/recorrerTorrent.png" Style="{StaticResource ImageMenuSecundario}"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <Label Content="{StaticResource strRenombrarVideos}" Style="{StaticResource LabelMenuSecundario }"/>
+                    <Image  Source="../Res/Iconos/ordenarVideos.png" Style="{StaticResource ImageMenuSecundario}"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Page>

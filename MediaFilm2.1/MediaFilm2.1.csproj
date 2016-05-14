@@ -163,7 +163,6 @@
     <Resource Include="Res\Iconos\greenPoint.png" />
     <Resource Include="Res\Iconos\IO.png" />
     <Resource Include="Res\Iconos\config.png" />
-    <Resource Include="Res\Iconos\ordenarVideos.jpg" />
     <Resource Include="Res\Iconos\organize.png" />
     <Resource Include="Res\Iconos\patron.png" />
     <Resource Include="Res\Iconos\powerOff.png" />
@@ -180,6 +179,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Res\Iconos\cloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Res\Iconos\ordenarVideos.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

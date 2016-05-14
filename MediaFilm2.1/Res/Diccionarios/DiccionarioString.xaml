@@ -2,9 +2,19 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:MediaFilm2._1.Diccionarios"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
-    <system:String x:Key="ordenar">Ordenar</system:String>
-    <system:String x:Key="gesDatos">Gestionar datos</system:String>
-    <system:String x:Key="mantenimiento">Mantenimiento</system:String>
-    <system:String x:Key="descargas">Descargas</system:String>
-    <system:String x:Key="configuracion">Configuracion</system:String>
+    
+    <!--#region MainWindow -->
+    <system:String x:Key="strOrdenar">Ordenar</system:String>
+    <system:String x:Key="strGestionarDatos">Gestionar datos</system:String>
+    <system:String x:Key="strMantenimiento">Mantenimiento</system:String>
+    <system:String x:Key="strDescargas">Descargas</system:String>
+    <system:String x:Key="strConfiguracion">Configuracion</system:String>
+    <!--#endregion MainWindow -->
+    
+    <!--#region OrdenarPage -->
+    <system:String x:Key="strRecogerVideos">Recoger videos</system:String>
+    <system:String x:Key="strRenombrarVideos">Renombrar videos</system:String>
+
+
+    <!--#endregion OrdenarPage -->
 </ResourceDictionary>

@@ -10,7 +10,6 @@ namespace MediaFilm2._1.Vista
 {
     class UpdateUI
     {
-
         internal static void updateMainWindow(int cod, MainWindow xaml)
         {
             switch (cod)

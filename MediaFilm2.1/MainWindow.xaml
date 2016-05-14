@@ -21,23 +21,23 @@
                     <StackPanel Orientation="Vertical" >
                         <StackPanel Orientation="Vertical">
                             <Image Source="Res/Iconos/organize.png" Style="{StaticResource ImageMenu}" MouseLeftButtonUp="ImageOrdenar_MouseLeftButtonUp" RenderTransformOrigin="0.667,0.5" />
-                            <Label Content="{StaticResource ordenar}" Style="{StaticResource LabelMenu}"/>
+                            <Label Content="{StaticResource strOrdenar}" Style="{StaticResource LabelMenu}"/>
                         </StackPanel>
                         <StackPanel Orientation="Vertical">
                             <Image Source="Res/Iconos/addDatos.png" Style="{StaticResource ImageMenu}" MouseLeftButtonUp="ImageGestionarDatos_MouseLeftButtonUp"/>
-                            <Label Content="{StaticResource gesDatos}" Style="{StaticResource LabelMenu}"/>
+                            <Label Content="{StaticResource strGestionarDatos}" Style="{StaticResource LabelMenu}"/>
                         </StackPanel>
                         <StackPanel Orientation="Vertical" >
                             <Image Source="Res/Iconos/mantenimiento.png" Style="{StaticResource ImageMenu}" MouseLeftButtonUp="ImageMantenimiento_MouseLeftButtonUp"/>
-                            <Label Content="{StaticResource mantenimiento}" Style="{StaticResource LabelMenu}"/>
+                            <Label Content="{StaticResource strMantenimiento}" Style="{StaticResource LabelMenu}"/>
                         </StackPanel>
                         <StackPanel Orientation="Vertical">
                             <Image Source="Res/Iconos/cloud.png" Style="{StaticResource ImageMenu}" MouseLeftButtonUp="ImageDescargas_MouseLeftButtonUp"/>
-                            <Label Content="{StaticResource descargas}" Style="{StaticResource LabelMenu}"/>
+                            <Label Content="{StaticResource strDescargas}" Style="{StaticResource LabelMenu}"/>
                         </StackPanel>
                         <StackPanel Orientation="Vertical">
                             <Image Source="Res/Iconos/config.png" Style="{StaticResource ImageMenu}" MouseLeftButtonUp="ImageConfiguracion_MouseLeftButtonUp"/>
-                            <Label Content="{StaticResource configuracion}" Style="{StaticResource LabelMenu}"/>
+                            <Label Content="{StaticResource strConfiguracion}" Style="{StaticResource LabelMenu}"/>
                         </StackPanel>
                     </StackPanel>
                 </StackPanel>
