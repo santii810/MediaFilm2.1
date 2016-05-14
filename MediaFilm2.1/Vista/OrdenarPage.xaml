@@ -13,7 +13,7 @@
             <StackPanel Orientation="Horizontal">
                 <StackPanel Orientation="Vertical">
                     <Label Content="{StaticResource strRecogerVideos}" Style="{StaticResource LabelMenuSecundario}"/>
-                    <Image  Source="../Res/Iconos/recorrerTorrent.png" Style="{StaticResource ImageMenuSecundario}"/>
+                    <Image  Source="../Res/Iconos/recorrerTorrent.png" Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageRecogerVideos_MouseLeftButtonUp"/>
                 </StackPanel>
                 <StackPanel Orientation="Vertical">
                     <Label Content="{StaticResource strRenombrarVideos}" Style="{StaticResource LabelMenuSecundario }"/>

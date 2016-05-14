@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Modelo\Configuracion.cs" />
+    <Compile Include="Modelo\XML\InterfaceXML.cs" />
+    <Compile Include="Modelo\XML\XMLConfiguracion.cs" />
     <Compile Include="Res\Codigos.cs" />
     <Compile Include="Vista\ConfigPage.xaml.cs">
       <DependentUpon>ConfigPage.xaml</DependentUpon>
