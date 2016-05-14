@@ -1,4 +1,6 @@
 ﻿using MediaFilm2._1.Modelo;
+using MediaFilm2._1.Modelo.XML;
+using MediaFilm2._1.Res;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -24,11 +26,15 @@ namespace MediaFilm2._1.Vista
     public partial class OrdenarPage : Page
     {
         Configuracion config;
+        XMLLogger IOLogger;
+        XMLLogger ErrorLogger;
 
         public OrdenarPage()
         {
             InitializeComponent();
-
+            config = (Configuracion)new XMLConfiguracion().leerXML();
+            IOLogger = new XMLLogger(config.ficheroIOLog);
+            ErrorLogger = new XMLLogger(config.ficheroErrorLog);
 
         }
 
@@ -37,11 +43,105 @@ namespace MediaFilm2._1.Vista
             Stopwatch tiempo = Stopwatch.StartNew();
 
             DirectoryInfo dir = new DirectoryInfo(config.directorioTorrent);
+            if (dir.Exists)
+            {
+                foreach (FileInfo fichero in listarFicheros(dir.GetFileSystemInfos()))
+                {
+                    if (fichero.Extension == ".txt" || fichero.Extension == ".!ut" || fichero.Extension == ".url" || fichero.Extension == ".jpg")
+                    {
+                        string nombreFichero = fichero.Name;
+                        try
+                        {
+                            File.SetAttributes(fichero.FullName, FileAttributes.Normal);
+                            fichero.Delete();
+                            IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_BORRADO, Mensajes.ficheroBorradoOk(fichero.Name), fichero));
+                        }
+                        
+                         catch (Exception e)
+                        {
+                            ErrorLogger.insertar(new Log("Error borrando", "Error borrando '" + nombreFichero + "' \t" + e.ToString()));
+
+                        }
 
 
 
 
 
+
+
+                        //    if (borrarFichero(fichero, mainWindow))
+                        //    {
+                        //        ficherosBorrados++;
+                        //        mainWindow.panelResultadoFicherosBorrados.Children.Add(CrearVistas.getLabelResultado(fichero.Name));
+                        //    }
+                        //    else
+                        //    {
+                        //        errores++;
+                        //        mainWindow.panelResultadoErroresMoviendo.Children.Add(CrearVistas.getLabelResultado("Error borrando: " + fichero.Name));
+                        //    }
+                        //}
+                        //else if (fichero.Extension == ".mp4" || fichero.Extension == ".mkv" || fichero.Extension == ".avi")
+                        //{
+                        //    if (moverFichero(fichero, mainWindow))
+                        //    {
+                        //        videosMovidos++;
+                        //        mainWindow.panelResultadoVideosMovidos.Children.Add(CrearVistas.getLabelResultado(fichero.Name));
+                        //    }
+                        //    else
+                        //    {
+                        //        errores++;
+                        //        mainWindow.panelResultadoErroresMoviendo.Children.Add(CrearVistas.getLabelResultado("Error moviendo: " + fichero.Name));
+                        //    }
+                        //}
+                        //else if (fichero.Extension == ".rar" || fichero.Extension == ".zip")
+                        //{
+                        //    MessageBox.Show(fichero.ToString());
+                        //}
+                        //else
+                        //{
+
+                    }
+
+
+                }
+
+
+
+
+
+
+            }
+            else
+            {
+                MessageBox.Show(Mensajes.directorioNoEncontrado(dir.Name));
+
+            }
+
+
+
+
+        }
+
+
+
+
+        static private List<FileInfo> listarFicheros(FileSystemInfo[] filesInfo)
+        {
+            List<FileInfo> retorno = new List<FileInfo>();
+
+            foreach (FileSystemInfo item in filesInfo)
+            {
+                if (item is DirectoryInfo)
+                {
+                    DirectoryInfo dInfo = (DirectoryInfo)item;
+                    retorno.AddRange(listarFicheros(dInfo.GetFileSystemInfos()));
+                }
+                else if (item is FileInfo)
+                {
+                    retorno.Add((FileInfo)item);
+                }
+            }
+            return retorno;
         }
     }
 }

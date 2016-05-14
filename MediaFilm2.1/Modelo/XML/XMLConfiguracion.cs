@@ -11,11 +11,13 @@ namespace MediaFilm2._1.Modelo.XML
 {
     class XMLConfiguracion : InterfaceXML
     {
-        string nombreFichero = Recursos.xmlConfiguracion;
+        string nombreFichero = Recursos.XML_CONFIGURACION;
         XmlNode raiz;
         public XmlDocument Documento { get; set; }
 
-        private string directorioTorrentTagName = "directorioTorrent";
+        private const string DIRECTORIO_TORRENT_TAG_NAME = "directorioTorrent";
+        private const string FICHERO_IO_LOGGER_TAG_NAME = "LogIO";
+
 
 
 
@@ -37,13 +39,22 @@ namespace MediaFilm2._1.Modelo.XML
 
             if (cargarXML())
             {
-                config.directorioTorrent = Documento.GetElementsByTagName(directorioTorrentTagName)[0].InnerText;
+                config.directorioTorrent = Documento.GetElementsByTagName(DIRECTORIO_TORRENT_TAG_NAME)[0].InnerText;
+                config.ficheroIOLog = Documento.GetElementsByTagName(FICHERO_IO_LOGGER_TAG_NAME)[0].InnerText;
             }
 
 
             return config;
         }
 
+        public void insertar(object entrada)
+        {
+            throw new NotImplementedException();
+        }
 
+        public XmlNode crearNodo(object entrada)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

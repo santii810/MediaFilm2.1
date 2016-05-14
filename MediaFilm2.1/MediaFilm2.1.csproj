@@ -56,9 +56,13 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Modelo\Configuracion.cs" />
+    <Compile Include="Modelo\LogIO.cs" />
+    <Compile Include="Modelo\Log.cs" />
     <Compile Include="Modelo\XML\InterfaceXML.cs" />
     <Compile Include="Modelo\XML\XMLConfiguracion.cs" />
+    <Compile Include="Modelo\XML\XMLLogger.cs" />
     <Compile Include="Res\Codigos.cs" />
+    <Compile Include="Res\Mensajes.cs" />
     <Compile Include="Vista\ConfigPage.xaml.cs">
       <DependentUpon>ConfigPage.xaml</DependentUpon>
     </Compile>

@@ -27,15 +27,15 @@ namespace MediaFilm2._1
         {
             InitializeComponent();
 
-            if (!File.Exists(Recursos.configURL))
+            if (!File.Exists(Recursos.CONFIG_URL))
             {
             //    FrameHerramientaInicio.Source = new Uri(Recursos.InicioRapidoPageURL, UriKind.Relative);
             }
-            frameConfiguracion.Source = new Uri(Recursos.ConfigPageURL, UriKind.Relative);
-            frameDescargas.Source = new Uri(Recursos.DescargasPageURL, UriKind.Relative);
-            frameGestionarDatos.Source = new Uri(Recursos.GestionarDatosPageURL, UriKind.Relative);
-            frameMantenimiento.Source = new Uri(Recursos.MantenimientoPageURL, UriKind.Relative);
-            frameOrdenar.Source = new Uri(Recursos.OrdenarPageURL, UriKind.Relative);
+            frameConfiguracion.Source = new Uri(Recursos.CONFIG_PAGE_URL, UriKind.Relative);
+            frameDescargas.Source = new Uri(Recursos.DESCARGAS_PAGE_URL, UriKind.Relative);
+            frameGestionarDatos.Source = new Uri(Recursos.GESTIONAR_DATOS_PAGE_URL, UriKind.Relative);
+            frameMantenimiento.Source = new Uri(Recursos.MANTENIMIENTO_PAGE_URL, UriKind.Relative);
+            frameOrdenar.Source = new Uri(Recursos.ORDENAR_PAGE_URL, UriKind.Relative);
 
         }
 
