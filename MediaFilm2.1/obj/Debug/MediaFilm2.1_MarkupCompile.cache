@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\App.xaml
-5439522507
+10-868691356
 
-71945925935
+141979789861
 13738642453
-Diccionarios\DiccionarioContenedores.xaml;Diccionarios\DiccionarioElementos.xaml;Diccionarios\DiccionarioString.xaml;Vista\InicioRapidoPage.xaml;MainWindow.xaml;
+Res\Diccionarios\DiccionarioContenedores.xaml;Res\Diccionarios\DiccionarioElementos.xaml;Res\Diccionarios\DiccionarioString.xaml;Vista\ConfigPage.xaml;Vista\DescargasPage.xaml;Vista\GestionarDatosPage.xaml;Vista\InicioRapidoPage.xaml;MainWindow.xaml;Vista\MantenimientoPage.xaml;Vista\OrdenarPage.xaml;
 
 False
 

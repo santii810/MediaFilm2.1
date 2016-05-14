@@ -7,6 +7,8 @@
         <Setter Property="BorderThickness" Value="4"/>
         <Setter Property="Background" Value="Bisque"/>
     </Style>
-    
+    <Style x:Key="PaginaPrincipal" TargetType="{x:Type Page}">
+        <Setter Property="Margin" Value="156,0,0,0"/>
+    </Style>
     
 </ResourceDictionary>

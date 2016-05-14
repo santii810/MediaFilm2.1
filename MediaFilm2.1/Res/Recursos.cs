@@ -14,6 +14,11 @@ namespace MediaFilm2._1.Res
 
         #region paginas
         public const string InicioRapidoPageURL = @"Vista\InicioRapidoPage.xaml";
+        public const string OrdenarPageURL = @"Vista\OrdenarPage.xaml";
+        public const string GestionarDatosPageURL = @"Vista\GestionarDatosPage.xaml";
+        public const string MantenimientoPageURL = @"Vista\MantenimientoPage.xaml";
+        public const string DescargasPageURL = @"Vista\DescargasPage.xaml";
+        public const string ConfigPageURL = @"Vista\ConfigPage.xaml";
 
         #endregion
     }

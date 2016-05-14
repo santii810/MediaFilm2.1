@@ -1,14 +1,15 @@
-﻿<Page x:Class="MediaFilm2._1.InicioRapidoPage"
+﻿<Page x:Class="MediaFilm2._1.Vista.DescargasPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:MediaFilm2._1"
+      xmlns:local="clr-namespace:MediaFilm2._1.Vista"
       mc:Ignorable="d" 
-      d:DesignHeight="725" d:DesignWidth="1000"
-      Title="InicioRapidoPage" Background="Coral">
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="DescargasPage" Background="White"  Height="737" Width="860" Style="{StaticResource PaginaPrincipal}">
 
     <Grid>
-        <!--<Label Content="abcdefghijklmnñopqrstuvwxyz"></Label>-->
+        <Label Content="descargaspage"
+               ></Label>
     </Grid>
 </Page>
