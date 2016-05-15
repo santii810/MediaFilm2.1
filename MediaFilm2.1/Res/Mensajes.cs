@@ -13,14 +13,14 @@ namespace MediaFilm2._1.Res
             return "Directorio " + nombreDirectorio+" no encontrado";
         }
 
-        internal static string ficheroBorradoOk(string name)
+        internal static string ficheroBorradoOk()
         {
-            return "Fichero '" + name + "' borrado correctamente";
+            return "Fichero borrado correctamente";
         }
 
-        internal static string errorBorrandoFichero(string name, Exception ex)
+        internal static string errorBorrandoFichero( Exception ex)
         {
-            return "Error borrando fichero " + name + " /t " + ex.ToString();
+            return "Error borrando fichero: /t " + ex.ToString();
         }
         internal static string errorBorrandoFichero(string name)
         {
@@ -32,9 +32,9 @@ namespace MediaFilm2._1.Res
             return "Fichero " + name + " movido correctamente";
         }
 
-        internal static string ErrorMoviendoFichero(string name, Exception ex)
+        internal static string ErrorMoviendoFichero(Exception ex)
         {
-            return "Error moviendo fichero " + name + " /t " + ex.ToString();
+            return "Error moviendo fichero: /t " + ex.ToString();
         }
 
         internal static string ErrorMoviendoFichero(string name)

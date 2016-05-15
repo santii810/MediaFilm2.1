@@ -143,12 +143,12 @@ namespace MediaFilm2._1.Vista
                     File.SetAttributes(fichero.FullName, FileAttributes.Normal);
                     fichero.Delete();
                     PanelResultadoFicherosBorrados.Children.Add(CrearVistas.LabelLista((fichero.Name)));
-                    IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_BORRADO_OK, Mensajes.ficheroBorradoOk(fichero.Name), fichero));
+                    IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_BORRADO_OK, Mensajes.ficheroBorradoOk(), fichero));
                 }
                 catch (Exception ex)
                 {
                     PanelResultadoErroresBorrando.Children.Add(CrearVistas.LabelLista(Mensajes.errorBorrandoFichero(fichero.Name)));
-                    ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_BORRANDO, Mensajes.errorBorrandoFichero(fichero.Name, ex), fichero));
+                    ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_BORRANDO, Mensajes.errorBorrandoFichero(ex), fichero));
                 }
             }
             else if (fichero.Extension == ".mp4" || fichero.Extension == ".mkv" || fichero.Extension == ".avi")
@@ -163,7 +163,7 @@ namespace MediaFilm2._1.Vista
                 }
                 catch (Exception ex)
                 {
-                    ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_MOVIENDO, Mensajes.ErrorMoviendoFichero(fichero.Name, ex), fichero));
+                    ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_MOVIENDO, Mensajes.ErrorMoviendoFichero(ex), fichero));
                     PanelResultadoErroresBorrando.Children.Add(CrearVistas.LabelLista(Mensajes.ErrorMoviendoFichero(fichero.Name)));
                 }
             }
