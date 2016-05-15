@@ -64,8 +64,8 @@ namespace MediaFilm2._1.Vista
             LabelCantidadFicherosBorrados.Content = PanelResultadoFicherosBorrados.Children.Count;
 
             //Define label y color del tiempo transcurrido
-            if(tiempoTranscurrido>100)
-            TiemposXML.insertar(Recursos.TIEMPO_RECORRER_TORRENT, tiempoTranscurrido);
+            if (tiempoTranscurrido > 100)
+                TiemposXML.insertar(Recursos.TIEMPO_RECORRER_TORRENT, tiempoTranscurrido);
             labelTiempoEjecucion.Content = tiempoTranscurrido + " ms";
             labelTiempoEjecucion.Foreground = obtenerColorLabel(tiempoTranscurrido, TiemposXML.obtenerMedia(Recursos.TIEMPO_RECORRER_TORRENT));
 
@@ -75,7 +75,15 @@ namespace MediaFilm2._1.Vista
 
         private Brush obtenerColorLabel(int tiempoTranscurrido, object v)
         {
-            int media = Convert.ToInt32((double)v);
+            int media;
+            try
+            {
+                media = Convert.ToInt32((double)v);
+            }
+            catch (OverflowException)
+            {
+                media = 0;
+            }
             //tiempo 50% mayor a la media
             if (tiempoTranscurrido > (media * 1.5))
                 return new SolidColorBrush(Colors.Red);
