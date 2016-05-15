@@ -45,11 +45,19 @@ namespace MediaFilm2._1.Vista
             Stopwatch tiempo = Stopwatch.StartNew();
 
             recorrerTorrent();
+
+            //Borra directorios y define el label con la cantidad
             labelDirectoriosBorrados.Content = borrarDirectoriosVacios(config.directorioTorrent);
+            //Crea el directorio borrado
+            Directory.CreateDirectory(config.directorioTorrent);
+            //Define el label con la cantidad de videos borrados
             LabelCantidadVideosMovidos.Content = PanelResultadoVideosMovidos.Children.Count;
+            //Define el label con la cantidad de errores
             LabelCantidadErroresBorrando.Content = PanelResultadoErroresBorrando.Children.Count;
+            //Define el label con la cantidad de ficheros borrados
             LabelCantidadFicherosBorrados.Content = PanelResultadoFicherosBorrados.Children.Count;
 
+            //Define label y color del tiempo transcurrido
             int tiempoTranscurrido = (int)tiempo.ElapsedMilliseconds;
             TiemposXML.insertar(Recursos.TIEMPO_RECORRER_TORRENT, tiempoTranscurrido);
             labelTiempoEjecucion.Content = tiempoTranscurrido + " ms";
