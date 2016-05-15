@@ -42,8 +42,8 @@ namespace MediaFilm2._1.Vista
 
         private void ImageRecogerVideos_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
+            UpdateUI.updateOrdenarPage(Codigos.RESULTADO_RECOGER_VIDEOS, this);
             Stopwatch tiempo = Stopwatch.StartNew();
-
             recorrerTorrent();
 
             //Borra directorios y define el label con la cantidad

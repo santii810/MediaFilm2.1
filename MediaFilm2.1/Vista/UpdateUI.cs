@@ -37,6 +37,24 @@ namespace MediaFilm2._1.Vista
             }
         }
 
+        internal static void updateOrdenarPage(int cod, OrdenarPage xaml)
+        {
+            switch (cod)
+            {
+                case Codigos.RESULTADO_RECOGER_VIDEOS:
+                    colapsarTodo(xaml);
+                    xaml.PanelResultadoRecogerVideos.Visibility = Visibility.Visible;
+                    xaml.PanelTiemposRecogerVideos.Visibility = Visibility.Visible;
+                    break;
+            }
+        }
+
+        private static void colapsarTodo(OrdenarPage xaml)
+        {
+            xaml.PanelResultadoRecogerVideos.Visibility = Visibility.Collapsed;
+            xaml.PanelTiemposRecogerVideos.Visibility = Visibility.Collapsed;
+        }
+
         private static void colapsarTodo(MainWindow xaml)
         {
             xaml.frameOrdenar.Visibility = Visibility.Collapsed;

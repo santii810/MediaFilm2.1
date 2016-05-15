@@ -19,7 +19,7 @@
                     <Label Content="{StaticResource strRenombrarVideos}" Style="{StaticResource LabelMenuSecundario }"/>
                     <Image  Source="../Res/Iconos/ordenarVideos.png" Style="{StaticResource ImageMenuSecundario}"/>
                 </StackPanel>
-                <Border Style="{StaticResource BorderBisque}" Margin="48,0,0,0">
+                <Border Name="PanelTiemposRecogerVideos" Style="{StaticResource BorderBisque}" Margin="48,0,0,0" Visibility="Collapsed">
                     <StackPanel Orientation="Vertical">
                         <Label Content="{StaticResource strTiempoEjecucion}" Style="{StaticResource LabelMenuSecundario}"/>
                         <Label Content="" Name="labelTiempoEjecucion" FontSize="25" Style="{StaticResource LabelMenuSecundario}"/>
@@ -33,7 +33,7 @@
 
 
 
-            <StackPanel Name="PanelResultadoRecogerVideos" Orientation="Horizontal">
+            <StackPanel Name="PanelResultadoRecogerVideos" Orientation="Horizontal" Visibility="Collapsed">
                 <StackPanel Orientation="Vertical" Width="415">
                     <StackPanel Orientation="Horizontal">
                         <Label Content="{StaticResource strVideosMovidos}" Style="{StaticResource LabelTituloCuadros}"/>
