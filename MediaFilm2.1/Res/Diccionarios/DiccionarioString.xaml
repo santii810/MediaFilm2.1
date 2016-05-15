@@ -16,7 +16,9 @@
     <system:String x:Key="strRenombrarVideos">Renombrar videos</system:String>
     <system:String x:Key="strVideosMovidos">Videos movidos:</system:String>
     <system:String x:Key="strFicherosBorrados">Ficheros borrados:</system:String>
-    <system:String x:Key="strErroresBorrando">Errores borrando:</system:String>
+    <system:String x:Key="strErroresBorrando">Errores:</system:String>
+    <system:String x:Key="strTiempoEjecucion">Tiempo de ejecución:</system:String>
+    <system:String x:Key="strDirectoriosBorrados">Directorios borrados:</system:String>
     
 
 

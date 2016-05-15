@@ -8,23 +8,22 @@ using System.Xml;
 
 namespace MediaFilm2._1.Modelo.XML
 {
-    class XMLLogger : InterfaceXML
+    class XMLTiempos
     {
-
         string nombreFichero;
         XmlNode raiz;
         public XmlDocument Documento { get; set; }
 
-        private const string RAIZ = "Logs";
-        private const string DOCUMENT_ELEMENT = "Log";
-        private const string TIPO_LOG = "tipo";
-        private const string NOMBRE_FICHERO = "fichero";
+        private const string RAIZ = "Tiempos";
         private const string FECHA = "fecha";
-        private const string MENSAJE = "mensaje";
+        private const string TIEMPO = "tiempo";
 
-        public XMLLogger(string nombreFichero)
+
+
+        public XMLTiempos(string nombreFichero)
         {
             this.nombreFichero = nombreFichero;
+
         }
 
         public bool cargarXML()
@@ -39,14 +38,16 @@ namespace MediaFilm2._1.Modelo.XML
             else return false;
         }
 
-        public object leerXML()
+        public XmlNode crearNodo(string tipo, int tiempo)
         {
-            throw new NotImplementedException();
+            XmlElement nodo = Documento.CreateElement(tipo);
+            nodo.SetAttribute(FECHA, DateTime.Now.ToString());
+            nodo.SetAttribute(TIEMPO, tiempo.ToString());
+            return nodo;
         }
 
-        public void insertar(object entrada)
+        public void insertar(string tipo, int tiempo)
         {
-
             Documento = new XmlDocument();
             if (!File.Exists(nombreFichero))
             {
@@ -61,25 +62,35 @@ namespace MediaFilm2._1.Modelo.XML
                 raiz = Documento.DocumentElement;
             }
 
-            raiz.AppendChild(crearNodo(entrada));
+            raiz.AppendChild(crearNodo(tipo, tiempo));
 
             Documento.Save(nombreFichero);
         }
 
-        public XmlNode crearNodo(object entrada)
+        public object obtenerMedia(string tipo)
         {
-            Log log = (Log)entrada;
-            XmlElement nodo = Documento.CreateElement(DOCUMENT_ELEMENT);
-            nodo.SetAttribute(TIPO_LOG, log.tipo);
-            nodo.SetAttribute(FECHA, log.fecha.ToString());
-            nodo.SetAttribute(MENSAJE, log.mensaje);
+            const int NUMERO_DE_MUESTRAS = 20;
+            double media = 0;
+            int cont = 0;
 
-            try
+            if (cargarXML())
             {
-                nodo.SetAttribute(NOMBRE_FICHERO, ((LogIO)log).fichero.FullName);
+                XmlNodeList listaNodos = Documento.GetElementsByTagName(tipo);
+
+                for (int i = listaNodos.Count - NUMERO_DE_MUESTRAS - 1; i < listaNodos.Count - 1; i++)
+                {
+                    if (i > 0)
+                    {
+                        cont++;
+                        media += Convert.ToInt32(listaNodos[i].Attributes[TIEMPO].Value);
+                    }
+                }
             }
-            catch { }
-            return nodo;
+            if (cont == NUMERO_DE_MUESTRAS)
+                media /= NUMERO_DE_MUESTRAS;
+            else
+                media /= cont;
+            return media;
         }
     }
 }

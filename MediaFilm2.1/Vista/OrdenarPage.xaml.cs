@@ -28,6 +28,7 @@ namespace MediaFilm2._1.Vista
         Configuracion config;
         XMLLogger IOLogger;
         XMLLogger ErrorLogger;
+        XMLTiempos TiemposXML;
 
         public OrdenarPage()
         {
@@ -35,6 +36,7 @@ namespace MediaFilm2._1.Vista
             config = (Configuracion)new XMLConfiguracion().leerXML();
             IOLogger = new XMLLogger(config.ficheroIOLog);
             ErrorLogger = new XMLLogger(config.ficheroErrorLog);
+            TiemposXML = new XMLTiempos(config.ficheroTiempos);
 
         }
 
@@ -42,55 +44,56 @@ namespace MediaFilm2._1.Vista
         {
             Stopwatch tiempo = Stopwatch.StartNew();
 
+            recorrerTorrent();
+            labelDirectoriosBorrados.Content = borrarDirectoriosVacios(config.directorioTorrent);
+            LabelCantidadVideosMovidos.Content = PanelResultadoVideosMovidos.Children.Count;
+            LabelCantidadErroresBorrando.Content = PanelResultadoErroresBorrando.Children.Count;
+            LabelCantidadFicherosBorrados.Content = PanelResultadoFicherosBorrados.Children.Count;
+
+            int tiempoTranscurrido = (int)tiempo.ElapsedMilliseconds;
+            TiemposXML.insertar(Recursos.TIEMPO_RECORRER_TORRENT, tiempoTranscurrido);
+            labelTiempoEjecucion.Content = tiempoTranscurrido + " ms";
+            labelTiempoEjecucion.Foreground = obtenerColorLabel(tiempoTranscurrido, TiemposXML.obtenerMedia(Recursos.TIEMPO_RECORRER_TORRENT));
+
+        }
+
+        private Brush obtenerColorLabel(int tiempoTranscurrido, object v)
+        {
+            int media = Convert.ToInt32((double)v);
+
+            //tiempo 50% mayor a la media
+            if (tiempoTranscurrido > (media * 1.5))
+                return new SolidColorBrush(Colors.Red);
+            //tiempo 20% mayor a la media
+            else if (tiempoTranscurrido > (media * 1.2))
+                return new SolidColorBrush(Colors.Yellow);
+            else
+                return new SolidColorBrush(Colors.Green);
+        }
+
+        private void recorrerTorrent()
+        {
             DirectoryInfo dir = new DirectoryInfo(config.directorioTorrent);
             if (dir.Exists)
             {
                 foreach (FileInfo fichero in listarFicheros(dir.GetFileSystemInfos()))
                 {
-                    if (fichero.Extension == ".txt" || fichero.Extension == ".!ut" || fichero.Extension == ".url" || fichero.Extension == ".jpg")
-                    {
-                        try
-                        {
-                            File.SetAttributes(fichero.FullName, FileAttributes.Normal);
-                            fichero.Delete();
-                            PanelResultadoFicherosBorrados.Children.Add(CrearVistas.LabelLista((fichero.Name)));
-                            IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_BORRADO_OK, Mensajes.ficheroBorradoOk(fichero.Name), fichero));
-                        }
-                        catch (Exception ex)
-                        {
-                            PanelResultadoErroresBorrando.Children.Add(CrearVistas.LabelLista(Mensajes.errorBorrandoFichero(fichero.Name)));
-                            ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_BORRANDO, Mensajes.errorBorrandoFichero(fichero.Name, ex), fichero));
-                        }
-                    }
-                    else if (fichero.Extension == ".mp4" || fichero.Extension == ".mkv" || fichero.Extension == ".avi")
-                    {
-                        string pathDestino = config.directorioTrabajo + @"\" + fichero.Name;
-                        try
-                        {
-                            File.SetAttributes(fichero.FullName, FileAttributes.Normal);
-                            fichero.MoveTo(pathDestino);
-                            PanelResultadoVideosMovidos.Children.Add(CrearVistas.LabelLista(fichero.Name));
-                            IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_MOVIDO_OK, Mensajes.FicheroMovidoOK(fichero.Name), fichero));
-                        }
-                        catch (Exception ex)
-                        {
-                            ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_MOVIENDO, Mensajes.ErrorMoviendoFichero(fichero.Name, ex), fichero));
-                            PanelResultadoErroresBorrando.Children.Add(CrearVistas.LabelLista(Mensajes.ErrorMoviendoFichero(fichero.Name)));
-                        }
-                    }
-                    else
-                    {
-                        MessageBox.Show(Mensajes.ExtensionNoRegistrada(fichero.Name));
-                    }
+                    manejarFichero(fichero);
                 }
             }
             else
             {
                 MessageBox.Show(Mensajes.directorioNoEncontrado(dir.Name));
             }
+
+
         }
 
-
+        /// <summary>
+        /// Funcion recursiva que retorna todos los ficheros del directorio parametrizado
+        /// </summary>
+        /// <param name="filesInfo">Directorio raiz</param>
+        /// <returns> Lista de ficheros y subficheros</returns>
         static private List<FileInfo> listarFicheros(FileSystemInfo[] filesInfo)
         {
             List<FileInfo> retorno = new List<FileInfo>();
@@ -109,5 +112,80 @@ namespace MediaFilm2._1.Vista
             }
             return retorno;
         }
+
+        /// <summary>
+        /// Maneja el fichero parametrizado, borrandolo o moviendolo segun convenga
+        /// </summary>
+        /// <param name="fichero">Fichero a gestionar</param>
+        private void manejarFichero(FileInfo fichero)
+        {
+            if (fichero.Extension == ".txt" || fichero.Extension == ".!ut" || fichero.Extension == ".url" || fichero.Extension == ".jpg" || fichero.Extension == ".wmv")
+            {
+                try
+                {
+                    File.SetAttributes(fichero.FullName, FileAttributes.Normal);
+                    fichero.Delete();
+                    PanelResultadoFicherosBorrados.Children.Add(CrearVistas.LabelLista((fichero.Name)));
+                    IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_BORRADO_OK, Mensajes.ficheroBorradoOk(fichero.Name), fichero));
+                }
+                catch (Exception ex)
+                {
+                    PanelResultadoErroresBorrando.Children.Add(CrearVistas.LabelLista(Mensajes.errorBorrandoFichero(fichero.Name)));
+                    ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_BORRANDO, Mensajes.errorBorrandoFichero(fichero.Name, ex), fichero));
+                }
+            }
+            else if (fichero.Extension == ".mp4" || fichero.Extension == ".mkv" || fichero.Extension == ".avi")
+            {
+                string pathDestino = config.directorioTrabajo + @"\" + fichero.Name;
+                try
+                {
+                    File.SetAttributes(fichero.FullName, FileAttributes.Normal);
+                    fichero.MoveTo(pathDestino);
+                    PanelResultadoVideosMovidos.Children.Add(CrearVistas.LabelLista(fichero.Name));
+                    IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_MOVIDO_OK, Mensajes.FicheroMovidoOK(fichero.Name), fichero));
+                }
+                catch (Exception ex)
+                {
+                    ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_MOVIENDO, Mensajes.ErrorMoviendoFichero(fichero.Name, ex), fichero));
+                    PanelResultadoErroresBorrando.Children.Add(CrearVistas.LabelLista(Mensajes.ErrorMoviendoFichero(fichero.Name)));
+                }
+            }
+            else
+            {
+                MessageBox.Show(Mensajes.ExtensionNoRegistrada(fichero.Name));
+            }
+        }
+
+        /// <summary>
+        /// Funcion recursiva que borra directorios y subdirectorios vacios.
+        /// </summary>
+        /// <param name="dir">Directorio vacio</param>
+        /// <returns>Numero de directirios borados</returns>
+        static private int borrarDirectoriosVacios(string dir)
+        {
+            int retorno = 0;
+            try
+            {
+                foreach (var d in Directory.EnumerateDirectories(dir))
+                {
+                    retorno += borrarDirectoriosVacios(d);
+                }
+                var entries = Directory.EnumerateFileSystemEntries(dir);
+
+                if (!entries.Any())
+                {
+                    try
+                    {
+                        Directory.Delete(dir);
+                        retorno++;
+                    }
+                    catch (UnauthorizedAccessException) { }
+                    catch (DirectoryNotFoundException) { }
+                }
+            }
+            catch (UnauthorizedAccessException) { }
+            return retorno;
+        }
+
     }
 }

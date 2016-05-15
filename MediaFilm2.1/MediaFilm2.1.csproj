@@ -61,6 +61,7 @@
     <Compile Include="Modelo\XML\InterfaceXML.cs" />
     <Compile Include="Modelo\XML\XMLConfiguracion.cs" />
     <Compile Include="Modelo\XML\XMLLogger.cs" />
+    <Compile Include="Modelo\XML\XMLTiempos.cs" />
     <Compile Include="Res\Codigos.cs" />
     <Compile Include="Res\Mensajes.cs" />
     <Compile Include="Vista\ConfigPage.xaml.cs">

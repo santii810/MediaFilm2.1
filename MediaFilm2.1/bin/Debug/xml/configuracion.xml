@@ -4,5 +4,5 @@
 		<LogIO>xml\Logs\IOLogs.xml</LogIO>
 		<LogError>xml\Logs\ErrorLogs.xml</LogError>	
 		<DirectorioTrabajo>xml\Logs\ErrorLogs.xml</DirectorioTrabajo>
-
+		<FicheroTiempos>xml\Tiempos.xml</FicheroTiempos>
 </Config>
