@@ -42,40 +42,46 @@ namespace MediaFilm2._1.Vista
 
         private void ImageRecogerVideos_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
+
             UpdateUI.updateOrdenarPage(Codigos.RESULTADO_RECOGER_VIDEOS, this);
+            //Limpieza de antiguos resultados
+            PanelResultadoErroresBorrando.Children.Clear();
+            PanelResultadoFicherosBorrados.Children.Clear();
+            PanelResultadoVideosMovidos.Children.Clear();
+
             Stopwatch tiempo = Stopwatch.StartNew();
             recorrerTorrent();
 
             //Borra directorios y define el label con la cantidad
-            labelDirectoriosBorrados.Content = borrarDirectoriosVacios(config.directorioTorrent) - 1;
-            //Crea el directorio borrado
-            Directory.CreateDirectory(config.directorioTorrent);
-            //Define el label con la cantidad de videos borrados
+            int ficherosBorrados = borrarDirectoriosVacios(config.directorioTorrent);
+            if (ficherosBorrados > 0) ficherosBorrados--;
+            labelDirectoriosBorrados.Content = ficherosBorrados;
+            int tiempoTranscurrido = (int)tiempo.ElapsedMilliseconds;
+
+            //Define el contenido de los labels
             LabelCantidadVideosMovidos.Content = PanelResultadoVideosMovidos.Children.Count;
-            //Define el label con la cantidad de errores
             LabelCantidadErroresBorrando.Content = PanelResultadoErroresBorrando.Children.Count;
-            //Define el label con la cantidad de ficheros borrados
             LabelCantidadFicherosBorrados.Content = PanelResultadoFicherosBorrados.Children.Count;
 
             //Define label y color del tiempo transcurrido
-            int tiempoTranscurrido = (int)tiempo.ElapsedMilliseconds;
             if(tiempoTranscurrido>100)
             TiemposXML.insertar(Recursos.TIEMPO_RECORRER_TORRENT, tiempoTranscurrido);
             labelTiempoEjecucion.Content = tiempoTranscurrido + " ms";
             labelTiempoEjecucion.Foreground = obtenerColorLabel(tiempoTranscurrido, TiemposXML.obtenerMedia(Recursos.TIEMPO_RECORRER_TORRENT));
 
+            //Crea el directorio borrado
+            Directory.CreateDirectory(config.directorioTorrent);
         }
 
         private Brush obtenerColorLabel(int tiempoTranscurrido, object v)
         {
             int media = Convert.ToInt32((double)v);
-
             //tiempo 50% mayor a la media
             if (tiempoTranscurrido > (media * 1.5))
                 return new SolidColorBrush(Colors.Red);
             //tiempo 20% mayor a la media
             else if (tiempoTranscurrido > (media * 1.2))
-                return new SolidColorBrush(Colors.Yellow);
+                return new SolidColorBrush(Colors.Orange);
             else
                 return new SolidColorBrush(Colors.Green);
         }
@@ -90,12 +96,6 @@ namespace MediaFilm2._1.Vista
                     manejarFichero(fichero);
                 }
             }
-            else
-            {
-                MessageBox.Show(Mensajes.directorioNoEncontrado(dir.Name));
-            }
-
-
         }
 
         /// <summary>
@@ -193,6 +193,10 @@ namespace MediaFilm2._1.Vista
                 }
             }
             catch (UnauthorizedAccessException) { }
+            catch (DirectoryNotFoundException)
+            {
+                Directory.CreateDirectory(dir);
+            }
             return retorno;
         }
 
