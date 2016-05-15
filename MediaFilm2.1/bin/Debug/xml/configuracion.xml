@@ -3,6 +3,6 @@
 	<DirectorioTorrent>A:\torrent\Completo</DirectorioTorrent>
 		<LogIO>xml\Logs\IOLogs.xml</LogIO>
 		<LogError>xml\Logs\ErrorLogs.xml</LogError>	
-		<DirectorioTrabajo>xml\Logs\ErrorLogs.xml</DirectorioTrabajo>
+		<DirectorioTrabajo>A:\Iomega</DirectorioTrabajo>
 		<FicheroTiempos>xml\Tiempos.xml</FicheroTiempos>
 </Config>
