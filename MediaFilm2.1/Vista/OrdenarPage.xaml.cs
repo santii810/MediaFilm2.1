@@ -158,7 +158,7 @@ namespace MediaFilm2._1.Vista
                 {
                     File.SetAttributes(fichero.FullName, FileAttributes.Normal);
                     fichero.MoveTo(pathDestino);
-                    PanelResultadoVideosMovidos.Children.Add(CrearVistas.LabelLista(fichero.Name));
+                     PanelResultadoVideosMovidos.Children.Add(CrearVistas.LabelLista(fichero.Name));
                     IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_MOVIDO_OK, Mensajes.FicheroMovidoOK(fichero.Name), fichero));
                 }
                 catch (Exception ex)
