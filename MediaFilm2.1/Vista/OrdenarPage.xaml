@@ -19,7 +19,7 @@
                     <Label Content="{StaticResource strRenombrarVideos}" Style="{StaticResource LabelMenuSecundario }"/>
                     <Image  Source="../Res/Iconos/ordenarVideos.png" Style="{StaticResource ImageMenuSecundario}"/>
                 </StackPanel>
-                <Border Style="{StaticResource BorderBisque}" Margin="17,0,0,0">
+                <Border Style="{StaticResource BorderBisque}" Margin="48,0,0,0">
                     <StackPanel Orientation="Vertical">
                         <Label Content="{StaticResource strTiempoEjecucion}" Style="{StaticResource LabelMenuSecundario}"/>
                         <Label Content="" Name="labelTiempoEjecucion" FontSize="25" Style="{StaticResource LabelMenuSecundario}"/>
@@ -34,13 +34,13 @@
 
 
             <StackPanel Name="PanelResultadoRecogerVideos" Orientation="Horizontal">
-                <StackPanel Orientation="Vertical" Width="385">
+                <StackPanel Orientation="Vertical" Width="415">
                     <StackPanel Orientation="Horizontal">
                         <Label Content="{StaticResource strVideosMovidos}" Style="{StaticResource LabelTituloCuadros}"/>
                         <Label Name="LabelCantidadVideosMovidos" Content=" " Style="{StaticResource LabelTituloCuadros}"/>
                     </StackPanel>
                     <Border Style="{StaticResource BorderBisque}">
-                        <ScrollViewer Height="475" Style="{StaticResource Scroll}">
+                        <ScrollViewer Height="479" Style="{StaticResource Scroll}">
                             <StackPanel Name="PanelResultadoVideosMovidos" Style="{StaticResource StackPanelListas}"/>
                         </ScrollViewer>
                     </Border>
@@ -49,7 +49,7 @@
 
                 <StackPanel Orientation="Vertical">
 
-                    <StackPanel Orientation="Vertical" Width="385">
+                    <StackPanel Orientation="Vertical" Width="415">
                         <StackPanel Orientation="Horizontal">
                             <Label Content="{StaticResource strFicherosBorrados}" Style="{StaticResource LabelTituloCuadros}"/>
                             <Label Name="LabelCantidadFicherosBorrados" Content=" " Style="{StaticResource LabelTituloCuadros}"/>
@@ -60,7 +60,7 @@
                             </ScrollViewer>
                         </Border>
                     </StackPanel>
-                    <StackPanel Orientation="Vertical" Width="385">
+                    <StackPanel Orientation="Vertical" Width="415">
                         <StackPanel Orientation="Horizontal">
                             <Label Content="{StaticResource strErroresBorrando}"  Style="{StaticResource LabelTituloCuadros}"/>
                             <Label Name="LabelCantidadErroresBorrando" Content=" " Style="{StaticResource LabelTituloCuadros}"/>
