@@ -1,4 +1,5 @@
 ﻿using MediaFilm2._1.Modelo;
+using MediaFilm2._1.Modelo.Logs;
 using MediaFilm2._1.Modelo.XML;
 using MediaFilm2._1.Res;
 using System;
