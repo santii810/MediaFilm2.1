@@ -5,4 +5,6 @@
 	<FicheroTiempos>xml\Tiempos.xml</FicheroTiempos>
 	<LogIO>xml\Logs\IOLogs.xml</LogIO>
 	<LogError>xml\Logs\ErrorLogs.xml</LogError>	
+	<FicheroPatrones>xml\Logs\PatronLogs.xml</FicheroPatrones>	
+	<FicheroPatronLog>xml\Patrones.xml</FicheroPatronLog>	
 </Config>

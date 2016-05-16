@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MediaFilm2._1.Modelo
+namespace MediaFilm2._1.Modelo.Logs
 {
     public class LogIO : Log
     {

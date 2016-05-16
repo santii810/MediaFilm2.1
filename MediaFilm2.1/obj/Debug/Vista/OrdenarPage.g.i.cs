@@ -159,33 +159,41 @@ namespace MediaFilm2._1.Vista {
             #line hidden
             return;
             case 2:
-            this.PanelTiemposRecogerVideos = ((System.Windows.Controls.Border)(target));
+            
+            #line 20 "..\..\..\Vista\OrdenarPage.xaml"
+            ((System.Windows.Controls.Image)(target)).MouseLeftButtonUp += new System.Windows.Input.MouseButtonEventHandler(this.ImageRenombrarVideos_MouseLeftButtonUp);
+            
+            #line default
+            #line hidden
             return;
             case 3:
-            this.labelTiempoEjecucion = ((System.Windows.Controls.Label)(target));
+            this.PanelTiemposRecogerVideos = ((System.Windows.Controls.Border)(target));
             return;
             case 4:
-            this.labelDirectoriosBorrados = ((System.Windows.Controls.Label)(target));
+            this.labelTiempoEjecucion = ((System.Windows.Controls.Label)(target));
             return;
             case 5:
-            this.PanelResultadoRecogerVideos = ((System.Windows.Controls.StackPanel)(target));
+            this.labelDirectoriosBorrados = ((System.Windows.Controls.Label)(target));
             return;
             case 6:
-            this.LabelCantidadVideosMovidos = ((System.Windows.Controls.Label)(target));
+            this.PanelResultadoRecogerVideos = ((System.Windows.Controls.StackPanel)(target));
             return;
             case 7:
-            this.PanelResultadoVideosMovidos = ((System.Windows.Controls.StackPanel)(target));
+            this.LabelCantidadVideosMovidos = ((System.Windows.Controls.Label)(target));
             return;
             case 8:
-            this.LabelCantidadFicherosBorrados = ((System.Windows.Controls.Label)(target));
+            this.PanelResultadoVideosMovidos = ((System.Windows.Controls.StackPanel)(target));
             return;
             case 9:
-            this.PanelResultadoFicherosBorrados = ((System.Windows.Controls.StackPanel)(target));
+            this.LabelCantidadFicherosBorrados = ((System.Windows.Controls.Label)(target));
             return;
             case 10:
-            this.LabelCantidadErroresBorrando = ((System.Windows.Controls.Label)(target));
+            this.PanelResultadoFicherosBorrados = ((System.Windows.Controls.StackPanel)(target));
             return;
             case 11:
+            this.LabelCantidadErroresBorrando = ((System.Windows.Controls.Label)(target));
+            return;
+            case 12:
             this.PanelResultadoErroresBorrando = ((System.Windows.Controls.StackPanel)(target));
             return;
             }

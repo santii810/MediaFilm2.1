@@ -73,6 +73,18 @@ namespace MediaFilm2._1.Vista
             Directory.CreateDirectory(config.directorioTorrent);
         }
 
+        private void recorrerTorrent()
+        {
+            DirectoryInfo dir = new DirectoryInfo(config.directorioTorrent);
+            if (dir.Exists)
+            {
+                foreach (FileInfo fichero in listarFicheros(dir.GetFileSystemInfos()))
+                {
+                    manejarFichero(fichero);
+                }
+            }
+        }
+
         private Brush obtenerColorLabel(int tiempoTranscurrido, object v)
         {
             int media;
@@ -92,18 +104,6 @@ namespace MediaFilm2._1.Vista
                 return new SolidColorBrush(Colors.Orange);
             else
                 return new SolidColorBrush(Colors.Green);
-        }
-
-        private void recorrerTorrent()
-        {
-            DirectoryInfo dir = new DirectoryInfo(config.directorioTorrent);
-            if (dir.Exists)
-            {
-                foreach (FileInfo fichero in listarFicheros(dir.GetFileSystemInfos()))
-                {
-                    manejarFichero(fichero);
-                }
-            }
         }
 
         /// <summary>
@@ -208,5 +208,9 @@ namespace MediaFilm2._1.Vista
             return retorno;
         }
 
+        private void ImageRenombrarVideos_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+
+        }
     }
 }

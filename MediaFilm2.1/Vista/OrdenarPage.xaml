@@ -17,7 +17,7 @@
                 </StackPanel>
                 <StackPanel Orientation="Vertical">
                     <Label Content="{StaticResource strRenombrarVideos}" Style="{StaticResource LabelMenuSecundario }"/>
-                    <Image  Source="../Res/Iconos/ordenarVideos.png" Style="{StaticResource ImageMenuSecundario}"/>
+                    <Image  Source="../Res/Iconos/ordenarVideos.png" Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageRenombrarVideos_MouseLeftButtonUp"/>
                 </StackPanel>
                 <Border Name="PanelTiemposRecogerVideos" Style="{StaticResource BorderBisque}" Margin="48,0,0,0" Visibility="Collapsed">
                     <StackPanel Orientation="Vertical">

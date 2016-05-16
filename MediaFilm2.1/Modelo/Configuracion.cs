@@ -14,8 +14,10 @@ namespace MediaFilm2._1.Modelo
 
         public string ficheroIOLog { get; set; }
         public string ficheroErrorLog { get; set; }
+        internal string ficheroPatronLog { get; set; }
 
         public string ficheroTiempos { get; set; }
+        internal string ficheroPatrones { get; set; }
 
 
     }

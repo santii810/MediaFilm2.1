@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MediaFilm2._1.Modelo.Logs;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -17,10 +18,12 @@ namespace MediaFilm2._1.Modelo.XML
 
         private const string RAIZ = "Logs";
         private const string DOCUMENT_ELEMENT = "Log";
-        private const string TIPO_LOG = "tipo";
-        private const string NOMBRE_FICHERO = "fichero";
-        private const string FECHA = "fecha";
-        private const string MENSAJE = "mensaje";
+        private const string TIPO_LOG_TAG_NAME = "tipo";
+        private const string NOMBRE_FICHERO_TAG_NAME = "fichero";
+        private const string FECHA_TAG_NAME = "fecha";
+        private const string MENSAJE_TAG_NAME = "mensaje";
+        private const string PATRON_TAG_NAME = "patron";
+        private const string SERIE_TAG_NAME = "serie";
 
         public XMLLogger(string nombreFichero)
         {
@@ -70,13 +73,21 @@ namespace MediaFilm2._1.Modelo.XML
         {
             Log log = (Log)entrada;
             XmlElement nodo = Documento.CreateElement(DOCUMENT_ELEMENT);
-            nodo.SetAttribute(TIPO_LOG, log.tipo);
-            nodo.SetAttribute(FECHA, log.fecha.ToString());
-            nodo.SetAttribute(MENSAJE, log.mensaje);
+            nodo.SetAttribute(TIPO_LOG_TAG_NAME, log.tipo);
+            nodo.SetAttribute(FECHA_TAG_NAME, log.fecha.ToString());
+            nodo.SetAttribute(MENSAJE_TAG_NAME, log.mensaje);
+
+            
+            try
+            {
+                nodo.SetAttribute(NOMBRE_FICHERO_TAG_NAME, ((LogIO)log).fichero.FullName);
+            }
+            catch { }
 
             try
             {
-                nodo.SetAttribute(NOMBRE_FICHERO, ((LogIO)log).fichero.FullName);
+                nodo.SetAttribute(PATRON_TAG_NAME, ((LogPatrones)log).patron);
+                nodo.SetAttribute(SERIE_TAG_NAME, ((LogPatrones)log).serie);
             }
             catch { }
             return nodo;
