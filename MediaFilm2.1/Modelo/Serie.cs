@@ -10,7 +10,7 @@ namespace MediaFilm2._1.Modelo
     class Serie : IComparable
     {
         public string titulo { get; set; }
-        public string titDescarga { get; set; }
+        public string tituloDescarga { get; set; }
         public int temporadaActual { get; set; }
         public int numeroTemporadas { get; set; }
         public int capitulosPorTemporada { get; set; }
@@ -22,7 +22,7 @@ namespace MediaFilm2._1.Modelo
         public void leerPatrones(Configuracion config)
         {
             XMLPatron xmlPat = new XMLPatron(config.ficheroPatrones, config.ficheroPatronLog);
-            patrones = xmlPat.leerXML(titulo);
+            patrones = (List<Patron>) xmlPat.leerXML(titulo);
         }
 
         public int CompareTo(object obj)

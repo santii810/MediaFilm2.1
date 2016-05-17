@@ -30,6 +30,8 @@ namespace MediaFilm2._1.Res
         public const string LOG_TIPO_ERROR_BORRANDO = "Error borrando";
         public const string LOG_TIPO_MOVIDO_OK = "Movido";
         public const string LOG_TIPO_ERROR_MOVIENDO = "Error moviendo";
+        public const string LOG_TIPO_ADD_PATRON = "Añadir patron";
+        public const string LOG_TIPO_ADD_SERIE = "Añadir serie";
 
         #endregion
 
@@ -37,7 +39,7 @@ namespace MediaFilm2._1.Res
         #region tiempos
         public const string TIEMPO_RECORRER_TORRENT = "RecorrerTorrent";
         public const string TIEMPO_RENOMBRAR_VIDEOS = "RenombrarVideos";
-        public const string LOG_TIPO_ADD_PATRON = "Añadir patron";
+
 
         #endregion
     }

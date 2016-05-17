@@ -10,6 +10,7 @@ namespace MediaFilm2._1.Res
     public static class Mensajes
     {
         public const string ADD_PATRON_OK = "Patron añadido correctamente";
+        public const string ADD_SERIE_OK = "Serie añadida correctamente";
 
         public static string directorioNoEncontrado(string nombreDirectorio) {
             return "Directorio " + nombreDirectorio+" no encontrado";

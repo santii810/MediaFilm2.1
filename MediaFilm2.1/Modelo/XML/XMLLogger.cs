@@ -22,8 +22,17 @@ namespace MediaFilm2._1.Modelo.XML
         private const string NOMBRE_FICHERO_TAG_NAME = "fichero";
         private const string FECHA_TAG_NAME = "fecha";
         private const string MENSAJE_TAG_NAME = "mensaje";
+        //LogPatrones
         private const string PATRON_TAG_NAME = "patron";
         private const string SERIE_TAG_NAME = "serie";
+        //LogSerie
+        public const string TITULO_TAG_NAME = "titulo";
+        public const string TEMPORADA_ACTUAL_TAG_NAME = "temporadaActual";
+        public const string NUMERO_TEMPORADAS_TAG_NAME = "numeroTemporadas";
+        public const string CAPITULOS_POR_TEMPORADA_TAG_NAME = "capitulosPorTemporada";
+        public const string TITULO_DESCARGA_TAG_NAME = "tituloDescarga";
+        public const string ESTADO_TAG_NAME = "estado";
+
 
         public XMLLogger(string nombreFichero)
         {
@@ -77,7 +86,7 @@ namespace MediaFilm2._1.Modelo.XML
             nodo.SetAttribute(FECHA_TAG_NAME, log.fecha.ToString());
             nodo.SetAttribute(MENSAJE_TAG_NAME, log.mensaje);
 
-            
+
             try
             {
                 nodo.SetAttribute(NOMBRE_FICHERO_TAG_NAME, ((LogIO)log).fichero.FullName);
@@ -90,6 +99,18 @@ namespace MediaFilm2._1.Modelo.XML
                 nodo.SetAttribute(SERIE_TAG_NAME, ((LogPatrones)log).serie);
             }
             catch { }
+
+            try
+            {
+                nodo.SetAttribute(TITULO_TAG_NAME, ((LogSerie)log).serie.titulo);
+                nodo.SetAttribute(TEMPORADA_ACTUAL_TAG_NAME, ((LogSerie)log).serie.temporadaActual.ToString());
+                nodo.SetAttribute(NUMERO_TEMPORADAS_TAG_NAME, ((LogSerie)log).serie.numeroTemporadas.ToString());
+                nodo.SetAttribute(CAPITULOS_POR_TEMPORADA_TAG_NAME, ((LogSerie)log).serie.capitulosPorTemporada.ToString());
+                nodo.SetAttribute(TITULO_DESCARGA_TAG_NAME, ((LogSerie)log).serie.tituloDescarga);
+                nodo.SetAttribute(ESTADO_TAG_NAME, ((LogSerie)log).serie.estado);
+            }
+            catch { }
+
             return nodo;
         }
     }

@@ -11,7 +11,7 @@ namespace MediaFilm2._1.Modelo.XML
     {
 
         bool cargarXML();
-        object leerXML(string serie);
+        object leerXML();
         void insertar(object entrada);
         XmlNode crearNodo(object entrada);
 
