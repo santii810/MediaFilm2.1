@@ -7,14 +7,14 @@ using System.Xml;
 
 namespace MediaFilm2._1.Modelo.XML
 {
-    interface InterfaceXML
+    interface InterfaceSeries
+
     {
 
         bool cargarXML();
-        object leerXML(string serie);
+        List<object> leerXML(string filtro);
         void insertar(object entrada);
         XmlNode crearNodo(object entrada);
-
-
+        bool existe(string campo);
     }
 }

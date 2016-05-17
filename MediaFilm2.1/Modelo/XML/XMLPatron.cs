@@ -10,7 +10,7 @@ using System.Xml;
 
 namespace MediaFilm2._1.Modelo.XML
 {
-    class XMLPatron 
+    class XMLPatron :InterfaceSeries
     {
         string nombreFichero;
         XmlNode raiz;
@@ -73,7 +73,7 @@ namespace MediaFilm2._1.Modelo.XML
             }
         }
 
-        public List<Patron> leerXML(string serie)
+        public List<object> leerXML(string serie)
         {
             List<Patron> patrones = new List<Patron>();
             if (cargarXML())
@@ -104,5 +104,6 @@ namespace MediaFilm2._1.Modelo.XML
             }
             return false;
         }
+
     }
 }

@@ -62,6 +62,7 @@
     <Compile Include="Modelo\Patron.cs" />
     <Compile Include="Modelo\Serie.cs" />
     <Compile Include="Modelo\XML\InterfaceXML.cs" />
+    <Compile Include="Modelo\XML\InterfaceSeries.cs" />
     <Compile Include="Modelo\XML\XMLConfiguracion.cs" />
     <Compile Include="Modelo\XML\XMLLogger.cs" />
     <Compile Include="Modelo\XML\XMLPatron.cs" />
