@@ -77,9 +77,9 @@ namespace MediaFilm2._1.Modelo.XML
             {
                 XmlNodeList listaNodos = Documento.GetElementsByTagName(tipo);
 
-                for (int i = listaNodos.Count - NUMERO_DE_MUESTRAS - 1; i < listaNodos.Count - 1; i++)
+                for (int i = listaNodos.Count - NUMERO_DE_MUESTRAS; i < listaNodos.Count; i++)
                 {
-                    if (i > 0)
+                    if (i >= 0)
                     {
                         cont++;
                         media += Convert.ToInt32(listaNodos[i].Attributes[TIEMPO].Value);
