@@ -19,9 +19,9 @@ namespace MediaFilm2._1.Modelo
 
 
 
-        public void leerPatrones(Configuracion config)
+        public void leerPatrones(string ficheroPatrones, string ficheroPatronLog)
         {
-            XMLPatron xmlPat = new XMLPatron(config.ficheroPatrones, config.ficheroPatronLog);
+            XMLPatron xmlPat = new XMLPatron(ficheroPatrones, ficheroPatronLog);
             patrones = (List<Patron>) xmlPat.leerXML(titulo);
         }
 

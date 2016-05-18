@@ -30,6 +30,8 @@ namespace MediaFilm2._1.Vista
         XMLLogger IOLogger;
         XMLLogger ErrorLogger;
         XMLTiempos TiemposXML;
+        XMLSeries SeriesXML;
+        List<Serie> series;
 
         public OrdenarPage()
         {
@@ -38,6 +40,7 @@ namespace MediaFilm2._1.Vista
             IOLogger = new XMLLogger(config.ficheroIOLog);
             ErrorLogger = new XMLLogger(config.ficheroErrorLog);
             TiemposXML = new XMLTiempos(config.ficheroTiempos);
+            SeriesXML = new XMLSeries(config.ficheroSeries, config.ficheroSerieLogger, config.ficheroPatrones, config.ficheroPatronLog);
 
         }
 
@@ -68,12 +71,24 @@ namespace MediaFilm2._1.Vista
             if (tiempoTranscurrido > 100)
                 TiemposXML.insertar(Recursos.TIEMPO_RECORRER_TORRENT, tiempoTranscurrido);
             labelTiempoEjecucion.Content = tiempoTranscurrido + " ms";
-            labelTiempoEjecucion.Foreground = obtenerColorLabel(tiempoTranscurrido, TiemposXML.obtenerMedia(Recursos.TIEMPO_RECORRER_TORRENT));
+            int media;
+            try
+            {
+                media = Convert.ToInt32((double)TiemposXML.obtenerMedia(Recursos.TIEMPO_RECORRER_TORRENT));
+            }
+            catch (OverflowException)
+            {
+                media = 0;
+            }
+            labelTiempoEjecucion.Foreground = obtenerColorLabel(tiempoTranscurrido, media);
+            labelTiempoEjecucion.ToolTip = new ToolTip { Content = "Media: " + media };
+            
 
             //Crea el directorio borrado
             Directory.CreateDirectory(config.directorioTorrent);
         }
 
+        #region recorrer videos
         private void recorrerTorrent()
         {
             DirectoryInfo dir = new DirectoryInfo(config.directorioTorrent);
@@ -86,17 +101,8 @@ namespace MediaFilm2._1.Vista
             }
         }
 
-        private Brush obtenerColorLabel(int tiempoTranscurrido, object v)
+        private Brush obtenerColorLabel(int tiempoTranscurrido, int media)
         {
-            int media;
-            try
-            {
-                media = Convert.ToInt32((double)v);
-            }
-            catch (OverflowException)
-            {
-                media = 0;
-            }
             //tiempo 50% mayor a la media
             if (tiempoTranscurrido > (media * 1.5))
                 return new SolidColorBrush(Colors.Red);
@@ -159,7 +165,7 @@ namespace MediaFilm2._1.Vista
                 {
                     File.SetAttributes(fichero.FullName, FileAttributes.Normal);
                     fichero.MoveTo(pathDestino);
-                     PanelResultadoVideosMovidos.Children.Add(CrearVistas.LabelLista(fichero.Name));
+                    PanelResultadoVideosMovidos.Children.Add(CrearVistas.LabelLista(fichero.Name));
                     IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_MOVIDO_OK, Mensajes.FicheroMovidoOK(fichero.Name), fichero));
                 }
                 catch (Exception ex)
@@ -208,10 +214,19 @@ namespace MediaFilm2._1.Vista
             }
             return retorno;
         }
+        #endregion
 
         private void ImageRenombrarVideos_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
+            series = SeriesXML.leerXML();
+            foreach (Serie serie in series)
+            {
+                if (serie.estado == "A")
+                {
+                    serie.leerPatrones(config.ficheroPatrones, config.ficheroPatronLog);
 
+                }
+            }
         }
     }
 }

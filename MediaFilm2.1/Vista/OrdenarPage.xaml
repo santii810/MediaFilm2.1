@@ -19,19 +19,15 @@
                     <Label Content="{StaticResource strRenombrarVideos}" Style="{StaticResource LabelMenuSecundario }"/>
                     <Image  Source="../Res/Iconos/ordenarVideos.png" Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageRenombrarVideos_MouseLeftButtonUp"/>
                 </StackPanel>
-                <Border Name="PanelTiemposRecogerVideos" Style="{StaticResource BorderBisque}" Margin="48,0,0,0" Visibility="Collapsed">
+                <Border Name="PanelTiemposRecogerVideos" Style="{StaticResource BorderBisque}" Margin="48,0,0,0" Visibility="Visible">
                     <StackPanel Orientation="Vertical">
                         <Label Content="{StaticResource strTiempoEjecucion}" Style="{StaticResource LabelMenuSecundario}"/>
-                        <Label Content="" Name="labelTiempoEjecucion" FontSize="25" Style="{StaticResource LabelMenuSecundario}"/>
+                        <Label Content="" Name="labelTiempoEjecucion" ToolTip="toolTipTiempoEjecucion" FontSize="25" Style="{StaticResource LabelMenuSecundario}"/>
                         <Label Content="{StaticResource strDirectoriosBorrados}" Style="{StaticResource LabelMenuSecundario}"/>
                         <Label Content=""  Name="labelDirectoriosBorrados"  FontSize="25" Style="{StaticResource LabelMenuSecundario}"/>
-
                     </StackPanel>
                 </Border>
             </StackPanel>
-
-
-
 
             <StackPanel Name="PanelResultadoRecogerVideos" Orientation="Horizontal" Visibility="Collapsed">
                 <StackPanel Orientation="Vertical" Width="415">

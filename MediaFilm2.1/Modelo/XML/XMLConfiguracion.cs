@@ -22,6 +22,9 @@ namespace MediaFilm2._1.Modelo.XML
         private const string FICHERO_ERROR_LOGGER_TAG_NAME = "LogError";
         private const string DIRECTORIO_TRABAJO = "DirectorioTrabajo";
         private const string FICHERO_TIEMPOS_TAG_NAME = "FicheroTiempos";
+        private const string FICHERO_SERIES_TAG_NAME = "FicheroSeries";
+        private const string FICHERO_SERIE_LOGGER_TAG_NAME = "FicheroSerieLogger";
+
 
         public bool cargarXML()
         {
@@ -48,6 +51,8 @@ namespace MediaFilm2._1.Modelo.XML
                 config.ficheroTiempos = Documento.GetElementsByTagName(FICHERO_TIEMPOS_TAG_NAME)[0].InnerText;
                 config.ficheroPatrones = Documento.GetElementsByTagName(FICHERO_PATRONES_TAG_NAME)[0].InnerText;
                 config.ficheroPatronLog = Documento.GetElementsByTagName(FICHERO_PATRON_LOG_TAG_NAME)[0].InnerText;
+                config.ficheroSeries = Documento.GetElementsByTagName(FICHERO_SERIES_TAG_NAME)[0].InnerText;
+                config.ficheroSerieLogger = Documento.GetElementsByTagName(FICHERO_SERIE_LOGGER_TAG_NAME)[0].InnerText;
 
             }
             return config;
