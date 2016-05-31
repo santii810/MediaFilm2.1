@@ -215,4 +215,5 @@
   <Log tipo="Movido" fecha="18/05/2016 22:47:20" mensaje="Fichero Gthm212720p [www.newpct1.com].mkv movido correctamente" fichero="A:\Iomega\Gthm212720p [www.newpct1.com].mkv" />
   <Log tipo="Movido" fecha="18/05/2016 22:47:20" mensaje="Fichero Gthm213720p [www.newpct1.com].mkv movido correctamente" fichero="A:\Iomega\Gthm213720p [www.newpct1.com].mkv" />
   <Log tipo="Movido" fecha="18/05/2016 22:48:15" mensaje="Fichero The.Flash.2x18.HDTV.XviD.[www.DivxTotaL.com].avi movido correctamente" fichero="A:\Iomega\The.Flash.2x18.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="31/05/2016 21:20:10" mensaje="Fichero renombrado correctamente" />
 </Logs>

@@ -5,8 +5,8 @@
 	<FicheroTiempos>xml\Tiempos.xml</FicheroTiempos>
 	<LogIO>xml\Logs\IOLogs.xml</LogIO>
 	<LogError>xml\Logs\ErrorLogs.xml</LogError>	
-	<FicheroPatrones>xml\Logs\PatronLogs.xml</FicheroPatrones>	
-	<FicheroPatronLog>xml\Patrones.xml</FicheroPatronLog>	
+	<FicheroPatrones>xml\Patrones.xml</FicheroPatrones>	
+	<FicheroPatronLog>xml\Logs\PatronLogs.xml</FicheroPatronLog>	
 	<FicheroSeries>xml\Series.xml</FicheroSeries>	
 	<FicheroSerieLogger>xml\Logs\SerieLogs.xml</FicheroSerieLogger>	
 	<DirectorioSeries>A:\Series</DirectorioSeries>
