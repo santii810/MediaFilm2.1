@@ -12,26 +12,22 @@ namespace MediaFilm2._1.Vista
     {
         internal static void updateMainWindow(int cod, MainWindow xaml)
         {
+                    colapsarTodo(xaml);
             switch (cod)
             {
                 case Codigos.MOSTRAR_ORDENAR_PAGE:
-                    colapsarTodo(xaml);
                     xaml.frameOrdenar.Visibility = Visibility.Visible;
                     break;
                 case Codigos.MOSTRAR_GESTIONAR_DATOS_PAGE:
-                    colapsarTodo(xaml);
                     xaml.frameGestionarDatos.Visibility = Visibility.Visible;
                     break;
                 case Codigos.MOSTRAR_MANTENIMIENTO_PAGE:
-                    colapsarTodo(xaml);
                     xaml.frameMantenimiento.Visibility = Visibility.Visible;
                     break;
                 case Codigos.MOSTRAR_DESCARGAS_PAGE:
-                    colapsarTodo(xaml);
                     xaml.frameDescargas.Visibility = Visibility.Visible;
                     break;
                 case Codigos.MOSTRAR_CONFIG_PAGE:
-                    colapsarTodo(xaml);
                     xaml.frameConfiguracion.Visibility = Visibility.Visible;
                     break;
             }
@@ -39,12 +35,14 @@ namespace MediaFilm2._1.Vista
 
         internal static void updateOrdenarPage(int cod, OrdenarPage xaml)
         {
+                    colapsarTodo(xaml);
             switch (cod)
             {
                 case Codigos.RESULTADO_RECOGER_VIDEOS:
-                    colapsarTodo(xaml);
                     xaml.PanelResultadoRecogerVideos.Visibility = Visibility.Visible;
                     xaml.PanelTiemposRecogerVideos.Visibility = Visibility.Visible;
+                    xaml.labelDirectoriosBorrados.Visibility = Visibility.Visible;
+                    xaml.labelTituloDirectoriosBorrados.Visibility = Visibility.Visible;
                     break;
             }
         }
@@ -53,6 +51,8 @@ namespace MediaFilm2._1.Vista
         {
             xaml.PanelResultadoRecogerVideos.Visibility = Visibility.Collapsed;
             xaml.PanelTiemposRecogerVideos.Visibility = Visibility.Collapsed;
+            xaml.labelDirectoriosBorrados.Visibility = Visibility.Collapsed;
+            xaml.labelTituloDirectoriosBorrados.Visibility = Visibility.Collapsed;
         }
 
         private static void colapsarTodo(MainWindow xaml)

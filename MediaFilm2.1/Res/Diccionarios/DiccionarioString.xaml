@@ -19,8 +19,11 @@
     <system:String x:Key="strErroresBorrando">Errores:</system:String>
     <system:String x:Key="strTiempoEjecucion">Tiempo de ejecución:</system:String>
     <system:String x:Key="strDirectoriosBorrados">Directorios borrados:</system:String>
-    
-
+    <!-- renombrado-->
+    <system:String x:Key="strVideosRenombrados">Videos renombrados:</system:String>
+    <system:String x:Key="strInformacionEjecucion">Información de ejecución:</system:String>
+    <system:String x:Key="strPatronesEjecutados">Patrones ejecutados:</system:String>
+    <system:String x:Key="strSeriesActivas">Series activas:</system:String>
 
     <!--#endregion OrdenarPage -->
 </ResourceDictionary>

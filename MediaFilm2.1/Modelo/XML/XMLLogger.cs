@@ -32,6 +32,7 @@ namespace MediaFilm2._1.Modelo.XML
         public const string CAPITULOS_POR_TEMPORADA_TAG_NAME = "capitulosPorTemporada";
         public const string TITULO_DESCARGA_TAG_NAME = "tituloDescarga";
         public const string ESTADO_TAG_NAME = "estado";
+        public const string NOMBRE_FICHERO_ANTIGUO_TAG_NAME = "nombreAntiguo";
 
 
         public XMLLogger(string nombreFichero)
@@ -87,20 +88,22 @@ namespace MediaFilm2._1.Modelo.XML
             nodo.SetAttribute(MENSAJE_TAG_NAME, log.mensaje);
 
 
-            try
+            if (log.GetType() == typeof(LogIO))
             {
                 nodo.SetAttribute(NOMBRE_FICHERO_TAG_NAME, ((LogIO)log).fichero.FullName);
+                if (log.GetType() == typeof(LogRenombrado))
+                {
+                    nodo.SetAttribute(NOMBRE_FICHERO_ANTIGUO_TAG_NAME, ((LogRenombrado)log).fichero.FullName);
+                }
             }
-            catch { }
 
-            try
+            if (log.GetType() == typeof(LogPatrones))
             {
                 nodo.SetAttribute(PATRON_TAG_NAME, ((LogPatrones)log).patron);
                 nodo.SetAttribute(SERIE_TAG_NAME, ((LogPatrones)log).serie);
             }
-            catch { }
 
-            try
+            if (log.GetType() == typeof(LogSerie))
             {
                 nodo.SetAttribute(TITULO_TAG_NAME, ((LogSerie)log).serie.titulo);
                 nodo.SetAttribute(TEMPORADA_ACTUAL_TAG_NAME, ((LogSerie)log).serie.temporadaActual.ToString());
@@ -109,8 +112,6 @@ namespace MediaFilm2._1.Modelo.XML
                 nodo.SetAttribute(TITULO_DESCARGA_TAG_NAME, ((LogSerie)log).serie.tituloDescarga);
                 nodo.SetAttribute(ESTADO_TAG_NAME, ((LogSerie)log).serie.estado);
             }
-            catch { }
-
             return nodo;
         }
     }

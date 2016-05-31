@@ -32,6 +32,8 @@ namespace MediaFilm2._1.Res
         public const string LOG_TIPO_ERROR_MOVIENDO = "Error moviendo";
         public const string LOG_TIPO_ADD_PATRON = "Añadir patron";
         public const string LOG_TIPO_ADD_SERIE = "Añadir serie";
+        public const string LOG_TIPO_RENOMBRADO_OK = "Renombrar capitulo";
+        public const string LOG_TIPO_ERROR_RENOMBRADO = "Error renombrando";
 
         #endregion
 

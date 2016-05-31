@@ -11,15 +11,14 @@ namespace MediaFilm2._1.Res
     {
         public const string ADD_PATRON_OK = "Patron añadido correctamente";
         public const string ADD_SERIE_OK = "Serie añadida correctamente";
+        public const string FICHERO_BORRADO_OK = "Fichero borrado correctamente";
+        public const string FICHERO_RENOMBRADO_OK = "Fichero renombrado correctamente";
+        public const string FICHERO_MOVIDO_OK = "Fichero movido correctamente";
 
         public static string directorioNoEncontrado(string nombreDirectorio) {
             return "Directorio " + nombreDirectorio+" no encontrado";
         }
-
-        internal static string ficheroBorradoOk()
-        {
-            return "Fichero borrado correctamente";
-        }
+         
 
         internal static string errorBorrandoFichero( Exception ex)
         {
@@ -28,11 +27,6 @@ namespace MediaFilm2._1.Res
         internal static string errorBorrandoFichero(string name)
         {
             return "Error borrando " + name;
-        }
-
-        internal static string FicheroMovidoOK(string name)
-        {
-            return "Fichero " + name + " movido correctamente";
         }
 
         internal static string ErrorMoviendoFichero(Exception ex)
@@ -48,6 +42,11 @@ namespace MediaFilm2._1.Res
         internal static string ExtensionNoRegistrada(string name)
         {
             return "Fichero con extension no registrada: " + name;
+        }
+
+        internal static string errorRenombrandoFichero(Exception ex)
+        {
+            return "Error renombrando fichero: /t  " + ex.ToString();
         }
     }
 }

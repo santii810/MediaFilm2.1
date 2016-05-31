@@ -10,6 +10,7 @@
 
     <Grid>
         <StackPanel Orientation="Vertical">
+            <!--#region menu-->
             <StackPanel Orientation="Horizontal">
                 <StackPanel Orientation="Vertical">
                     <Label Content="{StaticResource strRecogerVideos}" Style="{StaticResource LabelMenuSecundario}"/>
@@ -23,12 +24,15 @@
                     <StackPanel Orientation="Vertical">
                         <Label Content="{StaticResource strTiempoEjecucion}" Style="{StaticResource LabelMenuSecundario}"/>
                         <Label Content="" Name="labelTiempoEjecucion" ToolTip="toolTipTiempoEjecucion" FontSize="25" Style="{StaticResource LabelMenuSecundario}"/>
-                        <Label Content="{StaticResource strDirectoriosBorrados}" Style="{StaticResource LabelMenuSecundario}"/>
+                        <Label Name="labelTituloDirectoriosBorrados" Content="{StaticResource strDirectoriosBorrados}" Style="{StaticResource LabelMenuSecundario}"/>
                         <Label Content=""  Name="labelDirectoriosBorrados"  FontSize="25" Style="{StaticResource LabelMenuSecundario}"/>
                     </StackPanel>
                 </Border>
+                
             </StackPanel>
+            <!--#endregion menu -->
 
+            <!--#region resultado recoger videos -->
             <StackPanel Name="PanelResultadoRecogerVideos" Orientation="Horizontal" Visibility="Collapsed">
                 <StackPanel Orientation="Vertical" Width="415">
                     <StackPanel Orientation="Horizontal">
@@ -41,10 +45,7 @@
                         </ScrollViewer>
                     </Border>
                 </StackPanel>
-
-
                 <StackPanel Orientation="Vertical">
-
                     <StackPanel Orientation="Vertical" Width="415">
                         <StackPanel Orientation="Horizontal">
                             <Label Content="{StaticResource strFicherosBorrados}" Style="{StaticResource LabelTituloCuadros}"/>
@@ -67,11 +68,55 @@
                             </ScrollViewer>
                         </Border>
                     </StackPanel>
-
-
-
                 </StackPanel>
             </StackPanel>
+            <!--#endregion resultado recoger videos -->
+            
+            <!--#region resultado renombrar videos -->
+            <StackPanel Name="PanelResultadoRenombrarVideos" Orientation="Horizontal" Visibility="Visible">
+                <StackPanel Orientation="Vertical" Width="415">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Content="{StaticResource strVideosRenombrados}" Style="{StaticResource LabelTituloCuadros}"/>
+                        <Label Name="LabelCantidadVideosRenombrados" Content=" " Style="{StaticResource LabelTituloCuadros}"/>
+                    </StackPanel>
+                    <Border Style="{StaticResource BorderBisque}">
+                        <ScrollViewer Height="479" Style="{StaticResource Scroll}">
+                            <StackPanel Name="PanelResultadoVideosRenombrados" Style="{StaticResource StackPanelListas}"/>
+                        </ScrollViewer>
+                    </Border>
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Vertical" Width="415">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="{StaticResource strInformacionEjecucion}" Style="{StaticResource LabelTituloCuadros}"/>
+                        </StackPanel>
+                        <Border Style="{StaticResource BorderBisque}">
+                            <StackPanel Name="PanelResultadoInformacionEjecucion" Style="{StaticResource StackPanelListas}" Height="160">
+                                <Label Content="{StaticResource strSeriesActivas}" Style="{StaticResource LabelMenuSecundario}"></Label>
+                                <Label Name="labelNumeroSeriesActivas" Content="" Style="{StaticResource LabelMenuSecundario}"></Label>
+                                <Label Content="{StaticResource strPatronesEjecutados}" Style="{StaticResource LabelMenuSecundario}"></Label>
+                                <Label Name="labelNumeroPatronesEjecutados" Content="" Style="{StaticResource LabelMenuSecundario}"></Label>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical" Width="415">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="{StaticResource strErroresBorrando}"  Style="{StaticResource LabelTituloCuadros}"/>
+                            <Label Name="LabelCantidadErroresRenombrando" Content=" " Style="{StaticResource LabelTituloCuadros}"/>
+                        </StackPanel>
+                        <Border Style="{StaticResource BorderBisque}">
+                            <ScrollViewer Style="{StaticResource Scroll}" Height="260">
+                                <StackPanel Name="PanelResultadoErroresRenombrando"  Style="{StaticResource StackPanelListas}"/>
+                            </ScrollViewer>
+                        </Border>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
+
+
+
+            <!--#endregion resultado renombrar videos -->
         </StackPanel>
     </Grid>
 </Page>

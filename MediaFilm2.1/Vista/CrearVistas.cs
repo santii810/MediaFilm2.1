@@ -11,7 +11,7 @@ namespace MediaFilm2._1.Vista
 {
     public class CrearVistas
     {
-        internal static UIElement LabelLista(string v)
+        internal static Label LabelLista(string v)
         {
             Label retorno = new Label();
             retorno.Style = (Style)Application.Current.Resources["LabelListas"];
