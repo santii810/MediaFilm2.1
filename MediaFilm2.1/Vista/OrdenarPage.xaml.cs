@@ -224,7 +224,19 @@ namespace MediaFilm2._1.Vista
                 if (serie.estado == "A")
                 {
                     serie.leerPatrones(config.ficheroPatrones, config.ficheroPatronLog);
+                    foreach (Patron itPatron in serie.patrones)
+                    {
+                        for (int i = serie.temporadaActual ; i <= serie.numeroTemporadas; i++)
+                        {
+                            for (int j = 0; j <= serie.capitulosPorTemporada; j++)
+                            {
 
+                            }
+                        }
+
+
+
+                    }
                 }
             }
         }

@@ -9,4 +9,5 @@
 	<FicheroPatronLog>xml\Patrones.xml</FicheroPatronLog>	
 	<FicheroSeries>xml\Series.xml</FicheroSeries>	
 	<FicheroSerieLogger>xml\Logs\SerieLogs.xml</FicheroSerieLogger>	
+	<DirectorioSeries>A:\Series</DirectorioSeries>
 </Config>
