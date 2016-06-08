@@ -14,11 +14,11 @@
             <StackPanel Orientation="Horizontal">
                 <StackPanel Orientation="Vertical">
                     <Label Content="{StaticResource strRecogerVideos}" Style="{StaticResource LabelMenuSecundario}"/>
-                    <Image  Source="../Res/Iconos/recorrerTorrent.png" Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageRecogerVideos_MouseLeftButtonUp"/>
+                    <Image  Source="../Res/Iconos/recorrerTorrent.png" Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageRecogerVideos_MouseLeftButtonUp" MouseEnter="ImageRecogerVideos_MouseEnter" MouseLeave="ImageRecogerVideos_MouseLeave"/>
                 </StackPanel>
                 <StackPanel Orientation="Vertical">
                     <Label Content="{StaticResource strRenombrarVideos}" Style="{StaticResource LabelMenuSecundario }"/>
-                    <Image  Source="../Res/Iconos/ordenarVideos.png" Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageRenombrarVideos_MouseLeftButtonUp"/>
+                    <Image  Source="../Res/Iconos/ordenarVideos.png" Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageRenombrarVideos_MouseLeftButtonUp" MouseEnter="ImageRenombrarVideos_MouseEnter" MouseLeave="ImageRenombrarVideos_MouseLeave"/>
                 </StackPanel>
                 <Border Name="PanelTiemposRecogerVideos" Style="{StaticResource BorderBisque}" Margin="48,0,0,0" Visibility="Visible">
                     <StackPanel Orientation="Vertical">
@@ -28,7 +28,6 @@
                         <Label Content=""  Name="labelDirectoriosBorrados"  FontSize="25" Style="{StaticResource LabelMenuSecundario}"/>
                     </StackPanel>
                 </Border>
-                
             </StackPanel>
             <!--#endregion menu -->
 

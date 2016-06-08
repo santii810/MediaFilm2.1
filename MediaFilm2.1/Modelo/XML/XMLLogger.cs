@@ -88,12 +88,12 @@ namespace MediaFilm2._1.Modelo.XML
             nodo.SetAttribute(MENSAJE_TAG_NAME, log.mensaje);
 
 
-            if (log.GetType() == typeof(LogIO))
+            if (log.GetType() == typeof(LogIO) || log.GetType() == typeof(LogRenombrado))
             {
                 nodo.SetAttribute(NOMBRE_FICHERO_TAG_NAME, ((LogIO)log).fichero.FullName);
                 if (log.GetType() == typeof(LogRenombrado))
                 {
-                    nodo.SetAttribute(NOMBRE_FICHERO_ANTIGUO_TAG_NAME, ((LogRenombrado)log).fichero.FullName);
+                    nodo.SetAttribute(NOMBRE_FICHERO_ANTIGUO_TAG_NAME, ((LogRenombrado)log).nombreAntiguo);
                 }
             }
 

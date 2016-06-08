@@ -1054,11 +1054,11 @@
   </serie>
   <serie titulo="Silicon Valley">
     <titulo>Silicon Valley</titulo>
-    <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
+    <temporadaActual>1</temporadaActual>
+    <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Silicon_Valley</tituloDescarga>
-    <estado>D</estado>
+    <estado>A</estado>
     
   </serie>
   <serie titulo="Sleepy Hollow">

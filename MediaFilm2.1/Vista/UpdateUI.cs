@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Input;
 
 namespace MediaFilm2._1.Vista
 {
@@ -15,6 +16,8 @@ namespace MediaFilm2._1.Vista
                     colapsarTodo(xaml);
             switch (cod)
             {
+                case Codigos.ESTADO_INICIAL:
+                    break;
                 case Codigos.MOSTRAR_ORDENAR_PAGE:
                     xaml.frameOrdenar.Visibility = Visibility.Visible;
                     break;
@@ -38,20 +41,32 @@ namespace MediaFilm2._1.Vista
                     colapsarTodo(xaml);
             switch (cod)
             {
+                case Codigos.ESTADO_INICIAL:
+                    break;
                 case Codigos.RESULTADO_RECOGER_VIDEOS:
                     xaml.PanelResultadoRecogerVideos.Visibility = Visibility.Visible;
                     xaml.PanelTiemposRecogerVideos.Visibility = Visibility.Visible;
                     xaml.labelDirectoriosBorrados.Visibility = Visibility.Visible;
                     xaml.labelTituloDirectoriosBorrados.Visibility = Visibility.Visible;
                     break;
+                case Codigos.RESULTADO_RENOMBRAR_VIDEOS:
+                    xaml.PanelResultadoRenombrarVideos.Visibility = Visibility.Visible;
+                    xaml.PanelTiemposRecogerVideos.Visibility = Visibility.Visible;
+                    break;
             }
         }
 
         private static void colapsarTodo(OrdenarPage xaml)
         {
-            xaml.PanelResultadoRecogerVideos.Visibility = Visibility.Collapsed;
+            //ambos
             xaml.PanelTiemposRecogerVideos.Visibility = Visibility.Collapsed;
+
+            //recoger videos
+            xaml.PanelResultadoRecogerVideos.Visibility = Visibility.Collapsed;
             xaml.labelDirectoriosBorrados.Visibility = Visibility.Collapsed;
+
+            //renombrar videos
+            xaml.PanelResultadoRenombrarVideos.Visibility = Visibility.Collapsed;
             xaml.labelTituloDirectoriosBorrados.Visibility = Visibility.Collapsed;
         }
 
