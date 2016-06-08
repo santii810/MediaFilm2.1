@@ -9,7 +9,11 @@
       Title="DescargasPage" Background="White"  Height="737" Width="860" Style="{StaticResource PaginaPrincipal}">
 
     <Grid>
-        <Label Content="descargaspage"
-               ></Label>
+        <StackPanel Orientation="Vertical" Height="737" Width="860">
+            <StackPanel Orientation="Horizontal"  Width="860" Height="200">
+                <Image Source="../Res/Iconos/IniciarDescarga.png" Margin="15,5" MouseEnter="ImageIniciarDescarga_MouseEnter" MouseLeave="ImageIniciarDescarga_MouseLeave" MouseLeftButtonUp="ImageIniciarDescarga_MouseLeftButtonUp"/>
+            </StackPanel>
+
+        </StackPanel>
     </Grid>
 </Page>
