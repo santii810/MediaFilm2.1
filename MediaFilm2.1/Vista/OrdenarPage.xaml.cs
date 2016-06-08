@@ -29,9 +29,12 @@ namespace MediaFilm2._1.Vista
         Configuracion config;
         XMLLogger IOLogger;
         XMLLogger ErrorLogger;
-        XMLTiempos TiemposXML;
+        XMLEstadisticas EstadisticasXML;
         XMLSeries SeriesXML;
         List<Serie> series;
+
+        private int seriesActivas = 0;
+        private int patronesEjecutados = 0;
 
         private bool enEjecucion = false;
 
@@ -43,7 +46,7 @@ namespace MediaFilm2._1.Vista
             config = (Configuracion)new XMLConfiguracion().leerXML();
             IOLogger = new XMLLogger(config.ficheroIOLog);
             ErrorLogger = new XMLLogger(config.ficheroErrorLog);
-            TiemposXML = new XMLTiempos(config.ficheroTiempos);
+            EstadisticasXML = new XMLEstadisticas(config.ficheroTiempos);
             SeriesXML = new XMLSeries(config.ficheroSeries, config.ficheroSerieLogger, config.ficheroPatrones, config.ficheroPatronLog);
 
         }
@@ -79,12 +82,12 @@ namespace MediaFilm2._1.Vista
 
                 //Define label y color del tiempo transcurrido
                 if (tiempoTranscurrido > 100)
-                    TiemposXML.insertar(Recursos.TIEMPO_RECORRER_TORRENT, tiempoTranscurrido);
+                    EstadisticasXML.insertar(Recursos.TIEMPO_RECORRER_TORRENT, tiempoTranscurrido);
                 labelTiempoEjecucion.Content = tiempoTranscurrido + " ms";
                 int media;
                 try
                 {
-                    media = Convert.ToInt32((double)TiemposXML.obtenerMedia(Recursos.TIEMPO_RECORRER_TORRENT));
+                    media = Convert.ToInt32((double)EstadisticasXML.obtenerMedia(Recursos.TIEMPO_RECORRER_TORRENT));
                 }
                 catch (OverflowException)
                 {
@@ -242,28 +245,101 @@ namespace MediaFilm2._1.Vista
             labelTiempoEjecucion.Content = "";
 
 
-
             if (!enEjecucion)
             {
                 enEjecucion = true;
                 this.Cursor = Cursors.Wait;
+                Stopwatch tiempo = Stopwatch.StartNew();
 
-                series = SeriesXML.leerXML();
-                foreach (Serie itSerie in series)
+                renombrarVideos();
+
+                int tiempoTranscurrido = (int)tiempo.ElapsedMilliseconds;
+
+                //Define el contenido de los labels
+                LabelCantidadVideosRenombrados.Content = PanelResultadoVideosMovidos.Children.Count;
+                LabelCantidadErroresRenombrando.Content = PanelResultadoErroresBorrando.Children.Count;
+
+
+
+
+
+                //Guardo datos estadisticos
+                if (tiempoTranscurrido > 100)
+                    EstadisticasXML.insertar(Recursos.TIEMPO_RENOMBRAR_VIDEOS, tiempoTranscurrido);
+                if (seriesActivas > 0)
+                    EstadisticasXML.insertar(Recursos.NUMERO_SERIES_ACTIVAS, tiempoTranscurrido);
+                if (patronesEjecutados > 0)
+                    EstadisticasXML.insertar(Recursos.NUMERO_PATRONES_EJECUTADOS, tiempoTranscurrido);
+
+                // Asignar content a los label
+                labelTiempoEjecucion.Content = tiempoTranscurrido + " ms";
+                labelNumeroSeriesActivas.Content = seriesActivas + "/" + series.Count;
+                labelNumeroPatronesEjecutados.Content = patronesEjecutados;
+
+
+                //definir colores y tooltips
+                int media;
+                try
                 {
-                    if (itSerie.estado == "A")
+                    media = Convert.ToInt32((double)EstadisticasXML.obtenerMedia(Recursos.TIEMPO_RENOMBRAR_VIDEOS));
+                }
+                catch (OverflowException)
+                {
+                    media = 0;
+                }
+                labelTiempoEjecucion.Foreground = obtenerColorLabel(tiempoTranscurrido, media);
+                labelTiempoEjecucion.ToolTip = new ToolTip { Content = "Media: " + media };
+
+                try
+                {
+                    media = Convert.ToInt32((double)EstadisticasXML.obtenerMedia(Recursos.NUMERO_SERIES_ACTIVAS));
+                }
+                catch (OverflowException)
+                {
+                    media = 0;
+                }
+                labelNumeroSeriesActivas.Foreground = obtenerColorLabel(tiempoTranscurrido, media);
+                labelNumeroSeriesActivas.ToolTip = new ToolTip { Content = "Media: " + media };
+
+                try
+                {
+                    media = Convert.ToInt32((double)EstadisticasXML.obtenerMedia(Recursos.NUMERO_PATRONES_EJECUTADOS));
+                }
+                catch (OverflowException)
+                {
+                    media = 0;
+                }
+                labelNumeroPatronesEjecutados.Foreground = obtenerColorLabel(tiempoTranscurrido, media);
+                labelNumeroPatronesEjecutados.ToolTip = new ToolTip { Content = "Media: " + media };
+                            
+
+                enEjecucion = false;
+                this.Cursor = Cursors.Arrow;
+            }
+        }
+
+        private void renombrarVideos()
+        {
+            seriesActivas = 0;
+            patronesEjecutados = 0;
+            series = SeriesXML.leerXML();
+            foreach (Serie itSerie in series)
+            {
+                if (itSerie.estado == "A")
+                {
+                    seriesActivas++;
+                    itSerie.leerPatrones(config.ficheroPatrones, config.ficheroPatronLog);
+                    foreach (Patron itPatron in itSerie.patrones)
                     {
-                        itSerie.leerPatrones(config.ficheroPatrones, config.ficheroPatronLog);
-                        foreach (Patron itPatron in itSerie.patrones)
+                        for (int temp = itSerie.temporadaActual; temp <= itSerie.numeroTemporadas; temp++)
                         {
-                            for (int temp = itSerie.temporadaActual; temp <= itSerie.numeroTemporadas; temp++)
+                            for (int cap = 0; cap <= itSerie.capitulosPorTemporada; cap++)
                             {
-                                for (int cap = 0; cap <= itSerie.capitulosPorTemporada; cap++)
+                                FileInfo fi;
+                                string dirSerie = config.directorioSeries + @"\" + itSerie.titulo + @"\Temporada" + temp + @"\";
+                                patronesEjecutados += 8;
+                                string[] strPatrones = new string[]
                                 {
-                                    FileInfo fi;
-                                    string dirSerie = config.directorioSeries + @"\" + itSerie.titulo + @"\Temporada" + temp + @"\";
-                                    string[] strPatrones = new string[]
-                                    {
                                     //patrones para capitulos<10  y extension == mkv
                                     itPatron.textoPatron + "*" + temp.ToString() + "0" + cap.ToString() + "*.mkv" ,
                                     itPatron.textoPatron + "*" + temp.ToString() + "x0" + cap.ToString() + "*.mkv" ,
@@ -287,67 +363,66 @@ namespace MediaFilm2._1.Vista
                                     //patrones especiales
                                     itPatron.textoPatron+"*"+temp + "(" + cap.ToString()+ ")" + ".avi",
                                     itPatron.textoPatron+"*"+temp + "(" + cap.ToString()+ ")" + ".mkv"
-                                };
+                            };
 
-                                    /* 
-                                    Los ultimos 2 patrones no dependen de si el capitulo es mayor o menor que 10
-                                    luego se ejecuta 1 vez cada patron cuando i pasa por las posiciones 6 y 7
-                                    como los patrones estan en la posicion 12 y 13 respectivamente se suma 6 a la i
+                                /* 
+                                Los ultimos 2 patrones no dependen de si el capitulo es mayor o menor que 10
+                                luego se ejecuta 1 vez cada patron cuando i pasa por las posiciones 6 y 7
+                                como los patrones estan en la posicion 12 y 13 respectivamente se suma 6 a la i
 
-                                    Los patrones de capitulos mayores que 10 estan en las posiciones del 7 al 12
-                                    asi que si el numero del capitulo es >=  10 se coge la posicion 6+i
-                                    */
-                                    for (int i = 0; i < 8; i++)
+                                Los patrones de capitulos mayores que 10 estan en las posiciones del 7 al 12
+                                asi que si el numero del capitulo es >=  10 se coge la posicion 6+i
+                                */
+                                for (int i = 0; i < 8; i++)
+                                {
+                                    if (cap >= 10 || i > 5)
                                     {
-                                        if (cap >= 10 || i > 5)
+                                        fi = obtenerCoincidenciaBusqueda(strPatrones[i + 6]);
+                                    }
+                                    else
+                                    {
+                                        fi = obtenerCoincidenciaBusqueda(strPatrones[i]);
+                                    }
+                                    if (fi != null)
+                                    {
+                                        string nombreOriginal = fi.Name;
+                                        //Crea todos los directorios y subdirectorios en la ruta de acceso especificada, a menos que ya existan.
+                                        Directory.CreateDirectory(dirSerie);
+                                        try
                                         {
-                                            fi = obtenerCoincidenciaBusqueda(strPatrones[i + 6]);
+                                            if (cap < 10)
+                                            {
+                                                fi.MoveTo(dirSerie + @"\" + itSerie.titulo + " " + temp + "x0" + cap + fi.Extension);
+                                            }
+                                            else
+                                            {
+                                                fi.MoveTo(dirSerie + @"\" + itSerie.titulo + " " + temp + "x" + cap + fi.Extension);
+                                            }
+                                            IOLogger.insertar(new LogRenombrado(Recursos.LOG_TIPO_RENOMBRADO_OK, Mensajes.FICHERO_RENOMBRADO_OK, fi, nombreOriginal));
+                                            PanelResultadoVideosRenombrados.Children.Add(CrearVistas.LabelLista(nombreOriginal + " => " + fi.Name));
                                         }
-                                        else
+                                        catch (IOException ex)
                                         {
-                                            fi = obtenerCoincidenciaBusqueda(strPatrones[i]);
+                                            if (ex.Message == "No se puede crear un archivo que ya existe.\r\n")
+                                                try
+                                                {
+                                                    File.SetAttributes(fi.FullName, FileAttributes.Normal);
+                                                    fi.Delete();
+                                                    IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_BORRADO_OK, Mensajes.FICHERO_BORRADO_OK, fi));
+                                                    PanelResultadoErroresRenombrando.Children.Add(CrearVistas.LabelLista("(Borrado) " + nombreOriginal));
+
+                                                }
+                                                catch (Exception)
+                                                {
+                                                    ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_BORRANDO, Mensajes.errorBorrandoFichero(ex), fi));
+                                                    PanelResultadoErroresRenombrando.Children.Add(CrearVistas.LabelLista("No se pudo borrar " + nombreOriginal));
+                                                }
+
                                         }
-                                        if (fi != null)
+                                        catch (Exception ex)
                                         {
-                                            string nombreOriginal = fi.Name;
-                                            //Crea todos los directorios y subdirectorios en la ruta de acceso especificada, a menos que ya existan.
-                                            Directory.CreateDirectory(dirSerie);
-                                            try
-                                            {
-                                                if (cap < 10)
-                                                {
-                                                    fi.MoveTo(dirSerie + @"\" + itSerie.titulo + " " + temp + "x0" + cap + fi.Extension);
-                                                }
-                                                else
-                                                {
-                                                    fi.MoveTo(dirSerie + @"\" + itSerie.titulo + " " + temp + "x" + cap + fi.Extension);
-                                                }
-                                                IOLogger.insertar(new LogRenombrado(Recursos.LOG_TIPO_RENOMBRADO_OK, Mensajes.FICHERO_RENOMBRADO_OK, fi, nombreOriginal));
-                                                PanelResultadoVideosRenombrados.Children.Add(CrearVistas.LabelLista(nombreOriginal + " => " + fi.Name));
-                                            }
-                                            catch (IOException ex)
-                                            {
-                                                if (ex.Message == "No se puede crear un archivo que ya existe.\r\n")
-                                                    try
-                                                    {
-                                                        File.SetAttributes(fi.FullName, FileAttributes.Normal);
-                                                        fi.Delete();
-                                                        IOLogger.insertar(new LogIO(Recursos.LOG_TIPO_BORRADO_OK, Mensajes.FICHERO_BORRADO_OK, fi));
-                                                        PanelResultadoErroresRenombrando.Children.Add(CrearVistas.LabelLista("(Borrado) " + nombreOriginal));
-
-                                                    }
-                                                    catch (Exception)
-                                                    {
-                                                        ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_BORRANDO, Mensajes.errorBorrandoFichero(ex), fi));
-                                                        PanelResultadoErroresRenombrando.Children.Add(CrearVistas.LabelLista("No se pudo borrar " + nombreOriginal));
-                                                    }
-
-                                            }
-                                            catch (Exception ex)
-                                            {
-                                                PanelResultadoErroresRenombrando.Children.Add(CrearVistas.LabelLista("Error renombrando: " + nombreOriginal));
-                                                ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_RENOMBRADO, Mensajes.errorRenombrandoFichero(ex), fi));
-                                            }
+                                            PanelResultadoErroresRenombrando.Children.Add(CrearVistas.LabelLista("Error renombrando: " + nombreOriginal));
+                                            ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_RENOMBRADO, Mensajes.errorRenombrandoFichero(ex), fi));
                                         }
                                     }
                                 }
@@ -355,8 +430,6 @@ namespace MediaFilm2._1.Vista
                         }
                     }
                 }
-                enEjecucion = false;
-                this.Cursor = Cursors.Arrow;
             }
         }
 

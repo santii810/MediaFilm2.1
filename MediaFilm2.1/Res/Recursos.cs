@@ -41,6 +41,8 @@ namespace MediaFilm2._1.Res
         #region tiempos
         public const string TIEMPO_RECORRER_TORRENT = "RecorrerTorrent";
         public const string TIEMPO_RENOMBRAR_VIDEOS = "RenombrarVideos";
+        public const string NUMERO_SERIES_ACTIVAS = "NumeroSeriesActivas";
+        public const string NUMERO_PATRONES_EJECUTADOS = "NumeroPatronesEjecutados";
 
 
         #endregion

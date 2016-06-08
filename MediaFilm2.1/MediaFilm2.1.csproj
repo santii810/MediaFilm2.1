@@ -68,7 +68,7 @@
     <Compile Include="Modelo\XML\XMLLogger.cs" />
     <Compile Include="Modelo\XML\XMLPatron.cs" />
     <Compile Include="Modelo\XML\XMLSeries.cs" />
-    <Compile Include="Modelo\XML\XMLTiempos.cs" />
+    <Compile Include="Modelo\XML\XMLEstadisticas.cs" />
     <Compile Include="Res\Codigos.cs" />
     <Compile Include="Res\Mensajes.cs" />
     <Compile Include="Vista\ConfigPage.xaml.cs">

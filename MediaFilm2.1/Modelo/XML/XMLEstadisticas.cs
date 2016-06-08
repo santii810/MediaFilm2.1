@@ -8,19 +8,20 @@ using System.Xml;
 
 namespace MediaFilm2._1.Modelo.XML
 {
-    class XMLTiempos
+    class XMLEstadisticas
     {
         string nombreFichero;
         XmlNode raiz;
         public XmlDocument Documento { get; set; }
 
-        private const string RAIZ = "Tiempos";
+        private const string RAIZ = "Estadisticas";
         private const string FECHA = "fecha";
         private const string TIEMPO = "tiempo";
+        private const string TIPO = "Tipo";
 
 
 
-        public XMLTiempos(string nombreFichero)
+        public XMLEstadisticas(string nombreFichero)
         {
             this.nombreFichero = nombreFichero;
 
@@ -38,11 +39,11 @@ namespace MediaFilm2._1.Modelo.XML
             else return false;
         }
 
-        public XmlNode crearNodo(string tipo, int tiempo)
+        public XmlNode crearNodo(string tipo, int valor)
         {
             XmlElement nodo = Documento.CreateElement(tipo);
             nodo.SetAttribute(FECHA, DateTime.Now.ToString());
-            nodo.SetAttribute(TIEMPO, tiempo.ToString());
+            nodo.SetAttribute(TIEMPO, valor.ToString());
             return nodo;
         }
 
