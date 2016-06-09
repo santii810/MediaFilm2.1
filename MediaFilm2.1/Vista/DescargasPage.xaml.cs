@@ -30,18 +30,6 @@ namespace MediaFilm2._1.Vista
             InitializeComponent();
         }
 
-        private void ImageIniciarDescarga_MouseEnter(object sender, MouseEventArgs e)
-        {
-            if (!enEjecucion)
-                this.Cursor = Cursors.Hand;
-        }
-
-        private void ImageIniciarDescarga_MouseLeave(object sender, MouseEventArgs e)
-        {
-            if (!enEjecucion)
-                this.Cursor = Cursors.Arrow;
-        }
-
         private void ImageIniciarDescarga_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             if (!enEjecucion)
@@ -51,9 +39,22 @@ namespace MediaFilm2._1.Vista
 
 
 
+
+
+
                 enEjecucion = false;
                 this.Cursor = Cursors.Arrow;
             }
+        }
+        private void ImageIniciarDescarga_MouseEnter(object sender, MouseEventArgs e)
+        {
+            if (!enEjecucion)
+                this.Cursor = Cursors.Hand;
+        }
+        private void ImageIniciarDescarga_MouseLeave(object sender, MouseEventArgs e)
+        {
+            if (!enEjecucion)
+                this.Cursor = Cursors.Arrow;
         }
     }
 }

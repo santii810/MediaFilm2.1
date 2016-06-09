@@ -55,8 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Controlador\GestorDescargas.cs" />
     <Compile Include="Controlador\GestorVideos.cs" />
-    <Compile Include="Controlador\GestorXML.cs" />
     <Compile Include="Modelo\Request\RenombrarVideosRequest.cs" />
     <Compile Include="Modelo\Configuracion.cs" />
     <Compile Include="Modelo\Logs\LogRenombrado.cs" />
@@ -66,6 +66,7 @@
     <Compile Include="Modelo\Logs\LogSerie.cs" />
     <Compile Include="Modelo\Patron.cs" />
     <Compile Include="Modelo\Request\RecorrerTorrentRequest.cs" />
+    <Compile Include="Modelo\Request\UltimoFicheroRequest.cs" />
     <Compile Include="Modelo\Serie.cs" />
     <Compile Include="XML\InterfaceXML.cs" />
     <Compile Include="XML\XMLConfiguracion.cs" />

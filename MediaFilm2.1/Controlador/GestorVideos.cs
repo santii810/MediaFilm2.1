@@ -163,7 +163,25 @@ namespace MediaFilm2._1.Controlador
             return renombrarVideosRequest;
         }
 
+        public static UltimoFicheroRequest getUltimoFichero(Serie item)
+        {
+            string directorioSerie = MainWindow.config.directorioSeries + @"/" + item.titulo;
+            try
+            {
+                //obtiene los directorios dentro de la carpeta de la serie
+                FileInfo finfo = new DirectoryInfo(directorioSerie).GetDirectories().Last().GetFiles().Last();
+                //string temporada = finfo.Name.Substring((finfo.Name.Length - 9), 2).Trim();
+                int temporada = Convert.ToInt32(finfo.Name.Substring((finfo.Name.Length - 9), 2).Trim());
+                int capitulo = Convert.ToInt32(finfo.Name.Substring((finfo.Name.Length - 6), 2).Trim());
+                return new UltimoFicheroRequest { temporada = temporada, capitulo = capitulo };
+            }
+            catch
+            {
+                //series sin carpeta en A:/series
+                return null;
+            }
 
+        }
 
 
         #region Private clases
