@@ -10,7 +10,7 @@ using System.Xml;
 
 namespace MediaFilm2._1.Modelo.XML
 {
-    class XMLSeries
+   public class XMLSeries
     {
 
         string nombreFichero;

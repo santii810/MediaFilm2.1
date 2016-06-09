@@ -10,7 +10,7 @@ using System.Xml;
 
 namespace MediaFilm2._1.Modelo.XML
 {
-    class XMLPatron 
+   public class XMLPatron 
     {
         string nombreFichero;
         XmlNode raiz;

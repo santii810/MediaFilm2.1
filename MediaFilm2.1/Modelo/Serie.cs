@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MediaFilm2._1.Modelo
 {
-    class Serie : IComparable
+   public class Serie : IComparable
     {
         public string titulo { get; set; }
         public string tituloDescarga { get; set; }
@@ -21,8 +21,8 @@ namespace MediaFilm2._1.Modelo
 
         public void leerPatrones(string ficheroPatrones, string ficheroPatronLog)
         {
-            XMLPatron xmlPat = new XMLPatron(ficheroPatrones, ficheroPatronLog);
-            patrones = (List<Patron>) xmlPat.leerXML(titulo);
+           
+            patrones = MainWindow.PatronesXML.leerXML(titulo);
         }
 
         public int CompareTo(object obj)

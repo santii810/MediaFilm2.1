@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<Tiempos>
-  <RecorrerTorrent fecha="18/05/2016 19:26:34" tiempo="342" />
-  <RecorrerTorrent fecha="18/05/2016 22:47:20" tiempo="401" />
-  <RenombrarVideos fecha="08/06/2016 22:52:18" tiempo="4841" />
-  <NumeroSeriesActivas fecha="08/06/2016 22:52:18" tiempo="4841" />
-  <NumeroPatronesEjecutados fecha="08/06/2016 22:52:18" tiempo="4841" />
-  <RenombrarVideos fecha="08/06/2016 22:52:41" tiempo="4849" />
-  <NumeroSeriesActivas fecha="08/06/2016 22:52:41" tiempo="4849" />
-  <NumeroPatronesEjecutados fecha="08/06/2016 22:52:41" tiempo="4849" />
-  <RenombrarVideos fecha="08/06/2016 22:52:51" tiempo="5029" />
-  <NumeroSeriesActivas fecha="08/06/2016 22:52:51" tiempo="5029" />
-  <NumeroPatronesEjecutados fecha="08/06/2016 22:52:51" tiempo="5029" />
-  <RenombrarVideos fecha="08/06/2016 22:54:29" tiempo="4875" />
-  <NumeroSeriesActivas fecha="08/06/2016 22:54:29" tiempo="4875" />
-  <NumeroPatronesEjecutados fecha="08/06/2016 22:54:29" tiempo="4875" />
-</Tiempos>
+<Estadisticas>
+  <TiempoRecorrerTorrent fecha="18/05/2016 19:26:34" valor="342" />
+  <TiempoRecorrerTorrent fecha="18/05/2016 22:47:20" valor="401" />
+  <TiempoRenombrarVideos fecha="08/06/2016 22:52:18" valor="4841" />
+  <TiempoRenombrarVideos fecha="08/06/2016 22:52:41" valor="4849" />
+  <TiempoRenombrarVideos fecha="08/06/2016 22:52:51" valor="5029" />
+  <TiempoRenombrarVideos fecha="08/06/2016 22:54:29" valor="4875" />
+  <TiempoRenombrarVideos fecha="09/06/2016 20:01:45" valor="6997" />
+  <NumeroSeriesActivas fecha="09/06/2016 20:01:45" valor="38" />
+  <NumeroPatronesEjecutados fecha="09/06/2016 20:01:45" valor="86528" />
+  <TiempoRenombrarVideos fecha="09/06/2016 20:03:27" valor="7147" />
+  <NumeroSeriesActivas fecha="09/06/2016 20:03:27" valor="38" />
+  <NumeroPatronesEjecutados fecha="09/06/2016 20:03:27" valor="86528" />
+  <TiempoRenombrarVideos fecha="09/06/2016 20:06:05" valor="7237" />
+  <NumeroSeriesActivas fecha="09/06/2016 20:06:05" valor="38" />
+  <NumeroPatronesEjecutados fecha="09/06/2016 20:06:05" valor="86528" />
+</Estadisticas>

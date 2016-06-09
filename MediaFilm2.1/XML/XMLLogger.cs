@@ -9,7 +9,7 @@ using System.Xml;
 
 namespace MediaFilm2._1.Modelo.XML
 {
-    class XMLLogger : InterfaceXML
+   public class XMLLogger : InterfaceXML
     {
 
         string nombreFichero;

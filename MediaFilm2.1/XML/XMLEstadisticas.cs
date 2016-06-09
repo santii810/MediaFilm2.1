@@ -8,7 +8,7 @@ using System.Xml;
 
 namespace MediaFilm2._1.Modelo.XML
 {
-    class XMLEstadisticas
+  public  class XMLEstadisticas
     {
         string nombreFichero;
         XmlNode raiz;
@@ -16,7 +16,7 @@ namespace MediaFilm2._1.Modelo.XML
 
         private const string RAIZ = "Estadisticas";
         private const string FECHA = "fecha";
-        private const string TIEMPO = "tiempo";
+        private const string VALOR = "valor";
         private const string TIPO = "Tipo";
 
 
@@ -43,11 +43,11 @@ namespace MediaFilm2._1.Modelo.XML
         {
             XmlElement nodo = Documento.CreateElement(tipo);
             nodo.SetAttribute(FECHA, DateTime.Now.ToString());
-            nodo.SetAttribute(TIEMPO, valor.ToString());
+            nodo.SetAttribute(VALOR, valor.ToString());
             return nodo;
         }
 
-        public void insertar(string tipo, int tiempo)
+        public void insertar(string tipo, int valor)
         {
             Documento = new XmlDocument();
             if (!File.Exists(nombreFichero))
@@ -63,7 +63,7 @@ namespace MediaFilm2._1.Modelo.XML
                 raiz = Documento.DocumentElement;
             }
 
-            raiz.AppendChild(crearNodo(tipo, tiempo));
+            raiz.AppendChild(crearNodo(tipo, valor));
 
             Documento.Save(nombreFichero);
         }
@@ -83,7 +83,7 @@ namespace MediaFilm2._1.Modelo.XML
                     if (i >= 0)
                     {
                         cont++;
-                        media += Convert.ToInt32(listaNodos[i].Attributes[TIEMPO].Value);
+                        media += Convert.ToInt32(listaNodos[i].Attributes[VALOR].Value);
                     }
                 }
             }

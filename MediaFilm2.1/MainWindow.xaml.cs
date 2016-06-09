@@ -1,4 +1,6 @@
-﻿using MediaFilm2._1.Res;
+﻿using MediaFilm2._1.Modelo;
+using MediaFilm2._1.Modelo.XML;
+using MediaFilm2._1.Res;
 using MediaFilm2._1.Vista;
 using System;
 using System.Collections.Generic;
@@ -23,9 +25,29 @@ namespace MediaFilm2._1
     /// </summary>
     public partial class MainWindow : Window
     {
+
+
+        public static Configuracion config;
+        public static XMLLogger IOLogger;
+        public static XMLLogger ErrorLogger;
+        public static XMLEstadisticas EstadisticasXML;
+        public static XMLSeries SeriesXML;
+     public static   XMLPatron PatronesXML;
+
+
+
+
         public MainWindow()
         {
             InitializeComponent();
+
+            config = (Configuracion)new XMLConfiguracion().leerXML();
+            IOLogger = new XMLLogger(config.ficheroIOLog);
+            ErrorLogger = new XMLLogger(config.ficheroErrorLog);
+            EstadisticasXML = new XMLEstadisticas(config.ficheroTiempos);
+            SeriesXML = new XMLSeries(config.ficheroSeries, config.ficheroSerieLogger, config.ficheroPatrones, config.ficheroPatronLog);
+            PatronesXML = new XMLPatron(config.ficheroPatrones, config.ficheroPatronLog);
+
 
             if (!File.Exists(Recursos.CONFIG_URL))
             {
