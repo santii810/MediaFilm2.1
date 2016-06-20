@@ -28,3 +28,4 @@ C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Vista\Descargas
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Vista\GestionarDatosPage.baml
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Vista\MantenimientoPage.baml
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Vista\OrdenarPage.baml
+C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Res\Diccionarios\DiccionarioExterno.baml

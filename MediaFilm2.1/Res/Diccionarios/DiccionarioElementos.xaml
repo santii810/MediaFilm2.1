@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:MediaFilm2._1.Diccionarios">
 
-<!--#region MenuPrincipal-->
+<!--#region Labels-->
     <Style x:Key="LabelMenu" TargetType="{x:Type Label}">
         <Setter Property="FontSize" Value="17"/>
         <Setter Property="FontWeight" Value="Bold"/>
@@ -10,13 +10,7 @@
         <Setter Property="HorizontalAlignment" Value="Center"/>
     </Style>
     
-    <Style x:Key="ImageMenu" TargetType="{x:Type Image}">
-        <Setter Property="Height" Value="100"/>
-        <Setter Property="Margin" Value="0,11,0,0"/>
-    </Style>
-    <!--#endregion MenuPrincipal-->
 
-    <!--#region MenuSecundario-->
     <Style x:Key="LabelMenuSecundario" TargetType="{x:Type Label}">
         <Setter Property="FontSize" Value="22"/>
         <Setter Property="FontWeight" Value="Bold"/>
@@ -25,14 +19,6 @@
         <Setter Property="Margin" Value="10,0,10,0"/>
     </Style>
         
-    <Style x:Key="ImageMenuSecundario" TargetType="{x:Type Image}">
-        <Setter Property="Height" Value="150"/>
-        <Setter Property="Margin" Value="15,0,0,0"/>
-    </Style>
-    <!--#endregion MenuSecundario-->
-
-
-    <!--#region Mostrar datos-->
     <Style x:Key="LabelTituloCuadros" TargetType="{x:Type Label}">
         <Setter Property="FontSize" Value="22"/>
         <Setter Property="FontWeight" Value="Bold"/>
@@ -43,14 +29,34 @@
 
     <Style x:Key="LabelListas" TargetType="{x:Type Label}">
         <Setter Property="FontSize" Value="16"/>
-        <!--<Setter Property="FontWeight" Value="Bold"/>-->
         <Setter Property="FontFamily" Value="Tempus Sans ITC"/>
         <Setter Property="HorizontalAlignment" Value="Stretch"/>
         <Setter Property="Margin" Value="10,0"/>
     </Style>
-    
-    
-    <!--#endregion Mostrar datos-->
+
+
+    <!--#endregion Labels-->
+
+    <!--#region Images-->
+    <Style x:Key="ImageMenu" TargetType="{x:Type Image}">
+        <Setter Property="Height" Value="100"/>
+        <Setter Property="Margin" Value="0,11,0,0"/>
+    </Style>
+
+    <Style x:Key="ImageMenuSecundario" TargetType="{x:Type Image}">
+        <Setter Property="Height" Value="150"/>
+        <Setter Property="Margin" Value="15,0,0,0"/>
+    </Style>
+    <!--#endregion Images-->
+
+
+    <!--#region TextBox-->
+    <Style x:Key="TextBox" TargetType="{x:Type TextBox}">
+        <Setter Property="TextAlignment" Value="Right"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="16"/>
+    </Style>
+    <!--#endregion TextBox-->
 
 
 </ResourceDictionary>

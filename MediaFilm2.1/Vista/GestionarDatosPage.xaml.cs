@@ -24,5 +24,42 @@ namespace MediaFilm2._1.Vista
         {
             InitializeComponent();
         }
+
+        private void textBoxNumeroTemporadas_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void textBoxCapitulosTemporada_KeyDown(object sender, KeyEventArgs e)
+        {
+
+        }
+
+        private void ImageAddSerie_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void ImageAddPatron_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void ImageIOSerie_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void ImageIncTemp_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void ButtonAñadirSerie_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+      
     }
 }

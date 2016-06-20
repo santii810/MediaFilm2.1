@@ -19,9 +19,18 @@
     <Style x:Key="StackPanelListas" TargetType="{x:Type StackPanel}">
         <Setter Property="Orientation" Value="Vertical"/>
     </Style>
+    <Style x:Key="StackPanelAddSerie" TargetType="{x:Type StackPanel}">
+        <Setter Property="Orientation" Value="Vertical"/>
+        <Setter Property="Width" Value="320"/>
+        <Setter Property="Height" Value="250"/>
+        <Setter Property="Margin" Value="50"/>
+    </Style>
+
+
     <Style x:Key="Scroll" TargetType="{x:Type ScrollViewer}">
         <Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
         <Setter Property="HorizontalScrollBarVisibility" Value="Auto"/>
         <Setter Property="Height" Value="210"/>
     </Style>
+    
 </ResourceDictionary>

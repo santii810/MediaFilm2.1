@@ -24,6 +24,18 @@
     <system:String x:Key="strInformacionEjecucion">Información de ejecución:</system:String>
     <system:String x:Key="strPatronesEjecutados">Patrones ejecutados:</system:String>
     <system:String x:Key="strSeriesActivas">Series activas:</system:String>
-
     <!--#endregion OrdenarPage -->
+    
+    <!--#region Gestionar datos-->
+    <system:String x:Key="strAddSerie">Añadir serie</system:String>
+    <system:String x:Key="strAddPatron">Añadir patron</system:String>
+    <system:String x:Key="strIOSerie">I/O serie</system:String>
+    <system:String x:Key="strModTemporadas">+/- Temporadas</system:String>
+
+    <system:String x:Key="strTitulo">Título:</system:String>
+    <system:String x:Key="strTemporadas">Temporadas:</system:String>
+    <system:String x:Key="strCapitulos">Capítulos:</system:String>
+    <system:String x:Key="strExtension">Extension</system:String>
+
+    <!--#endregion Gestionar datos-->
 </ResourceDictionary>
