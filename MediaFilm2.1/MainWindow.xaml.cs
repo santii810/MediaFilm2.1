@@ -63,30 +63,30 @@ namespace MediaFilm2._1
 
         private void ImageOrdenar_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            UpdateUI.updateMainWindow(Codigos.MOSTRAR_ORDENAR_PAGE, this);
+            UpdateUI.updateMainWindow(Codigos.MAIN_MOSTRAR_ORDENAR_PAGE, this);
         }
 
         private void ImageGestionarDatos_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            UpdateUI.updateMainWindow(Codigos.MOSTRAR_GESTIONAR_DATOS_PAGE, this);
+            UpdateUI.updateMainWindow(Codigos.MAIN_MOSTRAR_GESTIONAR_DATOS_PAGE, this);
 
         }
 
         private void ImageMantenimiento_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            UpdateUI.updateMainWindow(Codigos.MOSTRAR_MANTENIMIENTO_PAGE, this);
+            UpdateUI.updateMainWindow(Codigos.MAIN_MOSTRAR_MANTENIMIENTO_PAGE, this);
 
         }
 
         private void ImageDescargas_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            UpdateUI.updateMainWindow(Codigos.MOSTRAR_DESCARGAS_PAGE, this);
+            UpdateUI.updateMainWindow(Codigos.MAIN_MOSTRAR_DESCARGAS_PAGE, this);
 
         }
 
         private void ImageConfiguracion_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            UpdateUI.updateMainWindow(Codigos.MOSTRAR_CONFIG_PAGE, this);
+            UpdateUI.updateMainWindow(Codigos.MAIN_MOSTRAR_CONFIG_PAGE, this);
 
         }
     }

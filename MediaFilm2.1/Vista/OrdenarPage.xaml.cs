@@ -60,7 +60,7 @@ namespace MediaFilm2._1.Vista
                 enEjecucion = true;
                 this.Cursor = Cursors.Wait;
 
-                UpdateUI.updateOrdenarPage(Codigos.RESULTADO_RECOGER_VIDEOS, this);
+                UpdateUI.updateOrdenarPage(Codigos.ORDENAR_RESULTADO_RECOGER_VIDEOS, this);
 
                 //Limpieza de antiguos resultados
                 PanelResultadoErroresBorrando.Children.Clear();
@@ -128,7 +128,7 @@ namespace MediaFilm2._1.Vista
 
         private void ImageRenombrarVideos_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            UpdateUI.updateOrdenarPage(Codigos.RESULTADO_RENOMBRAR_VIDEOS, this);
+            UpdateUI.updateOrdenarPage(Codigos.ORDENAR_RESULTADO_RENOMBRAR_VIDEOS, this);
 
             //Limpieza de antiguos resultados
             PanelResultadoErroresRenombrando.Children.Clear();

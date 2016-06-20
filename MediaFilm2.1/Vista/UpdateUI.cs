@@ -13,24 +13,24 @@ namespace MediaFilm2._1.Vista
     {
         internal static void updateMainWindow(int cod, MainWindow xaml)
         {
-                    colapsarTodo(xaml);
+            colapsarTodo(xaml);
             switch (cod)
             {
                 case Codigos.ESTADO_INICIAL:
                     break;
-                case Codigos.MOSTRAR_ORDENAR_PAGE:
+                case Codigos.MAIN_MOSTRAR_ORDENAR_PAGE:
                     xaml.frameOrdenar.Visibility = Visibility.Visible;
                     break;
-                case Codigos.MOSTRAR_GESTIONAR_DATOS_PAGE:
+                case Codigos.MAIN_MOSTRAR_GESTIONAR_DATOS_PAGE:
                     xaml.frameGestionarDatos.Visibility = Visibility.Visible;
                     break;
-                case Codigos.MOSTRAR_MANTENIMIENTO_PAGE:
+                case Codigos.MAIN_MOSTRAR_MANTENIMIENTO_PAGE:
                     xaml.frameMantenimiento.Visibility = Visibility.Visible;
                     break;
-                case Codigos.MOSTRAR_DESCARGAS_PAGE:
+                case Codigos.MAIN_MOSTRAR_DESCARGAS_PAGE:
                     xaml.frameDescargas.Visibility = Visibility.Visible;
                     break;
-                case Codigos.MOSTRAR_CONFIG_PAGE:
+                case Codigos.MAIN_MOSTRAR_CONFIG_PAGE:
                     xaml.frameConfiguracion.Visibility = Visibility.Visible;
                     break;
             }
@@ -38,22 +38,45 @@ namespace MediaFilm2._1.Vista
 
         internal static void updateOrdenarPage(int cod, OrdenarPage xaml)
         {
-                    colapsarTodo(xaml);
+            colapsarTodo(xaml);
             switch (cod)
             {
                 case Codigos.ESTADO_INICIAL:
                     break;
-                case Codigos.RESULTADO_RECOGER_VIDEOS:
+                case Codigos.ORDENAR_RESULTADO_RECOGER_VIDEOS:
                     xaml.PanelResultadoRecogerVideos.Visibility = Visibility.Visible;
                     xaml.PanelTiemposRecogerVideos.Visibility = Visibility.Visible;
                     xaml.labelDirectoriosBorrados.Visibility = Visibility.Visible;
                     xaml.labelTituloDirectoriosBorrados.Visibility = Visibility.Visible;
                     break;
-                case Codigos.RESULTADO_RENOMBRAR_VIDEOS:
+                case Codigos.ORDENAR_RESULTADO_RENOMBRAR_VIDEOS:
                     xaml.PanelResultadoRenombrarVideos.Visibility = Visibility.Visible;
                     xaml.PanelTiemposRecogerVideos.Visibility = Visibility.Visible;
                     break;
             }
+        }
+
+        internal static void updateGestionarDatos(int cod, GestionarDatosPage xaml)
+        {
+            colapsarTodo(xaml);
+            switch (cod)
+            {
+                case Codigos.GESTIONAR_DATOS_ADD_SERIE:
+                    xaml.panelAddSerie.Visibility = Visibility.Visible;
+                    break;
+                case Codigos.GESTIONAR_DATOS_ADD_SERIE_OK:
+                    xaml.panelAddSerie.Visibility = Visibility.Visible;
+                    xaml.textBoxCapitulosTemporada.Text = "";
+                    xaml.textBoxNumeroTemporadas.Text = "";
+                    xaml.textBoxTitulo.Text = "";
+                    break;
+            }
+        }
+
+        private static void colapsarTodo(GestionarDatosPage xaml)
+        {
+            xaml.panelAddSerie.Visibility = Visibility.Collapsed;
+
         }
 
         private static void colapsarTodo(OrdenarPage xaml)

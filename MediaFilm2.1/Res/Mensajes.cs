@@ -9,11 +9,17 @@ namespace MediaFilm2._1.Res
 {
     public static class Mensajes
     {
+        //Ordenar
         public const string ADD_PATRON_OK = "Patron añadido correctamente";
         public const string ADD_SERIE_OK = "Serie añadida correctamente";
         public const string FICHERO_BORRADO_OK = "Fichero borrado correctamente";
         public const string FICHERO_RENOMBRADO_OK = "Fichero renombrado correctamente";
         public const string FICHERO_MOVIDO_OK = "Fichero movido correctamente";
+        // GestorDatos
+        public const string TITULO_SERIE_VACIO = "El titulo de la serie no puede estar vacio";
+        public const string TITULO_SERIE_NOK = "El titulo de la serie debe ser de al menos 3 caracteres";
+        public const string SERIE_ADDED_OK = "Serie añadida correctamente";
+        public const string SERIE_ADD_ERROR = "Datos insertados incorrectos";
 
         public static string directorioNoEncontrado(string nombreDirectorio) {
             return "Directorio " + nombreDirectorio+" no encontrado";

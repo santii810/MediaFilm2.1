@@ -15,7 +15,7 @@
         <Frame Name="frameDescargas" Visibility="Collapsed"/>
         <Frame Name="frameConfiguracion" Visibility="Collapsed"/>
 
-        <StackPanel Orientation="Horizontal">
+        <StackPanel Orientation="Horizontal" Margin="0,0,15,0">
             <Border Style="{StaticResource BorderNegro}">
                 <StackPanel Height="730" Width="150" >
                     <StackPanel Orientation="Vertical" >
