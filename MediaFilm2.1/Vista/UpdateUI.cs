@@ -72,7 +72,17 @@ namespace MediaFilm2._1.Vista
                     break;
                 case Codigos.GESTIONAR_DATOS_ADD_PATRON:
                     xaml.panelAddPatron.Visibility = Visibility.Visible;
-
+                    xaml.panelFicherosARenombrar.Visibility = Visibility.Visible;
+                    break;
+                case Codigos.GESTIONAR_DATOS_ADD_PATRON_SERIE_SELECCIONADA:
+                    xaml.panelAddPatron.Visibility = Visibility.Visible;
+                    xaml.panelFicherosARenombrar.Visibility = Visibility.Visible;
+                    xaml.panelPatronesActuales.Visibility = Visibility.Visible;
+                    xaml.panelInsertarPatron.Visibility = Visibility.Visible;
+                    break;
+                case Codigos.GESTIONAR_DATOS_ADD_PATRON_OK:
+                    xaml.textBoxNuevoPatron.Text = "";
+                    updateGestionarDatos(Codigos.GESTIONAR_DATOS_ADD_PATRON_SERIE_SELECCIONADA, xaml);
                     break;
             }
         }
@@ -81,6 +91,9 @@ namespace MediaFilm2._1.Vista
         {
             xaml.panelAddSerie.Visibility = Visibility.Collapsed;
             xaml.panelAddPatron.Visibility = Visibility.Collapsed;
+            xaml.panelInsertarPatron.Visibility = Visibility.Collapsed;
+            xaml.panelPatronesActuales.Visibility = Visibility.Collapsed;
+            xaml.panelFicherosARenombrar.Visibility = Visibility.Collapsed;
 
 
         }

@@ -47,5 +47,10 @@ namespace MediaFilm2._1.Vista
 
             return tmpPanel;
         }
+
+        internal static UIElement LabelFicherosARenombrar(object name)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

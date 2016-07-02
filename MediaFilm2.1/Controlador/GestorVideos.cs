@@ -183,6 +183,17 @@ namespace MediaFilm2._1.Controlador
 
         }
 
+        public static FileSystemInfo[] getFicherosARenombrar()
+        {
+            DirectoryInfo dir = new DirectoryInfo(MainWindow.config.directorioTrabajo);
+            if (!dir.Exists)
+            {
+                MessageBox.Show(Mensajes.DIRECTORIO_TRABAJO_NO_ENCONTRADO);
+                return null;
+            }
+
+            return dir.GetFileSystemInfos();
+        }
 
         #region Private clases
 

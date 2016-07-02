@@ -1,7 +1,9 @@
-﻿using MediaFilm2._1.Modelo;
+﻿using MediaFilm2._1.Controlador;
+using MediaFilm2._1.Modelo;
 using MediaFilm2._1.Res;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -44,11 +46,19 @@ namespace MediaFilm2._1.Vista
         /// Funcion que se lanza como manejador del boton de "seleccionar" adjunto a cada lista de la serie
         /// </summary>
         /// <param name="item">The item.</param>
-        internal void seleccionarSerie(Serie item)
+        internal void seleccionarSerie(Serie serieSeleccionada)
         {
-            serieSeleccionada = item;
-            serieSeleccionada.leerPatrones();
+            this.serieSeleccionada = serieSeleccionada;
+            this.serieSeleccionada.leerPatrones();
+            this.panelListaPatronesActuales.Children.Clear();
+            foreach (Patron itPatrones in this.serieSeleccionada.patrones)
+            {
+                this.panelListaPatronesActuales.Children.Add(CrearVistas.LabelLista(itPatrones.textoPatron));
+            }
+            UpdateUI.updateGestionarDatos(Codigos.GESTIONAR_DATOS_ADD_PATRON_SERIE_SELECCIONADA, this);
         }
+
+
 
         private void textBoxCapitulosTemporada_KeyDown(object sender, KeyEventArgs e)
         {
@@ -69,11 +79,17 @@ namespace MediaFilm2._1.Vista
             this.panelSeleccionarSeriePatron.Children.Clear();
             series = MainWindow.SeriesXML.leerXML();
             series.Sort();
-            foreach (Serie item in series)
+            foreach (Serie itSerie in series)
             {
-                if(item.estado== "A")
-                this.panelSeleccionarSeriePatron.Children.Add(CrearVistas.PanelSeleccionarSerie(item, this));
+                if (itSerie.estado == "A")
+                    this.panelSeleccionarSeriePatron.Children.Add(CrearVistas.PanelSeleccionarSerie(itSerie, this));
             }
+
+            this.panelFicherosARenombrar.Children.Clear();
+            foreach (FileInfo itFichero in GestorVideos.getFicherosARenombrar())
+                if (itFichero.Extension.Equals(".mkv") || itFichero.Extension.Equals(".avi") || itFichero.Extension.Equals(".mp4"))
+                    panelFicherosARenombrar.Children.Add(CrearVistas.LabelLista(itFichero.Name));
+
         }
 
         private void ImageIOSerie_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -90,7 +106,7 @@ namespace MediaFilm2._1.Vista
         {
             try
             {
-                if (validarAddSerie(this))
+                if (validarAddSerie())
                 {
                     MainWindow.SeriesXML.insertar(new Serie
                     {
@@ -113,35 +129,35 @@ namespace MediaFilm2._1.Vista
 
 
 
-        private static bool validarAddSerie(GestionarDatosPage xaml)
+        private  bool validarAddSerie()
         {
-            if (xaml.textBoxTitulo.Text.Trim() == "")
+            if (textBoxTitulo.Text.Trim() == "")
             {
                 MessageBox.Show(Mensajes.TITULO_SERIE_VACIO);
                 return false;
             }
-            if (xaml.textBoxTitulo.Text.Trim().Length < 3)
+            if (textBoxTitulo.Text.Trim().Length < 3)
             {
                 MessageBox.Show(Mensajes.TITULO_SERIE_NOK);
                 return false;
             }
-            if (xaml.textBoxCapitulosTemporada.Text.Trim() == "")
+            if (this.textBoxCapitulosTemporada.Text.Trim() == "")
             {
-                xaml.textBoxCapitulosTemporada.Text = "25";
+                textBoxCapitulosTemporada.Text = "25";
             }
-            if (xaml.textBoxNumeroTemporadas.Text.Trim() == "")
+            if (textBoxNumeroTemporadas.Text.Trim() == "")
             {
-                xaml.textBoxNumeroTemporadas.Text = "1";
+                textBoxNumeroTemporadas.Text = "1";
             }
             return true;
         }
 
-        private static bool validarAddPatron(GestionarDatosPage xaml)
+        private bool validarAddPatron()
         {
-            //if (xaml.textBoxNuevoPatron.Text.Trim() == "")
-            //    return false;
-            //if (xaml.textBoxNuevoPatron.Text.Trim().Length < 2)
-            //    return false;
+            if (textBoxNuevoPatron.Text.Trim() == "")
+                return false;
+            if (textBoxNuevoPatron.Text.Trim().Length < 2)
+                return false;
             return true;
         }
 
@@ -152,7 +168,32 @@ namespace MediaFilm2._1.Vista
 
         private void Image_MouseLeave(object sender, MouseEventArgs e)
         {
-                this.Cursor = Cursors.Arrow;
+            this.Cursor = Cursors.Arrow;
         }
+
+        private void textBoxNuevoPatron_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                ButtonAddPatron_Click(new object(), new RoutedEventArgs());
+            }
+        }
+
+        private void ButtonAddPatron_Click(object sender, RoutedEventArgs e)
+        {
+            if (validarAddPatron())
+            {
+                MainWindow.PatronesXML.insertar(new Patron { nombreSerie = serieSeleccionada.titulo, textoPatron = textBoxNuevoPatron.Text.Trim() });
+                serieSeleccionada.leerPatrones();
+                UpdateUI.updateGestionarDatos( Codigos.GESTIONAR_DATOS_ADD_PATRON_OK,this);
+                seleccionarSerie(this.serieSeleccionada);
+            }
+            else
+            {
+                MessageBox.Show(Mensajes.PATRON_INVALIDO);
+            }
+        }
+
+  
     }
 }

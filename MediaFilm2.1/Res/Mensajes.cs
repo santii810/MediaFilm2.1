@@ -20,6 +20,8 @@ namespace MediaFilm2._1.Res
         public const string TITULO_SERIE_NOK = "El titulo de la serie debe ser de al menos 3 caracteres";
         public const string SERIE_ADDED_OK = "Serie añadida correctamente";
         public const string SERIE_ADD_ERROR = "Datos insertados incorrectos";
+        internal static readonly string DIRECTORIO_TRABAJO_NO_ENCONTRADO = "Directorio de trabajo no encontrado";
+        internal static string PATRON_INVALIDO = "Patron invalido";
 
         public static string directorioNoEncontrado(string nombreDirectorio) {
             return "Directorio " + nombreDirectorio+" no encontrado";
