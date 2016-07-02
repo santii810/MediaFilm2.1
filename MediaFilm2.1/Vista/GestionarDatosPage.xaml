@@ -14,7 +14,7 @@
             <RowDefinition Height="200"/>
             <RowDefinition Height="537"/>
         </Grid.RowDefinitions>
-        
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="205"/>
             <ColumnDefinition Width="205"/>
@@ -40,24 +40,26 @@
             <Image Source="..\Res\Iconos\abaco.png"  Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageIncTemp_MouseLeftButtonUp"/>
         </StackPanel>
 
-        <StackPanel Name="panelAddSerie" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" Style="{StaticResource StackPanelAddSerie}" Margin="50" VerticalAlignment="Center" Visibility="Visible">
-            <StackPanel Orientation="Horizontal" Style="{StaticResource StackPanelListas}">
-                <Label Content="{StaticResource strTitulo}"  Style="{StaticResource LabelTerciario}"/>
-                <TextBox Name="textBoxTitulo" Width="250" Style="{StaticResource TextBox}"/>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" Style="{StaticResource StackPanelListas}">
-                <Label Content="{StaticResource strTemporadas}"  Style="{StaticResource LabelTerciario}"/>
-                <TextBox Name="textBoxNumeroTemporadas" Width="250" Style="{StaticResource TextBox}" KeyDown="textBoxNumeroTemporadas_KeyDown"/>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" Style="{StaticResource StackPanelListas}">
-                <Label Content="{StaticResource strCapitulos}"  Style="{StaticResource LabelTerciario}"/>
-                <TextBox Name="textBoxCapitulosTemporada" Width="250" KeyDown="textBoxCapitulosTemporada_KeyDown" Style="{StaticResource TextBox}"/>
-            </StackPanel>
 
-            <Button Content="Añadir" Width="100" Height="25" Style="{StaticResource Button}" Click="ButtonAñadirSerie_Click"/>
-        </StackPanel>
-
-
+            <Grid Name="panelAddSerie" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="250"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="{StaticResource strTitulo}" Grid.Column="0" Grid.Row="0"  Style="{StaticResource LabelTerciario}"/>
+                <TextBox Name="textBoxTitulo" Width="250" Grid.Column="1" Grid.Row="0" Style="{StaticResource TextBox}"/>
+                <Label Content="{StaticResource strTemporadas}" Grid.Column="0" Grid.Row="1"  Style="{StaticResource LabelTerciario}"/>
+                <TextBox Name="textBoxNumeroTemporadas" Width="250" Grid.Column="1" Grid.Row="1"  Style="{StaticResource TextBox}" KeyDown="textBoxNumeroTemporadas_KeyDown"/>
+                <Label Content="{StaticResource strCapitulos}" Grid.Column="0" Grid.Row="2"  Style="{StaticResource LabelTerciario}"/>
+                <TextBox Name="textBoxCapitulosTemporada" Width="250" Grid.Column="1" Grid.Row="2"  KeyDown="textBoxCapitulosTemporada_KeyDown" Style="{StaticResource TextBox}"/>
+                <Button Content="Añadir" Width="100" Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="3"  Style="{StaticResource Button}" Click="ButtonAñadirSerie_Click"/>
+            </Grid>
 
     </Grid>
 </Page>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Logs>
   <Log tipo="Añadir patron" fecha="20/06/2016 22:18:00" mensaje="Patron añadido correctamente" patron="tmp" serie="tmp" />
+  <Log tipo="Añadir patron" fecha="02/07/2016 17:48:44" mensaje="Patron añadido correctamente" patron="dasf" serie="dasf" />
 </Logs>
