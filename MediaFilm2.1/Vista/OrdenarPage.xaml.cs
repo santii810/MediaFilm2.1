@@ -115,12 +115,12 @@ namespace MediaFilm2._1.Vista
                 this.Cursor = Cursors.Arrow;
             }
         }
-        private void ImageRecogerVideos_MouseEnter(object sender, MouseEventArgs e)
+        private void Images_MouseEnter(object sender, MouseEventArgs e)
         {
             if (!enEjecucion)
                 this.Cursor = Cursors.Hand;
         }
-        private void ImageRecogerVideos_MouseLeave(object sender, MouseEventArgs e)
+        private void Images_MouseLeave(object sender, MouseEventArgs e)
         {
             if (!enEjecucion)
                 this.Cursor = Cursors.Arrow;
@@ -222,15 +222,6 @@ namespace MediaFilm2._1.Vista
                 this.Cursor = Cursors.Arrow;
             }
         }
-        private void ImageRenombrarVideos_MouseEnter(object sender, MouseEventArgs e)
-        {
-            if (!enEjecucion)
-                this.Cursor = Cursors.Hand;
-        }
-        private void ImageRenombrarVideos_MouseLeave(object sender, MouseEventArgs e)
-        {
-            if (!enEjecucion)
-                this.Cursor = Cursors.Arrow;
-        }
+       
     }
 }
