@@ -23,7 +23,7 @@
         <Setter Property="OverridesDefaultStyle" Value="True"/>
         <Setter Property="Margin" Value="2"/>
         <Setter Property="FontFamily" Value="Verdana"/>
-        <Setter Property="FontSize" Value="11px"/>
+        <Setter Property="FontSize" Value="14px"/>
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="FocusVisualStyle" Value="{StaticResource MyFocusVisual}" />
         <Setter Property="Background" >
