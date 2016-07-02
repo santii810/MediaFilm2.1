@@ -25,19 +25,19 @@
 
         <StackPanel Orientation="Vertical"  Margin="10,0" Grid.Column="0" Grid.Row="0">
             <Label Content="{StaticResource strAddSerie}"  Style="{StaticResource LabelMenuSecundario}"/>
-            <Image Source="..\Res\Iconos\film.png"  Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageAddSerie_MouseLeftButtonUp"/>
+            <Image Source="..\Res\Iconos\film.png"  Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageAddSerie_MouseLeftButtonUp" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
         </StackPanel>
         <StackPanel Orientation="Vertical" Margin="10,0" Grid.Column="1" Grid.Row="0">
             <Label Content="{StaticResource strAddPatron}"  Style="{StaticResource LabelMenuSecundario}"/>
-            <Image Source="..\Res\Iconos\patron.png"   Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageAddPatron_MouseLeftButtonUp"/>
+            <Image Source="..\Res\Iconos\patron.png"   Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageAddPatron_MouseLeftButtonUp" Margin="13,0,2,0" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
         </StackPanel>
         <StackPanel Orientation="Vertical" Margin="10,0" Grid.Column="2" Grid.Row="0">
             <Label Content="{StaticResource strIOSerie}"  Style="{StaticResource LabelMenuSecundario}"/>
-            <Image Source="..\Res\Iconos\IO.png"  Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageIOSerie_MouseLeftButtonUp"/>
+            <Image Source="..\Res\Iconos\IO.png"  Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageIOSerie_MouseLeftButtonUp" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
         </StackPanel>
         <StackPanel Orientation="Vertical" Margin="10,0" Grid.Column="3" Grid.Row="0">
             <Label Content="{StaticResource strModTemporadas}"  Style="{StaticResource LabelMenuSecundario}"/>
-            <Image Source="..\Res\Iconos\abaco.png"  Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageIncTemp_MouseLeftButtonUp"/>
+            <Image Source="..\Res\Iconos\abaco.png"  Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageIncTemp_MouseLeftButtonUp" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
         </StackPanel>
 
 

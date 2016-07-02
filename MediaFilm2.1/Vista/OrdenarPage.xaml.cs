@@ -115,6 +115,7 @@ namespace MediaFilm2._1.Vista
                 this.Cursor = Cursors.Arrow;
             }
         }
+
         private void Images_MouseEnter(object sender, MouseEventArgs e)
         {
             if (!enEjecucion)

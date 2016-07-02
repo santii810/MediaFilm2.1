@@ -124,5 +124,15 @@ namespace MediaFilm2._1.Vista
             //    return false;
             return true;
         }
+
+        private void Image_MouseEnter(object sender, MouseEventArgs e)
+        {
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void Image_MouseLeave(object sender, MouseEventArgs e)
+        {
+                this.Cursor = Cursors.Arrow;
+        }
     }
 }
