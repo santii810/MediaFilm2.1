@@ -39,7 +39,7 @@
 
     <system:String x:Key="strSeries">Series</system:String>
     <system:String x:Key="strFicherosARenombrar">Ficheros a renombrar</system:String>
-    <system:String x:Key="strPatrones">Ficheros a renombrar</system:String>
+    <system:String x:Key="strPatrones">Patrones</system:String>
     <system:String x:Key="strTextoPatron">Texto patron</system:String>
     <!--#endregion Gestionar datos-->
 </ResourceDictionary>
