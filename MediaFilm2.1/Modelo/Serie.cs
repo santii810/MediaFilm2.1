@@ -19,7 +19,7 @@ namespace MediaFilm2._1.Modelo
 
 
 
-        public void leerPatrones(string ficheroPatrones, string ficheroPatronLog)
+        public void leerPatrones()
         {
            
             patrones = MainWindow.PatronesXML.leerXML(titulo);

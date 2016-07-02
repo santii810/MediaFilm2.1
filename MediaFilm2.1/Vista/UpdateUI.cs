@@ -70,12 +70,18 @@ namespace MediaFilm2._1.Vista
                     xaml.textBoxNumeroTemporadas.Text = "";
                     xaml.textBoxTitulo.Text = "";
                     break;
+                case Codigos.GESTIONAR_DATOS_ADD_PATRON:
+                    xaml.panelAddPatron.Visibility = Visibility.Visible;
+
+                    break;
             }
         }
 
         private static void colapsarTodo(GestionarDatosPage xaml)
         {
             xaml.panelAddSerie.Visibility = Visibility.Collapsed;
+            xaml.panelAddPatron.Visibility = Visibility.Collapsed;
+
 
         }
 

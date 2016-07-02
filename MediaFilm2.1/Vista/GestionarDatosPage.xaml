@@ -40,8 +40,8 @@
             <Image Source="..\Res\Iconos\abaco.png"  Style="{StaticResource ImageMenuSecundario}" MouseLeftButtonUp="ImageIncTemp_MouseLeftButtonUp" MouseEnter="Image_MouseEnter" MouseLeave="Image_MouseLeave"/>
         </StackPanel>
 
-
-        <Grid Name="panelAddSerie" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,150,0,0">
+        <!-- AÑADIR SERIE-->
+        <Grid Name="panelAddSerie" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,150,0,0" Visibility="Collapsed">
             <Grid.RowDefinitions>
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="40"/>
@@ -60,6 +60,27 @@
             <TextBox Name="textBoxCapitulosTemporada"  Grid.Column="1" Grid.Row="2"  KeyDown="textBoxCapitulosTemporada_KeyDown" Style="{StaticResource TextBox}"/>
             <Button Content="Añadir serie" Width="150"  Grid.Column="1" HorizontalAlignment="Left" Grid.Row="3"  Style="{StaticResource Button}" Click="ButtonAñadirSerie_Click"/>
         </Grid>
+
+        <!-- AÑADIR PATRON-->
+        <Grid Name="panelAddPatron"  Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="537"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="410"/>
+                <ColumnDefinition Width="410"/>
+            </Grid.ColumnDefinitions>
+            <Border Style="{StaticResource BorderBisque}">
+                <StackPanel>
+                    <Label Content="Series" Style="{StaticResource LabelMenuSecundario}" />
+                    <ScrollViewer  Height="460" VerticalScrollBarVisibility="Visible" Style="{StaticResource Scroll}">
+                        <StackPanel Name="panelSeleccionarSeriePatron" Orientation="Vertical"/>
+                    </ScrollViewer>
+
+                </StackPanel>
+            </Border>
+        </Grid>
+
 
     </Grid>
 </Page>

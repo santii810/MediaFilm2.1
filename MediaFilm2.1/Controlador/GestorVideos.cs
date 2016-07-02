@@ -54,7 +54,7 @@ namespace MediaFilm2._1.Controlador
                 if (itSerie.estado == "A")
                 {
                     renombrarVideosRequest.seriesActivas++;
-                    itSerie.leerPatrones(MainWindow.config.ficheroPatrones, MainWindow.config.ficheroPatronLog);
+                    itSerie.leerPatrones();
                     foreach (Patron itPatron in itSerie.patrones)
                     {
                         for (int temp = itSerie.temporadaActual; temp <= itSerie.numeroTemporadas; temp++)

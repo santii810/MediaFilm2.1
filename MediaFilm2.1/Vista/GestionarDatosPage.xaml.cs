@@ -22,12 +22,14 @@ namespace MediaFilm2._1.Vista
     /// </summary>
     public partial class GestionarDatosPage : Page
     {
-       
+        private List<Serie> series = new List<Serie>();
+        internal Serie serieSeleccionada;
 
         public GestionarDatosPage()
         {
             InitializeComponent();
             UpdateUI.updateGestionarDatos(Codigos.ESTADO_INICIAL, this);
+
         }
 
         private void textBoxNumeroTemporadas_KeyDown(object sender, KeyEventArgs e)
@@ -36,6 +38,16 @@ namespace MediaFilm2._1.Vista
                 e.Handled = false;
             else
                 e.Handled = true;
+        }
+
+        /// <summary>
+        /// Funcion que se lanza como manejador del boton de "seleccionar" adjunto a cada lista de la serie
+        /// </summary>
+        /// <param name="item">The item.</param>
+        internal void seleccionarSerie(Serie item)
+        {
+            serieSeleccionada = item;
+            serieSeleccionada.leerPatrones();
         }
 
         private void textBoxCapitulosTemporada_KeyDown(object sender, KeyEventArgs e)
@@ -53,7 +65,15 @@ namespace MediaFilm2._1.Vista
 
         private void ImageAddPatron_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-
+            UpdateUI.updateGestionarDatos(Codigos.GESTIONAR_DATOS_ADD_PATRON, this);
+            this.panelSeleccionarSeriePatron.Children.Clear();
+            series = MainWindow.SeriesXML.leerXML();
+            series.Sort();
+            foreach (Serie item in series)
+            {
+                if(item.estado== "A")
+                this.panelSeleccionarSeriePatron.Children.Add(CrearVistas.PanelSeleccionarSerie(item, this));
+            }
         }
 
         private void ImageIOSerie_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)

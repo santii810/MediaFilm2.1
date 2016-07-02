@@ -19,7 +19,8 @@ namespace MediaFilm2._1.Res
         public const int ORDENAR_RESULTADO_RENOMBRAR_VIDEOS = 11;
 
         public const int GESTIONAR_DATOS_ADD_SERIE = 20;
-        public const int  GESTIONAR_DATOS_ADD_SERIE_OK = 21;
-
+        public const int GESTIONAR_DATOS_ADD_SERIE_OK = 21;
+        public const int GESTIONAR_DATOS_ADD_PATRON =  22;
+        public const int GESTIONAR_DATOS_ADD_PATRON_OK =  23;
     }
 }

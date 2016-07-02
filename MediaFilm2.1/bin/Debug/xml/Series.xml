@@ -1314,13 +1314,4 @@
     </tituloDescarga>
     <estado>A</estado>
   </serie>
-  <serie titulo="dasf">
-    <titulo>dasf</titulo>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <tituloDescarga>
-    </tituloDescarga>
-    <estado>A</estado>
-  </serie>
-</Series>
+  </Series>
