@@ -82,7 +82,12 @@ namespace MediaFilm2._1.Vista
                     break;
                 case Codigos.GESTIONAR_DATOS_ADD_PATRON_OK:
                     xaml.textBoxNuevoPatron.Text = "";
+                    //Reseteo el panel a como si acabaramos de pulsar sobre el
                     updateGestionarDatos(Codigos.GESTIONAR_DATOS_ADD_PATRON_SERIE_SELECCIONADA, xaml);
+                    break;
+                case Codigos.GESTIONAR_DATOS_IO_SERIE:
+                    xaml.panelIOSerie.Visibility = Visibility.Visible;
+
                     break;
             }
         }
@@ -94,6 +99,7 @@ namespace MediaFilm2._1.Vista
             xaml.panelInsertarPatron.Visibility = Visibility.Collapsed;
             xaml.panelPatronesActuales.Visibility = Visibility.Collapsed;
             xaml.panelFicherosARenombrar.Visibility = Visibility.Collapsed;
+            xaml.panelIOSerie.Visibility = Visibility.Collapsed;
 
 
         }

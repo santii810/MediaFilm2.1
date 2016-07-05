@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -26,6 +27,8 @@ namespace MediaFilm2._1.Vista
     {
         private List<Serie> series = new List<Serie>();
         internal Serie serieSeleccionada;
+
+       
 
         public GestionarDatosPage()
         {
@@ -92,14 +95,70 @@ namespace MediaFilm2._1.Vista
 
         }
 
-        private void ImageIOSerie_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        internal void circuloEstado_MouseUp(object sender, MouseButtonEventArgs e)
         {
+            Thread t1 = new Thread(imagenIO_CambiarEstado1_Handler);
+            Thread t2 = new Thread(imagenIO_CambiarEstado2_Handler);
+            Thread t3 = new Thread(updatePanelIOSeries);
+
+            //doble click
+            if (e.ChangedButton == MouseButton.Left && e.ClickCount == 2)
+            {
+                t2.Start();
+                t1.Abort();
+            }
+            else
+                t1.Start();
+
+            updatePanelIOSeries();
+        }
+
+        internal void imagenIO_CambiarEstado1_Handler()
+        {
+            Thread.Sleep(100);
+            if (serieSeleccionada.estado == "A")
+                serieSeleccionada.estado = "D";
+            else if (serieSeleccionada.estado == "D")
+                serieSeleccionada.estado = "A";
+            MainWindow.SeriesXML.updateSerie(serieSeleccionada);
+        }
+        internal void imagenIO_CambiarEstado2_Handler()
+        {
+            if (serieSeleccionada.estado == "F")
+                serieSeleccionada.estado = "A";
+            else
+                serieSeleccionada.estado = "F";
+            MainWindow.SeriesXML.updateSerie(serieSeleccionada);
+        }
+   
+
+      
+        private void updatePanelIOSeries()
+        {
+            Thread.Sleep(200);
+            series = MainWindow.SeriesXML.leerXML();
+            series.Sort();
+
+            this.panelListaIOSerie.Children.Clear();
+            foreach (var item in series)
+            {
+                this.panelListaIOSerie.Children.Add(CrearVistas.PanelEstadoSerie(item, this));
+            }
 
         }
 
+        private void ImageIOSerie_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            UpdateUI.updateGestionarDatos(Codigos.GESTIONAR_DATOS_IO_SERIE, this);
+            updatePanelIOSeries();
+            
+        }
+
+
+
         private void ImageIncTemp_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-
+            
         }
 
         private void ButtonAñadirSerie_Click(object sender, RoutedEventArgs e)
@@ -129,7 +188,7 @@ namespace MediaFilm2._1.Vista
 
 
 
-        private  bool validarAddSerie()
+        private bool validarAddSerie()
         {
             if (textBoxTitulo.Text.Trim() == "")
             {
@@ -185,7 +244,7 @@ namespace MediaFilm2._1.Vista
             {
                 MainWindow.PatronesXML.insertar(new Patron { nombreSerie = serieSeleccionada.titulo, textoPatron = textBoxNuevoPatron.Text.Trim() });
                 serieSeleccionada.leerPatrones();
-                UpdateUI.updateGestionarDatos( Codigos.GESTIONAR_DATOS_ADD_PATRON_OK,this);
+                UpdateUI.updateGestionarDatos(Codigos.GESTIONAR_DATOS_ADD_PATRON_OK, this);
                 seleccionarSerie(this.serieSeleccionada);
             }
             else
@@ -194,6 +253,6 @@ namespace MediaFilm2._1.Vista
             }
         }
 
-  
+
     }
 }

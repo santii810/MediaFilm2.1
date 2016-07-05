@@ -62,7 +62,7 @@
         </Grid>
 
         <!-- AÑADIR PATRON-->
-        <Grid Name="panelAddPatron"  Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center">
+        <Grid Name="panelAddPatron"  Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Collapsed">
             <Grid.RowDefinitions>
                 <RowDefinition Height="250"/>
                 <RowDefinition MaxHeight="200"/>
@@ -103,12 +103,20 @@
             <Border Name="panelInsertarPatron" Style="{StaticResource BorderBisque}" Grid.Column="1" Grid.Row="2">
                 <StackPanel Orientation="Horizontal">
                     <Label Content="{StaticResource strTextoPatron}" Style="{StaticResource LabelTerciario}"/>
-                        <TextBox Name="textBoxNuevoPatron" Width="170" Margin="2" Style="{StaticResource TextBox}" KeyDown="textBoxNuevoPatron_KeyDown"/>
-                        <Button Content="Añadir" Style="{StaticResource Button}" Click="ButtonAddPatron_Click"/>
+                    <TextBox Name="textBoxNuevoPatron" Width="170" Margin="2" Style="{StaticResource TextBox}" KeyDown="textBoxNuevoPatron_KeyDown"/>
+                    <Button Content="Añadir" Style="{StaticResource Button}" Click="ButtonAddPatron_Click"/>
                 </StackPanel>
             </Border>
         </Grid>
 
-
+        <!-- I/O Serie-->
+        <StackPanel Name="panelIOSerie" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center">
+            <Label Content="{StaticResource strEstadoSerie}" Style="{StaticResource LabelMenuSecundario}"></Label>
+            <Border Style="{StaticResource BorderBisque}">
+                <ScrollViewer Height="460" Style="{StaticResource Scroll}">
+                    <StackPanel Name="panelListaIOSerie"/>
+                </ScrollViewer>
+            </Border>
+        </StackPanel>
     </Grid>
 </Page>

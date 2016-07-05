@@ -42,4 +42,9 @@
     <system:String x:Key="strPatrones">Patrones</system:String>
     <system:String x:Key="strTextoPatron">Texto patron</system:String>
     <!--#endregion Gestionar datos-->
+    
+    <!--#region IOSerie-->
+    <system:String x:Key="strEstadoSerie">Estado serie</system:String>
+
+    <!--#endregion IOSerie-->
 </ResourceDictionary>

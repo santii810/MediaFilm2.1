@@ -6,7 +6,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>666_Park_Avenue</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Agents of SHIELD">
     <titulo>Agents of SHIELD</titulo>
@@ -46,7 +46,7 @@
     <numeroTemporadas>10</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>American_dad</tituloDescarga>
-    <estado>D</estado>
+    <estado>A</estado>
   </serie>
   <serie titulo="American Summer">
     <titulo>American Summer</titulo>
@@ -1314,4 +1314,4 @@
     </tituloDescarga>
     <estado>A</estado>
   </serie>
-  </Series>
+</Series>

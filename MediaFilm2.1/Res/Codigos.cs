@@ -23,5 +23,18 @@ namespace MediaFilm2._1.Res
         public const int GESTIONAR_DATOS_ADD_PATRON =  22;
         public const int GESTIONAR_DATOS_ADD_PATRON_OK =  23;
         public const int GESTIONAR_DATOS_ADD_PATRON_SERIE_SELECCIONADA = 24;
+        internal const int GESTIONAR_DATOS_IO_SERIE = 25;
+
+
+
+
+
+
+
+        public const int PUNTO_VERDE = 100;
+        public const int PUNTO_AMARILLO = 101;
+        public const int PUNTO_ROJO = 102;
+        public const int PUNTO_AZUL = 103;
+
     }
 }
