@@ -111,6 +111,7 @@
 
         <!-- I/O Serie-->
         <StackPanel Name="panelIOSerie" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center">
+            
             <Label Content="{StaticResource strEstadoSerie}" Style="{StaticResource LabelMenuSecundario}"></Label>
             <Border Style="{StaticResource BorderBisque}">
                 <ScrollViewer Height="460" Style="{StaticResource Scroll}">

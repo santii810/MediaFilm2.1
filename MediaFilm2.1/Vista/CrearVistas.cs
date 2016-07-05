@@ -51,21 +51,27 @@ namespace MediaFilm2._1.Vista
             return tmpPanel;
         }
 
-        internal static UIElement PanelEstadoSerie(Serie serie, GestionarDatosPage xaml)
+        internal static UIElement PanelEstadoSerie(Serie serie, GestionarDatosPage xaml, int i)
         {
             StackPanel tmpPanel = new StackPanel();
             tmpPanel.Orientation = Orientation.Horizontal;
             tmpPanel.HorizontalAlignment = HorizontalAlignment.Center;
+            tmpPanel.Width = 350;
+            if (i % 2 == 1)
+                tmpPanel.Background = new SolidColorBrush(Color.FromRgb(213, 215, 220));
+
 
 
             Label tmpLabelTitulo = new Label();
             tmpLabelTitulo.Content = serie.titulo;
             tmpLabelTitulo.Style = (Style)Application.Current.Resources["LabelListas"];
             tmpLabelTitulo.Width = 250;
+            tmpLabelTitulo.HorizontalAlignment = HorizontalAlignment.Center;
             tmpPanel.Children.Add(tmpLabelTitulo);
 
 
             Image circuloEstado = new Image();
+            circuloEstado.HorizontalAlignment = HorizontalAlignment.Center;
             if (serie.estado == "A")
                 circuloEstado.Source = getPunto(Codigos.PUNTO_VERDE);
             else if (serie.estado == "D")
@@ -80,7 +86,7 @@ namespace MediaFilm2._1.Vista
             circuloEstado.MouseDown += new System.Windows.Input.MouseButtonEventHandler(xaml.circuloEstado_MouseUp);
             tmpPanel.Children.Add(circuloEstado);
 
-         
+
 
             return tmpPanel;
         }

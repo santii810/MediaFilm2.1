@@ -70,7 +70,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Apocalipsis_en_el_instituto</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Arrow">
     <titulo>Arrow</titulo>
@@ -166,7 +166,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>BloodLine</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Boardwalk Empire">
     <titulo>Boardwalk Empire</titulo>
@@ -262,7 +262,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Daredevil</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Dates">
     <titulo>Dates</titulo>
@@ -342,7 +342,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>El_ultimo_hombre_en_la_tierra</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Elementary">
     <titulo>Elementary</titulo>
@@ -430,7 +430,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Fortitude</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Fringe">
     <titulo>Fringe</titulo>
@@ -446,7 +446,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Generation_kill</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Getting on">
     <titulo>Getting on</titulo>
@@ -462,7 +462,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Gotham</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Grace and Frankie">
     <titulo>Grace and Frankie</titulo>
@@ -478,7 +478,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Graceland</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Hannibal">
     <titulo>Hannibal</titulo>
@@ -486,7 +486,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Hannibal</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Hart of Dixie">
     <titulo>Hart of Dixie</titulo>
@@ -502,7 +502,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Helix</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Hello ladies">
     <titulo>Hello ladies</titulo>
@@ -510,7 +510,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Hello_ladies</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Hemlock grove">
     <titulo>Hemlock grove</titulo>
@@ -518,7 +518,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Hemlock_grove</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Heroes Reborn">
     <titulo>Heroes Reborn</titulo>
@@ -526,7 +526,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Heroes_Reborn</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Hijos del tercer Reich">
     <titulo>Hijos del tercer Reich</titulo>
@@ -534,7 +534,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Hijos_del_tercer_Reich</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Hope">
     <titulo>Hope</titulo>
@@ -542,7 +542,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Hope</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="House of cards">
     <titulo>House of cards</titulo>
@@ -550,7 +550,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>House_of_cards</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="House of lies">
     <titulo>House of lies</titulo>
@@ -558,7 +558,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>House_of_lies</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="In the flesh">
     <titulo>In the flesh</titulo>
@@ -574,7 +574,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Inteligence</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Into the badlands">
     <titulo>Into the badlands</titulo>
@@ -582,7 +582,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Into_the_badlands</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Invisible">
     <titulo>Invisible</titulo>
@@ -590,7 +590,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Invisible</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Killjoys">
     <titulo>Killjoys</titulo>
@@ -654,7 +654,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Los_crimenes_de_Fjallbacka</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Los farsantes">
     <titulo>Los farsantes</titulo>
@@ -686,7 +686,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Manhattan</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Manhattan Love Story">
     <titulo>Manhattan Love Story</titulo>
@@ -694,7 +694,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Manhattan_Love_Story</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Masters of sex">
     <titulo>Masters of sex</titulo>
@@ -734,7 +734,7 @@
     <numeroTemporadas>7</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Modern_Family</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Mom">
     <titulo>Mom</titulo>
@@ -750,7 +750,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Mozart_in_the_jungle</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Mr selfridge">
     <titulo>Mr selfridge</titulo>
@@ -758,7 +758,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Mr_selfridge</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Nashville">
     <titulo>Nashville</titulo>
@@ -774,7 +774,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Orange_is_the_new_black</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Outlander">
     <titulo>Outlander</titulo>
@@ -782,7 +782,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Outlander</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Padre de familia">
     <titulo>Padre de familia</titulo>
@@ -798,7 +798,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Peaky_Blinders</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Penny Dreadful">
     <titulo>Penny Dreadful</titulo>
@@ -806,7 +806,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Penny_Dreadful</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Peque¤as mentirosas">
     <titulo>Peque¤as mentirosas</titulo>
@@ -830,7 +830,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Person_of_interest</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Powers">
     <titulo>Powers</titulo>
@@ -838,7 +838,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Powers</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Ray Donovan">
     <titulo>Ray Donovan</titulo>
@@ -846,7 +846,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Ray_Donovan</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Real humans">
     <titulo>Real humans</titulo>
@@ -854,7 +854,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Real_humans</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Recien llegados">
     <titulo>Recien llegados</titulo>
@@ -862,7 +862,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Recien_llegados</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Refugiados">
     <titulo>Refugiados</titulo>
@@ -886,7 +886,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Residue</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Revolution">
     <titulo>Revolution</titulo>
@@ -918,7 +918,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Scorpion</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Sense 8">
     <titulo>Sense 8</titulo>
@@ -926,7 +926,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Sense_8</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="ShadownHunters">
     <titulo>ShadownHunters</titulo>
@@ -934,7 +934,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>ShadownHunters</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Silicon Valley">
     <titulo>Silicon Valley</titulo>
@@ -942,7 +942,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Silicon_Valley</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Sleepy Hollow">
     <titulo>Sleepy Hollow</titulo>
@@ -966,7 +966,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Star_Wars_Rebels</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Suits">
     <titulo>Suits</titulo>
@@ -990,7 +990,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>The_Americans</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="The big bang theory">
     <titulo>The big bang theory</titulo>
@@ -998,7 +998,7 @@
     <numeroTemporadas>9</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>The_big_bang_theory</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="The blacklist">
     <titulo>The blacklist</titulo>
@@ -1006,7 +1006,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>The_blacklist</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="The Bridge">
     <titulo>The Bridge</titulo>
@@ -1030,7 +1030,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>The_Client_List</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="The crazy ones">
     <titulo>The crazy ones</titulo>
@@ -1038,7 +1038,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>The_crazy_ones</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="The Flash">
     <titulo>The Flash</titulo>
@@ -1062,7 +1062,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>The_frankenstein_chronicles</tituloDescarga>
-    <estado>A</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="The leftovers">
     <titulo>The leftovers</titulo>
@@ -1094,7 +1094,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>The_newsroom</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="The returned">
     <titulo>The returned</titulo>
@@ -1110,7 +1110,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>The_strain</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="The Walking Dead">
     <titulo>The Walking Dead</titulo>
@@ -1118,7 +1118,7 @@
     <numeroTemporadas>6</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>The_Walking_Dead</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="The Wrong Mans">
     <titulo>The Wrong Mans</titulo>
@@ -1134,7 +1134,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Transparent</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Transporter">
     <titulo>Transporter</titulo>
@@ -1158,7 +1158,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Unbreakable_Kimmy_Schmidt</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Vaya Vecinos">
     <titulo>Vaya Vecinos</titulo>
@@ -1182,7 +1182,7 @@
     <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Vikingos</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Vivo con modelos">
     <titulo>Vivo con modelos</titulo>
@@ -1190,7 +1190,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Vivo_con_modelos</tituloDescarga>
-    <estado>D</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Wilfred">
     <titulo>Wilfred</titulo>
@@ -1222,7 +1222,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Angie_Tribeca</tituloDescarga>
-    <estado>A</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Sin limites">
     <titulo>Sin limites</titulo>
@@ -1238,7 +1238,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Las_cronicas_de_shannara</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Ascension">
     <titulo>Ascension</titulo>
@@ -1262,7 +1262,7 @@
     <numeroTemporadas>25</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Los_simpson</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="The magicians">
     <titulo>The magicians</titulo>
@@ -1278,7 +1278,7 @@
     <numeroTemporadas>6</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Juego_de_tronos</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="New girl">
     <titulo>New girl</titulo>
@@ -1286,7 +1286,7 @@
     <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>New_girl</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="iZombie">
     <titulo>iZombie</titulo>
@@ -1294,7 +1294,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>iZombie</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="American horror story">
     <titulo>American horror story</titulo>
@@ -1303,7 +1303,7 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>
     </tituloDescarga>
-    <estado>A</estado>
+    <estado>F</estado>
   </serie>
   <serie titulo="Narcos">
     <titulo>Narcos</titulo>
@@ -1312,6 +1312,6 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>
     </tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
 </Series>
