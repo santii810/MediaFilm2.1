@@ -27,9 +27,6 @@ namespace MediaFilm2._1.Vista
     {
         private List<Serie> series = new List<Serie>();
         internal Serie serieSeleccionada;
-        Thread t1;
-        Thread t2;
-        private bool procesadoCambioBN;
 
         public GestionarDatosPage()
         {
@@ -98,16 +95,12 @@ namespace MediaFilm2._1.Vista
 
         internal void circuloEstado_MouseUp(object sender, MouseButtonEventArgs e)
         {
-            t1 = new Thread(imagenIO_CambiarEstado1_Handler);
-            t2 = new Thread(imagenIO_CambiarEstado2_Handler);
+            Thread t1 = new Thread(imagenIO_CambiarEstado1_Handler);
+            Thread t2 = new Thread(imagenIO_CambiarEstado2_Handler);
 
-            procesadoCambioBN = false;
             //doble click
             if (e.ChangedButton == MouseButton.Left && e.ClickCount == 2)
-            {
                 t2.Start();
-                procesadoCambioBN = true;
-            }
             else
                 t1.Start();
 
@@ -118,27 +111,21 @@ namespace MediaFilm2._1.Vista
         {
 
             Thread.Sleep(100);
-            if (!procesadoCambioBN)
-            {
-                if (serieSeleccionada.estado == "A")
-                    serieSeleccionada.estado = "D";
-                else if (serieSeleccionada.estado == "D")
-                    serieSeleccionada.estado = "A";
-                MainWindow.SeriesXML.updateSerie(serieSeleccionada);
-            }
+            if (serieSeleccionada.estado == "A")
+                serieSeleccionada.estado = "D";
+            else if (serieSeleccionada.estado == "D")
+                serieSeleccionada.estado = "A";
+            MainWindow.SeriesXML.updateSerie(serieSeleccionada);
 
 
         }
         internal void imagenIO_CambiarEstado2_Handler()
         {
-            Console.WriteLine("Cambiado a A 2");
             if (serieSeleccionada.estado == "F")
                 serieSeleccionada.estado = "A";
             else
                 serieSeleccionada.estado = "F";
             MainWindow.SeriesXML.updateSerie(serieSeleccionada);
-            Console.WriteLine("fin de t2");
-
         }
 
 
@@ -152,7 +139,7 @@ namespace MediaFilm2._1.Vista
             this.panelListaIOSerie.Children.Clear();
             for (int i = 0; i < series.Count; i++)
             {
-                this.panelListaIOSerie.Children.Add(CrearVistas.PanelEstadoSerie(series[i], this,i));
+                this.panelListaIOSerie.Children.Add(CrearVistas.PanelEstadoSerie(series[i], this, i));
             }
 
         }
@@ -168,7 +155,21 @@ namespace MediaFilm2._1.Vista
 
         private void ImageIncTemp_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
+            UpdateUI.updateGestionarDatos(Codigos.GESTIONAR_DATOS_TEMPORADAS, this);
+            updatePanelTemporadas();
 
+        }
+
+        public void updatePanelTemporadas()
+        {
+            series = MainWindow.SeriesXML.leerXML();
+            series.Sort();
+
+            this.panelListaTemporadas.Children.Clear();
+            for (int i = 0; i < series.Count; i++)
+            {
+                this.panelListaTemporadas.Children.Add(CrearVistas.PanelActualizarTemporadas(series[i], this, i));
+            }
         }
 
         private void ButtonAñadirSerie_Click(object sender, RoutedEventArgs e)

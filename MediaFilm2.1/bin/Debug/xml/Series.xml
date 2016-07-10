@@ -342,7 +342,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>El_ultimo_hombre_en_la_tierra</tituloDescarga>
-    <estado>D</estado>
+    <estado>A</estado>
   </serie>
   <serie titulo="Elementary">
     <titulo>Elementary</titulo>
@@ -459,10 +459,10 @@
   <serie titulo="Gotham">
     <titulo>Gotham</titulo>
     <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
+    <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Gotham</tituloDescarga>
-    <estado>D</estado>
+    <estado>A</estado>
   </serie>
   <serie titulo="Grace and Frankie">
     <titulo>Grace and Frankie</titulo>
@@ -734,7 +734,7 @@
     <numeroTemporadas>7</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Modern_Family</tituloDescarga>
-    <estado>D</estado>
+    <estado>A</estado>
   </serie>
   <serie titulo="Mom">
     <titulo>Mom</titulo>
@@ -1042,8 +1042,8 @@
   </serie>
   <serie titulo="The Flash">
     <titulo>The Flash</titulo>
-    <temporadaActual>5</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
+    <temporadaActual>2</temporadaActual>
+    <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>The_Flash</tituloDescarga>
     <estado>A</estado>

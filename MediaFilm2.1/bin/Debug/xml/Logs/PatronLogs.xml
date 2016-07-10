@@ -3,4 +3,11 @@
   <Log tipo="Añadir patron" fecha="20/06/2016 22:18:00" mensaje="Patron añadido correctamente" patron="tmp" serie="tmp" />
   <Log tipo="Añadir patron" fecha="02/07/2016 17:48:44" mensaje="Patron añadido correctamente" patron="dasf" serie="dasf" />
   <Log tipo="Añadir patron" fecha="02/07/2016 21:19:20" mensaje="Patron añadido correctamente" patron="445ad" serie="Bates Motel" />
+  <Log tipo="Añadir patron" fecha="05/07/2016 22:41:23" mensaje="Patron añadido correctamente" patron="Mfam" serie="Modern Family" />
+  <Log tipo="Añadir patron" fecha="05/07/2016 22:42:17" mensaje="Patron añadido correctamente" patron="mfam" serie="Modern Family" />
+  <Log tipo="Añadir patron" fecha="05/07/2016 22:42:50" mensaje="Patron añadido correctamente" patron="mfa" serie="Modern Family" />
+  <Log tipo="Añadir patron" fecha="05/07/2016 22:43:07" mensaje="Patron añadido correctamente" patron="tfl" serie="The Flash" />
+  <Log tipo="Añadir patron" fecha="05/07/2016 22:43:50" mensaje="Patron añadido correctamente" patron="goth" serie="Gotham" />
+  <Log tipo="Añadir patron" fecha="05/07/2016 22:44:36" mensaje="Patron añadido correctamente" patron="ltmoear" serie="El ultimo hombre en la tierra" />
+  <Log tipo="Añadir patron" fecha="05/07/2016 22:44:55" mensaje="Patron añadido correctamente" patron="tlmoear" serie="El ultimo hombre en la tierra" />
 </Logs>

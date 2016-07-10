@@ -16,6 +16,7 @@
         <Setter Property="FontWeight" Value="Bold"/>
         <Setter Property="FontFamily" Value="Tempus Sans ITC"/>
         <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
         <Setter Property="Margin" Value="10,0,10,0"/>
     </Style>
 

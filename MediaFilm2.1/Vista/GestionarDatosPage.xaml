@@ -110,14 +110,27 @@
         </Grid>
 
         <!-- I/O Serie-->
-        <StackPanel Name="panelIOSerie" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center">
-            
-            <Label Content="{StaticResource strEstadoSerie}" Style="{StaticResource LabelMenuSecundario}"></Label>
-            <Border Style="{StaticResource BorderBisque}">
+        <Border Name="panelIOSerie" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Collapsed" Style="{StaticResource BorderBisque}">
+            <StackPanel >
+                <Label Content="{StaticResource strEstadoSerie}" Style="{StaticResource LabelMenuSecundario}"></Label>
                 <ScrollViewer Height="460" Style="{StaticResource Scroll}">
                     <StackPanel Name="panelListaIOSerie"/>
                 </ScrollViewer>
-            </Border>
-        </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- +- Temporadas-->
+        <Border  Name="panelTemporadas" Style="{StaticResource BorderBisque}" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Collapsed">
+            <StackPanel >
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="{StaticResource strTemporadaActual}" HorizontalAlignment="Left" Style="{StaticResource LabelMenuSecundario}"></Label>
+                    <Label Content="{StaticResource strSerie}" Width="150" Style="{StaticResource LabelMenuSecundario}"></Label>
+                    <Label Content="{StaticResource strNumeroTemporadas}" HorizontalAlignment="Right" Style="{StaticResource LabelMenuSecundario}"/>
+                </StackPanel>
+                <ScrollViewer Height="460" Style="{StaticResource Scroll}">
+                    <StackPanel Name="panelListaTemporadas" HorizontalAlignment="Center"/>
+                </ScrollViewer>
+            </StackPanel>
+        </Border>
     </Grid>
 </Page>

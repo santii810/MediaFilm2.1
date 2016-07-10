@@ -45,6 +45,12 @@
     
     <!--#region IOSerie-->
     <system:String x:Key="strEstadoSerie">Estado serie</system:String>
-
     <!--#endregion IOSerie-->
+
+
+    <!--#region Temporadas-->
+    <system:String x:Key="strTemporadaActual">Temp. actual</system:String>
+    <system:String x:Key="strNumeroTemporadas">Nº de temp.</system:String>
+    <system:String x:Key="strSerie">Serie</system:String>
+    <!--#endregion Temporadas-->
 </ResourceDictionary>

@@ -87,8 +87,11 @@ namespace MediaFilm2._1.Vista
                     break;
                 case Codigos.GESTIONAR_DATOS_IO_SERIE:
                     xaml.panelIOSerie.Visibility = Visibility.Visible;
-
                     break;
+                case Codigos.GESTIONAR_DATOS_TEMPORADAS:
+                    xaml.panelTemporadas.Visibility = Visibility.Visible;
+                    break;
+
             }
         }
 
@@ -100,6 +103,8 @@ namespace MediaFilm2._1.Vista
             xaml.panelPatronesActuales.Visibility = Visibility.Collapsed;
             xaml.panelFicherosARenombrar.Visibility = Visibility.Collapsed;
             xaml.panelIOSerie.Visibility = Visibility.Collapsed;
+            xaml.panelTemporadas.Visibility = Visibility.Collapsed;
+
 
 
         }
