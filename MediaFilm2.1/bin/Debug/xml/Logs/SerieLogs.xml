@@ -2,4 +2,5 @@
 <Logs>
   <Log tipo="Añadir serie" fecha="20/06/2016 22:18:00" mensaje="Serie añadida correctamente" titulo="tmp" temporadaActual="1" numeroTemporadas="2" capitulosPorTemporada="12" tituloDescarga="" estado="A" />
   <Log tipo="Añadir serie" fecha="02/07/2016 17:48:44" mensaje="Serie añadida correctamente" titulo="dasf" temporadaActual="1" numeroTemporadas="1" capitulosPorTemporada="25" tituloDescarga="" estado="A" />
+  <Log tipo="Añadir serie" fecha="15/07/2016 15:12:41" mensaje="Serie añadida correctamente" titulo="Z Nation" temporadaActual="1" numeroTemporadas="1" capitulosPorTemporada="25" tituloDescarga="" estado="A" />
 </Logs>

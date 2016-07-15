@@ -10,4 +10,7 @@
   <Log tipo="Añadir patron" fecha="05/07/2016 22:43:50" mensaje="Patron añadido correctamente" patron="goth" serie="Gotham" />
   <Log tipo="Añadir patron" fecha="05/07/2016 22:44:36" mensaje="Patron añadido correctamente" patron="ltmoear" serie="El ultimo hombre en la tierra" />
   <Log tipo="Añadir patron" fecha="05/07/2016 22:44:55" mensaje="Patron añadido correctamente" patron="tlmoear" serie="El ultimo hombre en la tierra" />
+  <Log tipo="Añadir patron" fecha="15/07/2016 15:12:41" mensaje="Patron añadido correctamente" patron="Z Nation" serie="Z Nation" />
+  <Log tipo="Añadir patron" fecha="15/07/2016 15:12:41" mensaje="Patron añadido correctamente" patron="Z.Nation" serie="Z Nation" />
+  <Log tipo="Añadir patron" fecha="15/07/2016 15:12:41" mensaje="Patron añadido correctamente" patron="Z_Nation" serie="Z Nation" />
 </Logs>
