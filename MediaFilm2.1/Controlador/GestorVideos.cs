@@ -227,7 +227,10 @@ namespace MediaFilm2._1.Controlador
         /// <param name="fichero">Fichero a gestionar</param>
         private static void manejarFichero(RecorrerTorrentRequest recorrerTorrentRequest, FileInfo fichero)
         {
-            if (fichero.Extension == ".txt" || fichero.Extension == ".!ut" || fichero.Extension == ".url" || fichero.Extension == ".jpg" || fichero.Extension == ".wmv")
+            string[] extensionesVideo = { ".mp4", ".avi", ".mkv" };
+            string[] extensionesBorrar = { ".mp4", ".avi", ".mkv" };
+
+            if (extensionesBorrar.Contains(fichero.Extension))
             {
                 try
                 {
@@ -242,7 +245,7 @@ namespace MediaFilm2._1.Controlador
                     MainWindow.ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_BORRANDO, Mensajes.errorBorrandoFichero(ex), fichero));
                 }
             }
-            else if (fichero.Extension == ".mp4" || fichero.Extension == ".mkv" || fichero.Extension == ".avi")
+            else if (extensionesVideo.Contains(fichero.Extension))
             {
                 string pathDestino = MainWindow.config.directorioTrabajo + @"\" + fichero.Name;
                 try
