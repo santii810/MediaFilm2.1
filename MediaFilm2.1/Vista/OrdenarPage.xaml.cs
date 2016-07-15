@@ -70,8 +70,7 @@ namespace MediaFilm2._1.Vista
 
                 RecorrerTorrentRequest recorrerTorrentRequest = GestorVideos.recorrerTorrent();
 
-
-
+                
                 foreach (string item in recorrerTorrentRequest.ficherosBorrados)
                 {
                     PanelResultadoFicherosBorrados.Children.Add(CrearVistas.LabelLista((item)));
