@@ -29,6 +29,9 @@ namespace MediaFilm2._1.Vista
     public partial class OrdenarPage : Page
     {
         private bool enEjecucion = false;
+       const int tiempoMinimoOrdenar = 600;
+        const int tiempoMinimoRecorrer = 150;
+
 
         public OrdenarPage()
         {
@@ -95,7 +98,7 @@ namespace MediaFilm2._1.Vista
                 LabelCantidadFicherosBorrados.Content = recorrerTorrentRequest.ficherosBorrados.Count;
 
                 //Define label y color del tiempo transcurrido
-                if (recorrerTorrentRequest.tiempoTranscurrido > 100)
+                if (recorrerTorrentRequest.tiempoTranscurrido > tiempoMinimoRecorrer)
                     MainWindow.EstadisticasXML.insertar(Recursos.TIEMPO_RECORRER_TORRENT, recorrerTorrentRequest.tiempoTranscurrido);
                 labelTiempoEjecucion.Content = recorrerTorrentRequest.tiempoTranscurrido + " ms";
                 int media;
@@ -167,9 +170,8 @@ namespace MediaFilm2._1.Vista
 
 
 
-
                 //Guardo datos estadisticos
-                if (renombrarVideosRequest.tiempoTranscurrido > 100)
+                if (renombrarVideosRequest.tiempoTranscurrido > tiempoMinimoOrdenar)
                     MainWindow.EstadisticasXML.insertar(Recursos.TIEMPO_RENOMBRAR_VIDEOS, renombrarVideosRequest.tiempoTranscurrido);
                 if (renombrarVideosRequest.seriesActivas > 0)
                     MainWindow.EstadisticasXML.insertar(Recursos.NUMERO_SERIES_ACTIVAS, renombrarVideosRequest.seriesActivas);
