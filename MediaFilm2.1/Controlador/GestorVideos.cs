@@ -228,7 +228,7 @@ namespace MediaFilm2._1.Controlador
         private static void manejarFichero(RecorrerTorrentRequest recorrerTorrentRequest, FileInfo fichero)
         {
             string[] extensionesVideo = { ".mp4", ".avi", ".mkv" };
-            string[] extensionesBorrar = { ".mp4", ".avi", ".mkv" };
+            string[] extensionesBorrar = { ".url", ".txt", ".html" };
 
             if (extensionesBorrar.Contains(fichero.Extension))
             {

@@ -28,6 +28,8 @@ namespace MediaFilm2._1.Vista
         private List<Serie> series = new List<Serie>();
         internal Serie serieSeleccionada;
 
+        private string filtro = "";
+
         public GestionarDatosPage()
         {
             InitializeComponent();
@@ -141,9 +143,10 @@ namespace MediaFilm2._1.Vista
             this.panelListaIOSerie.Children.Clear();
             for (int i = 0; i < series.Count; i++)
             {
+                if (series[i].titulo.ToLower().Contains(filtro.ToLower())) {
                 this.panelListaIOSerie.Children.Add(CrearVistas.PanelEstadoSerie(series[i], this, i));
+                }
             }
-
         }
 
         private void ImageIOSerie_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -266,6 +269,24 @@ namespace MediaFilm2._1.Vista
             }
         }
 
+        private void TextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            this.textBoxFiltrarSeries.Text = "";
+        }
 
+        private void textBoxFiltrarSeries_LostFocus(object sender, RoutedEventArgs e)
+        {
+            if (String.IsNullOrWhiteSpace(textBoxFiltrarSeries.Text))
+            {
+                textBoxFiltrarSeries.Text = "Filtrar...";
+            }
+        }
+          
+
+        private void textBoxFiltrarSeries_KeyUp(object sender, KeyEventArgs e)
+        {
+            filtro = textBoxFiltrarSeries.Text.ToString().Trim();
+            updatePanelIOSeries();
+        }
     }
 }

@@ -62,7 +62,7 @@
         </Grid>
 
         <!-- AÑADIR PATRON-->
-        <Grid Name="panelAddPatron"  Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Visible">
+        <Grid Name="panelAddPatron"  Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Collapsed">
             <Grid.RowDefinitions>
                 <RowDefinition Height="250"/>
                 <RowDefinition MaxHeight="200"/>
@@ -86,8 +86,8 @@
             <Border Style="{StaticResource BorderBisque}" Grid.Column="1">
                 <StackPanel>
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-                    <Label Content="{StaticResource strFicherosARenombrar}" Style="{StaticResource LabelMenuSecundario}" />
-                    <Label Name="labelCantidadFicherosARenombrar" Style="{StaticResource LabelMenuSecundario}" />
+                        <Label Content="{StaticResource strFicherosARenombrar}" Style="{StaticResource LabelMenuSecundario}" />
+                        <Label Name="labelCantidadFicherosARenombrar" Style="{StaticResource LabelMenuSecundario}" />
                     </StackPanel>
                     <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto" Height="180">
                         <StackPanel Name="panelFicherosARenombrar" Orientation="Vertical"/>
@@ -113,9 +113,12 @@
         </Grid>
 
         <!-- I/O Serie-->
-        <Border Name="panelIOSerie" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Collapsed" Style="{StaticResource BorderBisque}">
+        <Border Name="panelIOSerie" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Visible" Style="{StaticResource BorderBisque}">
             <StackPanel >
-                <Label Content="{StaticResource strEstadoSerie}" Style="{StaticResource LabelMenuSecundario}"></Label>
+                <StackPanel Orientation="Horizontal"  Width="370" HorizontalAlignment="Stretch">
+                    <Label Content="{StaticResource strEstadoSerie}" Style="{StaticResource LabelMenuSecundario}"></Label>
+                    <TextBox Text="Filtrar..." HorizontalAlignment="Right" Margin="125,0,0,0" x:Name="textBoxFiltrarSeries" Width="100" Style="{StaticResource TextBox}" GotFocus="TextBox_GotFocus" LostFocus="textBoxFiltrarSeries_LostFocus" KeyUp="textBoxFiltrarSeries_KeyUp"/>
+                </StackPanel>
                 <ScrollViewer Height="460" Style="{StaticResource Scroll}">
                     <StackPanel Name="panelListaIOSerie"/>
                 </ScrollViewer>

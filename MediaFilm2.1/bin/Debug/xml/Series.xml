@@ -1286,7 +1286,7 @@
     <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>New_girl</tituloDescarga>
-    <estado>D</estado>
+    <estado>A</estado>
   </serie>
   <serie titulo="iZombie">
     <titulo>iZombie</titulo>
@@ -1316,6 +1316,15 @@
   </serie>
   <serie titulo="Z Nation">
     <titulo>Z Nation</titulo>
+    <temporadaActual>1</temporadaActual>
+    <numeroTemporadas>1</numeroTemporadas>
+    <capitulosPorTemporada>25</capitulosPorTemporada>
+    <tituloDescarga>
+    </tituloDescarga>
+    <estado>A</estado>
+  </serie>
+  <serie titulo="Section Zero">
+    <titulo>Section Zero</titulo>
     <temporadaActual>1</temporadaActual>
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>

@@ -96,4 +96,9 @@
   <TiempoRecorrerTorrent fecha="15/07/2016 18:17:05" valor="3445" />
   <TiempoRecorrerTorrent fecha="15/07/2016 18:19:18" valor="2218" />
   <TiempoRecorrerTorrent fecha="15/07/2016 18:21:50" valor="102" />
+  <TiempoRecorrerTorrent fecha="15/07/2016 18:26:38" valor="138" />
+  <TiempoRenombrarVideos fecha="15/07/2016 18:27:23" valor="1705" />
+  <NumeroSeriesActivas fecha="15/07/2016 18:27:23" valor="18" />
+  <NumeroPatronesEjecutados fecha="15/07/2016 18:27:23" valor="30784" />
+  <TiempoRecorrerTorrent fecha="15/07/2016 18:27:43" valor="190" />
 </Estadisticas>
