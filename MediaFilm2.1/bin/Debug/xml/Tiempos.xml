@@ -75,4 +75,14 @@
   <TiempoRenombrarVideos fecha="15/07/2016 15:14:28" valor="1584" />
   <NumeroSeriesActivas fecha="15/07/2016 15:14:28" valor="17" />
   <NumeroPatronesEjecutados fecha="15/07/2016 15:14:28" valor="27664" />
+  <TiempoRecorrerTorrent fecha="15/07/2016 15:16:23" valor="2124" />
+  <TiempoRenombrarVideos fecha="15/07/2016 15:16:26" valor="1722" />
+  <NumeroSeriesActivas fecha="15/07/2016 15:16:26" valor="17" />
+  <NumeroPatronesEjecutados fecha="15/07/2016 15:16:26" valor="28080" />
+  <TiempoRenombrarVideos fecha="15/07/2016 15:17:01" valor="1720" />
+  <NumeroSeriesActivas fecha="15/07/2016 15:17:01" valor="18" />
+  <NumeroPatronesEjecutados fecha="15/07/2016 15:17:01" valor="30576" />
+  <TiempoRenombrarVideos fecha="15/07/2016 15:17:37" valor="1823" />
+  <NumeroSeriesActivas fecha="15/07/2016 15:17:37" valor="18" />
+  <NumeroPatronesEjecutados fecha="15/07/2016 15:17:37" valor="30784" />
 </Estadisticas>
