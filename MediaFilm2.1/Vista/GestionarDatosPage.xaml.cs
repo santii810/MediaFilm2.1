@@ -140,11 +140,13 @@ namespace MediaFilm2._1.Vista
             series = MainWindow.SeriesXML.leerXML();
             series.Sort();
 
+            int cont = 0;
             this.panelListaIOSerie.Children.Clear();
-            for (int i = 0; i < series.Count; i++)
+            foreach (Serie itSerie in series)
             {
-                if (series[i].titulo.ToLower().Contains(filtro.ToLower())) {
-                this.panelListaIOSerie.Children.Add(CrearVistas.PanelEstadoSerie(series[i], this, i));
+                if (itSerie.titulo.ToLower().Contains(filtro.ToLower()))
+                {
+                    this.panelListaIOSerie.Children.Add(CrearVistas.PanelEstadoSerie(itSerie, this, cont++));
                 }
             }
         }
