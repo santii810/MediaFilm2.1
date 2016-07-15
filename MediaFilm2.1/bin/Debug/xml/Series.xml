@@ -46,7 +46,7 @@
     <numeroTemporadas>10</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>American_dad</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="American Summer">
     <titulo>American Summer</titulo>
@@ -110,7 +110,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Bates_Motel</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Benched">
     <titulo>Benched</titulo>
@@ -134,7 +134,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Better_call_Saul</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Between">
     <titulo>Between</titulo>
@@ -278,7 +278,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Da_Vinci_demons</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Defiance">
     <titulo>Defiance</titulo>
@@ -318,7 +318,7 @@
     <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Dos_chicas_sin_blanca</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="El mentalista">
     <titulo>El mentalista</titulo>
@@ -342,7 +342,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>El_ultimo_hombre_en_la_tierra</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Elementary">
     <titulo>Elementary</titulo>
@@ -462,7 +462,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Gotham</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Grace and Frankie">
     <titulo>Grace and Frankie</titulo>
@@ -646,7 +646,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Los_100</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Los crimenes de Fjallbacka">
     <titulo>Los crimenes de Fjallbacka</titulo>
@@ -734,7 +734,7 @@
     <numeroTemporadas>7</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Modern_Family</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Mom">
     <titulo>Mom</titulo>
@@ -1022,7 +1022,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>The_brink</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="The Client List">
     <titulo>The Client List</titulo>
@@ -1214,7 +1214,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Black_Sails</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Angie Tribeca">
     <titulo>Angie Tribeca</titulo>
@@ -1246,7 +1246,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>Ascension</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Guardians of galaxy">
     <titulo>Guardians of galaxy</titulo>
@@ -1270,7 +1270,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDescarga>The_magicians</tituloDescarga>
-    <estado>A</estado>
+    <estado>D</estado>
   </serie>
   <serie titulo="Juego de tronos">
     <titulo>Juego de tronos</titulo>

@@ -173,10 +173,15 @@ namespace MediaFilm2._1.Vista
             series.Sort();
 
             this.panelListaTemporadas.Children.Clear();
-            for (int i = 0; i < series.Count; i++)
+            int cont = 0;
+
+            foreach (Serie itSerie in series )
             {
-                this.panelListaTemporadas.Children.Add(CrearVistas.PanelActualizarTemporadas(series[i], this, i));
+                if(itSerie.estado == "A")
+                this.panelListaTemporadas.Children.Add(CrearVistas.PanelActualizarTemporadas(itSerie, this, cont++));
+
             }
+           
         }
 
         private void ButtonAñadirSerie_Click(object sender, RoutedEventArgs e)
