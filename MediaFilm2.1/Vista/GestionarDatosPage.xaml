@@ -77,7 +77,7 @@
             <Border Style="{StaticResource BorderBisque}" Grid.RowSpan="3">
                 <StackPanel >
                     <Label Content="{StaticResource strSeries}" Style="{StaticResource LabelMenuSecundario}" />
-                    <ScrollViewer  Height="460" VerticalScrollBarVisibility="Visible" Style="{StaticResource Scroll}">
+                    <ScrollViewer  Height="450" VerticalScrollBarVisibility="Visible" Style="{StaticResource Scroll}">
                         <StackPanel Name="panelSeleccionarSeriePatron" Orientation="Vertical"/>
                     </ScrollViewer>
 

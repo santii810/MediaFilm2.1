@@ -72,4 +72,7 @@
   <NumeroSeriesActivas fecha="15/07/2016 15:05:37" valor="16" />
   <NumeroPatronesEjecutados fecha="15/07/2016 15:05:37" valor="26624" />
   <TiempoRecorrerTorrent fecha="15/07/2016 15:05:59" valor="2442" />
+  <TiempoRenombrarVideos fecha="15/07/2016 15:14:28" valor="1584" />
+  <NumeroSeriesActivas fecha="15/07/2016 15:14:28" valor="17" />
+  <NumeroPatronesEjecutados fecha="15/07/2016 15:14:28" valor="27664" />
 </Estadisticas>
