@@ -238,7 +238,7 @@ namespace MediaFilm2._1.Controlador
                 }
                 catch (Exception ex)
                 {
-                    recorrerTorrentRequest.videosMovidos.Add(fichero.Name);
+                    recorrerTorrentRequest.erroresBorrando.Add(fichero.Name);
                     MainWindow.ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_BORRANDO, Mensajes.errorBorrandoFichero(ex), fichero));
                 }
             }
