@@ -77,7 +77,7 @@ namespace MediaFilm2._1.Vista
                 }
                 foreach (string item in recorrerTorrentRequest.erroresBorrando)
                 {
-                    PanelResultadoErroresBorrando.Children.Add(CrearVistas.LabelLista(Mensajes.errorBorrandoFichero(item)));
+                    PanelResultadoErroresBorrando.Children.Add(CrearVistas.LabelLista(item));
 
                 }
                 foreach (string item in recorrerTorrentRequest.videosMovidos)

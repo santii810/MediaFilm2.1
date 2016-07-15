@@ -241,7 +241,7 @@ namespace MediaFilm2._1.Controlador
                 }
                 catch (Exception ex)
                 {
-                    recorrerTorrentRequest.erroresBorrando.Add(fichero.Name);
+                    recorrerTorrentRequest.erroresBorrando.Add(Mensajes.errorBorrandoFichero(fichero.Name));
                     MainWindow.ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_BORRANDO, Mensajes.errorBorrandoFichero(ex), fichero));
                 }
             }
@@ -257,13 +257,14 @@ namespace MediaFilm2._1.Controlador
                 }
                 catch (Exception ex)
                 {
-                    recorrerTorrentRequest.erroresBorrando.Add(fichero.Name);
+                    recorrerTorrentRequest.erroresBorrando.Add(Mensajes.errorBorrandoFichero(fichero.Name));
                     MainWindow.ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_MOVIENDO, Mensajes.ErrorMoviendoFichero(ex), fichero));
                 }
             }
             else
             {
-                MessageBox.Show(Mensajes.ExtensionNoRegistrada(fichero.Name));
+                recorrerTorrentRequest.erroresBorrando.Add(Mensajes.ExtensionNoRegistrada(fichero.Name));
+                MainWindow.ErrorLogger.insertar(new LogIO(Recursos.LOG_TIPO_ERROR_MOVIENDO, Mensajes.ExtensionNoRegistrada(fichero.Name), fichero));
             }
         }
 
