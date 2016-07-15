@@ -403,4 +403,6 @@
   <Log tipo="Borrado" fecha="15/07/2016 18:27:42" mensaje="Fichero borrado correctamente" fichero="A:\torrent\Completo\IZombie - Temporada1 [HDTV 720p][Cap.201][AC3 5.1 Español Castellano]\Izom720p2x01 [www.newpct1.com].mkv" />
   <Log tipo="Borrado" fecha="15/07/2016 19:21:39" mensaje="Fichero borrado correctamente" fichero="A:\torrent\Completo\IZombie - Temporada1 [HDTV 720p][Cap.111][AC3 5.1 Español Castellano]\Importante leer !!!!!.txt" />
   <Log tipo="Borrado" fecha="15/07/2016 19:21:39" mensaje="Fichero borrado correctamente" fichero="A:\torrent\Completo\IZombie - Temporada1 [HDTV 720p][Cap.111][AC3 5.1 Español Castellano]\www.DIVXATOPE.com.url" />
+  <Log tipo="Movido" fecha="15/07/2016 19:27:56" mensaje="Fichero movido correctamente" fichero="A:\Iomega\iZombie 720p 1x11 [www.newpct1.com].mkv" />
+  <Log tipo="Renombrar capitulo" fecha="15/07/2016 19:28:30" mensaje="Fichero renombrado correctamente" fichero="A:\Series\iZombie\Temporada1\iZombie 1x11.mkv" nombreAntiguo="iZombie 720p 1x11 [www.newpct1.com].mkv" />
 </Logs>
