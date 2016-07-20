@@ -93,7 +93,7 @@ namespace MediaFilm2._1.Vista
                 labelDirectoriosBorrados.Content = recorrerTorrentRequest.directoriosBorrados;
 
                 //Define el contenido de los labels
-                LabelCantidadVideosMovidos.Content = recorrerTorrentRequest.ficherosBorrados.Count;
+                LabelCantidadVideosMovidos.Content = recorrerTorrentRequest.videosMovidos.Count;
                 LabelCantidadErroresBorrando.Content = recorrerTorrentRequest.erroresBorrando.Count;
                 LabelCantidadFicherosBorrados.Content = recorrerTorrentRequest.ficherosBorrados.Count;
 

@@ -24,4 +24,7 @@
   <Log tipo="Añadir patron" fecha="19/07/2016 10:41:14" mensaje="Patron añadido correctamente" patron="szero" serie="Section Zero" />
   <Log tipo="Añadir patron" fecha="19/07/2016 10:41:24" mensaje="Patron añadido correctamente" patron="ngirl" serie="New girl" />
   <Log tipo="Añadir patron" fecha="19/07/2016 10:41:35" mensaje="Patron añadido correctamente" patron="izom" serie="iZombie" />
+  <Log tipo="Añadir patron" fecha="20/07/2016 23:02:51" mensaje="Patron añadido correctamente" patron="schitts creek" serie="schitts creek" />
+  <Log tipo="Añadir patron" fecha="20/07/2016 23:02:51" mensaje="Patron añadido correctamente" patron="schitts.creek" serie="schitts creek" />
+  <Log tipo="Añadir patron" fecha="20/07/2016 23:02:51" mensaje="Patron añadido correctamente" patron="schitts_creek" serie="schitts creek" />
 </Logs>

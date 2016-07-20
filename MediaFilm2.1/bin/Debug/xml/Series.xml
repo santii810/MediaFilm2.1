@@ -1332,4 +1332,13 @@
     </tituloDescarga>
     <estado>A</estado>
   </serie>
+  <serie titulo="schitts creek">
+    <titulo>schitts creek</titulo>
+    <temporadaActual>1</temporadaActual>
+    <numeroTemporadas>1</numeroTemporadas>
+    <capitulosPorTemporada>25</capitulosPorTemporada>
+    <tituloDescarga>
+    </tituloDescarga>
+    <estado>A</estado>
+  </serie>
 </Series>
