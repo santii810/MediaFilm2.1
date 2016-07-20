@@ -21,4 +21,7 @@
   <Log tipo="Añadir patron" fecha="15/07/2016 18:31:18" mensaje="Patron añadido correctamente" patron="Section Zero" serie="Section Zero" />
   <Log tipo="Añadir patron" fecha="15/07/2016 18:31:18" mensaje="Patron añadido correctamente" patron="Section.Zero" serie="Section Zero" />
   <Log tipo="Añadir patron" fecha="15/07/2016 18:31:18" mensaje="Patron añadido correctamente" patron="Section_Zero" serie="Section Zero" />
+  <Log tipo="Añadir patron" fecha="19/07/2016 10:41:14" mensaje="Patron añadido correctamente" patron="szero" serie="Section Zero" />
+  <Log tipo="Añadir patron" fecha="19/07/2016 10:41:24" mensaje="Patron añadido correctamente" patron="ngirl" serie="New girl" />
+  <Log tipo="Añadir patron" fecha="19/07/2016 10:41:35" mensaje="Patron añadido correctamente" patron="izom" serie="iZombie" />
 </Logs>
