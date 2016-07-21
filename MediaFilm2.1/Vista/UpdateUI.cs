@@ -56,6 +56,7 @@ namespace MediaFilm2._1.Vista
             }
         }
 
+  
         internal static void updateGestionarDatos(int cod, GestionarDatosPage xaml)
         {
             colapsarTodo(xaml);
@@ -93,6 +94,26 @@ namespace MediaFilm2._1.Vista
                     break;
 
             }
+        }
+
+        internal static void updateManteminientoPage(int cod, MantenimientoPage xaml)
+        {
+            colapsarTodo(xaml);
+            switch (cod)
+            {
+                case Codigos.MANTENIMIENTO_ANALISIS_EJECUTADO:
+                    xaml.panelResultadosMantenimiento.Visibility = Visibility.Visible;
+                    break;
+                
+
+            }
+        }
+
+        private static void colapsarTodo(MantenimientoPage xaml)
+        {
+            xaml.panelDetallesMantenimiento.Visibility = Visibility.Collapsed;
+            xaml.panelResultadosMantenimiento.Visibility = Visibility.Collapsed;
+
         }
 
         private static void colapsarTodo(GestionarDatosPage xaml)

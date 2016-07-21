@@ -34,10 +34,10 @@ namespace MediaFilm2._1.Vista
 
         private void StartMantenimiento_LeftButtonUp(object sender, MouseButtonEventArgs e)
         {
+            
+
             MantenimientoResponse mantenimientoResponse = GestorVideos.realizarMantenimiento();
-
-
-
+            
             #region Continuidad
             labelResultadoContinuidad.Content = mantenimientoResponse.ErroresContinuidad.Count + " errores.";
             if (mantenimientoResponse.ErroresContinuidad.Count == 0)
@@ -48,6 +48,8 @@ namespace MediaFilm2._1.Vista
                 circuloContinuidad.Source = CrearVistas.getPunto(Codigos.PUNTO_AMARILLO);
             #endregion
 
+
+            UpdateUI.updateManteminientoPage(Codigos.MANTENIMIENTO_ANALISIS_EJECUTADO, this);
         }
     }
 }

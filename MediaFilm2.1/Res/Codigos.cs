@@ -26,9 +26,8 @@ namespace MediaFilm2._1.Res
         public const int GESTIONAR_DATOS_IO_SERIE = 25;
         public const int GESTIONAR_DATOS_TEMPORADAS = 26;
 
-
-
-
+        public const int  MANTENIMIENTO_ANALISIS_EJECUTADO = 30;
+        
 
 
 
@@ -36,5 +35,6 @@ namespace MediaFilm2._1.Res
         public const int PUNTO_AMARILLO = 101;
         public const int PUNTO_ROJO = 102;
         public const int PUNTO_AZUL = 103;
+
     }
 }

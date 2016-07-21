@@ -22,7 +22,7 @@
         <Image Source="../Res/Iconos/start.png" Height="150"  Margin="20" MouseLeftButtonUp="StartMantenimiento_LeftButtonUp"/>
 
 
-        <StackPanel Grid.Row="1">
+        <StackPanel Name="panelResultadosMantenimiento" Grid.Row="1">
             <Border Style="{StaticResource BorderBisque}">
                 <StackPanel Orientation="Horizontal">
                     <Image Name="circuloContinuidad" Source="../Res/Iconos/bluePoint.png"  Style="{StaticResource ImagenPuntos}"/>
@@ -35,9 +35,11 @@
                     </StackPanel>
                 </StackPanel>
             </Border>
+        
         </StackPanel>
-        <Border  Name="panelResultadoMantenimiento" Style="{StaticResource BorderBisque}" Grid.Column="1" Grid.RowSpan="2">
 
+        
+        <Border  Name="panelDetallesMantenimiento" Style="{StaticResource BorderBisque}" Grid.Column="1" Grid.RowSpan="2">
             <StackPanel>
                 <Label  Name="labelTituloResultadoMantenimiento" Content="titulo resultado mantenimiento" Style="{StaticResource LabelMenuSecundario}"/>
                 <ScrollViewer Height="660">
