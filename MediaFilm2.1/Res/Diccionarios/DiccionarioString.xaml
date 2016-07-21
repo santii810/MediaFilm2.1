@@ -19,6 +19,7 @@
     <system:String x:Key="strErroresBorrando">Errores:</system:String>
     <system:String x:Key="strTiempoEjecucion">Tiempo de ejecución:</system:String>
     <system:String x:Key="strDirectoriosBorrados">Directorios borrados:</system:String>
+   
     <!-- renombrado-->
     <system:String x:Key="strVideosRenombrados">Videos renombrados:</system:String>
     <system:String x:Key="strInformacionEjecucion">Información de ejecución:</system:String>
@@ -53,4 +54,12 @@
     <system:String x:Key="strNumeroTemporadas">Nº de temp.</system:String>
     <system:String x:Key="strSerie">Serie</system:String>
     <!--#endregion Temporadas-->
+    
+    <!--#region Mantenimiento-->
+    <system:String x:Key="strVer">Ver</system:String>
+    <system:String x:Key="strContinuidad">Continuidad</system:String>
+    <system:String x:Key="strHomogenia">Homogenia</system:String>
+    <system:String x:Key="strDuplicidad">Duplicidad</system:String>
+
+    <!--#endregion Mantenimiento-->
 </ResourceDictionary>

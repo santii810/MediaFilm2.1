@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace MediaFilm2._1.Modelo.Request
+namespace MediaFilm2._1.Modelo.Response
 {
-    public class RenombrarVideosRequest
+    public class RenombrarVideosResponse
     {
 
         public int tiempoTranscurrido { get; set; }
@@ -13,7 +13,7 @@ namespace MediaFilm2._1.Modelo.Request
         public List<string> erroresRenombrando { get; set; }
 
 
-        public RenombrarVideosRequest()
+        public RenombrarVideosResponse()
         {
             seriesActivas = 0;
             patronesEjecutados = 0;

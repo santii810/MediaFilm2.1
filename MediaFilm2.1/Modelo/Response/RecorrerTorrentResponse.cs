@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MediaFilm2._1.Modelo.Request
+namespace MediaFilm2._1.Modelo.Response
 {
-    class RecorrerTorrentRequest
+    class RecorrerTorrentResponse
     {
 
         public List<string> ficherosBorrados { get; set; }
@@ -16,7 +16,7 @@ namespace MediaFilm2._1.Modelo.Request
         public int tiempoTranscurrido { get; set; }
 
 
-        public RecorrerTorrentRequest()
+        public RecorrerTorrentResponse()
         {
             ficherosBorrados = new List<string>();
             erroresBorrando = new List<string>();

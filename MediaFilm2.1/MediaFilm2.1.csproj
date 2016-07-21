@@ -57,7 +57,8 @@
     </ApplicationDefinition>
     <Compile Include="Controlador\GestorDescargas.cs" />
     <Compile Include="Controlador\GestorVideos.cs" />
-    <Compile Include="Modelo\Request\RenombrarVideosRequest.cs" />
+    <Compile Include="Modelo\ErrorDuplicidad.cs" />
+    <Compile Include="Modelo\Response\RenombrarVideosResponse.cs" />
     <Compile Include="Modelo\Configuracion.cs" />
     <Compile Include="Modelo\Logs\LogRenombrado.cs" />
     <Compile Include="Modelo\Logs\LogIO.cs" />
@@ -65,9 +66,10 @@
     <Compile Include="Modelo\Logs\LogPatrones.cs" />
     <Compile Include="Modelo\Logs\LogSerie.cs" />
     <Compile Include="Modelo\Patron.cs" />
-    <Compile Include="Modelo\Request\RecorrerTorrentRequest.cs" />
-    <Compile Include="Modelo\Request\UltimoFicheroRequest.cs" />
+    <Compile Include="Modelo\Response\RecorrerTorrentResponse.cs" />
+    <Compile Include="Modelo\Response\UltimoFicheroResponse.cs" />
     <Compile Include="Modelo\Serie.cs" />
+    <Compile Include="Modelo\Response\MantenimientoResponse.cs" />
     <Compile Include="XML\InterfaceXML.cs" />
     <Compile Include="XML\XMLConfiguracion.cs" />
     <Compile Include="XML\XMLLogger.cs" />

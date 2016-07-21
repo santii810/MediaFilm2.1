@@ -56,6 +56,12 @@
         <Setter Property="Height" Value="150"/>
         <Setter Property="Margin" Value="15,0,0,0"/>
     </Style>
+
+    <Style x:Key="ImagenPuntos" TargetType="{x:Type Image}">
+        <Setter Property="Stretch" Value="Uniform"/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="Width" Value="25"/>
+    </Style>
     <!--#endregion Images-->
 
 
@@ -68,5 +74,7 @@
     </Style>
     <!--#endregion TextBox-->
 
+    
+    
 
 </ResourceDictionary>

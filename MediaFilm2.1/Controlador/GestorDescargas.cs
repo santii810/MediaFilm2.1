@@ -1,5 +1,5 @@
 ﻿using MediaFilm2._1.Modelo;
-using MediaFilm2._1.Modelo.Request;
+using MediaFilm2._1.Modelo.Response;
 using MediaFilm2._1.Vista;
 using System;
 using System.Collections.Generic;
@@ -17,7 +17,7 @@ namespace MediaFilm2._1.Controlador
             List<Serie> series = MainWindow.SeriesXML.leerXML();
             foreach (Serie serie in series)
             {
-                UltimoFicheroRequest ultimoFicheroRequest = GestorVideos.getUltimoFichero(serie);
+                UltimoFicheroResponse ultimoFicheroRequest = GestorVideos.getUltimoFichero(serie);
                 if (ultimoFicheroRequest != null)
                 {
                     List<string> pruebas = new List<string>();

@@ -1,6 +1,6 @@
 ﻿using MediaFilm2._1.Modelo;
 using MediaFilm2._1.Modelo.Logs;
-using MediaFilm2._1.Modelo.Request;
+using MediaFilm2._1.Modelo.Response;
 using MediaFilm2._1.Res;
 using MediaFilm2._1.Vista;
 using System;
@@ -16,9 +16,9 @@ namespace MediaFilm2._1.Controlador
     class GestorVideos
     {
 
-        public static RecorrerTorrentRequest recorrerTorrent()
+        public static RecorrerTorrentResponse recorrerTorrent()
         {
-            RecorrerTorrentRequest recorrerTorrentRequest = new RecorrerTorrentRequest();
+            RecorrerTorrentResponse recorrerTorrentRequest = new RecorrerTorrentResponse();
 
             Stopwatch tiempo = Stopwatch.StartNew();
 
@@ -42,9 +42,63 @@ namespace MediaFilm2._1.Controlador
             return recorrerTorrentRequest;
         }
 
-        public static RenombrarVideosRequest renombrarVideos()
+        public static MantenimientoResponse realizarMantenimiento()
         {
-            RenombrarVideosRequest renombrarVideosRequest = new RenombrarVideosRequest();
+            MantenimientoResponse response = new MantenimientoResponse();
+
+            List<Serie> series = MainWindow.SeriesXML.leerXML();
+            series.Sort();
+
+            foreach (DirectoryInfo dirSerie in new DirectoryInfo(MainWindow.config.directorioSeries).GetDirectories())
+            {
+                Serie serie = new Serie();
+
+                foreach (Serie item in series)
+                    if (dirSerie.Name == item.titulo)
+                        serie = item;
+
+                if (serie != new Serie())
+                {
+                    foreach (DirectoryInfo dirTemporada in dirSerie.GetDirectories())
+                    {
+                        bool debeEstar = false;
+                        string patron = "";
+                        for (int i = serie.capitulosPorTemporada; i > 0; i--)
+                        {
+                            if (i < 10) patron = dirSerie.Name + " " + dirTemporada.Name.Substring(9) + "x0" + i + "*";
+                            else patron = dirSerie.Name + " " + dirTemporada.Name.Substring(9) + "x" + i + "*";
+
+                            FileSystemInfo[] sinfo = dirTemporada.GetFileSystemInfos(patron);
+                            if (sinfo.Length == 0)
+                            {
+                                if (debeEstar)
+                                    //Añado a la lista de ficheros que faltan
+                                    response.ErroresContinuidad.Add(patron);
+                            }
+                            else
+                            {
+                                // Al ir en orden inverso, una vez que un capitulo es detectado todos los anteriores de esa temporada deberian estar
+                                debeEstar = true;
+
+                                if (sinfo.Length > 1)
+                                {
+                                    //Si hay mas de un fichero perteneciente al mismo capitulo lo registro en duplicidad
+                                    response.ErroresDuplicidad.Add(new ErrorDuplicidad());
+                                }
+                            }
+
+
+                        }
+                    }
+
+                }
+            }
+            return response;
+        }
+
+        public static RenombrarVideosResponse renombrarVideos()
+        {
+            RenombrarVideosResponse renombrarVideosRequest = new RenombrarVideosResponse();
             Stopwatch tiempo = Stopwatch.StartNew();
 
             List<Serie> series = MainWindow.SeriesXML.leerXML();
@@ -163,7 +217,7 @@ namespace MediaFilm2._1.Controlador
             return renombrarVideosRequest;
         }
 
-        public static UltimoFicheroRequest getUltimoFichero(Serie item)
+        public static UltimoFicheroResponse getUltimoFichero(Serie item)
         {
             string directorioSerie = MainWindow.config.directorioSeries + @"/" + item.titulo;
             try
@@ -173,7 +227,7 @@ namespace MediaFilm2._1.Controlador
                 //string temporada = finfo.Name.Substring((finfo.Name.Length - 9), 2).Trim();
                 int temporada = Convert.ToInt32(finfo.Name.Substring((finfo.Name.Length - 9), 2).Trim());
                 int capitulo = Convert.ToInt32(finfo.Name.Substring((finfo.Name.Length - 6), 2).Trim());
-                return new UltimoFicheroRequest { temporada = temporada, capitulo = capitulo };
+                return new UltimoFicheroResponse { temporada = temporada, capitulo = capitulo };
             }
             catch
             {
@@ -225,7 +279,7 @@ namespace MediaFilm2._1.Controlador
         /// Maneja el fichero parametrizado, borrandolo o moviendolo segun convenga
         /// </summary>
         /// <param name="fichero">Fichero a gestionar</param>
-        private static void manejarFichero(RecorrerTorrentRequest recorrerTorrentRequest, FileInfo fichero)
+        private static void manejarFichero(RecorrerTorrentResponse recorrerTorrentRequest, FileInfo fichero)
         {
             string[] extensionesVideo = { ".mp4", ".avi", ".mkv" };
             string[] extensionesBorrar = { ".url", ".txt", ".html" };

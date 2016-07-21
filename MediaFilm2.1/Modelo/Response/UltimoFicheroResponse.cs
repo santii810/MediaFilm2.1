@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MediaFilm2._1.Modelo.Request
+namespace MediaFilm2._1.Modelo.Response
 {
-    class UltimoFicheroRequest
+    class UltimoFicheroResponse
     {
         public int temporada { get; set; }
         public int capitulo { get; set; }

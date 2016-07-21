@@ -9,6 +9,41 @@
       Title="MantenimientoPage" Background="White"  Height="737" Width="860" Style="{StaticResource PaginaPrincipal}">
 
     <Grid>
-        <Label Content="mantenimientopage"></Label>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="180"/>
+            <RowDefinition Height="550"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="590"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Image Source="../Res/Iconos/start.png" Height="150"  Margin="20" MouseLeftButtonUp="StartMantenimiento_LeftButtonUp"/>
+
+
+        <StackPanel Grid.Row="1">
+            <Border Style="{StaticResource BorderBisque}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Name="circuloContinuidad" Source="../Res/Iconos/bluePoint.png"  Style="{StaticResource ImagenPuntos}"/>
+                    <StackPanel>
+                        <Label Content="{StaticResource strContinuidad}" Style="{StaticResource LabelMenuSecundario}"/>
+                        <StackPanel Name="panelResultadoContinuidad" Orientation="Horizontal">
+                            <Label Name="labelResultadoContinuidad"  Width="110" Style="{StaticResource LabelListas}"/>
+                            <Button Content="{StaticResource strVer}" Style="{StaticResource Button}" Click="ButtonVerContinuidad_Click"></Button>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+        <Border  Name="panelResultadoMantenimiento" Style="{StaticResource BorderBisque}" Grid.Column="1" Grid.RowSpan="2">
+
+            <StackPanel>
+                <Label  Name="labelTituloResultadoMantenimiento" Content="titulo resultado mantenimiento" Style="{StaticResource LabelMenuSecundario}"/>
+                <ScrollViewer Height="660">
+                    <StackPanel Name="panelListaResultadoMantenimiento"/>
+                </ScrollViewer>
+            </StackPanel>
+        </Border>
     </Grid>
 </Page>

@@ -1,7 +1,7 @@
 ﻿using MediaFilm2._1.Controlador;
 using MediaFilm2._1.Modelo;
 using MediaFilm2._1.Modelo.Logs;
-using MediaFilm2._1.Modelo.Request;
+using MediaFilm2._1.Modelo.Response;
 using MediaFilm2._1.Modelo.XML;
 using MediaFilm2._1.Res;
 using System;
@@ -71,7 +71,7 @@ namespace MediaFilm2._1.Vista
                 PanelResultadoVideosMovidos.Children.Clear();
 
 
-                RecorrerTorrentRequest recorrerTorrentRequest = GestorVideos.recorrerTorrent();
+                RecorrerTorrentResponse recorrerTorrentRequest = GestorVideos.recorrerTorrent();
 
                 
                 foreach (string item in recorrerTorrentRequest.ficherosBorrados)
@@ -147,7 +147,7 @@ namespace MediaFilm2._1.Vista
                 this.Cursor = Cursors.Wait;
 
 
-                RenombrarVideosRequest renombrarVideosRequest = GestorVideos.renombrarVideos();
+                RenombrarVideosResponse renombrarVideosRequest = GestorVideos.renombrarVideos();
 
 
                 //Muestra resultados

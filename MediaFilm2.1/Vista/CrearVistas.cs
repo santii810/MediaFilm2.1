@@ -90,7 +90,7 @@ namespace MediaFilm2._1.Vista
             return tmpPanel;
         }
         
-        private static ImageSource getPunto(int cod)
+        public static ImageSource getPunto(int cod)
         {
             BitmapImage src = new BitmapImage();
             src.BeginInit();
