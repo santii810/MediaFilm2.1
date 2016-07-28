@@ -69,7 +69,6 @@
     <Compile Include="Modelo\Logs\Log.cs" />
     <Compile Include="Modelo\Logs\LogPatrones.cs" />
     <Compile Include="Modelo\Logs\LogSerie.cs" />
-    <Compile Include="Modelo\Patron.cs" />
     <Compile Include="Modelo\Response\RecorrerTorrentResponse.cs" />
     <Compile Include="Modelo\Response\UltimoFicheroResponse.cs" />
     <Compile Include="Modelo\Serie.cs" />
@@ -77,7 +76,6 @@
     <Compile Include="XML\InterfaceXML.cs" />
     <Compile Include="XML\XMLConfiguracion.cs" />
     <Compile Include="XML\XMLLogger.cs" />
-    <Compile Include="XML\XMLPatron.cs" />
     <Compile Include="XML\XMLSeries.cs" />
     <Compile Include="XML\XMLEstadisticas.cs" />
     <Compile Include="Res\Codigos.cs" />

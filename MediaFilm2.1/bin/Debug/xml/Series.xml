@@ -7,6 +7,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>666_Park_Avenue</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>666 Park Avenue</patron>
+      <patron>666.Park.Avenue</patron>
+      <patron>666_Park_Avenue</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Agents of SHIELD">
     <tituloLocal>Agents of SHIELD</tituloLocal>
@@ -15,6 +20,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Agents_of_SHIELD</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Agents of SHIELD</patron>
+      <patron>Agents.of.SHIELD</patron>
+      <patron>Agents_of_SHIELD</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Allegiance">
     <tituloLocal>Allegiance</tituloLocal>
@@ -23,6 +33,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Allegiance</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Allegiance</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Almost Human">
     <tituloLocal>Almost Human</tituloLocal>
@@ -31,6 +44,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Almost_Human</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Almost Human</patron>
+      <patron>Almost.Human</patron>
+      <patron>Almost_Human</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Alphas">
     <tituloLocal>Alphas</tituloLocal>
@@ -39,6 +57,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Alphas</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Alphas</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="American dad">
     <tituloLocal>American dad</tituloLocal>
@@ -47,6 +68,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>American_dad</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>American dad</patron>
+      <patron>American.dad</patron>
+      <patron>American_dad</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="American Summer">
     <tituloLocal>American Summer</tituloLocal>
@@ -55,6 +81,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>American_Summer</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>American Summer</patron>
+      <patron>American.Summer</patron>
+      <patron>American_Summer</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Amigos con suerte">
     <tituloLocal>Amigos con suerte</tituloLocal>
@@ -63,6 +94,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Amigos_con_suerte</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Amigos con suerte</patron>
+      <patron>Amigos.con.suerte</patron>
+      <patron>Amigos_con_suerte</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Apocalipsis en el instituto">
     <tituloLocal>Apocalipsis en el instituto</tituloLocal>
@@ -71,6 +107,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Apocalipsis_en_el_instituto</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Apocalipsis en el instituto</patron>
+      <patron>Apocalipsis.en.el.instituto</patron>
+      <patron>Apocalipsis_en_el_instituto</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Arrow">
     <tituloLocal>Arrow</tituloLocal>
@@ -79,6 +120,10 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Arrow</tituloDivXTotal>
     <estado>1</estado>
+    <patrones>
+      <patron>Arr</patron>
+      <patron>Arrow</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Ataque a los titanes">
     <tituloLocal>Ataque a los titanes</tituloLocal>
@@ -87,6 +132,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Ataque_a_los_titanes</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Ataque a los titanes</patron>
+      <patron>Ataque.a.los.titanes</patron>
+      <patron>Ataque_a_los_titanes</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="BackStorm">
     <tituloLocal>BackStorm</tituloLocal>
@@ -95,6 +145,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>BackStorm</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>BackStorm</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Banshee">
     <tituloLocal>Banshee</tituloLocal>
@@ -103,6 +156,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Banshee</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Banshee</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Bates Motel">
     <tituloLocal>Bates Motel</tituloLocal>
@@ -111,6 +167,13 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Bates_Motel</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>BM</patron>
+      <patron>BMot</patron>
+      <patron>Bates Motel</patron>
+      <patron>Bates.Motel</patron>
+      <patron>Bates_Motel</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Benched">
     <tituloLocal>Benched</tituloLocal>
@@ -119,6 +182,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Benched</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Benched</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Betrayal">
     <tituloLocal>Betrayal</tituloLocal>
@@ -127,6 +193,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Betrayal</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Betrayal</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Better call Saul">
     <tituloLocal>Better call Saul</tituloLocal>
@@ -135,6 +204,13 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Better_call_Saul</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Better call Saul</patron>
+      <patron>Better.call.Saul</patron>
+      <patron>BCS</patron>
+      <patron>BCSaul</patron>
+      <patron>Better_call_Saul</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Between">
     <tituloLocal>Between</tituloLocal>
@@ -143,6 +219,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Between</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Between</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Big Time in Hollywood">
     <tituloLocal>Big Time in Hollywood</tituloLocal>
@@ -151,6 +230,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Big_Time_in_Hollywood</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Big Time in Hollywood</patron>
+      <patron>Big.Time.in.Hollywood</patron>
+      <patron>Big_Time_in_Hollywood</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Black Mirror">
     <tituloLocal>Black Mirror</tituloLocal>
@@ -159,6 +243,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Black_Mirror</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Black Mirror</patron>
+      <patron>Black.Mirror</patron>
+      <patron>Black_Mirror</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="BloodLine">
     <tituloLocal>BloodLine</tituloLocal>
@@ -167,6 +256,10 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>BloodLine</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>BlL</patron>
+      <patron>BloodLine</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Boardwalk Empire">
     <tituloLocal>Boardwalk Empire</tituloLocal>
@@ -175,6 +268,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Boardwalk_Empire</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Boardwalk Empire</patron>
+      <patron>Boardwalk.Empire</patron>
+      <patron>Boardwalk_Empire</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Breaking bad">
     <tituloLocal>Breaking bad</tituloLocal>
@@ -183,6 +281,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Breaking_bad</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Breaking bad</patron>
+      <patron>Breaking.bad</patron>
+      <patron>Breaking_bad</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Broadchurch">
     <tituloLocal>Broadchurch</tituloLocal>
@@ -191,6 +294,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Broadchurch</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Broadchurch</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Bron">
     <tituloLocal>Bron</tituloLocal>
@@ -199,6 +305,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Bron</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Bron</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Brotherhood">
     <tituloLocal>Brotherhood</tituloLocal>
@@ -207,6 +316,10 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Brotherhood</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Bhood</patron>
+      <patron>Brotherhood</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Catastrophe">
     <tituloLocal>Catastrophe</tituloLocal>
@@ -215,6 +328,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Catastrophe</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Catastrophe</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Chuck">
     <tituloLocal>Chuck</tituloLocal>
@@ -223,6 +339,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Chuck</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Chuck</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Community">
     <tituloLocal>Community</tituloLocal>
@@ -231,6 +350,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Community</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Community</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Como conoci a vuestra madre">
     <tituloLocal>Como conoci a vuestra madre</tituloLocal>
@@ -239,6 +361,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Como_conoci_a_vuestra_madre</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Como conoci a vuestra madre</patron>
+      <patron>Como.conoci.a.vuestra.madre</patron>
+      <patron>Como_conoci_a_vuestra_madre</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Crisis">
     <tituloLocal>Crisis</tituloLocal>
@@ -247,6 +374,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Crisis</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Crisis</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Crosing lines">
     <tituloLocal>Crosing lines</tituloLocal>
@@ -255,6 +385,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Crosing_lines</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Crosing lines</patron>
+      <patron>Crosing.lines</patron>
+      <patron>Crosing_lines</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Daredevil">
     <tituloLocal>Daredevil</tituloLocal>
@@ -263,6 +398,10 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Daredevil</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>DD</patron>
+      <patron>Daredevil</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Dates">
     <tituloLocal>Dates</tituloLocal>
@@ -271,6 +410,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Dates</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Dates</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Da Vinci demons">
     <tituloLocal>Da Vinci demons</tituloLocal>
@@ -279,6 +421,16 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Da_Vinci_demons</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Da Vinci demons</patron>
+      <patron>Da.Vinci.demons</patron>
+      <patron>Da Vincis demons</patron>
+      <patron>Da.Vincis.demons</patron>
+      <patron>DVD</patron>
+      <patron>DD</patron>
+      <patron>Da_Vinci_demons</patron>
+      <patron>da vinci daemons</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Defiance">
     <tituloLocal>Defiance</tituloLocal>
@@ -287,6 +439,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Defiance</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Defiance</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Dexter">
     <tituloLocal>Dexter</tituloLocal>
@@ -295,6 +450,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Dexter</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Dexter</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Dominion">
     <tituloLocal>Dominion</tituloLocal>
@@ -303,6 +461,10 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Dominion</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Dom</patron>
+      <patron>Dominion</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Dos hombres y medio">
     <tituloLocal>Dos hombres y medio</tituloLocal>
@@ -311,6 +473,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Dos_hombres_y_medio</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Dos hombres y medio</patron>
+      <patron>Dos.hombres.y.medio</patron>
+      <patron>Dos_hombres_y_medio</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Dos chicas sin blanca">
     <tituloLocal>Dos chicas sin blanca</tituloLocal>
@@ -319,6 +486,16 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Dos_chicas_sin_blanca</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>2chicas sin blanca</patron>
+      <patron>2 chicas sin blanca</patron>
+      <patron>2chicas.sin.blanca</patron>
+      <patron>2.chicas.sin.blanca</patron>
+      <patron>Dos.chicas.sin.blanca</patron>
+      <patron>2csbla</patron>
+      <patron>Dos chicas sin blanca</patron>
+      <patron>Dos_chicas_sin_blanca</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="El mentalista">
     <tituloLocal>El mentalista</tituloLocal>
@@ -327,6 +504,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>El_mentalista</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>El mentalista</patron>
+      <patron>El.mentalista</patron>
+      <patron>El_mentalista</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="El Ministerio del tiempo">
     <tituloLocal>El Ministerio del tiempo</tituloLocal>
@@ -335,6 +517,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>El_Ministerio_del_tiempo</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>El Ministerio del tiempo</patron>
+      <patron>El.Ministerio.del.tiempo</patron>
+      <patron>El_Ministerio_del_tiempo</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="El ultimo hombre en la tierra">
     <tituloLocal>El ultimo hombre en la tierra</tituloLocal>
@@ -343,6 +530,16 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>El_ultimo_hombre_en_la_tierra</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>El ultimo hombre en la tierra</patron>
+      <patron>El.ultimo.hombre.en.la.tierra</patron>
+      <patron>El_ultimo_hombre_en_la_tierra</patron>
+      <patron>tlmote</patron>
+      <patron>tlmotearth</patron>
+      <patron>The Last Man on Earth</patron>
+      <patron>ltmoear</patron>
+      <patron>tlmoear</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Elementary">
     <tituloLocal>Elementary</tituloLocal>
@@ -351,6 +548,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Elementary</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Elementary</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Episodes">
     <tituloLocal>Episodes</tituloLocal>
@@ -359,6 +559,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Episodes</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Episodes</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Eres lo peor">
     <tituloLocal>Eres lo peor</tituloLocal>
@@ -367,6 +570,13 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Eres_lo_peor</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>ElPe</patron>
+      <patron>ElP</patron>
+      <patron>Eres lo peor</patron>
+      <patron>Eres.lo.peor</patron>
+      <patron>Eres_lo_peor</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Eureka">
     <tituloLocal>Eureka</tituloLocal>
@@ -375,6 +585,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Eureka</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Eureka</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Falling Skies">
     <tituloLocal>Falling Skies</tituloLocal>
@@ -383,6 +596,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Falling_Skies</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Falling Skies</patron>
+      <patron>Falling.Skies</patron>
+      <patron>Falling_Skies</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Familia de acogida">
     <tituloLocal>Familia de acogida</tituloLocal>
@@ -391,6 +609,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Familia_de_acogida</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Familia de acogida</patron>
+      <patron>Familia.de.acogida</patron>
+      <patron>Familia_de_acogida</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Fargo">
     <tituloLocal>Fargo</tituloLocal>
@@ -399,6 +622,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Fargo</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Fargo</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Fear the walking dead">
     <tituloLocal>Fear the walking dead</tituloLocal>
@@ -407,6 +633,12 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Fear_the_walking_dead</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>FTWD</patron>
+      <patron>Fear the walking dead</patron>
+      <patron>Fear.the.walking.dead</patron>
+      <patron>Fear_the_walking_dead</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Finales felices">
     <tituloLocal>Finales felices</tituloLocal>
@@ -415,6 +647,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Finales_felices</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Finales felices</patron>
+      <patron>Finales.felices</patron>
+      <patron>Finales_felices</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Forever">
     <tituloLocal>Forever</tituloLocal>
@@ -423,6 +660,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Forever</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Forever</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Fortitude">
     <tituloLocal>Fortitude</tituloLocal>
@@ -431,6 +671,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Fortitude</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Fortitude</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Fringe">
     <tituloLocal>Fringe</tituloLocal>
@@ -439,6 +682,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Fringe</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Fringe</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Generation kill">
     <tituloLocal>Generation kill</tituloLocal>
@@ -447,6 +693,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Generation_kill</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Generation kill</patron>
+      <patron>Generation.kill</patron>
+      <patron>Generation_kill</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Getting on">
     <tituloLocal>Getting on</tituloLocal>
@@ -455,6 +706,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Getting_on</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Getting on</patron>
+      <patron>Getting.on</patron>
+      <patron>Getting_on</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Gotham">
     <tituloLocal>Gotham</tituloLocal>
@@ -463,6 +719,12 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Gotham</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Gotham</patron>
+      <patron>Gthm</patron>
+      <patron>got</patron>
+      <patron>goth</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Grace and Frankie">
     <tituloLocal>Grace and Frankie</tituloLocal>
@@ -471,6 +733,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Grace_and_Frankie</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Grace and Frankie</patron>
+      <patron>Grace.and.Frankie</patron>
+      <patron>Grace_and_Frankie</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Graceland">
     <tituloLocal>Graceland</tituloLocal>
@@ -479,6 +746,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Graceland</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Grac</patron>
+      <patron>GLand</patron>
+      <patron>Graceland</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Hannibal">
     <tituloLocal>Hannibal</tituloLocal>
@@ -487,6 +759,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Hannibal</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Hannibal</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Hart of Dixie">
     <tituloLocal>Hart of Dixie</tituloLocal>
@@ -495,6 +770,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Hart_of_Dixie</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Hart of Dixie</patron>
+      <patron>Hart.of.Dixie</patron>
+      <patron>Hart_of_Dixie</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Helix">
     <tituloLocal>Helix</tituloLocal>
@@ -503,6 +783,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Helix</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Helix</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Hello ladies">
     <tituloLocal>Hello ladies</tituloLocal>
@@ -511,6 +794,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Hello_ladies</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Hello ladies</patron>
+      <patron>Hello.ladies</patron>
+      <patron>Hello_ladies</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Hemlock grove">
     <tituloLocal>Hemlock grove</tituloLocal>
@@ -519,6 +807,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Hemlock_grove</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Hemlock grove</patron>
+      <patron>Hemlock.grove</patron>
+      <patron>Hemlock_grove</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Heroes Reborn">
     <tituloLocal>Heroes Reborn</tituloLocal>
@@ -527,6 +820,12 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Heroes_Reborn</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Heroes Reborn</patron>
+      <patron>Heroes.Reborn</patron>
+      <patron>HR</patron>
+      <patron>Heroes_Reborn</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Hijos del tercer Reich">
     <tituloLocal>Hijos del tercer Reich</tituloLocal>
@@ -535,6 +834,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Hijos_del_tercer_Reich</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Hijos del tercer Reich</patron>
+      <patron>Hijos.del.tercer.Reich</patron>
+      <patron>Hijos_del_tercer_Reich</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Hope">
     <tituloLocal>Hope</tituloLocal>
@@ -543,6 +847,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Hope</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Hope</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="House of cards">
     <tituloLocal>House of cards</tituloLocal>
@@ -551,6 +858,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>House_of_cards</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>House of cards</patron>
+      <patron>House.of.cards</patron>
+      <patron>House_of_cards</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="House of lies">
     <tituloLocal>House of lies</tituloLocal>
@@ -559,6 +871,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>House_of_lies</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>House of lies</patron>
+      <patron>House.of.lies</patron>
+      <patron>House_of_lies</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="In the flesh">
     <tituloLocal>In the flesh</tituloLocal>
@@ -567,6 +884,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>In_the_flesh</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>In the flesh</patron>
+      <patron>In.the.flesh</patron>
+      <patron>In_the_flesh</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Inteligence">
     <tituloLocal>Inteligence</tituloLocal>
@@ -575,6 +897,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Inteligence</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Inteligence</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Into the badlands">
     <tituloLocal>Into the badlands</tituloLocal>
@@ -583,6 +908,13 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Into_the_badlands</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Into the badlands</patron>
+      <patron>Intbdlan</patron>
+      <patron>ITB</patron>
+      <patron>Into.the.badlands</patron>
+      <patron>Into_the_badlands</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Invisible">
     <tituloLocal>Invisible</tituloLocal>
@@ -591,6 +923,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Invisible</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Invisible</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Killjoys">
     <tituloLocal>Killjoys</tituloLocal>
@@ -599,6 +934,13 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Killjoys</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>kiljs</patron>
+      <patron>klljys</patron>
+      <patron>klljs</patron>
+      <patron>Killjoys</patron>
+      <patron>Kllys</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="La cupula">
     <tituloLocal>La cupula</tituloLocal>
@@ -607,6 +949,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>La_cupula</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>La cupula</patron>
+      <patron>La.cupula</patron>
+      <patron>La_cupula</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Ladron de guante blanco">
     <tituloLocal>Ladron de guante blanco</tituloLocal>
@@ -615,6 +962,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Ladron_de_guante_blanco</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Ladron de guante blanco</patron>
+      <patron>Ladron.de.guante.blanco</patron>
+      <patron>Ladron_de_guante_blanco</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Legends">
     <tituloLocal>Legends</tituloLocal>
@@ -623,6 +975,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Legends</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Legends</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Les revenant">
     <tituloLocal>Les revenant</tituloLocal>
@@ -631,6 +986,12 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Les_revenant</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Lre</patron>
+      <patron>Les revenant</patron>
+      <patron>Les.revenant</patron>
+      <patron>Les_revenant</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Looking">
     <tituloLocal>Looking</tituloLocal>
@@ -639,6 +1000,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Looking</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Looking</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Los cien">
     <tituloLocal>Los cien</tituloLocal>
@@ -647,6 +1011,14 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Los_100</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Los cien</patron>
+      <patron>Los 100</patron>
+      <patron>L100</patron>
+      <patron>Los.100</patron>
+      <patron>Los.cien</patron>
+      <patron>Los_cien</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Los crimenes de Fjallbacka">
     <tituloLocal>Los crimenes de Fjallbacka</tituloLocal>
@@ -655,6 +1027,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Los_crimenes_de_Fjallbacka</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Los crimenes de Fjallbacka</patron>
+      <patron>Los.crimenes.de.Fjallbacka</patron>
+      <patron>Los_crimenes_de_Fjallbacka</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Los farsantes">
     <tituloLocal>Los farsantes</tituloLocal>
@@ -663,6 +1040,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Los_farsantes</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Los farsantes</patron>
+      <patron>Los.farsantes</patron>
+      <patron>Los_farsantes</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Louie">
     <tituloLocal>Louie</tituloLocal>
@@ -671,6 +1053,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Louie</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Louie</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Mad Men">
     <tituloLocal>Mad Men</tituloLocal>
@@ -679,6 +1064,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Mad_Men</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Mad Men</patron>
+      <patron>Mad.Men</patron>
+      <patron>Mad_Men</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Manhattan">
     <tituloLocal>Manhattan</tituloLocal>
@@ -687,6 +1077,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Manhattan</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Manhattan</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Manhattan Love Story">
     <tituloLocal>Manhattan Love Story</tituloLocal>
@@ -695,6 +1088,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Manhattan_Love_Story</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Manhattan Love Story</patron>
+      <patron>Manhattan.Love.Story</patron>
+      <patron>Manhattan_Love_Story</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Masters of sex">
     <tituloLocal>Masters of sex</tituloLocal>
@@ -703,6 +1101,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Masters_of_sex</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Masters of sex</patron>
+      <patron>Masters.of.sex</patron>
+      <patron>Masters_of_sex</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Men at work">
     <tituloLocal>Men at work</tituloLocal>
@@ -711,6 +1114,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Men_at_work</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Men at work</patron>
+      <patron>Men.at.work</patron>
+      <patron>Men_at_work</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Misfits">
     <tituloLocal>Misfits</tituloLocal>
@@ -719,6 +1127,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Misfits</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Misfits</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Mob City">
     <tituloLocal>Mob City</tituloLocal>
@@ -727,6 +1138,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Mob_City</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Mob City</patron>
+      <patron>Mob.City</patron>
+      <patron>Mob_City</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Modern Family">
     <tituloLocal>Modern Family</tituloLocal>
@@ -735,6 +1151,14 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Modern_Family</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Modern Family</patron>
+      <patron>Modern.Family</patron>
+      <patron>Modern_Family</patron>
+      <patron>mfa</patron>
+      <patron>mdfmil</patron>
+      <patron>mfmly</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Mom">
     <tituloLocal>Mom</tituloLocal>
@@ -743,6 +1167,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Mom</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Mom</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Mozart in the jungle">
     <tituloLocal>Mozart in the jungle</tituloLocal>
@@ -751,6 +1178,12 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Mozart_in_the_jungle</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Mitju</patron>
+      <patron>Mozart in the jungle</patron>
+      <patron>Mozart.in.the.jungle</patron>
+      <patron>Mozart_in_the_jungle</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Mr selfridge">
     <tituloLocal>Mr selfridge</tituloLocal>
@@ -759,6 +1192,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Mr_selfridge</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Mr selfridge</patron>
+      <patron>Mr.selfridge</patron>
+      <patron>Mr_selfridge</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Nashville">
     <tituloLocal>Nashville</tituloLocal>
@@ -767,6 +1205,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Nashville</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Nashville</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Orange is the new black">
     <tituloLocal>Orange is the new black</tituloLocal>
@@ -775,6 +1216,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Orange_is_the_new_black</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Orange is the new black</patron>
+      <patron>Orange.is.the.new.black</patron>
+      <patron>Orange_is_the_new_black</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Outlander">
     <tituloLocal>Outlander</tituloLocal>
@@ -783,6 +1229,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Outlander</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Outlander</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Padre de familia">
     <tituloLocal>Padre de familia</tituloLocal>
@@ -791,6 +1240,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Padre_de_familia</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Padre de familia</patron>
+      <patron>Padre.de.familia</patron>
+      <patron>Padre_de_familia</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Peaky Blinders">
     <tituloLocal>Peaky Blinders</tituloLocal>
@@ -799,6 +1253,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Peaky_Blinders</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Peaky Blinders</patron>
+      <patron>Peaky.Blinders</patron>
+      <patron>Peaky_Blinders</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Penny Dreadful">
     <tituloLocal>Penny Dreadful</tituloLocal>
@@ -807,6 +1266,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Penny_Dreadful</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Penny Dreadful</patron>
+      <patron>Penny.Dreadful</patron>
+      <patron>Penny_Dreadful</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Peque¤as mentirosas">
     <tituloLocal>Peque¤as mentirosas</tituloLocal>
@@ -815,6 +1279,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Peque¤as_mentirosas</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Peque¤as mentirosas</patron>
+      <patron>Peque¤as.mentirosas</patron>
+      <patron>Peque¤as_mentirosas</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Perception">
     <tituloLocal>Perception</tituloLocal>
@@ -823,6 +1292,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Perception</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Perception</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Person of interest">
     <tituloLocal>Person of interest</tituloLocal>
@@ -831,6 +1303,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Person_of_interest</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Person of interest</patron>
+      <patron>Person.of.interest</patron>
+      <patron>Person_of_interest</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Powers">
     <tituloLocal>Powers</tituloLocal>
@@ -839,6 +1316,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Powers</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Powers</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Ray Donovan">
     <tituloLocal>Ray Donovan</tituloLocal>
@@ -847,6 +1327,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Ray_Donovan</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Ray Donovan</patron>
+      <patron>Ray.Donovan</patron>
+      <patron>Ray_Donovan</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Real humans">
     <tituloLocal>Real humans</tituloLocal>
@@ -855,6 +1340,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Real_humans</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Real humans</patron>
+      <patron>Real.humans</patron>
+      <patron>Real_humans</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Recien llegados">
     <tituloLocal>Recien llegados</tituloLocal>
@@ -863,6 +1353,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Recien_llegados</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Recien llegados</patron>
+      <patron>Recien.llegados</patron>
+      <patron>Recien_llegados</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Refugiados">
     <tituloLocal>Refugiados</tituloLocal>
@@ -871,6 +1366,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Refugiados</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Refugiados</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Rehenes">
     <tituloLocal>Rehenes</tituloLocal>
@@ -879,6 +1377,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Rehenes</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Rehenes</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Residue">
     <tituloLocal>Residue</tituloLocal>
@@ -887,6 +1388,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Residue</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Residue</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Revolution">
     <tituloLocal>Revolution</tituloLocal>
@@ -895,6 +1399,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Revolution</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Revolution</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Roma criminal">
     <tituloLocal>Roma criminal</tituloLocal>
@@ -903,6 +1410,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Roma_criminal</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Roma criminal</patron>
+      <patron>Roma.criminal</patron>
+      <patron>Roma_criminal</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Scandal">
     <tituloLocal>Scandal</tituloLocal>
@@ -911,6 +1423,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Scandal</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Scandal</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Scorpion">
     <tituloLocal>Scorpion</tituloLocal>
@@ -919,6 +1434,14 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Scorpion</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Scorpion</patron>
+      <patron>Scrp</patron>
+      <patron>Scop</patron>
+      <patron>Scor</patron>
+      <patron>Scorp</patron>
+      <patron>Scpns</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Sense 8">
     <tituloLocal>Sense 8</tituloLocal>
@@ -927,6 +1450,13 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Sense_8</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Sense 8</patron>
+      <patron>Sense8</patron>
+      <patron>Sns8</patron>
+      <patron>Sense.8</patron>
+      <patron>Sense_8</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="ShadownHunters">
     <tituloLocal>ShadownHunters</tituloLocal>
@@ -935,6 +1465,15 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>ShadownHunters</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>shdwhntr</patron>
+      <patron>Shadowhunters</patron>
+      <patron>sdhnt</patron>
+      <patron>ShdwHnt</patron>
+      <patron>ShadownHunters</patron>
+      <patron>shdh</patron>
+      <patron>shdwh</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Silicon Valley">
     <tituloLocal>Silicon Valley</tituloLocal>
@@ -943,6 +1482,12 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Silicon_Valley</tituloDivXTotal>
     <estado>1</estado>
+    <patrones>
+      <patron>Silicon Valley</patron>
+      <patron>Silicon.Valley</patron>
+      <patron>Silicon_Valley</patron>
+      <patron>SValley</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Sleepy Hollow">
     <tituloLocal>Sleepy Hollow</tituloLocal>
@@ -951,6 +1496,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Sleepy_Hollow</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Sleepy Hollow</patron>
+      <patron>Sleepy.Hollow</patron>
+      <patron>Sleepy_Hollow</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Sons of anarchy">
     <tituloLocal>Sons of anarchy</tituloLocal>
@@ -959,6 +1509,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Sons_of_anarchy</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Sons of anarchy</patron>
+      <patron>Sons.of.anarchy</patron>
+      <patron>Sons_of_anarchy</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Star Wars Rebels">
     <tituloLocal>Star Wars Rebels</tituloLocal>
@@ -967,6 +1522,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Star_Wars_Rebels</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Star Wars Rebels</patron>
+      <patron>Star.Wars.Rebels</patron>
+      <patron>Star_Wars_Rebels</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Suits">
     <tituloLocal>Suits</tituloLocal>
@@ -975,6 +1535,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Suits</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Suits</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The affair">
     <tituloLocal>The affair</tituloLocal>
@@ -983,6 +1546,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_affair</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>The affair</patron>
+      <patron>The.affair</patron>
+      <patron>The_affair</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The Americans">
     <tituloLocal>The Americans</tituloLocal>
@@ -991,6 +1559,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_Americans</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>The Americans</patron>
+      <patron>The.Americans</patron>
+      <patron>The_Americans</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The big bang theory">
     <tituloLocal>The big bang theory</tituloLocal>
@@ -999,6 +1572,25 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_big_bang_theory</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>The big bang theory</patron>
+      <patron>TBBT</patron>
+      <patron>The.big.bang.theory</patron>
+      <patron>The_big_bang_theory</patron>
+      <patron>Big bang</patron>
+      <patron>TBiBaTheory</patron>
+      <patron>TBBangTheory</patron>
+      <patron>ThBgBngThr</patron>
+      <patron>ThBigBangTheory</patron>
+      <patron>ThBgBg</patron>
+      <patron>thbiba</patron>
+      <patron>thbigbang</patron>
+      <patron>thbb</patron>
+      <patron>thbig</patron>
+      <patron>the bogbang</patron>
+      <patron>tbig</patron>
+      <patron>thebigbang</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The blacklist">
     <tituloLocal>The blacklist</tituloLocal>
@@ -1007,6 +1599,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_blacklist</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>The blacklist</patron>
+      <patron>The.blacklist</patron>
+      <patron>The_blacklist</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The Bridge">
     <tituloLocal>The Bridge</tituloLocal>
@@ -1015,6 +1612,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_Bridge</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>The Bridge</patron>
+      <patron>The.Bridge</patron>
+      <patron>The_Bridge</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The brink">
     <tituloLocal>The brink</tituloLocal>
@@ -1023,6 +1625,12 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_brink</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>The brink</patron>
+      <patron>The.brink</patron>
+      <patron>TBrnk</patron>
+      <patron>The_brink</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The Client List">
     <tituloLocal>The Client List</tituloLocal>
@@ -1031,6 +1639,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_Client_List</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>The Client List</patron>
+      <patron>The.Client.List</patron>
+      <patron>The_Client_List</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The crazy ones">
     <tituloLocal>The crazy ones</tituloLocal>
@@ -1039,6 +1652,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_crazy_ones</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>The crazy ones</patron>
+      <patron>The.crazy.ones</patron>
+      <patron>The_crazy_ones</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The Flash">
     <tituloLocal>The Flash</tituloLocal>
@@ -1047,6 +1665,14 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_Flash</tituloDivXTotal>
     <estado>1</estado>
+    <patrones>
+      <patron>The Flash</patron>
+      <patron>The.Flash</patron>
+      <patron>TFl</patron>
+      <patron>The_Flash</patron>
+      <patron>TF</patron>
+      <patron>tfl</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The Following">
     <tituloLocal>The Following</tituloLocal>
@@ -1055,6 +1681,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_Following</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>The Following</patron>
+      <patron>The.Following</patron>
+      <patron>The_Following</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The frankenstein chronicles">
     <tituloLocal>The frankenstein chronicles</tituloLocal>
@@ -1063,6 +1694,12 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_frankenstein_chronicles</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>The frankenstein chronicles</patron>
+      <patron>The.frankenstein.chronicles</patron>
+      <patron>tfc</patron>
+      <patron>The_frankenstein_chronicles</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The leftovers">
     <tituloLocal>The leftovers</tituloLocal>
@@ -1071,6 +1708,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_leftovers</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>The leftovers</patron>
+      <patron>The.leftovers</patron>
+      <patron>The_leftovers</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The Millers">
     <tituloLocal>The Millers</tituloLocal>
@@ -1079,6 +1721,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_Millers</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>The Millers</patron>
+      <patron>The.Millers</patron>
+      <patron>The_Millers</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The Mindy Proyect">
     <tituloLocal>The Mindy Proyect</tituloLocal>
@@ -1087,6 +1734,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_Mindy_Proyect</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>The Mindy Proyect</patron>
+      <patron>The.Mindy.Proyect</patron>
+      <patron>The_Mindy_Proyect</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The newsroom">
     <tituloLocal>The newsroom</tituloLocal>
@@ -1095,6 +1747,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_newsroom</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>The newsroom</patron>
+      <patron>The.newsroom</patron>
+      <patron>The_newsroom</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The returned">
     <tituloLocal>The returned</tituloLocal>
@@ -1103,6 +1760,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_returned</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>The returned</patron>
+      <patron>The.returned</patron>
+      <patron>The_returned</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The strain">
     <tituloLocal>The strain</tituloLocal>
@@ -1111,6 +1773,13 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_strain</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Tstrn</patron>
+      <patron>Tst</patron>
+      <patron>The strain</patron>
+      <patron>The.strain</patron>
+      <patron>The_strain</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The Walking Dead">
     <tituloLocal>The Walking Dead</tituloLocal>
@@ -1119,6 +1788,13 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_Walking_Dead</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>The Walking Dead</patron>
+      <patron>The.Walking.Dead</patron>
+      <patron>TWD</patron>
+      <patron>TVVD</patron>
+      <patron>The_Walking_Dead</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The Wrong Mans">
     <tituloLocal>The Wrong Mans</tituloLocal>
@@ -1127,6 +1803,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_Wrong_Mans</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>The Wrong Mans</patron>
+      <patron>The.Wrong.Mans</patron>
+      <patron>The_Wrong_Mans</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Transparent">
     <tituloLocal>Transparent</tituloLocal>
@@ -1135,6 +1816,10 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Transparent</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Tran</patron>
+      <patron>Transparent</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Transporter">
     <tituloLocal>Transporter</tituloLocal>
@@ -1143,6 +1828,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Transporter</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Transporter</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Trophy Wife">
     <tituloLocal>Trophy Wife</tituloLocal>
@@ -1151,6 +1839,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Trophy_Wife</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Trophy Wife</patron>
+      <patron>Trophy.Wife</patron>
+      <patron>Trophy_Wife</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Unbreakable Kimmy Schmidt">
     <tituloLocal>Unbreakable Kimmy Schmidt</tituloLocal>
@@ -1159,6 +1852,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Unbreakable_Kimmy_Schmidt</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Unbreakable Kimmy Schmidt</patron>
+      <patron>Unbreakable.Kimmy.Schmidt</patron>
+      <patron>Unbreakable_Kimmy_Schmidt</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Vaya Vecinos">
     <tituloLocal>Vaya Vecinos</tituloLocal>
@@ -1167,6 +1865,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Vaya_Vecinos</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Vaya Vecinos</patron>
+      <patron>Vaya.Vecinos</patron>
+      <patron>Vaya_Vecinos</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Veep">
     <tituloLocal>Veep</tituloLocal>
@@ -1175,6 +1878,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Veep</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Veep</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Vikingos">
     <tituloLocal>Vikingos</tituloLocal>
@@ -1183,6 +1889,12 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Vikingos</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Vikingos</patron>
+      <patron>vikings</patron>
+      <patron>vk</patron>
+      <patron>vik</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Vivo con modelos">
     <tituloLocal>Vivo con modelos</tituloLocal>
@@ -1191,6 +1903,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Vivo_con_modelos</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Vivo con modelos</patron>
+      <patron>Vivo.con.modelos</patron>
+      <patron>Vivo_con_modelos</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Wilfred">
     <tituloLocal>Wilfred</tituloLocal>
@@ -1199,6 +1916,9 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Wilfred</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>Wilfred</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="El sequito">
     <tituloLocal>El sequito</tituloLocal>
@@ -1207,6 +1927,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>El_sequito</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>El sequito</patron>
+      <patron>El.sequito</patron>
+      <patron>El_sequito</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Black Sails">
     <tituloLocal>Black Sails</tituloLocal>
@@ -1215,6 +1940,18 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Black_Sails</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>BSails</patron>
+      <patron>BS</patron>
+      <patron>Blck Sails</patron>
+      <patron>BlckSails</patron>
+      <patron>Black Sails</patron>
+      <patron>Black.Sails</patron>
+      <patron>Black_Sails</patron>
+      <patron>BlSls</patron>
+      <patron>BlackS</patron>
+      <patron>bsails</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Angie Tribeca">
     <tituloLocal>Angie Tribeca</tituloLocal>
@@ -1223,6 +1960,12 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Angie_Tribeca</tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>AT</patron>
+      <patron>Angie Tribeca</patron>
+      <patron>Angie.Tribeca</patron>
+      <patron>Angie_Tribeca</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Sin limites">
     <tituloLocal>Sin limites</tituloLocal>
@@ -1231,6 +1974,12 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Sin_limites</tituloDivXTotal>
     <estado>1</estado>
+    <patrones>
+      <patron>Sl</patron>
+      <patron>Sin limites</patron>
+      <patron>Sin.limites</patron>
+      <patron>Sin_limites</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Las cronicas de shannara">
     <tituloLocal>Las cronicas de shannara</tituloLocal>
@@ -1239,6 +1988,12 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Las_cronicas_de_shannara</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Las cronicas de shannara</patron>
+      <patron>LCDsh</patron>
+      <patron>Las.cronicas.de.shannara</patron>
+      <patron>Las_cronicas_de_shannara</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Ascension">
     <tituloLocal>Ascension</tituloLocal>
@@ -1247,6 +2002,10 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Ascension</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Ascension</patron>
+      <patron>Asc</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Guardians of galaxy">
     <tituloLocal>Guardians of galaxy</tituloLocal>
@@ -1255,6 +2014,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Guardians_of_galaxy</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Guardians of galaxy</patron>
+      <patron>Guardians.of.galaxy</patron>
+      <patron>Guardians_of_galaxy</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Los simpson">
     <tituloLocal>Los simpson</tituloLocal>
@@ -1263,6 +2027,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Los_simpson</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Los simpson</patron>
+      <patron>Los.simpson</patron>
+      <patron>Los_simpson</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="The magicians">
     <tituloLocal>The magicians</tituloLocal>
@@ -1271,6 +2040,13 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>The_magicians</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>The magicians</patron>
+      <patron>The.magicians</patron>
+      <patron>The_magicians</patron>
+      <patron>thmgcns</patron>
+      <patron>TM</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Juego de tronos">
     <tituloLocal>Juego de tronos</tituloLocal>
@@ -1279,6 +2055,18 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>Juego_de_tronos</tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Juego de tronos</patron>
+      <patron>Juego.de.tronos</patron>
+      <patron>Juego_de_tronos</patron>
+      <patron>jdt</patron>
+      <patron>jtronos</patron>
+      <patron>juetron</patron>
+      <patron>JuegoTronos</patron>
+      <patron>juegtrons</patron>
+      <patron>jgtr</patron>
+      <patron>JuegoDeT</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="New girl">
     <tituloLocal>New girl</tituloLocal>
@@ -1287,6 +2075,12 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>New_girl</tituloDivXTotal>
     <estado>1</estado>
+    <patrones>
+      <patron>New girl</patron>
+      <patron>New.girl</patron>
+      <patron>New_girl</patron>
+      <patron>ngirl</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="iZombie">
     <tituloLocal>iZombie</tituloLocal>
@@ -1295,6 +2089,11 @@
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <tituloDivXTotal>iZombie</tituloDivXTotal>
     <estado>1</estado>
+    <patrones>
+      <patron>iZombie</patron>
+      <patron>iZm</patron>
+      <patron>izom</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="American horror story">
     <tituloLocal>American horror story</tituloLocal>
@@ -1304,6 +2103,12 @@
     <tituloDivXTotal>
     </tituloDivXTotal>
     <estado>3</estado>
+    <patrones>
+      <patron>American horror story</patron>
+      <patron>American.horror.story</patron>
+      <patron>American_horror_story</patron>
+      <patron>ahs</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Narcos">
     <tituloLocal>Narcos</tituloLocal>
@@ -1313,6 +2118,12 @@
     <tituloDivXTotal>
     </tituloDivXTotal>
     <estado>2</estado>
+    <patrones>
+      <patron>Narcos</patron>
+      <patron>nrcs</patron>
+      <patron>nrc</patron>
+      <patron>ncrs</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Z Nation">
     <tituloLocal>Z Nation</tituloLocal>
@@ -1322,6 +2133,14 @@
     <tituloDivXTotal>
     </tituloDivXTotal>
     <estado>1</estado>
+    <patrones>
+      <patron>Z Nation</patron>
+      <patron>Z.Nation</patron>
+      <patron>Z_Nation</patron>
+      <patron>zntn</patron>
+      <patron>znath</patron>
+      <patron>znatn</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="Section Zero">
     <tituloLocal>Section Zero</tituloLocal>
@@ -1331,6 +2150,12 @@
     <tituloDivXTotal>
     </tituloDivXTotal>
     <estado>1</estado>
+    <patrones>
+      <patron>Section Zero</patron>
+      <patron>Section.Zero</patron>
+      <patron>Section_Zero</patron>
+      <patron>szero</patron>
+    </patrones>
   </serie>
   <serie tituloLocal="schitts creek">
     <tituloLocal>schitts creek</tituloLocal>
@@ -1340,5 +2165,10 @@
     <tituloDivXTotal>
     </tituloDivXTotal>
     <estado>1</estado>
+    <patrones>
+      <patron>schitts creek</patron>
+      <patron>schitts.creek</patron>
+      <patron>schitts_creek</patron>
+    </patrones>
   </serie>
 </Series>

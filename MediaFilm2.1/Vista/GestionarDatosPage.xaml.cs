@@ -52,11 +52,10 @@ namespace MediaFilm2._1.Vista
         internal void seleccionarSerie(Serie serieSeleccionada)
         {
             this.serieSeleccionada = serieSeleccionada;
-            this.serieSeleccionada.leerPatrones();
             this.panelListaPatronesActuales.Children.Clear();
-            foreach (Patron itPatrones in this.serieSeleccionada.patrones)
+            foreach (string itPatrones in this.serieSeleccionada.patrones)
             {
-                this.panelListaPatronesActuales.Children.Add(CrearVistas.LabelLista(itPatrones.textoPatron));
+                this.panelListaPatronesActuales.Children.Add(CrearVistas.LabelLista(itPatrones));
             }
             UpdateUI.updateGestionarDatos(Codigos.GESTIONAR_DATOS_ADD_PATRON_SERIE_SELECCIONADA, this);
         }
@@ -265,8 +264,9 @@ namespace MediaFilm2._1.Vista
         {
             if (validarAddPatron())
             {
-                MainWindow.PatronesXML.insertar(new Patron { nombreSerie = serieSeleccionada.tituloLocal, textoPatron = textBoxNuevoPatron.Text.Trim() });
-                serieSeleccionada.leerPatrones();
+
+                serieSeleccionada.patrones.Add(textBoxNuevoPatron.Text.Trim());
+                MainWindow.SeriesXML.updateSerie(serieSeleccionada);
                 UpdateUI.updateGestionarDatos(Codigos.GESTIONAR_DATOS_ADD_PATRON_OK, this);
                 seleccionarSerie(this.serieSeleccionada);
             }

@@ -32,7 +32,6 @@ namespace MediaFilm2._1
         public static XMLLogger ErrorLogger;
         public static XMLEstadisticas EstadisticasXML;
         public static XMLSeries SeriesXML;
-     public static   XMLPatron PatronesXML;
 
 
 
@@ -46,19 +45,18 @@ namespace MediaFilm2._1
             ErrorLogger = new XMLLogger(config.ficheroErrorLog);
             EstadisticasXML = new XMLEstadisticas(config.ficheroTiempos);
             SeriesXML = new XMLSeries(config.ficheroSeries, config.ficheroSerieLogger, config.ficheroPatrones, config.ficheroPatronLog);
-            PatronesXML = new XMLPatron(config.ficheroPatrones, config.ficheroPatronLog);
+
 
 
             if (!File.Exists(Recursos.CONFIG_URL))
             {
-            //    FrameHerramientaInicio.Source = new Uri(Recursos.InicioRapidoPageURL, UriKind.Relative);
+                //    FrameHerramientaInicio.Source = new Uri(Recursos.InicioRapidoPageURL, UriKind.Relative);
             }
             frameConfiguracion.Source = new Uri(Recursos.CONFIG_PAGE_URL, UriKind.Relative);
             frameDescargas.Source = new Uri(Recursos.DESCARGAS_PAGE_URL, UriKind.Relative);
             frameGestionarDatos.Source = new Uri(Recursos.GESTIONAR_DATOS_PAGE_URL, UriKind.Relative);
             frameMantenimiento.Source = new Uri(Recursos.MANTENIMIENTO_PAGE_URL, UriKind.Relative);
             frameOrdenar.Source = new Uri(Recursos.ORDENAR_PAGE_URL, UriKind.Relative);
-
         }
 
         private void ImageOrdenar_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)

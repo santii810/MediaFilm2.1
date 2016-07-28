@@ -29,3 +29,6 @@ C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Vista\Gestionar
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Vista\MantenimientoPage.baml
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Vista\OrdenarPage.baml
 C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\obj\Debug\Res\Diccionarios\DiccionarioExterno.baml
+C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\bin\Debug\HtmlAgilityPack.dll
+C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\sgomez\Repositorios\MediaFilm2.1\MediaFilm2.1\bin\Debug\HtmlAgilityPack.xml

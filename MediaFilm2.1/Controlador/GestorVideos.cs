@@ -106,8 +106,8 @@ namespace MediaFilm2._1.Controlador
                 if (itSerie.estado == 1)
                 {
                     renombrarVideosRequest.seriesActivas++;
-                    itSerie.leerPatrones();
-                    foreach (Patron itPatron in itSerie.patrones)
+           
+                    foreach (string itPatron in itSerie.patrones)
                     {
                         for (int temp = itSerie.temporadaActual; temp <= itSerie.numeroTemporadas; temp++)
                         {
@@ -119,28 +119,28 @@ namespace MediaFilm2._1.Controlador
                                 string[] strPatrones = new string[]
                                 {
                                     //patrones para capitulos<10  y extension == mkv
-                                    itPatron.textoPatron + "*" + temp.ToString() + "0" + cap.ToString() + "*.mkv" ,
-                                    itPatron.textoPatron + "*" + temp.ToString() + "x0" + cap.ToString() + "*.mkv" ,
-                                    temp.ToString()+"x0"+cap.ToString()+"*"+itPatron.textoPatron+"*.mkv",
+                                    itPatron + "*" + temp.ToString() + "0" + cap.ToString() + "*.mkv" ,
+                                    itPatron + "*" + temp.ToString() + "x0" + cap.ToString() + "*.mkv" ,
+                                    temp.ToString()+"x0"+cap.ToString()+"*"+itPatron+"*.mkv",
 
                                     //patrones para capitulos<10  y extension == avi
-                                    itPatron.textoPatron + "*" + temp.ToString() + "0" + cap.ToString() + "*.avi" ,
-                                    itPatron.textoPatron + "*" + temp.ToString() + "x0" + cap.ToString() + "*.avi" ,
-                                    temp.ToString()+"x0"+cap.ToString()+"*"+itPatron.textoPatron+"*.avi",
+                                    itPatron + "*" + temp.ToString() + "0" + cap.ToString() + "*.avi" ,
+                                    itPatron + "*" + temp.ToString() + "x0" + cap.ToString() + "*.avi" ,
+                                    temp.ToString()+"x0"+cap.ToString()+"*"+itPatron+"*.avi",
 
                                     //patrones para capitulos>10  y extension == mkv
-                                    itPatron.textoPatron + "*" + temp.ToString() + cap.ToString() + "*.mkv",
-                                    itPatron.textoPatron + "*" + temp.ToString() + "x" + cap.ToString() + "*.mkv",
-                                    temp.ToString()+"x"+cap.ToString()+"*"+itPatron.textoPatron+"*.mkv",
+                                    itPatron + "*" + temp.ToString() + cap.ToString() + "*.mkv",
+                                    itPatron + "*" + temp.ToString() + "x" + cap.ToString() + "*.mkv",
+                                    temp.ToString()+"x"+cap.ToString()+"*"+itPatron+"*.mkv",
 
                                     //patrones para capitulos>10  y extension == avi
-                                    itPatron.textoPatron + "*" + temp.ToString() + cap.ToString() + "*.avi",
-                                    itPatron.textoPatron + "*" + temp.ToString() + "x" + cap.ToString() + "*.avi",
-                                    temp.ToString()+"x"+cap.ToString()+"*"+itPatron.textoPatron+"*.avi",
+                                    itPatron + "*" + temp.ToString() + cap.ToString() + "*.avi",
+                                    itPatron + "*" + temp.ToString() + "x" + cap.ToString() + "*.avi",
+                                    temp.ToString()+"x"+cap.ToString()+"*"+itPatron+"*.avi",
 
                                     //patrones especiales
-                                    itPatron.textoPatron+"*"+temp + "(" + cap.ToString()+ ")" + ".avi",
-                                    itPatron.textoPatron+"*"+temp + "(" + cap.ToString()+ ")" + ".mkv"
+                                    itPatron+"*"+temp + "(" + cap.ToString()+ ")" + ".avi",
+                                    itPatron+"*"+temp + "(" + cap.ToString()+ ")" + ".mkv"
                             };
 
                                 /* 

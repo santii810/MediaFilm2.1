@@ -17,7 +17,6 @@ namespace MediaFilm2._1.Modelo.XML
         XmlDocument Documento;
         XmlNode raiz;
         XMLLogger SerieLogger;
-        XMLPatron PatronesXML;
 
 
         public const string RAIZ = "Series";
@@ -28,13 +27,15 @@ namespace MediaFilm2._1.Modelo.XML
         public const string CAPITULOS_POR_TEMPORADA_TAG_NAME = "capitulosPorTemporada";
         public const string TITULO_DIVXTOTAL_LOCAL_TAG_NAME = "tituloDivXTotal";
         public const string ESTADO_TAG_NAME = "estado";
+        public const string PATRONES_TAG_NAME = "patrones";
+        public const string PATRON_TAG_NAME = "patron";
 
 
         public XMLSeries(string nombreFichero, string nombreFicheroSeriesLogger, string nombreFicheroPatrones, string nombreFicheroPatronLogger)
         {
             this.nombreFichero = nombreFichero;
             SerieLogger = new XMLLogger(nombreFicheroSeriesLogger);
-            PatronesXML = new XMLPatron(nombreFicheroPatrones, nombreFicheroPatronLogger);
+            
         }
         public bool cargarXML()
         {
@@ -64,6 +65,12 @@ namespace MediaFilm2._1.Modelo.XML
 
         private static Serie leerNodo(XmlNode item)
         {
+            List<string> patrones = new List<string>();
+            foreach (XmlNode itPatron in item[PATRONES_TAG_NAME].ChildNodes)
+            {
+                patrones.Add(itPatron.InnerText);
+            }
+
             return new Serie
             {
                 tituloLocal = item[TITULO_LOCAL_TAG_NAME].InnerText.ToString(),
@@ -71,13 +78,34 @@ namespace MediaFilm2._1.Modelo.XML
                 numeroTemporadas = Convert.ToInt32(item[NUMERO_TEMPORADAS_TAG_NAME].InnerText.ToString()),
                 capitulosPorTemporada = Convert.ToInt32(item[CAPITULOS_POR_TEMPORADA_TAG_NAME].InnerText.ToString()),
                 estado = Convert.ToInt32(item[ESTADO_TAG_NAME].InnerText),
-                tituloDivXTotal = item[TITULO_DIVXTOTAL_LOCAL_TAG_NAME].InnerText
+                tituloDivXTotal = item[TITULO_DIVXTOTAL_LOCAL_TAG_NAME].InnerText,
+                patrones = patrones
+
             };
         }
 
         public void insertar(object entrada)
         {
             Serie serie = (Serie)entrada;
+
+            serie.patrones.Add(serie.tituloLocal);
+            serie.patrones.Add(serie.tituloLocal.Replace(' ', '.'));
+            serie.patrones.Add(serie.tituloLocal.Replace(' ', '_'));
+
+            string[] splitSerie = serie.tituloLocal.Trim().Split(' ');
+            if (splitSerie.Length > 2)
+            {
+                string tituloPatron = "";
+                foreach (string item in splitSerie)
+                {
+                    tituloPatron += item[0];
+                }
+
+                serie.patrones.Add(tituloPatron);
+            }
+
+
+
             Documento = new XmlDocument();
 
             if (!File.Exists(nombreFichero))
@@ -99,10 +127,7 @@ namespace MediaFilm2._1.Modelo.XML
 
                 SerieLogger.insertar(new LogSerie(Recursos.LOG_TIPO_ADD_SERIE, Mensajes.ADD_SERIE_OK, serie));
 
-                //Añado 3 patrones por defecto a todas las series nada mas ser añadidas
-                PatronesXML.insertar(new Patron { nombreSerie = serie.tituloLocal, textoPatron = serie.tituloLocal });
-                PatronesXML.insertar(new Patron { nombreSerie = serie.tituloLocal, textoPatron = serie.tituloLocal.Replace(' ', '.') });
-                PatronesXML.insertar(new Patron { nombreSerie = serie.tituloLocal, textoPatron = serie.tituloLocal.Replace(' ', '_') });
+               
             }
         }
 
@@ -136,6 +161,19 @@ namespace MediaFilm2._1.Modelo.XML
             XmlElement estado = Documento.CreateElement(ESTADO_TAG_NAME);
             estado.InnerText = serie.estado.ToString();
             nodoSerie.AppendChild(estado);
+
+            XmlElement patrones = Documento.CreateElement(PATRONES_TAG_NAME);
+
+
+
+            foreach (string item in serie.patrones)
+            {
+                XmlElement patron = Documento.CreateElement(PATRON_TAG_NAME);
+                patron.InnerText = item;
+                patrones.AppendChild(patron);
+            }
+
+            nodoSerie.AppendChild(patrones);
 
             return nodoSerie;
         }

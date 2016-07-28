@@ -15,16 +15,9 @@ namespace MediaFilm2._1.Modelo
         public int numeroTemporadas { get; set; }
         public int capitulosPorTemporada { get; set; }
         public int estado { get; set; }
-        public List<Patron> patrones { get; set; }
+        public List<string> patrones { get; set; }
 
-
-
-        public void leerPatrones()
-        {
-
-            patrones = MainWindow.PatronesXML.leerXML(tituloLocal);
-        }
-
+                      
         public int CompareTo(object obj)
         {
             Serie tmp = (Serie)obj;
