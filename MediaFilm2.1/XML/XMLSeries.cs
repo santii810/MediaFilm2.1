@@ -19,17 +19,16 @@ namespace MediaFilm2._1.Modelo.XML
         XMLLogger SerieLogger;
 
 
-        public const string RAIZ = "Series";
-        public const string SERIE_TAG_NAME = "serie";
-        public const string TITULO_LOCAL_TAG_NAME = "tituloLocal";
-        public const string TEMPORADA_ACTUAL_TAG_NAME = "temporadaActual";
-        public const string NUMERO_TEMPORADAS_TAG_NAME = "numeroTemporadas";
-        public const string CAPITULOS_POR_TEMPORADA_TAG_NAME = "capitulosPorTemporada";
-        public const string TITULO_DIVXTOTAL_LOCAL_TAG_NAME = "tituloDivXTotal";
-        public const string ESTADO_TAG_NAME = "estado";
-        public const string PATRONES_TAG_NAME = "patrones";
-        public const string PATRON_TAG_NAME = "patron";
-
+        private const string RAIZ = "Series";
+        private const string SERIE_TAG_NAME = "serie";
+        private const string TITULO_LOCAL_TAG_NAME = "tituloLocal";
+        private const string TEMPORADA_ACTUAL_TAG_NAME = "temporadaActual";
+        private const string NUMERO_TEMPORADAS_TAG_NAME = "numeroTemporadas";
+        private const string CAPITULOS_POR_TEMPORADA_TAG_NAME = "capitulosPorTemporada";
+        private const string TITULO_DIVXTOTAL_LOCAL_TAG_NAME = "tituloDivXTotal";
+        private const string ESTADO_TAG_NAME = "estado";
+        private const string PATRONES_TAG_NAME = "patrones";
+        private const string PATRON_TAG_NAME = "patron";
 
         public XMLSeries(string nombreFichero, string nombreFicheroSeriesLogger, string nombreFicheroPatrones, string nombreFicheroPatronLogger)
         {
@@ -37,18 +36,6 @@ namespace MediaFilm2._1.Modelo.XML
             SerieLogger = new XMLLogger(nombreFicheroSeriesLogger);
             
         }
-        public bool cargarXML()
-        {
-            if (File.Exists(nombreFichero))
-            {
-                Documento = new XmlDocument();
-                Documento.Load(nombreFichero);
-                raiz = Documento.DocumentElement;
-                return true;
-            }
-            else return false;
-        }
-
         public List<Serie> leerXML()
         {
             List<Serie> series = new List<Serie>();
@@ -62,28 +49,6 @@ namespace MediaFilm2._1.Modelo.XML
             }
             return series;
         }
-
-        private static Serie leerNodo(XmlNode item)
-        {
-            List<string> patrones = new List<string>();
-            foreach (XmlNode itPatron in item[PATRONES_TAG_NAME].ChildNodes)
-            {
-                patrones.Add(itPatron.InnerText);
-            }
-
-            return new Serie
-            {
-                tituloLocal = item[TITULO_LOCAL_TAG_NAME].InnerText.ToString(),
-                temporadaActual = Convert.ToInt32(item[TEMPORADA_ACTUAL_TAG_NAME].InnerText.ToString()),
-                numeroTemporadas = Convert.ToInt32(item[NUMERO_TEMPORADAS_TAG_NAME].InnerText.ToString()),
-                capitulosPorTemporada = Convert.ToInt32(item[CAPITULOS_POR_TEMPORADA_TAG_NAME].InnerText.ToString()),
-                estado = Convert.ToInt32(item[ESTADO_TAG_NAME].InnerText),
-                tituloDivXTotal = item[TITULO_DIVXTOTAL_LOCAL_TAG_NAME].InnerText,
-                patrones = patrones
-
-            };
-        }
-
         public void insertar(object entrada)
         {
             Serie serie = (Serie)entrada;
@@ -130,8 +95,18 @@ namespace MediaFilm2._1.Modelo.XML
                
             }
         }
+        public void updateSerie(Serie serie)
+        {
+            XmlNode nodoViejo = buscarNodo(serie.tituloLocal);
+            if (nodoViejo != null)
+            {
+                raiz.ReplaceChild(crearNodo(serie), nodoViejo);
+                Documento.Save(nombreFichero);
+            }
 
-        public XmlNode crearNodo(object entrada)
+        }
+
+        private XmlNode crearNodo(object entrada)
         {
             Serie serie = (Serie)entrada;
 
@@ -177,35 +152,14 @@ namespace MediaFilm2._1.Modelo.XML
 
             return nodoSerie;
         }
-
-        public bool existe(string campo)
+        private bool existe(string campo)
         {
             foreach (XmlNode item in Documento.GetElementsByTagName(SERIE_TAG_NAME))
                 if (item.Attributes[TITULO_LOCAL_TAG_NAME].Value.Equals(campo))
                     return true;
             return false;
         }
-
-        private XmlNode buscarNodo(string tituloSerie)
-        {
-            if (cargarXML())
-                foreach (XmlNode item in Documento.GetElementsByTagName(SERIE_TAG_NAME))
-                    if (item[TITULO_LOCAL_TAG_NAME].InnerText.ToString().Equals(tituloSerie)) return item;
-            return null;
-        }
-
-        public void updateSerie(Serie serie)
-        {
-            XmlNode nodoViejo = buscarNodo(serie.tituloLocal);
-            if (nodoViejo != null)
-            {
-                raiz.ReplaceChild(crearNodo(serie), nodoViejo);
-                Documento.Save(nombreFichero);
-            }
-
-        }
-
-        public Serie buscarSerie(string nombreSerie)
+        private Serie buscarSerie(string nombreSerie)
         {
             Serie serie = new Serie();
             if (cargarXML())
@@ -219,6 +173,44 @@ namespace MediaFilm2._1.Modelo.XML
                 }
             }
             return serie;
+        }
+        private bool cargarXML()
+        {
+            if (File.Exists(nombreFichero))
+            {
+                Documento = new XmlDocument();
+                Documento.Load(nombreFichero);
+                raiz = Documento.DocumentElement;
+                return true;
+            }
+            else return false;
+        }
+        private static Serie leerNodo(XmlNode item)
+        {
+            HashSet<string> patrones = new HashSet<string>();
+            foreach (XmlNode itPatron in item[PATRONES_TAG_NAME].ChildNodes)
+            {
+                patrones.Add(itPatron.InnerText);
+            }
+
+            return new Serie
+            {
+                tituloLocal = item[TITULO_LOCAL_TAG_NAME].InnerText.ToString(),
+                temporadaActual = Convert.ToInt32(item[TEMPORADA_ACTUAL_TAG_NAME].InnerText.ToString()),
+                numeroTemporadas = Convert.ToInt32(item[NUMERO_TEMPORADAS_TAG_NAME].InnerText.ToString()),
+                capitulosPorTemporada = Convert.ToInt32(item[CAPITULOS_POR_TEMPORADA_TAG_NAME].InnerText.ToString()),
+                estado = Convert.ToInt32(item[ESTADO_TAG_NAME].InnerText),
+                tituloDivXTotal = item[TITULO_DIVXTOTAL_LOCAL_TAG_NAME].InnerText,
+                patrones = patrones
+
+            };
+        }
+        private XmlNode buscarNodo(string tituloSerie)
+        {
+            if (cargarXML())
+                foreach (XmlNode item in Documento.GetElementsByTagName(SERIE_TAG_NAME))
+                    if (item[TITULO_LOCAL_TAG_NAME].InnerText.ToString().Equals(tituloSerie)) return item;
+            return null;
         }
     }
 }
