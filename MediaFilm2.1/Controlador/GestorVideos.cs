@@ -18,9 +18,8 @@ namespace MediaFilm2._1.Controlador
 
         public static RecorrerTorrentResponse recorrerTorrent()
         {
-            RecorrerTorrentResponse recorrerTorrentRequest = new RecorrerTorrentResponse();
-
             Stopwatch tiempo = Stopwatch.StartNew();
+            RecorrerTorrentResponse recorrerTorrentRequest = new RecorrerTorrentResponse();
 
             //mueve o borra archivos
             DirectoryInfo dir = new DirectoryInfo(MainWindow.config.directorioTorrent);
@@ -44,6 +43,7 @@ namespace MediaFilm2._1.Controlador
 
         public static MantenimientoResponse realizarMantenimiento()
         {
+            Stopwatch tiempo = Stopwatch.StartNew();
             MantenimientoResponse response = new MantenimientoResponse();
 
             List<Serie> series = MainWindow.SeriesXML.leerXML();
@@ -86,13 +86,11 @@ namespace MediaFilm2._1.Controlador
                                     response.ErroresDuplicidad.Add(new ErrorDuplicidad());
                                 }
                             }
-
-
                         }
                     }
-
                 }
             }
+            response.tiempoTranscurrido = (int)tiempo.ElapsedMilliseconds;
             return response;
         }
 

@@ -5,7 +5,7 @@ namespace MediaFilm2._1.Vista
 {
     internal class MantenimientoResponse
     {
-
+        public int tiempoTranscurrido { get; set; }
         public List<ErrorDuplicidad> ErroresDuplicidad { get; set; }
         public List<string> ErroresContinuidad { get; set; }
 
