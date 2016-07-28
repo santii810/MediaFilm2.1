@@ -57,6 +57,13 @@ namespace MediaFilm2._1
             frameGestionarDatos.Source = new Uri(Recursos.GESTIONAR_DATOS_PAGE_URL, UriKind.Relative);
             frameMantenimiento.Source = new Uri(Recursos.MANTENIMIENTO_PAGE_URL, UriKind.Relative);
             frameOrdenar.Source = new Uri(Recursos.ORDENAR_PAGE_URL, UriKind.Relative);
+
+
+            List<Serie> series = SeriesXML.leerXML();
+            foreach (var item in series)
+            {
+                SeriesXML.updateSerie(item);
+            }
         }
 
         private void ImageOrdenar_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)

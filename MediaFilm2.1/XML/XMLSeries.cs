@@ -105,7 +105,7 @@ namespace MediaFilm2._1.Modelo.XML
             }
 
         }
-
+        
         private XmlNode crearNodo(object entrada)
         {
             Serie serie = (Serie)entrada;
