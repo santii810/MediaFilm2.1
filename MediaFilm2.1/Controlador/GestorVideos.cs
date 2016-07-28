@@ -46,7 +46,7 @@ namespace MediaFilm2._1.Controlador
             Stopwatch tiempo = Stopwatch.StartNew();
             MantenimientoResponse response = new MantenimientoResponse();
 
-            List<Serie> series = MainWindow.SeriesXML.leerXML();
+            List<Serie> series = MainWindow.SeriesXML.obtenerSeries();
             series.Sort();
 
             foreach (DirectoryInfo dirSerie in new DirectoryInfo(MainWindow.config.directorioSeries).GetDirectories())
@@ -99,7 +99,7 @@ namespace MediaFilm2._1.Controlador
             RenombrarVideosResponse renombrarVideosRequest = new RenombrarVideosResponse();
             Stopwatch tiempo = Stopwatch.StartNew();
 
-            List<Serie> series = MainWindow.SeriesXML.leerXML();
+            List<Serie> series = MainWindow.SeriesXML.obtenerSeries();
             renombrarVideosRequest.seriesTotales = series.Count;
             foreach (Serie itSerie in series)
             {

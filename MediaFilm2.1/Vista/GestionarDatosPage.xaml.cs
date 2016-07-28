@@ -79,7 +79,7 @@ namespace MediaFilm2._1.Vista
         {
             UpdateUI.updateGestionarDatos(Codigos.GESTIONAR_DATOS_ADD_PATRON, this);
             this.panelSeleccionarSeriePatron.Children.Clear();
-            series = MainWindow.SeriesXML.leerXML();
+            series = MainWindow.SeriesXML.obtenerSeries();
             series.Sort();
             foreach (Serie itSerie in series)
             {
@@ -136,7 +136,7 @@ namespace MediaFilm2._1.Vista
         private void updatePanelIOSeries()
         {
             Thread.Sleep(200);
-            series = MainWindow.SeriesXML.leerXML();
+            series = MainWindow.SeriesXML.obtenerSeries();
             series.Sort();
 
             int cont = 0;
@@ -168,7 +168,7 @@ namespace MediaFilm2._1.Vista
 
         public void updatePanelTemporadas()
         {
-            series = MainWindow.SeriesXML.leerXML();
+            series = MainWindow.SeriesXML.obtenerSeries();
             series.Sort();
 
             this.panelListaTemporadas.Children.Clear();
@@ -189,7 +189,7 @@ namespace MediaFilm2._1.Vista
             {
                 if (validarAddSerie())
                 {
-                    MainWindow.SeriesXML.insertar(new Serie
+                    MainWindow.SeriesXML.insertarSerie(new Serie
                     {
                         tituloLocal = textBoxTitulo.Text.Trim(),
                         capitulosPorTemporada = Convert.ToInt32(textBoxCapitulosTemporada.Text.Trim()),

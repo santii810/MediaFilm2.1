@@ -36,7 +36,7 @@ namespace MediaFilm2._1.Modelo.XML
             SerieLogger = new XMLLogger(nombreFicheroSeriesLogger);
             
         }
-        public List<Serie> leerXML()
+        public List<Serie> obtenerSeries()
         {
             List<Serie> series = new List<Serie>();
             if (cargarXML())
@@ -49,7 +49,7 @@ namespace MediaFilm2._1.Modelo.XML
             }
             return series;
         }
-        public void insertar(object entrada)
+        public void insertarSerie(object entrada)
         {
             Serie serie = (Serie)entrada;
 

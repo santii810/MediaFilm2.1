@@ -14,7 +14,7 @@ namespace MediaFilm2._1.Controlador
     {
         public void buscarDescargas()
         {
-            List<Serie> series = MainWindow.SeriesXML.leerXML();
+            List<Serie> series = MainWindow.SeriesXML.obtenerSeries();
             foreach (Serie serie in series)
             {
                 UltimoFicheroResponse ultimoFicheroRequest = GestorVideos.getUltimoFichero(serie);
