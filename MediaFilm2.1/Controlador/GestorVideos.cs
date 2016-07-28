@@ -54,7 +54,7 @@ namespace MediaFilm2._1.Controlador
                 Serie serie = new Serie();
 
                 foreach (Serie item in series)
-                    if (dirSerie.Name == item.titulo)
+                    if (dirSerie.Name == item.tituloLocal)
                         serie = item;
 
                 if (serie != new Serie())
@@ -103,7 +103,7 @@ namespace MediaFilm2._1.Controlador
             renombrarVideosRequest.seriesTotales = series.Count;
             foreach (Serie itSerie in series)
             {
-                if (itSerie.estado == "A")
+                if (itSerie.estado == 1)
                 {
                     renombrarVideosRequest.seriesActivas++;
                     itSerie.leerPatrones();
@@ -114,7 +114,7 @@ namespace MediaFilm2._1.Controlador
                             for (int cap = 0; cap <= itSerie.capitulosPorTemporada; cap++)
                             {
                                 FileInfo fi;
-                                string dirSerie = MainWindow.config.directorioSeries + @"\" + itSerie.titulo + @"\Temporada" + temp + @"\";
+                                string dirSerie = MainWindow.config.directorioSeries + @"\" + itSerie.tituloLocal + @"\Temporada" + temp + @"\";
                                 renombrarVideosRequest.patronesEjecutados += 8;
                                 string[] strPatrones = new string[]
                                 {
@@ -170,11 +170,11 @@ namespace MediaFilm2._1.Controlador
                                         {
                                             if (cap < 10)
                                             {
-                                                fi.MoveTo(dirSerie + @"\" + itSerie.titulo + " " + temp + "x0" + cap + fi.Extension);
+                                                fi.MoveTo(dirSerie + @"\" + itSerie.tituloLocal + " " + temp + "x0" + cap + fi.Extension);
                                             }
                                             else
                                             {
-                                                fi.MoveTo(dirSerie + @"\" + itSerie.titulo + " " + temp + "x" + cap + fi.Extension);
+                                                fi.MoveTo(dirSerie + @"\" + itSerie.tituloLocal + " " + temp + "x" + cap + fi.Extension);
                                             }
                                             MainWindow.IOLogger.insertar(new LogRenombrado(Recursos.LOG_TIPO_RENOMBRADO_OK, Mensajes.FICHERO_RENOMBRADO_OK, fi, nombreOriginal));
                                             renombrarVideosRequest.videosRenombrados.Add(new string[] { nombreOriginal, fi.Name });
@@ -217,7 +217,7 @@ namespace MediaFilm2._1.Controlador
 
         public static UltimoFicheroResponse getUltimoFichero(Serie item)
         {
-            string directorioSerie = MainWindow.config.directorioSeries + @"/" + item.titulo;
+            string directorioSerie = MainWindow.config.directorioSeries + @"/" + item.tituloLocal;
             try
             {
                 //obtiene los directorios dentro de la carpeta de la serie

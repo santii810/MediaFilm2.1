@@ -105,12 +105,12 @@ namespace MediaFilm2._1.Modelo.XML
 
             if (log.GetType() == typeof(LogSerie))
             {
-                nodo.SetAttribute(TITULO_TAG_NAME, ((LogSerie)log).serie.titulo);
+                nodo.SetAttribute(TITULO_TAG_NAME, ((LogSerie)log).serie.tituloLocal);
                 nodo.SetAttribute(TEMPORADA_ACTUAL_TAG_NAME, ((LogSerie)log).serie.temporadaActual.ToString());
                 nodo.SetAttribute(NUMERO_TEMPORADAS_TAG_NAME, ((LogSerie)log).serie.numeroTemporadas.ToString());
                 nodo.SetAttribute(CAPITULOS_POR_TEMPORADA_TAG_NAME, ((LogSerie)log).serie.capitulosPorTemporada.ToString());
-                nodo.SetAttribute(TITULO_DESCARGA_TAG_NAME, ((LogSerie)log).serie.tituloDescarga);
-                nodo.SetAttribute(ESTADO_TAG_NAME, ((LogSerie)log).serie.estado);
+                nodo.SetAttribute(TITULO_DESCARGA_TAG_NAME, ((LogSerie)log).serie.tituloDivXTotal);
+                nodo.SetAttribute(ESTADO_TAG_NAME, ((LogSerie)log).serie.estado.ToString());
             }
             return nodo;
         }

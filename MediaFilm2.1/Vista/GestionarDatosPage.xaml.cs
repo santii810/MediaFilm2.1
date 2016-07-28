@@ -84,7 +84,7 @@ namespace MediaFilm2._1.Vista
             series.Sort();
             foreach (Serie itSerie in series)
             {
-                if (itSerie.estado == "A")
+                if (itSerie.estado == 1)
                     this.panelSeleccionarSeriePatron.Children.Add(CrearVistas.PanelSeleccionarSerie(itSerie, this));
             }
 
@@ -115,20 +115,20 @@ namespace MediaFilm2._1.Vista
         {
 
             Thread.Sleep(100);
-            if (serieSeleccionada.estado == "A")
-                serieSeleccionada.estado = "D";
-            else if (serieSeleccionada.estado == "D")
-                serieSeleccionada.estado = "A";
+            if (serieSeleccionada.estado == 1)
+                serieSeleccionada.estado = 2;
+            else if (serieSeleccionada.estado == 2)
+                serieSeleccionada.estado = 1;
             MainWindow.SeriesXML.updateSerie(serieSeleccionada);
 
 
         }
         internal void imagenIO_CambiarEstado2_Handler()
         {
-            if (serieSeleccionada.estado == "F")
-                serieSeleccionada.estado = "A";
+            if (serieSeleccionada.estado == 3)
+                serieSeleccionada.estado = 1;
             else
-                serieSeleccionada.estado = "F";
+                serieSeleccionada.estado = 3;
             MainWindow.SeriesXML.updateSerie(serieSeleccionada);
         }
 
@@ -144,7 +144,7 @@ namespace MediaFilm2._1.Vista
             this.panelListaIOSerie.Children.Clear();
             foreach (Serie itSerie in series)
             {
-                if (itSerie.titulo.ToLower().Contains(filtro.ToLower()))
+                if (itSerie.tituloLocal.ToLower().Contains(filtro.ToLower()))
                 {
                     this.panelListaIOSerie.Children.Add(CrearVistas.PanelEstadoSerie(itSerie, this, cont++));
                 }
@@ -177,7 +177,7 @@ namespace MediaFilm2._1.Vista
 
             foreach (Serie itSerie in series )
             {
-                if(itSerie.estado == "A")
+                if(itSerie.estado == 1)
                 this.panelListaTemporadas.Children.Add(CrearVistas.PanelActualizarTemporadas(itSerie, this, cont++));
 
             }
@@ -192,9 +192,9 @@ namespace MediaFilm2._1.Vista
                 {
                     MainWindow.SeriesXML.insertar(new Serie
                     {
-                        titulo = textBoxTitulo.Text.Trim(),
+                        tituloLocal = textBoxTitulo.Text.Trim(),
                         capitulosPorTemporada = Convert.ToInt32(textBoxCapitulosTemporada.Text.Trim()),
-                        estado = "A",
+                        estado = 1,
                         numeroTemporadas = Convert.ToInt32(textBoxNumeroTemporadas.Text.Trim()),
                         temporadaActual = 1
                     });
@@ -265,7 +265,7 @@ namespace MediaFilm2._1.Vista
         {
             if (validarAddPatron())
             {
-                MainWindow.PatronesXML.insertar(new Patron { nombreSerie = serieSeleccionada.titulo, textoPatron = textBoxNuevoPatron.Text.Trim() });
+                MainWindow.PatronesXML.insertar(new Patron { nombreSerie = serieSeleccionada.tituloLocal, textoPatron = textBoxNuevoPatron.Text.Trim() });
                 serieSeleccionada.leerPatrones();
                 UpdateUI.updateGestionarDatos(Codigos.GESTIONAR_DATOS_ADD_PATRON_OK, this);
                 seleccionarSerie(this.serieSeleccionada);

@@ -10,7 +10,7 @@ using System.Xml;
 
 namespace MediaFilm2._1.Modelo.XML
 {
-   public class XMLSeries
+    public class XMLSeries
     {
 
         string nombreFichero;
@@ -22,11 +22,11 @@ namespace MediaFilm2._1.Modelo.XML
 
         public const string RAIZ = "Series";
         public const string SERIE_TAG_NAME = "serie";
-        public const string TITULO_TAG_NAME = "titulo";
+        public const string TITULO_LOCAL_TAG_NAME = "tituloLocal";
         public const string TEMPORADA_ACTUAL_TAG_NAME = "temporadaActual";
         public const string NUMERO_TEMPORADAS_TAG_NAME = "numeroTemporadas";
         public const string CAPITULOS_POR_TEMPORADA_TAG_NAME = "capitulosPorTemporada";
-        public const string TITULO_DESCARGA_TAG_NAME = "tituloDescarga";
+        public const string TITULO_DIVXTOTAL_LOCAL_TAG_NAME = "tituloDivXTotal";
         public const string ESTADO_TAG_NAME = "estado";
 
 
@@ -66,12 +66,12 @@ namespace MediaFilm2._1.Modelo.XML
         {
             return new Serie
             {
-                titulo = item[TITULO_TAG_NAME].InnerText.ToString(),
+                tituloLocal = item[TITULO_LOCAL_TAG_NAME].InnerText.ToString(),
                 temporadaActual = Convert.ToInt32(item[TEMPORADA_ACTUAL_TAG_NAME].InnerText.ToString()),
                 numeroTemporadas = Convert.ToInt32(item[NUMERO_TEMPORADAS_TAG_NAME].InnerText.ToString()),
                 capitulosPorTemporada = Convert.ToInt32(item[CAPITULOS_POR_TEMPORADA_TAG_NAME].InnerText.ToString()),
-                estado = item[ESTADO_TAG_NAME].InnerText,
-                tituloDescarga = item[TITULO_DESCARGA_TAG_NAME].InnerText
+                estado = Convert.ToInt32(item[ESTADO_TAG_NAME].InnerText),
+                tituloDivXTotal = item[TITULO_DIVXTOTAL_LOCAL_TAG_NAME].InnerText
             };
         }
 
@@ -92,7 +92,7 @@ namespace MediaFilm2._1.Modelo.XML
                 Documento.Load(nombreFichero);
                 raiz = Documento.DocumentElement;
             }
-            if (!existe(serie.titulo))
+            if (!existe(serie.tituloLocal))
             {
                 raiz.AppendChild(crearNodo(serie));
                 Documento.Save(nombreFichero);
@@ -100,9 +100,9 @@ namespace MediaFilm2._1.Modelo.XML
                 SerieLogger.insertar(new LogSerie(Recursos.LOG_TIPO_ADD_SERIE, Mensajes.ADD_SERIE_OK, serie));
 
                 //Añado 3 patrones por defecto a todas las series nada mas ser añadidas
-                PatronesXML.insertar(new Patron { nombreSerie = serie.titulo, textoPatron = serie.titulo });
-                PatronesXML.insertar(new Patron { nombreSerie = serie.titulo, textoPatron = serie.titulo.Replace(' ', '.') });
-                PatronesXML.insertar(new Patron { nombreSerie = serie.titulo, textoPatron = serie.titulo.Replace(' ', '_') });
+                PatronesXML.insertar(new Patron { nombreSerie = serie.tituloLocal, textoPatron = serie.tituloLocal });
+                PatronesXML.insertar(new Patron { nombreSerie = serie.tituloLocal, textoPatron = serie.tituloLocal.Replace(' ', '.') });
+                PatronesXML.insertar(new Patron { nombreSerie = serie.tituloLocal, textoPatron = serie.tituloLocal.Replace(' ', '_') });
             }
         }
 
@@ -111,10 +111,10 @@ namespace MediaFilm2._1.Modelo.XML
             Serie serie = (Serie)entrada;
 
             XmlElement nodoSerie = Documento.CreateElement(SERIE_TAG_NAME);
-            nodoSerie.SetAttribute(TITULO_TAG_NAME, serie.titulo);
+            nodoSerie.SetAttribute(TITULO_LOCAL_TAG_NAME, serie.tituloLocal);
 
-            XmlElement titulo = Documento.CreateElement(TITULO_TAG_NAME);
-            titulo.InnerText = serie.titulo;
+            XmlElement titulo = Documento.CreateElement(TITULO_LOCAL_TAG_NAME);
+            titulo.InnerText = serie.tituloLocal;
             nodoSerie.AppendChild(titulo);
 
             XmlElement temporadaActual = Documento.CreateElement(TEMPORADA_ACTUAL_TAG_NAME);
@@ -129,12 +129,12 @@ namespace MediaFilm2._1.Modelo.XML
             capitulosPorTemporada.InnerText = serie.capitulosPorTemporada.ToString();
             nodoSerie.AppendChild(capitulosPorTemporada);
 
-            XmlElement descarga = Documento.CreateElement(TITULO_DESCARGA_TAG_NAME);
-            descarga.InnerText = serie.tituloDescarga;
+            XmlElement descarga = Documento.CreateElement(TITULO_DIVXTOTAL_LOCAL_TAG_NAME);
+            descarga.InnerText = serie.tituloDivXTotal;
             nodoSerie.AppendChild(descarga);
 
             XmlElement estado = Documento.CreateElement(ESTADO_TAG_NAME);
-            estado.InnerText = serie.estado;
+            estado.InnerText = serie.estado.ToString();
             nodoSerie.AppendChild(estado);
 
             return nodoSerie;
@@ -143,7 +143,7 @@ namespace MediaFilm2._1.Modelo.XML
         public bool existe(string campo)
         {
             foreach (XmlNode item in Documento.GetElementsByTagName(SERIE_TAG_NAME))
-                if (item.Attributes[TITULO_TAG_NAME].Value.Equals(campo))
+                if (item.Attributes[TITULO_LOCAL_TAG_NAME].Value.Equals(campo))
                     return true;
             return false;
         }
@@ -152,13 +152,13 @@ namespace MediaFilm2._1.Modelo.XML
         {
             if (cargarXML())
                 foreach (XmlNode item in Documento.GetElementsByTagName(SERIE_TAG_NAME))
-                    if (item[TITULO_TAG_NAME].InnerText.ToString().Equals(tituloSerie)) return item;
+                    if (item[TITULO_LOCAL_TAG_NAME].InnerText.ToString().Equals(tituloSerie)) return item;
             return null;
         }
 
         public void updateSerie(Serie serie)
         {
-            XmlNode nodoViejo = buscarNodo(serie.titulo);
+            XmlNode nodoViejo = buscarNodo(serie.tituloLocal);
             if (nodoViejo != null)
             {
                 raiz.ReplaceChild(crearNodo(serie), nodoViejo);
@@ -174,7 +174,7 @@ namespace MediaFilm2._1.Modelo.XML
             {
                 foreach (XmlNode item in Documento.GetElementsByTagName(SERIE_TAG_NAME))
                 {
-                    if (item[TITULO_TAG_NAME].InnerText.ToString().Equals(nombreSerie))
+                    if (item[TITULO_LOCAL_TAG_NAME].InnerText.ToString().Equals(nombreSerie))
                     {
                         serie = leerNodo(item);
                     }

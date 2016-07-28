@@ -24,16 +24,16 @@ namespace MediaFilm2._1.Controlador
                     //prueba con capitulo++
                     if (ultimoFicheroRequest.capitulo < 9)
                     {
-                        pruebas.Add("http://www.mejortorrent.com/uploads/torrents/series/" + serie.tituloDescarga + "_" + ultimoFicheroRequest.temporada + "_0" + (ultimoFicheroRequest.capitulo + 1) + ".torrent");
-                        pruebas.Add("http://www.mejortorrent.com/uploads/torrents/series/" + serie.tituloDescarga + "_" + ultimoFicheroRequest.temporada + "_720p_0" + (ultimoFicheroRequest.capitulo + 1) + ".torrent");
-                        pruebas.Add("http://www.mejortorrent.com/uploads/torrents/series/" + serie.tituloDescarga + "_" + ultimoFicheroRequest.temporada + "_1080p_0" + (ultimoFicheroRequest.capitulo + 1) + ".torrent");
+                        pruebas.Add("http://www.mejortorrent.com/uploads/torrents/series/" + serie.tituloDivXTotal + "_" + ultimoFicheroRequest.temporada + "_0" + (ultimoFicheroRequest.capitulo + 1) + ".torrent");
+                        pruebas.Add("http://www.mejortorrent.com/uploads/torrents/series/" + serie.tituloDivXTotal + "_" + ultimoFicheroRequest.temporada + "_720p_0" + (ultimoFicheroRequest.capitulo + 1) + ".torrent");
+                        pruebas.Add("http://www.mejortorrent.com/uploads/torrents/series/" + serie.tituloDivXTotal + "_" + ultimoFicheroRequest.temporada + "_1080p_0" + (ultimoFicheroRequest.capitulo + 1) + ".torrent");
 
                     }
                     else
                     {
-                        pruebas.Add("http://www.mejortorrent.com/uploads/torrents/series/" + serie.tituloDescarga + "_" + ultimoFicheroRequest.temporada + "_" + (ultimoFicheroRequest.capitulo + 1) + ".torrent");
-                        pruebas.Add("http://www.mejortorrent.com/uploads/torrents/series/" + serie.tituloDescarga + "_" + ultimoFicheroRequest.temporada + "_720p_" + (ultimoFicheroRequest.capitulo + 1) + ".torrent");
-                        pruebas.Add("http://www.mejortorrent.com/uploads/torrents/series/" + serie.tituloDescarga + "_" + ultimoFicheroRequest.temporada + "_1080p_" + (ultimoFicheroRequest.capitulo + 1) + ".torrent");
+                        pruebas.Add("http://www.mejortorrent.com/uploads/torrents/series/" + serie.tituloDivXTotal + "_" + ultimoFicheroRequest.temporada + "_" + (ultimoFicheroRequest.capitulo + 1) + ".torrent");
+                        pruebas.Add("http://www.mejortorrent.com/uploads/torrents/series/" + serie.tituloDivXTotal + "_" + ultimoFicheroRequest.temporada + "_720p_" + (ultimoFicheroRequest.capitulo + 1) + ".torrent");
+                        pruebas.Add("http://www.mejortorrent.com/uploads/torrents/series/" + serie.tituloDivXTotal + "_" + ultimoFicheroRequest.temporada + "_1080p_" + (ultimoFicheroRequest.capitulo + 1) + ".torrent");
 
                     }
 

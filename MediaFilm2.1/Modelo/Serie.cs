@@ -9,12 +9,12 @@ namespace MediaFilm2._1.Modelo
 {
     public class Serie : IComparable
     {
-        public string titulo { get; set; }
-        public string tituloDescarga { get; set; }
+        public string tituloLocal { get; set; }
+        public string tituloDivXTotal { get; set; }
         public int temporadaActual { get; set; }
         public int numeroTemporadas { get; set; }
         public int capitulosPorTemporada { get; set; }
-        public string estado { get; set; }
+        public int estado { get; set; }
         public List<Patron> patrones { get; set; }
 
 
@@ -22,7 +22,7 @@ namespace MediaFilm2._1.Modelo
         public void leerPatrones()
         {
 
-            patrones = MainWindow.PatronesXML.leerXML(titulo);
+            patrones = MainWindow.PatronesXML.leerXML(tituloLocal);
         }
 
         public int CompareTo(object obj)
@@ -31,9 +31,9 @@ namespace MediaFilm2._1.Modelo
 
             if (this.estado == tmp.estado)
             {
-                return String.Compare(this.titulo, tmp.titulo);
+                return String.Compare(this.tituloLocal, tmp.tituloLocal);
             }
-            else if(this.estado == "A" || (this.estado == "D" && tmp.estado == "F") )
+            else if(this.estado == 1 || (this.estado == 2 && tmp.estado == 3) )
             {
                 return -1;
             }

@@ -31,7 +31,7 @@ namespace MediaFilm2._1.Vista
 
 
             Label tmpLabelTitulo = new Label();
-            tmpLabelTitulo.Content = serie.titulo;
+            tmpLabelTitulo.Content = serie.tituloLocal;
             tmpLabelTitulo.Style = (Style)Application.Current.Resources["LabelListas"];
             tmpLabelTitulo.Width = 250;
             tmpPanel.Children.Add(tmpLabelTitulo);
@@ -62,7 +62,7 @@ namespace MediaFilm2._1.Vista
 
 
             Label tmpLabelTitulo = new Label();
-            tmpLabelTitulo.Content = serie.titulo;
+            tmpLabelTitulo.Content = serie.tituloLocal;
             tmpLabelTitulo.Style = (Style)Application.Current.Resources["LabelListas"];
             tmpLabelTitulo.Width = 250;
             tmpLabelTitulo.HorizontalAlignment = HorizontalAlignment.Center;
@@ -71,9 +71,9 @@ namespace MediaFilm2._1.Vista
 
             Image circuloEstado = new Image();
             circuloEstado.HorizontalAlignment = HorizontalAlignment.Center;
-            if (serie.estado == "A")
+            if (serie.estado == 1)
                 circuloEstado.Source = getPunto(Codigos.PUNTO_VERDE);
-            else if (serie.estado == "D")
+            else if (serie.estado == 2)
                 circuloEstado.Source = getPunto(Codigos.PUNTO_AMARILLO);
             else
             {
@@ -179,7 +179,7 @@ namespace MediaFilm2._1.Vista
 
 
             Label tmpLabelTitulo = new Label();
-            tmpLabelTitulo.Content = serie.titulo;
+            tmpLabelTitulo.Content = serie.tituloLocal;
             tmpLabelTitulo.Style = (Style)Application.Current.Resources["LabelListas"];
             tmpLabelTitulo.Width = 250;
             tmpLabelTitulo.HorizontalAlignment = HorizontalAlignment.Center;
