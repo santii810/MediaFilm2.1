@@ -59,7 +59,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Controlador\GestorDescargas.cs" />
+    <Compile Include="Controlador\GestorDescargasDivXTotal.cs" />
     <Compile Include="Controlador\GestorVideos.cs" />
     <Compile Include="Modelo\ErrorDuplicidad.cs" />
     <Compile Include="Modelo\Response\RenombrarVideosResponse.cs" />

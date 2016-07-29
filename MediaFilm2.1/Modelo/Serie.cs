@@ -15,9 +15,15 @@ namespace MediaFilm2._1.Modelo
         public int numeroTemporadas { get; set; }
         public int capitulosPorTemporada { get; set; }
         public int estado { get; set; }
+        public string href_divX { get; set; }
         public HashSet<string> patrones { get; set; }
 
-                      
+
+
+        public Serie()
+        {
+            patrones = new HashSet<string>();
+        }         
         public int CompareTo(object obj)
         {
             Serie tmp = (Serie)obj;

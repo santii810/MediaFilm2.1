@@ -32,6 +32,7 @@ namespace MediaFilm2._1
         public static XMLLogger ErrorLogger;
         public static XMLEstadisticas EstadisticasXML;
         public static XMLSeries SeriesXML;
+        
 
 
 

@@ -53,6 +53,8 @@ namespace MediaFilm2._1.Modelo.XML
         {
             Serie serie = (Serie)entrada;
 
+            if(serie.estado != 4)
+            {
             serie.patrones.Add(serie.tituloLocal);
             serie.patrones.Add(serie.tituloLocal.Replace(' ', '.'));
             serie.patrones.Add(serie.tituloLocal.Replace(' ', '_'));
@@ -65,8 +67,8 @@ namespace MediaFilm2._1.Modelo.XML
                 {
                     tituloPatron += item[0];
                 }
-
                 serie.patrones.Add(tituloPatron);
+            }
             }
 
 
