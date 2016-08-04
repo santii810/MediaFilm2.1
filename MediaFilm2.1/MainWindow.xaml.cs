@@ -32,9 +32,9 @@ namespace MediaFilm2._1
         public static XMLLogger ErrorLogger;
         public static XMLEstadisticas EstadisticasXML;
         public static XMLSeries SeriesXML;
-        
 
 
+        public static List<Serie> series;
 
 
         public MainWindow()
@@ -46,7 +46,7 @@ namespace MediaFilm2._1
             ErrorLogger = new XMLLogger(config.ficheroErrorLog);
             EstadisticasXML = new XMLEstadisticas(config.ficheroTiempos);
             SeriesXML = new XMLSeries(config.ficheroSeries, config.ficheroSerieLogger, config.ficheroPatrones, config.ficheroPatronLog);
-
+            series = SeriesXML.obtenerSeries();
             
             if (!File.Exists(Recursos.CONFIG_URL))
             {
@@ -87,5 +87,7 @@ namespace MediaFilm2._1
             UpdateUI.updateMainWindow(Codigos.MAIN_MOSTRAR_CONFIG_PAGE, this);
 
         }
+
+        
     }
 }

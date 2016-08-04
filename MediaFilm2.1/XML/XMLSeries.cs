@@ -25,7 +25,7 @@ namespace MediaFilm2._1.Modelo.XML
         private const string TEMPORADA_ACTUAL_TAG_NAME = "temporadaActual";
         private const string NUMERO_TEMPORADAS_TAG_NAME = "numeroTemporadas";
         private const string CAPITULOS_POR_TEMPORADA_TAG_NAME = "capitulosPorTemporada";
-        private const string TITULO_DIVXTOTAL_LOCAL_TAG_NAME = "tituloDivXTotal";
+        private const string HREF_DIVX_LOCAL_TAG_NAME = "href_divX";
         private const string ESTADO_TAG_NAME = "estado";
         private const string PATRONES_TAG_NAME = "patrones";
         private const string PATRON_TAG_NAME = "patron";
@@ -131,8 +131,8 @@ namespace MediaFilm2._1.Modelo.XML
             capitulosPorTemporada.InnerText = serie.capitulosPorTemporada.ToString();
             nodoSerie.AppendChild(capitulosPorTemporada);
 
-            XmlElement descarga = Documento.CreateElement(TITULO_DIVXTOTAL_LOCAL_TAG_NAME);
-            descarga.InnerText = serie.tituloDivXTotal;
+            XmlElement descarga = Documento.CreateElement(HREF_DIVX_LOCAL_TAG_NAME);
+            descarga.InnerText = serie.href_divX;
             nodoSerie.AppendChild(descarga);
 
             XmlElement estado = Documento.CreateElement(ESTADO_TAG_NAME);
@@ -202,7 +202,7 @@ namespace MediaFilm2._1.Modelo.XML
                 numeroTemporadas = Convert.ToInt32(item[NUMERO_TEMPORADAS_TAG_NAME].InnerText.ToString()),
                 capitulosPorTemporada = Convert.ToInt32(item[CAPITULOS_POR_TEMPORADA_TAG_NAME].InnerText.ToString()),
                 estado = Convert.ToInt32(item[ESTADO_TAG_NAME].InnerText),
-                tituloDivXTotal = item[TITULO_DIVXTOTAL_LOCAL_TAG_NAME].InnerText,
+                href_divX = item[HREF_DIVX_LOCAL_TAG_NAME].InnerText,
                 patrones = patrones
 
             };

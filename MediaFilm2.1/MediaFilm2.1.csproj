@@ -61,6 +61,7 @@
     </ApplicationDefinition>
     <Compile Include="Controlador\GestorDescargasDivXTotal.cs" />
     <Compile Include="Controlador\GestorVideos.cs" />
+    <Compile Include="Modelo\Capitulo.cs" />
     <Compile Include="Modelo\ErrorDuplicidad.cs" />
     <Compile Include="Modelo\Response\RenombrarVideosResponse.cs" />
     <Compile Include="Modelo\Configuracion.cs" />

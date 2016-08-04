@@ -39,63 +39,30 @@ namespace MediaFilm2._1.Vista
             {
                 enEjecucion = true;
                 this.Cursor = Cursors.Wait;
-                
 
 
+                //obtengo todas las series de divx
                 GestorDescargasDivXTotal gestorDescargas = new GestorDescargasDivXTotal();
-
+                /*
                 await gestorDescargas.ParsearListaSeries();
+                */
 
 
-                HashSet<Serie> seriesDefinitivo = new HashSet<Serie>();
-                foreach (Serie item in MainWindow.SeriesXML.obtenerSeries())
+                foreach (Serie serie in MainWindow.series)
                 {
-                    seriesDefinitivo.Add(item);
-                }
-                
-                List<Serie> seriesLocales = MainWindow.SeriesXML.obtenerSeries();
-
-
-                foreach (Serie serieDescargada in gestorDescargas.seriesDivX)
-                {
-                    Console.WriteLine(serieDescargada.tituloDivXTotal);
-                    foreach (Serie serieLocal in seriesLocales)
+                    if ((serie.estado == 1 || serie.estado == 2) && serie.href_divX != null)
                     {
-
-                        if (!comprobarSiExiste(serieDescargada.tituloDivXTotal, serieLocal))
-                        {
-                            serieDescargada.estado = 4;
-                            serieDescargada.tituloLocal = serieDescargada.tituloDivXTotal;
-                            seriesDefinitivo.Add(serieDescargada);
-
-                            MainWindow.SeriesXML.insertarSerie(serieDescargada);
-                        }
+                        await gestorDescargas.ParsingSerie(serie);
                     }
                 }
 
 
-
-
-
-
-
-
+                
                 enEjecucion = false;
                 this.Cursor = Cursors.Arrow;
-
-
-
             }
         }
 
-
-        private bool comprobarSiExiste(string tituloDivXTotal, Serie serieLocal)
-        {
-            if (tituloDivXTotal.ToUpper().Contains(serieLocal.tituloDivXTotal.ToUpper()) || tituloDivXTotal.ToUpper().Contains(serieLocal.tituloLocal.ToUpper()))
-                return true;
-            
-            return false;
-        }
 
         private void ImageIniciarDescarga_MouseEnter(object sender, MouseEventArgs e)
         {
