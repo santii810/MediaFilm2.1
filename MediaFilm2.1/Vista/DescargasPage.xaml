@@ -14,8 +14,8 @@
             <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="400"></ColumnDefinition>
-            <ColumnDefinition Width="550"></ColumnDefinition>
+            <ColumnDefinition Width="390"></ColumnDefinition>
+            <ColumnDefinition Width="440"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
         <StackPanel>
@@ -31,7 +31,12 @@
 
 
 
+        <Border Grid.Column="1" Grid.RowSpan="2"  Style="{StaticResource BorderBisque}">
+            <ScrollViewer Height="680" Style="{StaticResource Scroll}">
+            <StackPanel Name="panelListaCapitulosDescarga"/>
+                
+            </ScrollViewer>
+        </Border>
 
-        <StackPanel Grid.Column="1" Grid.RowSpan="2" Background="Red"/>
     </Grid>
 </Page>

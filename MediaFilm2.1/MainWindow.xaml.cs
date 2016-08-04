@@ -66,6 +66,7 @@ namespace MediaFilm2._1
         internal static void updateSeries()
         {
             series = SeriesXML.obtenerSeries();
+            series.Sort();
         }
 
         private void ImageOrdenar_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)

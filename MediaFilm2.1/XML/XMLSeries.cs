@@ -47,6 +47,7 @@ namespace MediaFilm2._1.Modelo.XML
                     );
                 }
             }
+            series.Sort();
             return series;
         }
         public void insertarSerie(object entrada)

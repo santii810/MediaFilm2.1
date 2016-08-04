@@ -42,7 +42,6 @@ namespace MediaFilm2._1.Vista
 
 
                 //obtengo todas las series de divx
-
                 /*
                 await gestorDescargas.ParsearListaSeries();
                 */
@@ -56,7 +55,7 @@ namespace MediaFilm2._1.Vista
                         await MainWindow.gestorDescargas.ParsingSerie(serie);
                         if (serie.capitulos.Count > 0)
                         {
-                            panelListaSeriesDescarga.Children.Add(CrearVistas.panelDescargarSerie(serie));
+                            panelListaSeriesDescarga.Children.Add(CrearVistas.panelDescargarSerie(serie,this));
                         }
                     }
                 }

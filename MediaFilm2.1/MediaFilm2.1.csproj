@@ -60,7 +60,6 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Controlador\GestorDescargasDivXTotal.cs" />
-    <Compile Include="Controlador\GestorFicheros.cs" />
     <Compile Include="Controlador\GestorVideos.cs" />
     <Compile Include="Modelo\Capitulo.cs" />
     <Compile Include="Modelo\ErrorDuplicidad.cs" />

@@ -4,6 +4,7 @@ using MediaFilm2._1.Modelo.Response;
 using MediaFilm2._1.Vista;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -85,8 +86,7 @@ namespace MediaFilm2._1.Controlador
 
             }
         }
-
-
+        
         public void DescargarCapitulo(Capitulo capi)
         {
             string remoteUri = website + capi.href_divX;
@@ -95,7 +95,9 @@ namespace MediaFilm2._1.Controlador
             WebClient myWebClient = new WebClient();
             // Concatenate the domain with the Web resource filename.
             myWebClient.DownloadFile(new Uri(remoteUri), fileName);
-            GestorFicheros.moverTorrent(fileName);
+
+            File.Move(fileName, Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + "/Downloads/" + fileName);
+
         }
     }
 }

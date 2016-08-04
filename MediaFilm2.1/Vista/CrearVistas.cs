@@ -10,6 +10,7 @@ using MediaFilm2._1.Modelo;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using MediaFilm2._1.Res;
+using MediaFilm2._1.Controlador;
 
 namespace MediaFilm2._1.Vista
 {
@@ -90,7 +91,7 @@ namespace MediaFilm2._1.Vista
             return tmpPanel;
         }
 
-        internal static UIElement panelDescargarSerie(Serie serie)
+        internal static UIElement panelDescargarSerie(Serie serie, DescargasPage xaml)
         {
             StackPanel tmpPanel = new StackPanel();
             tmpPanel.Orientation = Orientation.Horizontal;
@@ -100,17 +101,53 @@ namespace MediaFilm2._1.Vista
             Label tmpLabelTitulo = new Label();
             tmpLabelTitulo.Content = serie.tituloLocal;
             tmpLabelTitulo.Style = (Style)Application.Current.Resources["LabelListas"];
-            tmpLabelTitulo.Width = 250;
+            tmpLabelTitulo.Width = 230;
+            tmpLabelTitulo.HorizontalContentAlignment = HorizontalAlignment.Center;
             tmpPanel.Children.Add(tmpLabelTitulo);
 
 
             Button tmpButton = new Button();
             tmpButton.Click += delegate
             {
-                //xaml.seleccionarSerie(serie);
+                xaml.panelListaCapitulosDescarga.Children.Clear();
+                foreach (Capitulo capi in serie.capitulos)
+                {
+                    xaml.panelListaCapitulosDescarga.Children.Add(CrearVistas.PanelDescargarCapitulo(capi, xaml));
+                }
+                
             };
             tmpButton.Style = (Style)Application.Current.Resources["Button"];
             tmpButton.Content = serie.capitulos.Count + " cap.";
+            tmpButton.Width = 75;
+            tmpButton.FontSize = 11;
+            tmpPanel.Children.Add(tmpButton);
+
+            return tmpPanel;
+        }
+
+        private static UIElement PanelDescargarCapitulo(Capitulo capi, DescargasPage xaml)
+        {
+            StackPanel tmpPanel = new StackPanel();
+            tmpPanel.Orientation = Orientation.Horizontal;
+            tmpPanel.HorizontalAlignment = HorizontalAlignment.Center;
+
+
+            Label tmpLabelTitulo = new Label();
+            tmpLabelTitulo.Content = capi.titulo;
+            tmpLabelTitulo.Style = (Style)Application.Current.Resources["LabelListas"];
+            tmpLabelTitulo.Width = 280;
+      
+                       tmpPanel.Children.Add(tmpLabelTitulo);
+
+
+            Button tmpButton = new Button();
+            tmpButton.Click += delegate
+            {
+                MainWindow.gestorDescargas.DescargarCapitulo(capi);
+                
+            };
+            tmpButton.Style = (Style)Application.Current.Resources["Button"];
+            tmpButton.Content = "Descargar";
             tmpButton.Width = 75;
             tmpButton.FontSize = 11;
             tmpPanel.Children.Add(tmpButton);
