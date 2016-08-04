@@ -23,7 +23,7 @@ namespace MediaFilm2._1.Vista
             retorno.Content = v;
             return retorno;
         }
-        
+
         internal static UIElement PanelSeleccionarSerie(Serie serie, GestionarDatosPage xaml)
         {
             StackPanel tmpPanel = new StackPanel();
@@ -114,7 +114,7 @@ namespace MediaFilm2._1.Vista
                 {
                     xaml.panelListaCapitulosDescarga.Children.Add(CrearVistas.PanelDescargarCapitulo(capi, xaml));
                 }
-                
+
             };
             tmpButton.Style = (Style)Application.Current.Resources["Button"];
             tmpButton.Content = serie.capitulos.Count + " cap.";
@@ -136,15 +136,15 @@ namespace MediaFilm2._1.Vista
             tmpLabelTitulo.Content = capi.titulo;
             tmpLabelTitulo.Style = (Style)Application.Current.Resources["LabelListas"];
             tmpLabelTitulo.Width = 280;
-      
-                       tmpPanel.Children.Add(tmpLabelTitulo);
+
+            tmpPanel.Children.Add(tmpLabelTitulo);
 
 
             Button tmpButton = new Button();
             tmpButton.Click += delegate
             {
                 MainWindow.gestorDescargas.DescargarCapitulo(capi);
-                
+
             };
             tmpButton.Style = (Style)Application.Current.Resources["Button"];
             tmpButton.Content = "Descargar";
@@ -234,6 +234,7 @@ namespace MediaFilm2._1.Vista
             tmpImagenAumentarMinimo.MouseLeftButtonUp += delegate
             {
                 serie.temporadaActual++;
+                if (serie.temporadaActual > serie.numeroTemporadas) serie.numeroTemporadas++;
                 MainWindow.SeriesXML.updateSerie(serie);
                 xaml.updatePanelTemporadas();
 
@@ -261,6 +262,7 @@ namespace MediaFilm2._1.Vista
             tmpImagenReducirMaximo.MouseLeftButtonUp += delegate
             {
                 serie.numeroTemporadas--;
+                if (serie.numeroTemporadas < serie.temporadaActual) serie.temporadaActual--;
                 MainWindow.SeriesXML.updateSerie(serie);
                 xaml.updatePanelTemporadas();
             };

@@ -188,4 +188,9 @@
   <TiempoRenombrarVideos fecha="29/07/2016 16:44:14" valor="1408" />
   <NumeroSeriesActivas fecha="29/07/2016 16:44:14" valor="10" />
   <NumeroPatronesEjecutados fecha="29/07/2016 16:44:14" valor="13312" />
+  <NumeroSeriesActivas fecha="04/08/2016 18:14:27" valor="9" />
+  <NumeroPatronesEjecutados fecha="04/08/2016 18:14:27" valor="9776" />
+  <TiempoRenombrarVideos fecha="04/08/2016 18:29:33" valor="1659" />
+  <NumeroSeriesActivas fecha="04/08/2016 18:29:33" valor="12" />
+  <NumeroPatronesEjecutados fecha="04/08/2016 18:29:33" valor="25168" />
 </Estadisticas>

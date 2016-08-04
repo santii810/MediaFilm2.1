@@ -115,11 +115,11 @@
   </serie>
   <serie tituloLocal="Arrow">
     <tituloLocal>Arrow</tituloLocal>
-    <temporadaActual>5</temporadaActual>
+    <temporadaActual>4</temporadaActual>
     <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/arrow-557/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Arr</patron>
       <patron>Arrow</patron>
@@ -242,7 +242,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/black-mirror-582/</href_divX>
-    <estado>2</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Black Mirror</patron>
       <patron>Black.Mirror</patron>
@@ -456,8 +456,8 @@
   </serie>
   <serie tituloLocal="Dominion">
     <tituloLocal>Dominion</tituloLocal>
-    <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
+    <temporadaActual>3</temporadaActual>
+    <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/dominion-716/</href_divX>
     <estado>2</estado>
@@ -1477,8 +1477,8 @@
   </serie>
   <serie tituloLocal="Silicon Valley">
     <tituloLocal>Silicon Valley</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
+    <temporadaActual>4</temporadaActual>
+    <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/silicon-valley-699/</href_divX>
     <estado>1</estado>
@@ -1658,8 +1658,8 @@
       <patron>The_crazy_ones</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="The Flash">
-    <tituloLocal>The Flash</tituloLocal>
+  <serie tituloLocal="The Flash 2014">
+    <tituloLocal>The Flash 2014</tituloLocal>
     <temporadaActual>2</temporadaActual>
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
@@ -1680,7 +1680,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/the-following-576/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>The Following</patron>
       <patron>The.Following</patron>
@@ -1768,11 +1768,11 @@
   </serie>
   <serie tituloLocal="The strain">
     <tituloLocal>The strain</tituloLocal>
-    <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
+    <temporadaActual>3</temporadaActual>
+    <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/the-strain-753/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>Tstrn</patron>
       <patron>Tst</patron>
@@ -1834,8 +1834,8 @@
   </serie>
   <serie tituloLocal="Trophy Wife">
     <tituloLocal>Trophy Wife</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
+    <temporadaActual>2</temporadaActual>
+    <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/trophy-wife-660/</href_divX>
     <estado>2</estado>
@@ -1888,7 +1888,7 @@
     <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/vikings-603/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>Vikingos</patron>
       <patron>vikings</patron>
@@ -1939,7 +1939,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/black-sails-693/</href_divX>
-    <estado>2</estado>
+    <estado>3</estado>
     <patrones>
       <patron>BSails</patron>
       <patron>BS</patron>
@@ -2026,7 +2026,7 @@
     <numeroTemporadas>25</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/los-simpsons-1/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>Los simpson</patron>
       <patron>Los.simpson</patron>
@@ -2050,11 +2050,11 @@
   </serie>
   <serie tituloLocal="Juego de tronos">
     <tituloLocal>Juego de tronos</tituloLocal>
-    <temporadaActual>6</temporadaActual>
+    <temporadaActual>1</temporadaActual>
     <numeroTemporadas>6</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/juego-de-tronos-385/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>Juego de tronos</patron>
       <patron>Juego.de.tronos</patron>
@@ -2070,7 +2070,7 @@
   </serie>
   <serie tituloLocal="New girl">
     <tituloLocal>New girl</tituloLocal>
-    <temporadaActual>1</temporadaActual>
+    <temporadaActual>5</temporadaActual>
     <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/new-girl-515/</href_divX>
@@ -2084,7 +2084,7 @@
   </serie>
   <serie tituloLocal="iZombie">
     <tituloLocal>iZombie</tituloLocal>
-    <temporadaActual>1</temporadaActual>
+    <temporadaActual>2</temporadaActual>
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/izombie-930/</href_divX>
@@ -2116,7 +2116,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/narcos-818/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Narcos</patron>
       <patron>nrcs</patron>

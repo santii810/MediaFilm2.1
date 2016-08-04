@@ -10,5 +10,7 @@ namespace MediaFilm2._1.Modelo
     {
         public string titulo { get; set; }
         public string href_divX { get; set; }
+        public int numTemporada { get; set; }
+        public int numCapitulo { get; set; }
     }
 }
