@@ -47,26 +47,20 @@ namespace MediaFilm2._1.Vista
                 await gestorDescargas.ParsearListaSeries();
                 */
 
+                this.panelListaSeriesDescarga.Children.Clear();
                 MainWindow.updateSeries();
                 foreach (Serie serie in MainWindow.series)
                 {
                     if ((serie.estado == 1 || serie.estado == 2) && serie.href_divX != null)
                     {
                         await MainWindow.gestorDescargas.ParsingSerie(serie);
+                        if (serie.capitulos.Count > 0)
+                        {
+                            panelListaSeriesDescarga.Children.Add(CrearVistas.panelDescargarSerie(serie));
+                        }
                     }
                 }
 
-                this.panelListaSeriesDescarga.Children.Clear();
-                foreach (Serie serie in MainWindow.series)
-                {
-                    if (serie.capitulos.Count > 0)
-                    {
-                        panelListaSeriesDescarga.Children.Add(CrearVistas.panelDescargarSerie(serie));
-                    }
-                }
-
-
-                
                 enEjecucion = false;
                 this.Cursor = Cursors.Arrow;
             }
