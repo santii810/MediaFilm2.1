@@ -42,17 +42,26 @@ namespace MediaFilm2._1.Vista
 
 
                 //obtengo todas las series de divx
-                GestorDescargasDivXTotal gestorDescargas = new GestorDescargasDivXTotal();
+
                 /*
                 await gestorDescargas.ParsearListaSeries();
                 */
 
-
+                MainWindow.updateSeries();
                 foreach (Serie serie in MainWindow.series)
                 {
                     if ((serie.estado == 1 || serie.estado == 2) && serie.href_divX != null)
                     {
-                        await gestorDescargas.ParsingSerie(serie);
+                        await MainWindow.gestorDescargas.ParsingSerie(serie);
+                    }
+                }
+
+                this.panelListaSeriesDescarga.Children.Clear();
+                foreach (Serie serie in MainWindow.series)
+                {
+                    if (serie.capitulos.Count > 0)
+                    {
+                        panelListaSeriesDescarga.Children.Add(CrearVistas.panelDescargarSerie(serie));
                     }
                 }
 

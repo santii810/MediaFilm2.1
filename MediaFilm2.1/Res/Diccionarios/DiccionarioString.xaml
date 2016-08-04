@@ -62,4 +62,9 @@
     <system:String x:Key="strDuplicidad">Duplicidad</system:String>
 
     <!--#endregion Mantenimiento-->
+
+    <!--#region    Descargas-->
+    <system:String x:Key="strBuscarDescargas">Buscar descargas</system:String>
+
+    <!--#endregion    Descargas-->
 </ResourceDictionary>

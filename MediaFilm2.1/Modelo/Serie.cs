@@ -37,8 +37,6 @@ namespace MediaFilm2._1.Modelo
                 return -1;
             }
             return 1;
-
-
         }
     }
 }

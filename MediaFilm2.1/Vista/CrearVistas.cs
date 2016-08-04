@@ -89,7 +89,35 @@ namespace MediaFilm2._1.Vista
 
             return tmpPanel;
         }
-        
+
+        internal static UIElement panelDescargarSerie(Serie serie)
+        {
+            StackPanel tmpPanel = new StackPanel();
+            tmpPanel.Orientation = Orientation.Horizontal;
+            tmpPanel.HorizontalAlignment = HorizontalAlignment.Center;
+
+
+            Label tmpLabelTitulo = new Label();
+            tmpLabelTitulo.Content = serie.tituloLocal;
+            tmpLabelTitulo.Style = (Style)Application.Current.Resources["LabelListas"];
+            tmpLabelTitulo.Width = 250;
+            tmpPanel.Children.Add(tmpLabelTitulo);
+
+
+            Button tmpButton = new Button();
+            tmpButton.Click += delegate
+            {
+                //xaml.seleccionarSerie(serie);
+            };
+            tmpButton.Style = (Style)Application.Current.Resources["Button"];
+            tmpButton.Content = serie.capitulos.Count + " cap.";
+            tmpButton.Width = 75;
+            tmpButton.FontSize = 11;
+            tmpPanel.Children.Add(tmpButton);
+
+            return tmpPanel;
+        }
+
         public static ImageSource getPunto(int cod)
         {
             BitmapImage src = new BitmapImage();

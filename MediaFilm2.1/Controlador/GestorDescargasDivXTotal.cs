@@ -13,7 +13,7 @@ using System.Windows;
 
 namespace MediaFilm2._1.Controlador
 {
-    class GestorDescargasDivXTotal
+    public class GestorDescargasDivXTotal
     {
         public string website = "http://www.divxtotal.com/";
         public List<Serie> seriesDivX = new List<Serie>();
@@ -46,9 +46,6 @@ namespace MediaFilm2._1.Controlador
                 }
             }
         }
-
-
-
 
         public async Task ParsingSerie(Serie serie)
         {
@@ -85,8 +82,20 @@ namespace MediaFilm2._1.Controlador
             catch (Exception)
             {
                 MessageBox.Show("HttpResponseException en serie  " + serie.tituloLocal);
-               
+
             }
+        }
+
+
+        public void DescargarCapitulo(Capitulo capi)
+        {
+            string remoteUri = website + capi.href_divX;
+            string fileName = capi.titulo + ".torrent";
+            // Create a new WebClient instance.
+            WebClient myWebClient = new WebClient();
+            // Concatenate the domain with the Web resource filename.
+            myWebClient.DownloadFile(new Uri(remoteUri), fileName);
+            GestorFicheros.moverTorrent(fileName);
         }
     }
 }

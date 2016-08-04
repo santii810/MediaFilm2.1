@@ -9,11 +9,29 @@
       Title="DescargasPage" Background="White"  Height="737" Width="860" Style="{StaticResource PaginaPrincipal}">
 
     <Grid>
-        <StackPanel Orientation="Vertical" Height="737" Width="860">
-            <StackPanel Orientation="Horizontal"  Width="860" Height="200">
-                <Image Source="../Res/Iconos/IniciarDescarga.png" Margin="15,5" MouseEnter="ImageIniciarDescarga_MouseEnter" MouseLeave="ImageIniciarDescarga_MouseLeave" MouseLeftButtonUp="ImageIniciarDescarga_MouseLeftButtonUp"/>
-            </StackPanel>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="250"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"></ColumnDefinition>
+            <ColumnDefinition Width="550"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
 
+        <StackPanel>
+            <Image Height="200" Source="../Res/Iconos/IniciarDescarga.png" Margin="15,5" MouseEnter="ImageIniciarDescarga_MouseEnter" MouseLeave="ImageIniciarDescarga_MouseLeave" MouseLeftButtonUp="ImageIniciarDescarga_MouseLeftButtonUp"/>
+            <Label Content="{StaticResource strBuscarDescargas}" Style="{StaticResource LabelMenuSecundario}"/>
         </StackPanel>
+
+        <Border Style="{StaticResource BorderBisque}" Grid.Row="1">
+            <ScrollViewer  Height="432" Style="{StaticResource Scroll}">
+                <StackPanel  Name="panelListaSeriesDescarga"/>
+            </ScrollViewer>
+        </Border>
+
+
+
+
+        <StackPanel Grid.Column="1" Grid.RowSpan="2" Background="Red"/>
     </Grid>
 </Page>

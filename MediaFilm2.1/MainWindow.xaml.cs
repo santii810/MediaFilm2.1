@@ -1,4 +1,5 @@
-﻿using MediaFilm2._1.Modelo;
+﻿using MediaFilm2._1.Controlador;
+using MediaFilm2._1.Modelo;
 using MediaFilm2._1.Modelo.XML;
 using MediaFilm2._1.Res;
 using MediaFilm2._1.Vista;
@@ -32,6 +33,7 @@ namespace MediaFilm2._1
         public static XMLLogger ErrorLogger;
         public static XMLEstadisticas EstadisticasXML;
         public static XMLSeries SeriesXML;
+        public static GestorDescargasDivXTotal gestorDescargas;
 
 
         public static List<Serie> series;
@@ -47,7 +49,9 @@ namespace MediaFilm2._1
             EstadisticasXML = new XMLEstadisticas(config.ficheroTiempos);
             SeriesXML = new XMLSeries(config.ficheroSeries, config.ficheroSerieLogger, config.ficheroPatrones, config.ficheroPatronLog);
             series = SeriesXML.obtenerSeries();
-            
+            gestorDescargas = new GestorDescargasDivXTotal();
+
+
             if (!File.Exists(Recursos.CONFIG_URL))
             {
                 //    FrameHerramientaInicio.Source = new Uri(Recursos.InicioRapidoPageURL, UriKind.Relative);
@@ -57,6 +61,11 @@ namespace MediaFilm2._1
             frameGestionarDatos.Source = new Uri(Recursos.GESTIONAR_DATOS_PAGE_URL, UriKind.Relative);
             frameMantenimiento.Source = new Uri(Recursos.MANTENIMIENTO_PAGE_URL, UriKind.Relative);
             frameOrdenar.Source = new Uri(Recursos.ORDENAR_PAGE_URL, UriKind.Relative);
+        }
+
+        internal static void updateSeries()
+        {
+            series = SeriesXML.obtenerSeries();
         }
 
         private void ImageOrdenar_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -88,6 +97,6 @@ namespace MediaFilm2._1
 
         }
 
-        
+
     }
 }
