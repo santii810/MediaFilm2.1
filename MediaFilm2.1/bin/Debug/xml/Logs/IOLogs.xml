@@ -535,4 +535,296 @@
   <Log tipo="Renombrar capitulo" fecha="04/08/2016 18:29:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Flash 2014\Temporada2\The Flash 2014 2x20.mkv" nombreAntiguo="The Flash 2x20.mkv" />
   <Log tipo="Renombrar capitulo" fecha="04/08/2016 18:29:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Flash 2014\Temporada2\The Flash 2014 2x21.mkv" nombreAntiguo="The Flash 2x21.mkv" />
   <Log tipo="Renombrar capitulo" fecha="04/08/2016 18:29:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Flash 2014\Temporada2\The Flash 2014 2x22.mkv" nombreAntiguo="The Flash 2x22.mkv" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Arrow.4x17.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Arrow.4x18.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Arrow.4x19.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Arrow.4x20.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Arrow.4x21.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Arrow.4x22.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Arrow.4x23.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\iZombie.2x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\iZombie.2x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\iZombie.2x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\iZombie.2x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\iZombie.2x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\iZombie.2x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Narcos.1x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\New.Girl.5x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\New.Girl.5x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="04/08/2016 21:46:20" mensaje="Fichero movido correctamente" fichero="A:\Iomega\New.Girl.5x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="04/08/2016 21:46:23" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\iZombie.2x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="04/08/2016 21:46:23" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\iZombie.2x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="04/08/2016 21:46:23" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\iZombie.2x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="04/08/2016 21:46:24" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\iZombie.2x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="04/08/2016 21:46:24" mensaje="Fichero renombrado correctamente" fichero="A:\Series\iZombie\Temporada2\iZombie 2x06.avi" nombreAntiguo="iZombie.2x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="04/08/2016 21:46:24" mensaje="Fichero renombrado correctamente" fichero="A:\Series\iZombie\Temporada2\iZombie 2x07.avi" nombreAntiguo="iZombie.2x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="04/08/2016 21:46:24" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\New.Girl.5x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="04/08/2016 21:46:24" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\New.Girl.5x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="04/08/2016 21:46:24" mensaje="Fichero renombrado correctamente" fichero="A:\Series\New girl\Temporada5\New girl 5x05.avi" nombreAntiguo="New.Girl.5x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="04/08/2016 21:47:13" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\Arrow.4x17.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="04/08/2016 21:47:13" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Arrow\Temporada4\Arrow 4x18.avi" nombreAntiguo="Arrow.4x18.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="04/08/2016 21:47:13" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Arrow\Temporada4\Arrow 4x19.avi" nombreAntiguo="Arrow.4x19.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="04/08/2016 21:47:13" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Arrow\Temporada4\Arrow 4x20.avi" nombreAntiguo="Arrow.4x20.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="04/08/2016 21:47:13" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Arrow\Temporada4\Arrow 4x21.avi" nombreAntiguo="Arrow.4x21.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="04/08/2016 21:47:13" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Arrow\Temporada4\Arrow 4x22.avi" nombreAntiguo="Arrow.4x22.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="04/08/2016 21:47:13" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Arrow\Temporada4\Arrow 4x23.avi" nombreAntiguo="Arrow.4x23.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="04/08/2016 21:47:14" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Narcos\Temporada1\Narcos 1x10.avi" nombreAntiguo="Narcos.1x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 0:19:00" mensaje="Fichero movido correctamente" fichero="A:\Iomega\New.Girl.5x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 0:19:00" mensaje="Fichero movido correctamente" fichero="A:\Iomega\New.Girl.5x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 0:19:00" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Sin.Limites.1x15.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 0:19:00" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Sin.Limites.1x18.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 0:19:00" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Sin.Limites.1x22.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 0:19:03" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\New.Girl.5x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 0:19:03" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\New.Girl.5x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 0:19:03" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\Sin.Limites.1x15.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 0:19:03" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Sin limites\Temporada1\Sin limites 1x18.avi" nombreAntiguo="Sin.Limites.1x18.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 0:19:04" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Sin limites\Temporada1\Sin limites 1x22.avi" nombreAntiguo="Sin.Limites.1x22.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 0:23:28" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Sin.Limites.1x17.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 0:23:32" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\Sin.Limites.1x17.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:26" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:26" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:26" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:26" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x09.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x11.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x12.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x13.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x14.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x15.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x17.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x18.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x19.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x20.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Better.Call.Saul.2x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Better.Call.Saul.2x09.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Better.Call.Saul.2x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Black.Sails.1x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Black.Sails.2x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Black.Sails.2x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Black.Sails.3x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Da.Vincis.Demons.3x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Juego.De.Tronos.6x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Juego.De.Tronos.6x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Juego.De.Tronos.6x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Sin.Limites.1x13.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Sin.Limites.1x14.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Sin.Limites.1x16.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Sin.Limites.1x19.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Sin.Limites.1x20.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Sin.Limites.1x21.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Flash.2x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Flash.2x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Flash.2x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Flash.2x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Flash.2x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Flash.2x16.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 13:12:27" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Flash.2x23.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:31" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Better call Saul\Temporada2\Better call Saul 2x08.avi" nombreAntiguo="Better.Call.Saul.2x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:31" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Better call Saul\Temporada2\Better call Saul 2x09.avi" nombreAntiguo="Better.Call.Saul.2x09.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:31" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Better call Saul\Temporada2\Better call Saul 2x10.avi" nombreAntiguo="Better.Call.Saul.2x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\Da.Vincis.Demons.3x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x09.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:31" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Dos chicas sin blanca\Temporada5\Dos chicas sin blanca 5x11.avi" nombreAntiguo="2.Chicas.Sin.Blanca.5x11.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x12.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x13.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x14.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x15.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x17.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:31" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x18.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:31" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Dos chicas sin blanca\Temporada5\Dos chicas sin blanca 5x19.avi" nombreAntiguo="2.Chicas.Sin.Blanca.5x19.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:31" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Dos chicas sin blanca\Temporada5\Dos chicas sin blanca 5x20.avi" nombreAntiguo="2.Chicas.Sin.Blanca.5x20.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:32" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\Juego.De.Tronos.6x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:32" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Juego de tronos\Temporada6\Juego de tronos 6x02.avi" nombreAntiguo="Juego.De.Tronos.6x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:32" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Juego de tronos\Temporada6\Juego de tronos 6x03.avi" nombreAntiguo="Juego.De.Tronos.6x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:33" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\Sin.Limites.1x13.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:33" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\Sin.Limites.1x14.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:33" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\Sin.Limites.1x16.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Sin limites\Temporada1\Sin limites 1x19.avi" nombreAntiguo="Sin.Limites.1x19.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Sin limites\Temporada1\Sin limites 1x20.avi" nombreAntiguo="Sin.Limites.1x20.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Sin limites\Temporada1\Sin limites 1x21.avi" nombreAntiguo="Sin.Limites.1x21.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:33" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\The.Flash.2x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:33" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\The.Flash.2x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:33" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\The.Flash.2x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:33" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\The.Flash.2x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 13:12:33" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\The.Flash.2x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Flash 2014\Temporada2\The Flash 2014 2x16.avi" nombreAntiguo="The.Flash.2x16.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Flash 2014\Temporada2\The Flash 2014 2x23.avi" nombreAntiguo="The.Flash.2x23.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:58" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Black Sails\Temporada1\Black Sails 1x02.avi" nombreAntiguo="Black.Sails.1x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:58" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Black Sails\Temporada2\Black Sails 2x08.avi" nombreAntiguo="Black.Sails.2x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:58" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Black Sails\Temporada2\Black Sails 2x10.avi" nombreAntiguo="Black.Sails.2x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 13:12:58" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Black Sails\Temporada3\Black Sails 3x07.avi" nombreAntiguo="Black.Sails.3x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 14:28:48" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x16.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 14:28:48" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x22.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 14:28:48" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Juego.De.Tronos.6x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 14:28:48" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Juego.De.Tronos.6x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 14:28:48" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Juego.De.Tronos.6x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 14:28:48" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Juego.De.Tronos.6x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 14:28:48" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Juego.De.Tronos.6x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Borrado" fecha="05/08/2016 14:28:51" mensaje="Fichero borrado correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x16.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 14:28:51" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Dos chicas sin blanca\Temporada5\Dos chicas sin blanca 5x22.avi" nombreAntiguo="2.Chicas.Sin.Blanca.5x22.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 14:28:51" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Juego de tronos\Temporada6\Juego de tronos 6x04.avi" nombreAntiguo="Juego.De.Tronos.6x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 14:28:51" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Juego de tronos\Temporada6\Juego de tronos 6x05.avi" nombreAntiguo="Juego.De.Tronos.6x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 14:28:51" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Juego de tronos\Temporada6\Juego de tronos 6x06.avi" nombreAntiguo="Juego.De.Tronos.6x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 14:28:51" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Juego de tronos\Temporada6\Juego de tronos 6x07.avi" nombreAntiguo="Juego.De.Tronos.6x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 14:28:51" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Juego de tronos\Temporada6\Juego de tronos 6x08.avi" nombreAntiguo="Juego.De.Tronos.6x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.5x21.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Fear.The.Walking.Dead.2x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Fear.The.Walking.Dead.2x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Fear.The.Walking.Dead.2x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Fear.The.Walking.Dead.2x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Fear.The.Walking.Dead.2x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Fear.The.Walking.Dead.2x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Juego.de.Tronos.1x08.by.Delorean.avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Juego.De.Tronos.6x09.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Juego.De.Tronos.6x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Los.Simpsons.24x16.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Los.Simpsons.24x17.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Los.Simpsons.24x18.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Los.Simpsons.24x19.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Los.Simpsons.24x20.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Los.Simpsons.24x21.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Los.Simpsons.24x22.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Vikings.4x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Vikings.4x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Vikings.4x09.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 18:05:30" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Vikings.4x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:32" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Dos chicas sin blanca\Temporada5\Dos chicas sin blanca 5x21.avi" nombreAntiguo="2.Chicas.Sin.Blanca.5x21.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:32" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Fear the walking dead\Temporada2\Fear the walking dead 2x01.avi" nombreAntiguo="Fear.The.Walking.Dead.2x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:32" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Fear the walking dead\Temporada2\Fear the walking dead 2x02.avi" nombreAntiguo="Fear.The.Walking.Dead.2x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:32" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Fear the walking dead\Temporada2\Fear the walking dead 2x04.avi" nombreAntiguo="Fear.The.Walking.Dead.2x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:32" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Fear the walking dead\Temporada2\Fear the walking dead 2x05.avi" nombreAntiguo="Fear.The.Walking.Dead.2x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:32" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Fear the walking dead\Temporada2\Fear the walking dead 2x06.avi" nombreAntiguo="Fear.The.Walking.Dead.2x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:32" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Fear the walking dead\Temporada2\Fear the walking dead 2x07.avi" nombreAntiguo="Fear.The.Walking.Dead.2x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:32" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Juego de tronos\Temporada1\Juego de tronos 1x08.avi" nombreAntiguo="Juego.de.Tronos.1x08.by.Delorean.avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:32" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Juego de tronos\Temporada6\Juego de tronos 6x09.avi" nombreAntiguo="Juego.De.Tronos.6x09.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:32" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Juego de tronos\Temporada6\Juego de tronos 6x10.avi" nombreAntiguo="Juego.De.Tronos.6x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Los simpson\Temporada24\Los simpson 24x16.avi" nombreAntiguo="Los.Simpsons.24x16.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Los simpson\Temporada24\Los simpson 24x17.avi" nombreAntiguo="Los.Simpsons.24x17.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Los simpson\Temporada24\Los simpson 24x18.avi" nombreAntiguo="Los.Simpsons.24x18.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Los simpson\Temporada24\Los simpson 24x19.avi" nombreAntiguo="Los.Simpsons.24x19.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Los simpson\Temporada24\Los simpson 24x20.avi" nombreAntiguo="Los.Simpsons.24x20.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Los simpson\Temporada24\Los simpson 24x21.avi" nombreAntiguo="Los.Simpsons.24x21.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:33" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Los simpson\Temporada24\Los simpson 24x22.avi" nombreAntiguo="Los.Simpsons.24x22.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:34" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Vikingos\Temporada4\Vikingos 4x07.avi" nombreAntiguo="Vikings.4x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:34" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Vikingos\Temporada4\Vikingos 4x08.avi" nombreAntiguo="Vikings.4x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:34" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Vikingos\Temporada4\Vikingos 4x09.avi" nombreAntiguo="Vikings.4x09.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 18:05:34" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Vikingos\Temporada4\Vikingos 4x10.avi" nombreAntiguo="Vikings.4x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 19:22:33" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Daredevil.2x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 19:22:33" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Daredevil.2x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 19:22:33" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Daredevil.2x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 19:22:33" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Daredevil.2x12.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="05/08/2016 19:22:33" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Fear.The.Walking.Dead.2x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 19:22:39" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Daredevil\Temporada2\Daredevil 2x05.avi" nombreAntiguo="Daredevil.2x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 19:22:39" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Daredevil\Temporada2\Daredevil 2x07.avi" nombreAntiguo="Daredevil.2x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 19:22:39" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Daredevil\Temporada2\Daredevil 2x08.avi" nombreAntiguo="Daredevil.2x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 19:22:39" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Daredevil\Temporada2\Daredevil 2x12.avi" nombreAntiguo="Daredevil.2x12.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="05/08/2016 19:22:39" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Fear the walking dead\Temporada2\Fear the walking dead 2x03.avi" nombreAntiguo="Fear.The.Walking.Dead.2x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:50" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Daredevil.2x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:50" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Daredevil.2x13.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Graceland.2x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Graceland.2x11.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Graceland.3x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Graceland.3x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Juego.De.Tronos.5x00.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x09.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x11.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x12.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x13.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x14.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.2x15.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x09.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x11.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x12.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x13.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x14.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="07/08/2016 19:19:51" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Following.3x15.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:53" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Daredevil\Temporada2\Daredevil 2x06.avi" nombreAntiguo="Daredevil.2x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:53" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Daredevil\Temporada2\Daredevil 2x13.avi" nombreAntiguo="Daredevil.2x13.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:53" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Graceland\Temporada2\Graceland 2x10.avi" nombreAntiguo="Graceland.2x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:53" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Graceland\Temporada2\Graceland 2x11.avi" nombreAntiguo="Graceland.2x11.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:54" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Juego de tronos\Temporada5\Juego de tronos 5x00.avi" nombreAntiguo="Juego.De.Tronos.5x00.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x01.avi" nombreAntiguo="The.Following.2x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x02.avi" nombreAntiguo="The.Following.2x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x03.avi" nombreAntiguo="The.Following.2x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x04.avi" nombreAntiguo="The.Following.2x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x05.avi" nombreAntiguo="The.Following.2x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x06.avi" nombreAntiguo="The.Following.2x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x07.avi" nombreAntiguo="The.Following.2x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x08.avi" nombreAntiguo="The.Following.2x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x09.avi" nombreAntiguo="The.Following.2x09.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x10.avi" nombreAntiguo="The.Following.2x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x11.avi" nombreAntiguo="The.Following.2x11.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x12.avi" nombreAntiguo="The.Following.2x12.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x13.avi" nombreAntiguo="The.Following.2x13.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x14.avi" nombreAntiguo="The.Following.2x14.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:19:55" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada2\The Following 2x15.avi" nombreAntiguo="The.Following.2x15.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:26" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x01.avi" nombreAntiguo="The.Following.3x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:26" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x02.avi" nombreAntiguo="The.Following.3x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:26" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x03.avi" nombreAntiguo="The.Following.3x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:26" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x04.avi" nombreAntiguo="The.Following.3x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:26" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x05.avi" nombreAntiguo="The.Following.3x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:26" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x06.avi" nombreAntiguo="The.Following.3x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:26" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x07.avi" nombreAntiguo="The.Following.3x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:26" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x08.avi" nombreAntiguo="The.Following.3x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:26" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x09.avi" nombreAntiguo="The.Following.3x09.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:26" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x10.avi" nombreAntiguo="The.Following.3x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:27" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x11.avi" nombreAntiguo="The.Following.3x11.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:27" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x12.avi" nombreAntiguo="The.Following.3x12.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:27" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x13.avi" nombreAntiguo="The.Following.3x13.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:27" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x14.avi" nombreAntiguo="The.Following.3x14.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:27" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The Following\Temporada3\The Following 3x15.avi" nombreAntiguo="The.Following.3x15.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:41" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Graceland\Temporada3\Graceland 3x01.avi" nombreAntiguo="Graceland.3x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="07/08/2016 19:20:41" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Graceland\Temporada3\Graceland 3x02.avi" nombreAntiguo="Graceland.3x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="08/08/2016 21:07:07" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Graceland.3x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="08/08/2016 21:07:09" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Graceland\Temporada3\Graceland 3x03.avi" nombreAntiguo="Graceland.3x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="09/08/2016 10:54:55" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Stranger.Things.1x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="09/08/2016 10:54:55" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Stranger.Things.1x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="09/08/2016 10:54:55" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Stranger.Things.1x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="09/08/2016 10:54:55" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Stranger.Things.1x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="09/08/2016 10:54:55" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Stranger.Things.1x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="09/08/2016 10:54:55" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Stranger.Things.1x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="09/08/2016 10:54:55" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Stranger.Things.1x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="09/08/2016 10:54:55" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Stranger.Things.1x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="09/08/2016 10:54:58" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Stranger things\Temporada1\Stranger things 1x01.avi" nombreAntiguo="Stranger.Things.1x01.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="09/08/2016 10:54:58" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Stranger things\Temporada1\Stranger things 1x02.avi" nombreAntiguo="Stranger.Things.1x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="09/08/2016 10:54:58" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Stranger things\Temporada1\Stranger things 1x03.avi" nombreAntiguo="Stranger.Things.1x03.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="09/08/2016 10:54:58" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Stranger things\Temporada1\Stranger things 1x04.avi" nombreAntiguo="Stranger.Things.1x04.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="09/08/2016 10:54:58" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Stranger things\Temporada1\Stranger things 1x05.avi" nombreAntiguo="Stranger.Things.1x05.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="09/08/2016 10:54:58" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Stranger things\Temporada1\Stranger things 1x06.avi" nombreAntiguo="Stranger.Things.1x06.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="09/08/2016 10:54:58" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Stranger things\Temporada1\Stranger things 1x07.avi" nombreAntiguo="Stranger.Things.1x07.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="09/08/2016 10:54:58" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Stranger things\Temporada1\Stranger things 1x08.avi" nombreAntiguo="Stranger.Things.1x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Movido" fecha="09/08/2016 11:06:08" mensaje="Fichero movido correctamente" fichero="A:\Iomega\iZombie.2x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
+  <Log tipo="Renombrar capitulo" fecha="09/08/2016 11:06:09" mensaje="Fichero renombrado correctamente" fichero="A:\Series\iZombie\Temporada2\iZombie 2x08.avi" nombreAntiguo="iZombie.2x08.HDTV.XviD.[www.DivxTotaL.com].avi" />
 </Logs>

@@ -92,13 +92,20 @@ namespace MediaFilm2._1.Vista
                         cap.numCapitulo = Convert.ToInt32(tempCap[1]);
                     }
                 }
-                string rutaCapitulo;
+                string rutaCapitulo, rutaCapitulo2;
                 if (cap.numCapitulo < 10)
+                {
                     rutaCapitulo = "/" + serie.tituloLocal + "/Temporada" + cap.numTemporada + "/" + serie.tituloLocal + " " + cap.numTemporada + "x0" + cap.numCapitulo + ".mkv";
+                    rutaCapitulo2 = "/" + serie.tituloLocal + "/Temporada" + cap.numTemporada + "/" + serie.tituloLocal + " " + cap.numTemporada + "x0" + cap.numCapitulo + ".avi";
+                }
                 else
-                    rutaCapitulo = "/" + serie.tituloLocal + "/Temporada" + cap.numTemporada + "/" + serie.tituloLocal + " " + cap.numTemporada + "x" + cap.numCapitulo + ".mkv";
+                {
 
-                if (!File.Exists(MainWindow.config.directorioSeries + rutaCapitulo) && serie.temporadaActual <= cap.numTemporada)
+                    rutaCapitulo = "/" + serie.tituloLocal + "/Temporada" + cap.numTemporada + "/" + serie.tituloLocal + " " + cap.numTemporada + "x" + cap.numCapitulo + ".mkv";
+                    rutaCapitulo2 = "/" + serie.tituloLocal + "/Temporada" + cap.numTemporada + "/" + serie.tituloLocal + " " + cap.numTemporada + "x" + cap.numCapitulo + ".avi";
+                }
+
+                if (!(File.Exists(MainWindow.config.directorioSeries + rutaCapitulo) || File.Exists(MainWindow.config.directorioSeries + rutaCapitulo2)) && serie.temporadaActual <= cap.numTemporada)
                 {
                     tmpCapitulos.Add(cap);
                 }

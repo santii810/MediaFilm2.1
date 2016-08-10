@@ -193,4 +193,54 @@
   <TiempoRenombrarVideos fecha="04/08/2016 18:29:33" valor="1659" />
   <NumeroSeriesActivas fecha="04/08/2016 18:29:33" valor="12" />
   <NumeroPatronesEjecutados fecha="04/08/2016 18:29:33" valor="25168" />
+  <TiempoRecorrerTorrent fecha="04/08/2016 21:46:20" valor="174" />
+  <TiempoRenombrarVideos fecha="04/08/2016 21:46:25" valor="1597" />
+  <NumeroSeriesActivas fecha="04/08/2016 21:46:25" valor="12" />
+  <NumeroPatronesEjecutados fecha="04/08/2016 21:46:25" valor="25168" />
+  <TiempoRenombrarVideos fecha="04/08/2016 21:47:15" valor="1702" />
+  <NumeroSeriesActivas fecha="04/08/2016 21:47:15" valor="14" />
+  <NumeroPatronesEjecutados fecha="04/08/2016 21:47:15" valor="28496" />
+  <TiempoRecorrerTorrent fecha="05/08/2016 0:19:01" valor="151" />
+  <TiempoRenombrarVideos fecha="05/08/2016 0:19:04" valor="1920" />
+  <NumeroSeriesActivas fecha="05/08/2016 0:19:04" valor="15" />
+  <NumeroPatronesEjecutados fecha="05/08/2016 0:19:04" valor="30160" />
+  <TiempoRenombrarVideos fecha="05/08/2016 0:23:32" valor="2379" />
+  <NumeroSeriesActivas fecha="05/08/2016 0:23:32" valor="26" />
+  <NumeroPatronesEjecutados fecha="05/08/2016 0:23:32" valor="40352" />
+  <TiempoRecorrerTorrent fecha="05/08/2016 13:12:27" valor="470" />
+  <TiempoRenombrarVideos fecha="05/08/2016 13:12:34" valor="2893" />
+  <NumeroSeriesActivas fecha="05/08/2016 13:12:34" valor="25" />
+  <NumeroPatronesEjecutados fecha="05/08/2016 13:12:34" valor="39520" />
+  <TiempoRenombrarVideos fecha="05/08/2016 13:13:00" valor="2558" />
+  <NumeroSeriesActivas fecha="05/08/2016 13:13:00" valor="26" />
+  <NumeroPatronesEjecutados fecha="05/08/2016 13:13:00" valor="45760" />
+  <TiempoRenombrarVideos fecha="05/08/2016 14:28:53" valor="2793" />
+  <NumeroSeriesActivas fecha="05/08/2016 14:28:53" valor="26" />
+  <NumeroPatronesEjecutados fecha="05/08/2016 14:28:53" valor="45760" />
+  <TiempoRecorrerTorrent fecha="05/08/2016 18:05:30" valor="263" />
+  <TiempoRenombrarVideos fecha="05/08/2016 18:05:34" valor="2966" />
+  <NumeroSeriesActivas fecha="05/08/2016 18:05:34" valor="26" />
+  <NumeroPatronesEjecutados fecha="05/08/2016 18:05:34" valor="45760" />
+  <TiempoRenombrarVideos fecha="05/08/2016 19:22:41" valor="2788" />
+  <NumeroSeriesActivas fecha="05/08/2016 19:22:41" valor="26" />
+  <NumeroPatronesEjecutados fecha="05/08/2016 19:22:41" valor="45760" />
+  <TiempoRecorrerTorrent fecha="07/08/2016 19:19:51" valor="366" />
+  <TiempoRenombrarVideos fecha="07/08/2016 19:19:55" valor="2910" />
+  <NumeroSeriesActivas fecha="07/08/2016 19:19:55" valor="26" />
+  <NumeroPatronesEjecutados fecha="07/08/2016 19:19:55" valor="45760" />
+  <TiempoRenombrarVideos fecha="07/08/2016 19:20:27" valor="2729" />
+  <NumeroSeriesActivas fecha="07/08/2016 19:20:27" valor="26" />
+  <NumeroPatronesEjecutados fecha="07/08/2016 19:20:27" valor="46384" />
+  <TiempoRenombrarVideos fecha="07/08/2016 19:20:43" valor="2871" />
+  <NumeroSeriesActivas fecha="07/08/2016 19:20:43" valor="26" />
+  <NumeroPatronesEjecutados fecha="07/08/2016 19:20:43" valor="47008" />
+  <TiempoRenombrarVideos fecha="08/08/2016 21:07:11" valor="2946" />
+  <NumeroSeriesActivas fecha="08/08/2016 21:07:11" valor="27" />
+  <NumeroPatronesEjecutados fecha="08/08/2016 21:07:11" valor="47632" />
+  <TiempoRenombrarVideos fecha="09/08/2016 10:54:59" valor="2793" />
+  <NumeroSeriesActivas fecha="09/08/2016 10:54:59" valor="27" />
+  <NumeroPatronesEjecutados fecha="09/08/2016 10:54:59" valor="47632" />
+  <TiempoRenombrarVideos fecha="09/08/2016 11:06:11" valor="2843" />
+  <NumeroSeriesActivas fecha="09/08/2016 11:06:11" valor="27" />
+  <NumeroPatronesEjecutados fecha="09/08/2016 11:06:11" valor="47632" />
 </Estadisticas>
