@@ -944,4 +944,6 @@
   <Log tipo="Añadir serie" fecha="28/07/2016 20:51:50" mensaje="Serie añadida correctamente" titulo="vaya-vecinos" temporadaActual="0" numeroTemporadas="0" capitulosPorTemporada="0" tituloDescarga="vaya-vecinos" estado="4" />
   <Log tipo="Añadir serie" fecha="29/07/2016 16:44:06" mensaje="Serie añadida correctamente" titulo="Lucifer" temporadaActual="1" numeroTemporadas="1" capitulosPorTemporada="25" tituloDescarga="" estado="1" />
   <Log tipo="Añadir serie" fecha="08/08/2016 21:05:56" mensaje="Serie añadida correctamente" titulo="Stranger things" temporadaActual="1" numeroTemporadas="1" capitulosPorTemporada="25" tituloDescarga="" estado="1" />
+  <Log tipo="Añadir serie" fecha="10/08/2016 23:56:37" mensaje="Serie añadida correctamente" titulo="Lucifer" temporadaActual="1" numeroTemporadas="1" capitulosPorTemporada="25" tituloDescarga="" estado="1" />
+  <Log tipo="Añadir serie" fecha="10/08/2016 23:58:07" mensaje="Serie añadida correctamente" titulo="Lucifer" temporadaActual="1" numeroTemporadas="1" capitulosPorTemporada="25" tituloDescarga="" estado="1" />
 </Logs>

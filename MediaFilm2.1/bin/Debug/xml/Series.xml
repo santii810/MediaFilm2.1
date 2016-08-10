@@ -2167,4 +2167,15 @@
       <patron>Stranger_things</patron>
     </patrones>
   </serie>
+  <serie tituloLocal="Lucifer">
+    <tituloLocal>Lucifer</tituloLocal>
+    <temporadaActual>1</temporadaActual>
+    <numeroTemporadas>1</numeroTemporadas>
+    <capitulosPorTemporada>25</capitulosPorTemporada>
+    <href_divX>series/lucifer-1x10-971/</href_divX>
+    <estado>1</estado>
+    <patrones>
+      <patron>Lucifer</patron>
+    </patrones>
+  </serie>
 </Series>
