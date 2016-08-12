@@ -195,7 +195,8 @@ namespace MediaFilm2._1.Vista
                         capitulosPorTemporada = Convert.ToInt32(textBoxCapitulosTemporada.Text.Trim()),
                         estado = 1,
                         numeroTemporadas = Convert.ToInt32(textBoxNumeroTemporadas.Text.Trim()),
-                        temporadaActual = 1
+                        temporadaActual = 1,
+                        href_divX = textBoxHrefDivX.Text.Trim()
                     });
 
                     MessageBox.Show(Mensajes.SERIE_ADDED_OK);

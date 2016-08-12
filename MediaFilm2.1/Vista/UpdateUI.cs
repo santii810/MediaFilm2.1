@@ -70,6 +70,7 @@ namespace MediaFilm2._1.Vista
                     xaml.textBoxCapitulosTemporada.Text = "";
                     xaml.textBoxNumeroTemporadas.Text = "";
                     xaml.textBoxTitulo.Text = "";
+                    xaml.textBoxHrefDivX.Text = "";
                     break;
                 case Codigos.GESTIONAR_DATOS_ADD_PATRON:
                     xaml.panelAddPatron.Visibility = Visibility.Visible;

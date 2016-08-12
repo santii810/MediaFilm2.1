@@ -41,8 +41,9 @@
         </StackPanel>
 
         <!-- AÑADIR SERIE-->
-        <Grid Name="panelAddSerie" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,150,0,0" Visibility="Collapsed">
+        <Grid Name="panelAddSerie" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,150,0,0" Visibility="Visible">
             <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="40"/>
@@ -58,7 +59,9 @@
             <TextBox Name="textBoxNumeroTemporadas" Grid.Column="1" Grid.Row="1"  Style="{StaticResource TextBox}" KeyDown="textBoxNumeroTemporadas_KeyDown"/>
             <Label Content="{StaticResource strCapitulos}"  Grid.Row="2"  Style="{StaticResource LabelTerciario}"/>
             <TextBox Name="textBoxCapitulosTemporada"  Grid.Column="1" Grid.Row="2"  KeyDown="textBoxCapitulosTemporada_KeyDown" Style="{StaticResource TextBox}"/>
-            <Button Content="Añadir serie" Width="150"  Grid.Column="1" HorizontalAlignment="Left" Grid.Row="3"  Style="{StaticResource Button}" Click="ButtonAñadirSerie_Click"/>
+            <Label Content="{StaticResource strHrefDivX}"  Grid.Row="3"  Style="{StaticResource LabelTerciario}"/>
+            <TextBox Name="textBoxHrefDivX"  Grid.Column="1" Grid.Row="3"  Style="{StaticResource TextBox}"/>
+            <Button Content="Añadir serie" Width="150"  Grid.Column="1" HorizontalAlignment="Left" Grid.Row="4"  Style="{StaticResource Button}" Click="ButtonAñadirSerie_Click"/>
         </Grid>
 
         <!-- AÑADIR PATRON-->
@@ -113,7 +116,7 @@
         </Grid>
 
         <!-- I/O Serie-->
-        <Border Name="panelIOSerie" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Visible" Style="{StaticResource BorderBisque}">
+        <Border Name="panelIOSerie" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Collapsed" Style="{StaticResource BorderBisque}">
             <StackPanel >
                 <StackPanel Orientation="Horizontal"  Width="370" HorizontalAlignment="Stretch">
                     <Label Content="{StaticResource strEstadoSerie}" Style="{StaticResource LabelMenuSecundario}"></Label>

@@ -36,6 +36,7 @@
     <system:String x:Key="strTitulo">Título:</system:String>
     <system:String x:Key="strTemporadas">Temporadas:</system:String>
     <system:String x:Key="strCapitulos">Capítulos:</system:String>
+    <system:String x:Key="strHrefDivX">Href (divX):</system:String>
     <system:String x:Key="strExtension">Extension</system:String>
 
     <system:String x:Key="strSeries">Series</system:String>
