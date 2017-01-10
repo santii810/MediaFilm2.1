@@ -1,116 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Series>
-  <serie tituloLocal="666 Park Avenue">
-    <tituloLocal>666 Park Avenue</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>666_Park_Avenue</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>666 Park Avenue</patron>
-      <patron>666.Park.Avenue</patron>
-      <patron>666_Park_Avenue</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Agents of SHIELD">
-    <tituloLocal>Agents of SHIELD</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Agents_of_SHIELD</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Agents of SHIELD</patron>
-      <patron>Agents.of.SHIELD</patron>
-      <patron>Agents_of_SHIELD</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Allegiance">
-    <tituloLocal>Allegiance</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Allegiance</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Allegiance</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Almost Human">
-    <tituloLocal>Almost Human</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Almost_Human</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Almost Human</patron>
-      <patron>Almost.Human</patron>
-      <patron>Almost_Human</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Alphas">
-    <tituloLocal>Alphas</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Alphas</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Alphas</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="American dad">
     <tituloLocal>American dad</tituloLocal>
     <temporadaActual>10</temporadaActual>
     <numeroTemporadas>10</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>American_dad</href_divX>
-    <estado>3</estado>
+    <href_divX>series/padre-made-in-usa</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>American dad</patron>
       <patron>American.dad</patron>
       <patron>American_dad</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="American Summer">
-    <tituloLocal>American Summer</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>American_Summer</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>American Summer</patron>
-      <patron>American.Summer</patron>
-      <patron>American_Summer</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Amigos con suerte">
-    <tituloLocal>Amigos con suerte</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Amigos_con_suerte</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Amigos con suerte</patron>
-      <patron>Amigos.con.suerte</patron>
-      <patron>Amigos_con_suerte</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Apocalipsis en el instituto">
-    <tituloLocal>Apocalipsis en el instituto</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Apocalipsis_en_el_instituto</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Apocalipsis en el instituto</patron>
-      <patron>Apocalipsis.en.el.instituto</patron>
-      <patron>Apocalipsis_en_el_instituto</patron>
     </patrones>
   </serie>
   <serie tituloLocal="Arrow">
@@ -125,85 +25,13 @@
       <patron>Arrow</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="Ataque a los titanes">
-    <tituloLocal>Ataque a los titanes</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Ataque_a_los_titanes</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Ataque a los titanes</patron>
-      <patron>Ataque.a.los.titanes</patron>
-      <patron>Ataque_a_los_titanes</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="BackStorm">
-    <tituloLocal>BackStorm</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>BackStorm</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>BackStorm</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Banshee">
-    <tituloLocal>Banshee</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Banshee</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Banshee</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Bates Motel">
-    <tituloLocal>Bates Motel</tituloLocal>
-    <temporadaActual>3</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/bates-motel-640/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>BM</patron>
-      <patron>BMot</patron>
-      <patron>Bates Motel</patron>
-      <patron>Bates.Motel</patron>
-      <patron>Bates_Motel</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Benched">
-    <tituloLocal>Benched</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Benched</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Benched</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Betrayal">
-    <tituloLocal>Betrayal</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Betrayal</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Betrayal</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="Better call Saul">
     <tituloLocal>Better call Saul</tituloLocal>
     <temporadaActual>2</temporadaActual>
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/better-call-saul-757/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/better-call-saul/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Better call Saul</patron>
       <patron>Better.call.Saul</patron>
@@ -212,206 +40,16 @@
       <patron>Better_call_Saul</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="Between">
-    <tituloLocal>Between</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Between</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Between</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Big Time in Hollywood">
-    <tituloLocal>Big Time in Hollywood</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Big_Time_in_Hollywood</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Big Time in Hollywood</patron>
-      <patron>Big.Time.in.Hollywood</patron>
-      <patron>Big_Time_in_Hollywood</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Black Mirror">
-    <tituloLocal>Black Mirror</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/black-mirror-582/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Black Mirror</patron>
-      <patron>Black.Mirror</patron>
-      <patron>Black_Mirror</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="BloodLine">
-    <tituloLocal>BloodLine</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>BloodLine</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>BlL</patron>
-      <patron>BloodLine</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Boardwalk Empire">
-    <tituloLocal>Boardwalk Empire</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Boardwalk_Empire</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Boardwalk Empire</patron>
-      <patron>Boardwalk.Empire</patron>
-      <patron>Boardwalk_Empire</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Breaking bad">
-    <tituloLocal>Breaking bad</tituloLocal>
-    <temporadaActual>5</temporadaActual>
-    <numeroTemporadas>5</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Breaking_bad</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Breaking bad</patron>
-      <patron>Breaking.bad</patron>
-      <patron>Breaking_bad</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Broadchurch">
-    <tituloLocal>Broadchurch</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Broadchurch</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Broadchurch</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Bron">
-    <tituloLocal>Bron</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Bron</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Bron</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Brotherhood">
-    <tituloLocal>Brotherhood</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/brotherhood-848/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Bhood</patron>
-      <patron>Brotherhood</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Catastrophe">
-    <tituloLocal>Catastrophe</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/catastrophe-857/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Catastrophe</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Chuck">
-    <tituloLocal>Chuck</tituloLocal>
-    <temporadaActual>5</temporadaActual>
-    <numeroTemporadas>5</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Chuck</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Chuck</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Community">
-    <tituloLocal>Community</tituloLocal>
-    <temporadaActual>4</temporadaActual>
-    <numeroTemporadas>4</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Community</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Community</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Como conoci a vuestra madre">
-    <tituloLocal>Como conoci a vuestra madre</tituloLocal>
-    <temporadaActual>9</temporadaActual>
-    <numeroTemporadas>9</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Como_conoci_a_vuestra_madre</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Como conoci a vuestra madre</patron>
-      <patron>Como.conoci.a.vuestra.madre</patron>
-      <patron>Como_conoci_a_vuestra_madre</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Crisis">
-    <tituloLocal>Crisis</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Crisis</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Crisis</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Crosing lines">
-    <tituloLocal>Crosing lines</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/crossing-lines-632/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Crosing lines</patron>
-      <patron>Crosing.lines</patron>
-      <patron>Crosing_lines</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="Daredevil">
     <tituloLocal>Daredevil</tituloLocal>
     <temporadaActual>1</temporadaActual>
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/daredevil-819/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/daredevil/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>DD</patron>
       <patron>Daredevil</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Dates">
-    <tituloLocal>Dates</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Dates</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Dates</patron>
     </patrones>
   </serie>
   <serie tituloLocal="Da Vinci demons">
@@ -419,8 +57,8 @@
     <temporadaActual>3</temporadaActual>
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/da-vincis-demons-599/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/da-vincis-demons/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Da Vinci demons</patron>
       <patron>Da.Vinci.demons</patron>
@@ -432,60 +70,13 @@
       <patron>da vinci daemons</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="Defiance">
-    <tituloLocal>Defiance</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Defiance</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Defiance</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Dexter">
-    <tituloLocal>Dexter</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>8</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Dexter</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Dexter</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Dominion">
-    <tituloLocal>Dominion</tituloLocal>
-    <temporadaActual>3</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/dominion-716/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Dom</patron>
-      <patron>Dominion</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Dos hombres y medio">
-    <tituloLocal>Dos hombres y medio</tituloLocal>
-    <temporadaActual>12</temporadaActual>
-    <numeroTemporadas>12</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Dos_hombres_y_medio</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Dos hombres y medio</patron>
-      <patron>Dos.hombres.y.medio</patron>
-      <patron>Dos_hombres_y_medio</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="Dos chicas sin blanca">
     <tituloLocal>Dos chicas sin blanca</tituloLocal>
     <temporadaActual>5</temporadaActual>
     <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/2-chicas-sin-blanca-596/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/2-chicas-sin-blanca/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>2chicas sin blanca</patron>
       <patron>2 chicas sin blanca</patron>
@@ -497,39 +88,13 @@
       <patron>Dos_chicas_sin_blanca</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="El mentalista">
-    <tituloLocal>El mentalista</tituloLocal>
-    <temporadaActual>4</temporadaActual>
-    <numeroTemporadas>4</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>El_mentalista</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>El mentalista</patron>
-      <patron>El.mentalista</patron>
-      <patron>El_mentalista</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="El Ministerio del tiempo">
-    <tituloLocal>El Ministerio del tiempo</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>El_Ministerio_del_tiempo</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>El Ministerio del tiempo</patron>
-      <patron>El.Ministerio.del.tiempo</patron>
-      <patron>El_Ministerio_del_tiempo</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="El ultimo hombre en la tierra">
     <tituloLocal>El ultimo hombre en la tierra</tituloLocal>
     <temporadaActual>3</temporadaActual>
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/el-ultimo-hombre-en-la-tierra-849/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/el-ultimo-hombre-en-la-tierra/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>El ultimo hombre en la tierra</patron>
       <patron>El.ultimo.hombre.en.la.tierra</patron>
@@ -541,35 +106,13 @@
       <patron>tlmoear</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="Elementary">
-    <tituloLocal>Elementary</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Elementary</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Elementary</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Episodes">
-    <tituloLocal>Episodes</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Episodes</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Episodes</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="Eres lo peor">
     <tituloLocal>Eres lo peor</tituloLocal>
     <temporadaActual>3</temporadaActual>
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/eres-lo-peor-839/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/eres-lo-peor/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>ElPe</patron>
       <patron>ElP</patron>
@@ -578,79 +121,18 @@
       <patron>Eres_lo_peor</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="Eureka">
-    <tituloLocal>Eureka</tituloLocal>
-    <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>4</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Eureka</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Eureka</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Falling Skies">
-    <tituloLocal>Falling Skies</tituloLocal>
-    <temporadaActual>5</temporadaActual>
-    <numeroTemporadas>5</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Falling_Skies</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Falling Skies</patron>
-      <patron>Falling.Skies</patron>
-      <patron>Falling_Skies</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Familia de acogida">
-    <tituloLocal>Familia de acogida</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Familia_de_acogida</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Familia de acogida</patron>
-      <patron>Familia.de.acogida</patron>
-      <patron>Familia_de_acogida</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Fargo">
-    <tituloLocal>Fargo</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Fargo</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Fargo</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="Fear the walking dead">
     <tituloLocal>Fear the walking dead</tituloLocal>
     <temporadaActual>2</temporadaActual>
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/fear-the-walking-dead-816/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/fear-the-walking-dead/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>FTWD</patron>
       <patron>Fear the walking dead</patron>
       <patron>Fear.the.walking.dead</patron>
       <patron>Fear_the_walking_dead</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Finales felices">
-    <tituloLocal>Finales felices</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Finales_felices</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Finales felices</patron>
-      <patron>Finales.felices</patron>
-      <patron>Finales_felices</patron>
     </patrones>
   </serie>
   <serie tituloLocal="Forever">
@@ -659,222 +141,9 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>Forever</href_divX>
-    <estado>3</estado>
+    <estado>1</estado>
     <patrones>
       <patron>Forever</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Fortitude">
-    <tituloLocal>Fortitude</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Fortitude</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Fortitude</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Fringe">
-    <tituloLocal>Fringe</tituloLocal>
-    <temporadaActual>6</temporadaActual>
-    <numeroTemporadas>6</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Fringe</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Fringe</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Generation kill">
-    <tituloLocal>Generation kill</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Generation_kill</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Generation kill</patron>
-      <patron>Generation.kill</patron>
-      <patron>Generation_kill</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Getting on">
-    <tituloLocal>Getting on</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Getting_on</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Getting on</patron>
-      <patron>Getting.on</patron>
-      <patron>Getting_on</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Gotham">
-    <tituloLocal>Gotham</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Gotham</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Gotham</patron>
-      <patron>Gthm</patron>
-      <patron>got</patron>
-      <patron>goth</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Grace and Frankie">
-    <tituloLocal>Grace and Frankie</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Grace_and_Frankie</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Grace and Frankie</patron>
-      <patron>Grace.and.Frankie</patron>
-      <patron>Grace_and_Frankie</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Graceland">
-    <tituloLocal>Graceland</tituloLocal>
-    <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/graceland-706/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Grac</patron>
-      <patron>GLand</patron>
-      <patron>Graceland</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Hannibal">
-    <tituloLocal>Hannibal</tituloLocal>
-    <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Hannibal</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Hannibal</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Hart of Dixie">
-    <tituloLocal>Hart of Dixie</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Hart_of_Dixie</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Hart of Dixie</patron>
-      <patron>Hart.of.Dixie</patron>
-      <patron>Hart_of_Dixie</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Helix">
-    <tituloLocal>Helix</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Helix</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Helix</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Hello ladies">
-    <tituloLocal>Hello ladies</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Hello_ladies</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Hello ladies</patron>
-      <patron>Hello.ladies</patron>
-      <patron>Hello_ladies</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Hemlock grove">
-    <tituloLocal>Hemlock grove</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Hemlock_grove</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Hemlock grove</patron>
-      <patron>Hemlock.grove</patron>
-      <patron>Hemlock_grove</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Heroes Reborn">
-    <tituloLocal>Heroes Reborn</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Heroes_Reborn</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Heroes Reborn</patron>
-      <patron>Heroes.Reborn</patron>
-      <patron>HR</patron>
-      <patron>Heroes_Reborn</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Hijos del tercer Reich">
-    <tituloLocal>Hijos del tercer Reich</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Hijos_del_tercer_Reich</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Hijos del tercer Reich</patron>
-      <patron>Hijos.del.tercer.Reich</patron>
-      <patron>Hijos_del_tercer_Reich</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Hope">
-    <tituloLocal>Hope</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Hope</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Hope</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="House of cards">
-    <tituloLocal>House of cards</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>House_of_cards</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>House of cards</patron>
-      <patron>House.of.cards</patron>
-      <patron>House_of_cards</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="House of lies">
-    <tituloLocal>House of lies</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>House_of_lies</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>House of lies</patron>
-      <patron>House.of.lies</patron>
-      <patron>House_of_lies</patron>
     </patrones>
   </serie>
   <serie tituloLocal="In the flesh">
@@ -882,126 +151,12 @@
     <temporadaActual>3</temporadaActual>
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/in-the-flesh-750/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/in-the-flesh/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>In the flesh</patron>
       <patron>In.the.flesh</patron>
       <patron>In_the_flesh</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Inteligence">
-    <tituloLocal>Inteligence</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Inteligence</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Inteligence</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Into the badlands">
-    <tituloLocal>Into the badlands</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Into_the_badlands</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Into the badlands</patron>
-      <patron>Intbdlan</patron>
-      <patron>ITB</patron>
-      <patron>Into.the.badlands</patron>
-      <patron>Into_the_badlands</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Invisible">
-    <tituloLocal>Invisible</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Invisible</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Invisible</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Killjoys">
-    <tituloLocal>Killjoys</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Killjoys</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>kiljs</patron>
-      <patron>klljys</patron>
-      <patron>klljs</patron>
-      <patron>Killjoys</patron>
-      <patron>Kllys</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="La cupula">
-    <tituloLocal>La cupula</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>La_cupula</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>La cupula</patron>
-      <patron>La.cupula</patron>
-      <patron>La_cupula</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Ladron de guante blanco">
-    <tituloLocal>Ladron de guante blanco</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>4</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Ladron_de_guante_blanco</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Ladron de guante blanco</patron>
-      <patron>Ladron.de.guante.blanco</patron>
-      <patron>Ladron_de_guante_blanco</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Legends">
-    <tituloLocal>Legends</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Legends</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Legends</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Les revenant">
-    <tituloLocal>Les revenant</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Les_revenant</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Lre</patron>
-      <patron>Les revenant</patron>
-      <patron>Les.revenant</patron>
-      <patron>Les_revenant</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Looking">
-    <tituloLocal>Looking</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Looking</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Looking</patron>
     </patrones>
   </serie>
   <serie tituloLocal="Los cien">
@@ -1009,8 +164,8 @@
     <temporadaActual>4</temporadaActual>
     <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/los-100-688/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/los-100/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Los cien</patron>
       <patron>Los 100</patron>
@@ -1020,137 +175,13 @@
       <patron>Los_cien</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="Los crimenes de Fjallbacka">
-    <tituloLocal>Los crimenes de Fjallbacka</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Los_crimenes_de_Fjallbacka</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Los crimenes de Fjallbacka</patron>
-      <patron>Los.crimenes.de.Fjallbacka</patron>
-      <patron>Los_crimenes_de_Fjallbacka</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Los farsantes">
-    <tituloLocal>Los farsantes</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Los_farsantes</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Los farsantes</patron>
-      <patron>Los.farsantes</patron>
-      <patron>Los_farsantes</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Louie">
-    <tituloLocal>Louie</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Louie</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Louie</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Mad Men">
-    <tituloLocal>Mad Men</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>6</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Mad_Men</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Mad Men</patron>
-      <patron>Mad.Men</patron>
-      <patron>Mad_Men</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Manhattan">
-    <tituloLocal>Manhattan</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Manhattan</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Manhattan</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Manhattan Love Story">
-    <tituloLocal>Manhattan Love Story</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Manhattan_Love_Story</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Manhattan Love Story</patron>
-      <patron>Manhattan.Love.Story</patron>
-      <patron>Manhattan_Love_Story</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Masters of sex">
-    <tituloLocal>Masters of sex</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Masters_of_sex</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Masters of sex</patron>
-      <patron>Masters.of.sex</patron>
-      <patron>Masters_of_sex</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Men at work">
-    <tituloLocal>Men at work</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Men_at_work</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Men at work</patron>
-      <patron>Men.at.work</patron>
-      <patron>Men_at_work</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Misfits">
-    <tituloLocal>Misfits</tituloLocal>
-    <temporadaActual>5</temporadaActual>
-    <numeroTemporadas>5</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Misfits</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Misfits</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Mob City">
-    <tituloLocal>Mob City</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Mob_City</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Mob City</patron>
-      <patron>Mob.City</patron>
-      <patron>Mob_City</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="Modern Family">
     <tituloLocal>Modern Family</tituloLocal>
     <temporadaActual>7</temporadaActual>
     <numeroTemporadas>7</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/modern-family-342/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/modern-family/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Modern Family</patron>
       <patron>Modern.Family</patron>
@@ -1160,24 +191,13 @@
       <patron>mfmly</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="Mom">
-    <tituloLocal>Mom</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/mom-650/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Mom</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="Mozart in the jungle">
     <tituloLocal>Mozart in the jungle</tituloLocal>
     <temporadaActual>2</temporadaActual>
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Mozart_in_the_jungle</href_divX>
-    <estado>3</estado>
+    <href_divX>series/mozart-in-the-jungle</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Mitju</patron>
       <patron>Mozart in the jungle</patron>
@@ -1185,246 +205,17 @@
       <patron>Mozart_in_the_jungle</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="Mr selfridge">
-    <tituloLocal>Mr selfridge</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Mr_selfridge</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Mr selfridge</patron>
-      <patron>Mr.selfridge</patron>
-      <patron>Mr_selfridge</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Nashville">
-    <tituloLocal>Nashville</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Nashville</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Nashville</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Orange is the new black">
-    <tituloLocal>Orange is the new black</tituloLocal>
-    <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Orange_is_the_new_black</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Orange is the new black</patron>
-      <patron>Orange.is.the.new.black</patron>
-      <patron>Orange_is_the_new_black</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Outlander">
-    <tituloLocal>Outlander</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Outlander</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Outlander</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="Padre de familia">
     <tituloLocal>Padre de familia</tituloLocal>
     <temporadaActual>13</temporadaActual>
     <numeroTemporadas>14</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/padre-de-familia-203/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/padre-de-familia/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Padre de familia</patron>
       <patron>Padre.de.familia</patron>
       <patron>Padre_de_familia</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Peaky Blinders">
-    <tituloLocal>Peaky Blinders</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Peaky_Blinders</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Peaky Blinders</patron>
-      <patron>Peaky.Blinders</patron>
-      <patron>Peaky_Blinders</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Penny Dreadful">
-    <tituloLocal>Penny Dreadful</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Penny_Dreadful</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Penny Dreadful</patron>
-      <patron>Penny.Dreadful</patron>
-      <patron>Penny_Dreadful</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Peque¤as mentirosas">
-    <tituloLocal>Peque¤as mentirosas</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Peque¤as_mentirosas</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Peque¤as mentirosas</patron>
-      <patron>Peque¤as.mentirosas</patron>
-      <patron>Peque¤as_mentirosas</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Perception">
-    <tituloLocal>Perception</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Perception</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Perception</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Person of interest">
-    <tituloLocal>Person of interest</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Person_of_interest</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Person of interest</patron>
-      <patron>Person.of.interest</patron>
-      <patron>Person_of_interest</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Powers">
-    <tituloLocal>Powers</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Powers</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Powers</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Ray Donovan">
-    <tituloLocal>Ray Donovan</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Ray_Donovan</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Ray Donovan</patron>
-      <patron>Ray.Donovan</patron>
-      <patron>Ray_Donovan</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Real humans">
-    <tituloLocal>Real humans</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Real_humans</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Real humans</patron>
-      <patron>Real.humans</patron>
-      <patron>Real_humans</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Recien llegados">
-    <tituloLocal>Recien llegados</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Recien_llegados</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Recien llegados</patron>
-      <patron>Recien.llegados</patron>
-      <patron>Recien_llegados</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Refugiados">
-    <tituloLocal>Refugiados</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Refugiados</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Refugiados</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Rehenes">
-    <tituloLocal>Rehenes</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Rehenes</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Rehenes</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Residue">
-    <tituloLocal>Residue</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Residue</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Residue</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Revolution">
-    <tituloLocal>Revolution</tituloLocal>
-    <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Revolution</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Revolution</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Roma criminal">
-    <tituloLocal>Roma criminal</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Roma_criminal</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Roma criminal</patron>
-      <patron>Roma.criminal</patron>
-      <patron>Roma_criminal</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Scandal">
-    <tituloLocal>Scandal</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Scandal</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Scandal</patron>
     </patrones>
   </serie>
   <serie tituloLocal="Scorpion">
@@ -1432,8 +223,8 @@
     <temporadaActual>2</temporadaActual>
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/scorpion-776/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/scorpion/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Scorpion</patron>
       <patron>Scrp</patron>
@@ -1443,45 +234,13 @@
       <patron>Scpns</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="Sense 8">
-    <tituloLocal>Sense 8</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Sense_8</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Sense 8</patron>
-      <patron>Sense8</patron>
-      <patron>Sns8</patron>
-      <patron>Sense.8</patron>
-      <patron>Sense_8</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="ShadownHunters">
-    <tituloLocal>ShadownHunters</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>ShadownHunters</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>shdwhntr</patron>
-      <patron>Shadowhunters</patron>
-      <patron>sdhnt</patron>
-      <patron>ShdwHnt</patron>
-      <patron>ShadownHunters</patron>
-      <patron>shdh</patron>
-      <patron>shdwh</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="Silicon Valley">
     <tituloLocal>Silicon Valley</tituloLocal>
     <temporadaActual>4</temporadaActual>
     <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/silicon-valley-699/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/silicon-valley/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Silicon Valley</patron>
       <patron>Silicon.Valley</patron>
@@ -1489,89 +248,13 @@
       <patron>SValley</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="Sleepy Hollow">
-    <tituloLocal>Sleepy Hollow</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Sleepy_Hollow</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Sleepy Hollow</patron>
-      <patron>Sleepy.Hollow</patron>
-      <patron>Sleepy_Hollow</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Sons of anarchy">
-    <tituloLocal>Sons of anarchy</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>4</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Sons_of_anarchy</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Sons of anarchy</patron>
-      <patron>Sons.of.anarchy</patron>
-      <patron>Sons_of_anarchy</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Star Wars Rebels">
-    <tituloLocal>Star Wars Rebels</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Star_Wars_Rebels</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Star Wars Rebels</patron>
-      <patron>Star.Wars.Rebels</patron>
-      <patron>Star_Wars_Rebels</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Suits">
-    <tituloLocal>Suits</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Suits</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Suits</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="The affair">
-    <tituloLocal>The affair</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_affair</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The affair</patron>
-      <patron>The.affair</patron>
-      <patron>The_affair</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="The Americans">
-    <tituloLocal>The Americans</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_Americans</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The Americans</patron>
-      <patron>The.Americans</patron>
-      <patron>The_Americans</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="The big bang theory">
     <tituloLocal>The big bang theory</tituloLocal>
     <temporadaActual>1</temporadaActual>
     <numeroTemporadas>9</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/the-big-bang-theory-547/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/the-big-bang-theory/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>The big bang theory</patron>
       <patron>TBBT</patron>
@@ -1592,79 +275,13 @@
       <patron>thebigbang</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="The blacklist">
-    <tituloLocal>The blacklist</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_blacklist</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The blacklist</patron>
-      <patron>The.blacklist</patron>
-      <patron>The_blacklist</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="The Bridge">
-    <tituloLocal>The Bridge</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_Bridge</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The Bridge</patron>
-      <patron>The.Bridge</patron>
-      <patron>The_Bridge</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="The brink">
-    <tituloLocal>The brink</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_brink</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The brink</patron>
-      <patron>The.brink</patron>
-      <patron>TBrnk</patron>
-      <patron>The_brink</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="The Client List">
-    <tituloLocal>The Client List</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_Client_List</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The Client List</patron>
-      <patron>The.Client.List</patron>
-      <patron>The_Client_List</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="The crazy ones">
-    <tituloLocal>The crazy ones</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_crazy_ones</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The crazy ones</patron>
-      <patron>The.crazy.ones</patron>
-      <patron>The_crazy_ones</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="The Flash 2014">
     <tituloLocal>The Flash 2014</tituloLocal>
     <temporadaActual>2</temporadaActual>
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/the-flash-810/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/the-flash/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>The Flash</patron>
       <patron>The.Flash</patron>
@@ -1674,105 +291,13 @@
       <patron>tfl</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="The Following">
-    <tituloLocal>The Following</tituloLocal>
-    <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/the-following-576/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The Following</patron>
-      <patron>The.Following</patron>
-      <patron>The_Following</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="The frankenstein chronicles">
-    <tituloLocal>The frankenstein chronicles</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_frankenstein_chronicles</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The frankenstein chronicles</patron>
-      <patron>The.frankenstein.chronicles</patron>
-      <patron>tfc</patron>
-      <patron>The_frankenstein_chronicles</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="The leftovers">
-    <tituloLocal>The leftovers</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_leftovers</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The leftovers</patron>
-      <patron>The.leftovers</patron>
-      <patron>The_leftovers</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="The Millers">
-    <tituloLocal>The Millers</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_Millers</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The Millers</patron>
-      <patron>The.Millers</patron>
-      <patron>The_Millers</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="The Mindy Proyect">
-    <tituloLocal>The Mindy Proyect</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_Mindy_Proyect</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The Mindy Proyect</patron>
-      <patron>The.Mindy.Proyect</patron>
-      <patron>The_Mindy_Proyect</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="The newsroom">
-    <tituloLocal>The newsroom</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_newsroom</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The newsroom</patron>
-      <patron>The.newsroom</patron>
-      <patron>The_newsroom</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="The returned">
-    <tituloLocal>The returned</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_returned</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The returned</patron>
-      <patron>The.returned</patron>
-      <patron>The_returned</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="The strain">
     <tituloLocal>The strain</tituloLocal>
     <temporadaActual>3</temporadaActual>
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/the-strain-753/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/the-strain/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Tstrn</patron>
       <patron>Tst</patron>
@@ -1786,8 +311,8 @@
     <temporadaActual>6</temporadaActual>
     <numeroTemporadas>6</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/fear-the-walking-dead-816/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/fear-the-walking-dead/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>The Walking Dead</patron>
       <patron>The.Walking.Dead</patron>
@@ -1796,175 +321,17 @@
       <patron>The_Walking_Dead</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="The Wrong Mans">
-    <tituloLocal>The Wrong Mans</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_Wrong_Mans</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The Wrong Mans</patron>
-      <patron>The.Wrong.Mans</patron>
-      <patron>The_Wrong_Mans</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Transparent">
-    <tituloLocal>Transparent</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Transparent</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Tran</patron>
-      <patron>Transparent</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Transporter">
-    <tituloLocal>Transporter</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Transporter</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Transporter</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="Trophy Wife">
     <tituloLocal>Trophy Wife</tituloLocal>
     <temporadaActual>2</temporadaActual>
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/trophy-wife-660/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/trophy-wife/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Trophy Wife</patron>
       <patron>Trophy.Wife</patron>
       <patron>Trophy_Wife</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Unbreakable Kimmy Schmidt">
-    <tituloLocal>Unbreakable Kimmy Schmidt</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Unbreakable_Kimmy_Schmidt</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Unbreakable Kimmy Schmidt</patron>
-      <patron>Unbreakable.Kimmy.Schmidt</patron>
-      <patron>Unbreakable_Kimmy_Schmidt</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Vaya Vecinos">
-    <tituloLocal>Vaya Vecinos</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Vaya_Vecinos</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Vaya Vecinos</patron>
-      <patron>Vaya.Vecinos</patron>
-      <patron>Vaya_Vecinos</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Veep">
-    <tituloLocal>Veep</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Veep</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Veep</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Vikingos">
-    <tituloLocal>Vikingos</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>4</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/vikings-603/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Vikingos</patron>
-      <patron>vikings</patron>
-      <patron>vk</patron>
-      <patron>vik</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Vivo con modelos">
-    <tituloLocal>Vivo con modelos</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Vivo_con_modelos</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Vivo con modelos</patron>
-      <patron>Vivo.con.modelos</patron>
-      <patron>Vivo_con_modelos</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Wilfred">
-    <tituloLocal>Wilfred</tituloLocal>
-    <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Wilfred</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Wilfred</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="El sequito">
-    <tituloLocal>El sequito</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>8</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>El_sequito</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>El sequito</patron>
-      <patron>El.sequito</patron>
-      <patron>El_sequito</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Black Sails">
-    <tituloLocal>Black Sails</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/black-sails-693/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>BSails</patron>
-      <patron>BS</patron>
-      <patron>Blck Sails</patron>
-      <patron>BlckSails</patron>
-      <patron>Black Sails</patron>
-      <patron>Black.Sails</patron>
-      <patron>Black_Sails</patron>
-      <patron>BlSls</patron>
-      <patron>BlackS</patron>
-      <patron>bsails</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Angie Tribeca">
-    <tituloLocal>Angie Tribeca</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Angie_Tribeca</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>AT</patron>
-      <patron>Angie Tribeca</patron>
-      <patron>Angie.Tribeca</patron>
-      <patron>Angie_Tribeca</patron>
     </patrones>
   </serie>
   <serie tituloLocal="Sin limites">
@@ -1972,8 +339,8 @@
     <temporadaActual>1</temporadaActual>
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/sin-limites-893/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/sin-limites/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Sl</patron>
       <patron>Sin limites</patron>
@@ -1986,8 +353,8 @@
     <temporadaActual>2</temporadaActual>
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/las-cronicas-de-shannara-897/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/las-cronicas-de-shannara/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Las cronicas de shannara</patron>
       <patron>LCDsh</patron>
@@ -1995,66 +362,13 @@
       <patron>Las_cronicas_de_shannara</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="Ascension">
-    <tituloLocal>Ascension</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Ascension</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Ascension</patron>
-      <patron>Asc</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Guardians of galaxy">
-    <tituloLocal>Guardians of galaxy</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>Guardians_of_galaxy</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Guardians of galaxy</patron>
-      <patron>Guardians.of.galaxy</patron>
-      <patron>Guardians_of_galaxy</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Los simpson">
-    <tituloLocal>Los simpson</tituloLocal>
-    <temporadaActual>24</temporadaActual>
-    <numeroTemporadas>25</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/los-simpsons-1/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Los simpson</patron>
-      <patron>Los.simpson</patron>
-      <patron>Los_simpson</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="The magicians">
-    <tituloLocal>The magicians</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>The_magicians</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>The magicians</patron>
-      <patron>The.magicians</patron>
-      <patron>The_magicians</patron>
-      <patron>thmgcns</patron>
-      <patron>TM</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="Juego de tronos">
     <tituloLocal>Juego de tronos</tituloLocal>
     <temporadaActual>1</temporadaActual>
     <numeroTemporadas>6</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/juego-de-tronos-385/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/juego-de-tronos/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Juego de tronos</patron>
       <patron>Juego.de.tronos</patron>
@@ -2073,8 +387,8 @@
     <temporadaActual>5</temporadaActual>
     <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/new-girl-515/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/new-girl/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>New girl</patron>
       <patron>New.girl</patron>
@@ -2087,27 +401,12 @@
     <temporadaActual>2</temporadaActual>
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/izombie-930/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/izombie/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>iZombie</patron>
       <patron>iZm</patron>
       <patron>izom</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="American horror story">
-    <tituloLocal>American horror story</tituloLocal>
-    <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>5</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>
-    </href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>American horror story</patron>
-      <patron>American.horror.story</patron>
-      <patron>American_horror_story</patron>
-      <patron>ahs</patron>
     </patrones>
   </serie>
   <serie tituloLocal="Narcos">
@@ -2115,8 +414,8 @@
     <temporadaActual>1</temporadaActual>
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/narcos-818/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/narcos/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Narcos</patron>
       <patron>nrcs</patron>
@@ -2124,58 +423,17 @@
       <patron>ncrs</patron>
     </patrones>
   </serie>
-  <serie tituloLocal="Z Nation">
-    <tituloLocal>Z Nation</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/z-nation-966/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Z Nation</patron>
-      <patron>Z.Nation</patron>
-      <patron>Z_Nation</patron>
-      <patron>zntn</patron>
-      <patron>znath</patron>
-      <patron>znatn</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Section Zero">
-    <tituloLocal>Section Zero</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/section-zero-965/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Section Zero</patron>
-      <patron>Section.Zero</patron>
-      <patron>Section_Zero</patron>
-      <patron>szero</patron>
-    </patrones>
-  </serie>
   <serie tituloLocal="Stranger things">
     <tituloLocal>Stranger things</tituloLocal>
     <temporadaActual>1</temporadaActual>
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/stranger-things-970/</href_divX>
-    <estado>3</estado>
+    <href_divX>series/stranger-things/</href_divX>
+    <estado>1</estado>
     <patrones>
       <patron>Stranger things</patron>
       <patron>Stranger.things</patron>
       <patron>Stranger_things</patron>
-    </patrones>
-  </serie>
-  <serie tituloLocal="Lucifer">
-    <tituloLocal>Lucifer</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
-    <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/lucifer-1x10-971/</href_divX>
-    <estado>3</estado>
-    <patrones>
-      <patron>Lucifer</patron>
     </patrones>
   </serie>
 </Series>
