@@ -246,4 +246,11 @@
   <TiempoRenombrarVideos fecha="11/08/2016 0:03:48" valor="2765" />
   <NumeroSeriesActivas fecha="11/08/2016 0:03:48" valor="28" />
   <NumeroPatronesEjecutados fecha="11/08/2016 0:03:48" valor="47840" />
+  <TiempoRecorrerTorrent fecha="10/01/2017 16:32:28" valor="382" />
+  <TiempoRenombrarVideos fecha="10/01/2017 16:32:35" valor="4179" />
+  <NumeroSeriesActivas fecha="10/01/2017 16:32:35" valor="29" />
+  <NumeroPatronesEjecutados fecha="10/01/2017 16:32:35" valor="72176" />
+  <TiempoRenombrarVideos fecha="10/01/2017 16:33:39" valor="5466" />
+  <NumeroSeriesActivas fecha="10/01/2017 16:33:39" valor="29" />
+  <NumeroPatronesEjecutados fecha="10/01/2017 16:33:39" valor="88400" />
 </Estadisticas>

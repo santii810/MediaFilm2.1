@@ -2,8 +2,8 @@
 <Series>
   <serie tituloLocal="American dad">
     <tituloLocal>American dad</tituloLocal>
-    <temporadaActual>10</temporadaActual>
-    <numeroTemporadas>10</numeroTemporadas>
+    <temporadaActual>1</temporadaActual>
+    <numeroTemporadas>14</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/padre-made-in-usa</href_divX>
     <estado>1</estado>
@@ -15,7 +15,7 @@
   </serie>
   <serie tituloLocal="Arrow">
     <tituloLocal>Arrow</tituloLocal>
-    <temporadaActual>4</temporadaActual>
+    <temporadaActual>5</temporadaActual>
     <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/arrow/</href_divX>
@@ -28,7 +28,7 @@
   <serie tituloLocal="Better call Saul">
     <tituloLocal>Better call Saul</tituloLocal>
     <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
+    <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/better-call-saul/</href_divX>
     <estado>1</estado>
@@ -73,7 +73,7 @@
   <serie tituloLocal="Dos chicas sin blanca">
     <tituloLocal>Dos chicas sin blanca</tituloLocal>
     <temporadaActual>5</temporadaActual>
-    <numeroTemporadas>5</numeroTemporadas>
+    <numeroTemporadas>6</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/2-chicas-sin-blanca/</href_divX>
     <estado>1</estado>
@@ -207,7 +207,7 @@
   </serie>
   <serie tituloLocal="Padre de familia">
     <tituloLocal>Padre de familia</tituloLocal>
-    <temporadaActual>13</temporadaActual>
+    <temporadaActual>1</temporadaActual>
     <numeroTemporadas>14</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/padre-de-familia/</href_divX>
@@ -221,7 +221,7 @@
   <serie tituloLocal="Scorpion">
     <tituloLocal>Scorpion</tituloLocal>
     <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
+    <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/scorpion/</href_divX>
     <estado>1</estado>
@@ -251,7 +251,7 @@
   <serie tituloLocal="The big bang theory">
     <tituloLocal>The big bang theory</tituloLocal>
     <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>9</numeroTemporadas>
+    <numeroTemporadas>10</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/the-big-bang-theory/</href_divX>
     <estado>1</estado>
@@ -278,7 +278,7 @@
   <serie tituloLocal="The Flash 2014">
     <tituloLocal>The Flash 2014</tituloLocal>
     <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
+    <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/the-flash/</href_divX>
     <estado>1</estado>
@@ -294,7 +294,7 @@
   <serie tituloLocal="The strain">
     <tituloLocal>The strain</tituloLocal>
     <temporadaActual>3</temporadaActual>
-    <numeroTemporadas>3</numeroTemporadas>
+    <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/the-strain/</href_divX>
     <estado>1</estado>
@@ -309,7 +309,7 @@
   <serie tituloLocal="The Walking Dead">
     <tituloLocal>The Walking Dead</tituloLocal>
     <temporadaActual>6</temporadaActual>
-    <numeroTemporadas>6</numeroTemporadas>
+    <numeroTemporadas>7</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/fear-the-walking-dead/</href_divX>
     <estado>1</estado>
@@ -324,7 +324,7 @@
   <serie tituloLocal="Trophy Wife">
     <tituloLocal>Trophy Wife</tituloLocal>
     <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
+    <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/trophy-wife/</href_divX>
     <estado>1</estado>
@@ -365,7 +365,7 @@
   <serie tituloLocal="Juego de tronos">
     <tituloLocal>Juego de tronos</tituloLocal>
     <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>6</numeroTemporadas>
+    <numeroTemporadas>7</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/juego-de-tronos/</href_divX>
     <estado>1</estado>
@@ -399,7 +399,7 @@
   <serie tituloLocal="iZombie">
     <tituloLocal>iZombie</tituloLocal>
     <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
+    <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/izombie/</href_divX>
     <estado>1</estado>

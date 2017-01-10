@@ -110,6 +110,7 @@ namespace MediaFilm2._1.Vista
             tmpButton.Click += delegate
             {
                 xaml.panelListaCapitulosDescarga.Children.Clear();
+                xaml.panelListaCapitulosDescarga.Children.Add(CrearVistas.PanelDescargarTodo(serie.capitulos, xaml));
                 foreach (Capitulo capi in serie.capitulos)
                 {
                     xaml.panelListaCapitulosDescarga.Children.Add(CrearVistas.PanelDescargarCapitulo(capi, xaml));
@@ -119,6 +120,29 @@ namespace MediaFilm2._1.Vista
             tmpButton.Style = (Style)Application.Current.Resources["Button"];
             tmpButton.Content = serie.capitulos.Count + " cap.";
             tmpButton.Width = 75;
+            tmpButton.FontSize = 11;
+            tmpPanel.Children.Add(tmpButton);
+
+            return tmpPanel;
+        }
+
+        private static UIElement PanelDescargarTodo(HashSet<Capitulo> capitulos, DescargasPage xaml)
+        {
+            StackPanel tmpPanel = new StackPanel();
+            tmpPanel.Orientation = Orientation.Horizontal;
+            tmpPanel.HorizontalAlignment = HorizontalAlignment.Center;
+            
+            Button tmpButton = new Button();
+            tmpButton.Click += delegate
+            {
+                foreach (Capitulo capi in capitulos)
+                {
+                MainWindow.gestorDescargas.DescargarCapitulo(capi);
+                }
+            };
+            tmpButton.Style = (Style)Application.Current.Resources["Button"];
+            tmpButton.Content = "Descargar todo";
+            tmpButton.Width = 150;
             tmpButton.FontSize = 11;
             tmpPanel.Children.Add(tmpButton);
 
