@@ -1,5 +1,7 @@
 ﻿using MediaFilm2._1.Controlador;
 using MediaFilm2._1.Modelo;
+using MediaFilm2._1.Res;
+using MediaFilm2._1.Vista;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -41,6 +43,7 @@ namespace MediaFilm2._1.Vista
             {
                 enEjecucion = true;
                 this.Cursor = Cursors.Wait;
+                UpdateUI.updateDescargasPage(Codigos.DESCARGAS_BUSCAR, this);
 
                 MainWindow.updateSeries();
 

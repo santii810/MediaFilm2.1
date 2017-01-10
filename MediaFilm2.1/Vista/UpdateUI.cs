@@ -36,6 +36,29 @@ namespace MediaFilm2._1.Vista
             }
         }
 
+        internal static void updateDescargasPage(int cod, DescargasPage xaml)
+        {
+            colapsarTodo(xaml);
+            switch (cod)
+            {
+                case Codigos.ESTADO_INICIAL:
+                    break;
+                case Codigos.DESCARGAS_BUSCAR:
+                    xaml.borderListaSeriesDescarga.Visibility = Visibility.Visible;
+                    break;
+                case Codigos.MOSTRAR_CAPITULOS:
+                    xaml.borderListaSeriesDescarga.Visibility = Visibility.Visible;
+                    xaml.borderListaCapitulosDescarga.Visibility = Visibility.Visible;
+                    break;
+            }
+        }
+
+        private static void colapsarTodo(DescargasPage xaml)
+        {
+            xaml.borderListaCapitulosDescarga.Visibility = Visibility.Collapsed;
+            xaml.borderListaSeriesDescarga.Visibility = Visibility.Collapsed;
+        }
+
         internal static void updateOrdenarPage(int cod, OrdenarPage xaml)
         {
             colapsarTodo(xaml);

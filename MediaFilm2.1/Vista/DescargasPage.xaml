@@ -23,7 +23,7 @@
             <Label Content="{StaticResource strBuscarDescargas}" Style="{StaticResource LabelMenuSecundario}"/>
         </StackPanel>
 
-        <Border Style="{StaticResource BorderBisque}" Grid.Row="1">
+        <Border Name="borderListaSeriesDescarga" Style="{StaticResource BorderBisque}" Grid.Row="1" Visibility="Collapsed">
             <ScrollViewer  Height="432" Style="{StaticResource Scroll}">
                 <StackPanel  Name="panelListaSeriesDescarga"/>
             </ScrollViewer>
@@ -31,7 +31,7 @@
 
 
 
-        <Border Grid.Column="1" Grid.RowSpan="2"  Style="{StaticResource BorderBisque}">
+        <Border Name="borderListaCapitulosDescarga" Grid.Column="1" Grid.RowSpan="2"  Style="{StaticResource BorderBisque}" Visibility="Collapsed">
             <ScrollViewer Height="680" Style="{StaticResource Scroll}">
             <StackPanel Name="panelListaCapitulosDescarga"/>
                 

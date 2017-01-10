@@ -109,6 +109,7 @@ namespace MediaFilm2._1.Vista
             Button tmpButton = new Button();
             tmpButton.Click += delegate
             {
+                UpdateUI.updateDescargasPage(Codigos.MOSTRAR_CAPITULOS, xaml);
                 xaml.panelListaCapitulosDescarga.Children.Clear();
                 xaml.panelListaCapitulosDescarga.Children.Add(CrearVistas.PanelDescargarTodo(serie.capitulos, xaml));
                 foreach (Capitulo capi in serie.capitulos)
