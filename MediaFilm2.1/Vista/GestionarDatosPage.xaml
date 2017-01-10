@@ -65,7 +65,7 @@
         </Grid>
 
         <!-- AÑADIR PATRON-->
-        <Grid Name="panelAddPatron"  Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Collapsed">
+        <Grid Name="panelAddPatron"  Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Visible">
             <Grid.RowDefinitions>
                 <RowDefinition Height="250"/>
                 <RowDefinition MaxHeight="200"/>
@@ -116,7 +116,7 @@
         </Grid>
 
         <!-- I/O Serie-->
-        <Border Name="panelIOSerie" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Visible" Style="{StaticResource BorderBisque}">
+        <Border Name="panelIOSerie" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Collapsed" Style="{StaticResource BorderBisque}">
             <StackPanel >
                 <StackPanel Orientation="Horizontal"  Width="380" HorizontalAlignment="Stretch">
                     <Label Content="{StaticResource strEstadoSerie}" Style="{StaticResource LabelMenuSecundario}"></Label>

@@ -89,7 +89,7 @@ namespace MediaFilm2._1.Vista
 
             this.panelFicherosARenombrar.Children.Clear();
             FileSystemInfo[] fsi = GestorVideos.getFicherosARenombrar();
-            this.labelCantidadFicherosARenombrar.Content = (fsi.Length -1).ToString();
+            this.labelCantidadFicherosARenombrar.Content = (fsi.Length).ToString();
             foreach (FileInfo itFichero in fsi)
                 if (itFichero.Extension.Equals(".mkv") || itFichero.Extension.Equals(".avi") || itFichero.Extension.Equals(".mp4"))
                     panelFicherosARenombrar.Children.Add(CrearVistas.LabelLista(itFichero.Name));
