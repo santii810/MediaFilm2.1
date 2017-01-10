@@ -137,8 +137,8 @@
   </serie>
   <serie tituloLocal="Forever">
     <tituloLocal>Forever</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>1</numeroTemporadas>
+    <temporadaActual>2</temporadaActual>
+    <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>Forever</href_divX>
     <estado>1</estado>
@@ -398,7 +398,7 @@
   </serie>
   <serie tituloLocal="iZombie">
     <tituloLocal>iZombie</tituloLocal>
-    <temporadaActual>2</temporadaActual>
+    <temporadaActual>3</temporadaActual>
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/izombie/</href_divX>

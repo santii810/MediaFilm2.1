@@ -253,4 +253,27 @@
   <TiempoRenombrarVideos fecha="10/01/2017 16:33:39" valor="5466" />
   <NumeroSeriesActivas fecha="10/01/2017 16:33:39" valor="29" />
   <NumeroPatronesEjecutados fecha="10/01/2017 16:33:39" valor="88400" />
+  <TiempoRecorrerTorrent fecha="10/01/2017 16:39:34" valor="318" />
+  <TiempoRenombrarVideos fecha="10/01/2017 16:39:42" valor="5884" />
+  <NumeroSeriesActivas fecha="10/01/2017 16:39:42" valor="29" />
+  <NumeroPatronesEjecutados fecha="10/01/2017 16:39:42" valor="101504" />
+  <TiempoRecorrerTorrent fecha="10/01/2017 16:39:47" valor="235" />
+  <TiempoRecorrerTorrent fecha="10/01/2017 16:39:49" valor="209" />
+  <TiempoRecorrerTorrent fecha="10/01/2017 16:39:51" valor="209" />
+  <TiempoRecorrerTorrent fecha="10/01/2017 16:40:06" valor="223" />
+  <TiempoRenombrarVideos fecha="10/01/2017 16:40:25" valor="5684" />
+  <NumeroSeriesActivas fecha="10/01/2017 16:40:25" valor="29" />
+  <NumeroPatronesEjecutados fecha="10/01/2017 16:40:25" valor="101504" />
+  <TiempoRecorrerTorrent fecha="10/01/2017 16:41:57" valor="258" />
+  <TiempoRenombrarVideos fecha="10/01/2017 16:42:05" valor="5920" />
+  <NumeroSeriesActivas fecha="10/01/2017 16:42:05" valor="29" />
+  <NumeroPatronesEjecutados fecha="10/01/2017 16:42:05" valor="100880" />
+  <TiempoRecorrerTorrent fecha="10/01/2017 16:44:54" valor="266" />
+  <TiempoRenombrarVideos fecha="10/01/2017 16:45:01" valor="5897" />
+  <NumeroSeriesActivas fecha="10/01/2017 16:45:01" valor="29" />
+  <NumeroPatronesEjecutados fecha="10/01/2017 16:45:01" valor="100880" />
+  <TiempoRecorrerTorrent fecha="10/01/2017 16:58:03" valor="298" />
+  <TiempoRenombrarVideos fecha="10/01/2017 16:58:09" valor="5663" />
+  <NumeroSeriesActivas fecha="10/01/2017 16:58:09" valor="29" />
+  <NumeroPatronesEjecutados fecha="10/01/2017 16:58:09" valor="100880" />
 </Estadisticas>
