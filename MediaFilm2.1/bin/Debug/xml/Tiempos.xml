@@ -276,4 +276,8 @@
   <TiempoRenombrarVideos fecha="10/01/2017 16:58:09" valor="5663" />
   <NumeroSeriesActivas fecha="10/01/2017 16:58:09" valor="29" />
   <NumeroPatronesEjecutados fecha="10/01/2017 16:58:09" valor="100880" />
+  <TiempoRecorrerTorrent fecha="10/01/2017 17:30:14" valor="558" />
+  <TiempoRenombrarVideos fecha="10/01/2017 17:30:21" valor="5429" />
+  <NumeroSeriesActivas fecha="10/01/2017 17:30:21" valor="29" />
+  <NumeroPatronesEjecutados fecha="10/01/2017 17:30:21" valor="100880" />
 </Estadisticas>
