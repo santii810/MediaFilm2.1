@@ -41,7 +41,7 @@
         </StackPanel>
 
         <!-- AÑADIR SERIE-->
-        <Grid Name="panelAddSerie" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,150,0,0" Visibility="Visible">
+        <Grid Name="panelAddSerie" Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="0,150,0,0" Visibility="Collapsed">
             <Grid.RowDefinitions>
                 <RowDefinition Height="40"/>
                 <RowDefinition Height="40"/>

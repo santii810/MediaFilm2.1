@@ -35,6 +35,7 @@ namespace MediaFilm2._1.Vista
         public DescargasPage()
         {
             InitializeComponent();
+            UpdateUI.updateDescargasPage(Codigos.ESTADO_INICIAL, this);
         }
 
         private async void ImageIniciarDescarga_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)

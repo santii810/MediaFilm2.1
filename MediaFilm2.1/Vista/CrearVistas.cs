@@ -59,9 +59,7 @@ namespace MediaFilm2._1.Vista
             tmpPanel.Width = 350;
             if (i % 2 == 1)
                 tmpPanel.Background = new SolidColorBrush(Color.FromRgb(213, 215, 220));
-
-
-
+                       
             Label tmpLabelTitulo = new Label();
             tmpLabelTitulo.Content = serie.tituloLocal;
             tmpLabelTitulo.Style = (Style)Application.Current.Resources["LabelListas"];
@@ -109,9 +107,11 @@ namespace MediaFilm2._1.Vista
             Button tmpButton = new Button();
             tmpButton.Click += delegate
             {
+                serie.estado = 1;
+                MainWindow.SeriesXML.updateSerie(serie);
                 UpdateUI.updateDescargasPage(Codigos.MOSTRAR_CAPITULOS, xaml);
                 xaml.panelListaCapitulosDescarga.Children.Clear();
-                xaml.panelListaCapitulosDescarga.Children.Add(CrearVistas.PanelDescargarTodo(serie.capitulos, xaml));
+                xaml.panelListaCapitulosDescarga.Children.Add(CrearVistas.PanelDescargarTodo(serie, xaml));
                 foreach (Capitulo capi in serie.capitulos)
                 {
                     xaml.panelListaCapitulosDescarga.Children.Add(CrearVistas.PanelDescargarCapitulo(capi, xaml));
@@ -127,7 +127,7 @@ namespace MediaFilm2._1.Vista
             return tmpPanel;
         }
 
-        private static UIElement PanelDescargarTodo(HashSet<Capitulo> capitulos, DescargasPage xaml)
+        private static UIElement PanelDescargarTodo(Serie serie, DescargasPage xaml)
         {
             StackPanel tmpPanel = new StackPanel();
             tmpPanel.Orientation = Orientation.Horizontal;
@@ -136,7 +136,9 @@ namespace MediaFilm2._1.Vista
             Button tmpButton = new Button();
             tmpButton.Click += delegate
             {
-                foreach (Capitulo capi in capitulos)
+                serie.estado = 1;
+                MainWindow.SeriesXML.updateSerie(serie);
+                foreach (Capitulo capi in serie.capitulos)
                 {
                 MainWindow.gestorDescargas.DescargarCapitulo(capi);
                 }

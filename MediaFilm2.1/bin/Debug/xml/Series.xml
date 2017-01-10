@@ -2,8 +2,8 @@
 <Series>
   <serie tituloLocal="American dad">
     <tituloLocal>American dad</tituloLocal>
-    <temporadaActual>1</temporadaActual>
-    <numeroTemporadas>14</numeroTemporadas>
+    <temporadaActual>7</temporadaActual>
+    <numeroTemporadas>10</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/padre-made-in-usa</href_divX>
     <estado>1</estado>
@@ -11,6 +11,7 @@
       <patron>American dad</patron>
       <patron>American.dad</patron>
       <patron>American_dad</patron>
+      <patron>Padre.Made.In.Usa</patron>
     </patrones>
   </serie>
   <serie tituloLocal="Arrow">
@@ -27,11 +28,11 @@
   </serie>
   <serie tituloLocal="Better call Saul">
     <tituloLocal>Better call Saul</tituloLocal>
-    <temporadaActual>2</temporadaActual>
+    <temporadaActual>3</temporadaActual>
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/better-call-saul/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Better call Saul</patron>
       <patron>Better.call.Saul</patron>
@@ -58,7 +59,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/da-vincis-demons/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Da Vinci demons</patron>
       <patron>Da.Vinci.demons</patron>
@@ -94,7 +95,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/el-ultimo-hombre-en-la-tierra/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>El ultimo hombre en la tierra</patron>
       <patron>El.ultimo.hombre.en.la.tierra</patron>
@@ -127,7 +128,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/fear-the-walking-dead/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>FTWD</patron>
       <patron>Fear the walking dead</patron>
@@ -141,7 +142,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>Forever</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Forever</patron>
     </patrones>
@@ -152,7 +153,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/in-the-flesh/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>In the flesh</patron>
       <patron>In.the.flesh</patron>
@@ -165,7 +166,7 @@
     <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/los-100/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Los cien</patron>
       <patron>Los 100</patron>
@@ -224,7 +225,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/scorpion/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Scorpion</patron>
       <patron>Scrp</patron>
@@ -240,7 +241,7 @@
     <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/silicon-valley/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Silicon Valley</patron>
       <patron>Silicon.Valley</patron>
@@ -312,7 +313,7 @@
     <numeroTemporadas>7</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/fear-the-walking-dead/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>The Walking Dead</patron>
       <patron>The.Walking.Dead</patron>
@@ -327,7 +328,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/trophy-wife/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Trophy Wife</patron>
       <patron>Trophy.Wife</patron>
@@ -340,7 +341,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/sin-limites/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Sl</patron>
       <patron>Sin limites</patron>
@@ -354,7 +355,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/las-cronicas-de-shannara/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Las cronicas de shannara</patron>
       <patron>LCDsh</patron>
@@ -368,7 +369,7 @@
     <numeroTemporadas>7</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/juego-de-tronos/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Juego de tronos</patron>
       <patron>Juego.de.tronos</patron>
@@ -388,7 +389,7 @@
     <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/new-girl/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>New girl</patron>
       <patron>New.girl</patron>
@@ -402,7 +403,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/izombie/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>iZombie</patron>
       <patron>iZm</patron>
@@ -415,7 +416,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/narcos/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Narcos</patron>
       <patron>nrcs</patron>
@@ -429,7 +430,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/stranger-things/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Stranger things</patron>
       <patron>Stranger.things</patron>
