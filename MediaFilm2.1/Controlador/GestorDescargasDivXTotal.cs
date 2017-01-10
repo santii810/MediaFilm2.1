@@ -89,7 +89,8 @@ namespace MediaFilm2._1.Controlador
         
         public void DescargarCapitulo(Capitulo capi)
         {
-            string remoteUri = website + capi.href_divX;
+            //  anterior : string remoteUri = website + capi.href_divX;
+            string remoteUri = capi.href_divX;
             string fileName = capi.titulo + ".torrent";
             // Create a new WebClient instance.
             WebClient myWebClient = new WebClient();

@@ -118,7 +118,7 @@
     <temporadaActual>4</temporadaActual>
     <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
-    <href_divX>series/arrow-557/</href_divX>
+    <href_divX>series/arrow/</href_divX>
     <estado>1</estado>
     <patrones>
       <patron>Arr</patron>
@@ -203,7 +203,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/better-call-saul-757/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Better call Saul</patron>
       <patron>Better.call.Saul</patron>
@@ -397,7 +397,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/daredevil-819/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>DD</patron>
       <patron>Daredevil</patron>
@@ -420,7 +420,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/da-vincis-demons-599/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Da Vinci demons</patron>
       <patron>Da.Vinci.demons</patron>
@@ -460,7 +460,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/dominion-716/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Dom</patron>
       <patron>Dominion</patron>
@@ -485,7 +485,7 @@
     <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/2-chicas-sin-blanca-596/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>2chicas sin blanca</patron>
       <patron>2 chicas sin blanca</patron>
@@ -529,7 +529,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/el-ultimo-hombre-en-la-tierra-849/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>El ultimo hombre en la tierra</patron>
       <patron>El.ultimo.hombre.en.la.tierra</patron>
@@ -569,7 +569,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/eres-lo-peor-839/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>ElPe</patron>
       <patron>ElP</patron>
@@ -632,7 +632,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/fear-the-walking-dead-816/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>FTWD</patron>
       <patron>Fear the walking dead</patron>
@@ -745,7 +745,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/graceland-706/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Grac</patron>
       <patron>GLand</patron>
@@ -883,7 +883,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/in-the-flesh-750/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>In the flesh</patron>
       <patron>In.the.flesh</patron>
@@ -1010,7 +1010,7 @@
     <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/los-100-688/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Los cien</patron>
       <patron>Los 100</patron>
@@ -1481,7 +1481,7 @@
     <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/silicon-valley-699/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Silicon Valley</patron>
       <patron>Silicon.Valley</patron>
@@ -1664,7 +1664,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/the-flash-810/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>The Flash</patron>
       <patron>The.Flash</patron>
@@ -1680,7 +1680,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/the-following-576/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>The Following</patron>
       <patron>The.Following</patron>
@@ -1772,7 +1772,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/the-strain-753/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Tstrn</patron>
       <patron>Tst</patron>
@@ -1838,7 +1838,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/trophy-wife-660/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Trophy Wife</patron>
       <patron>Trophy.Wife</patron>
@@ -1888,7 +1888,7 @@
     <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/vikings-603/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Vikingos</patron>
       <patron>vikings</patron>
@@ -1939,7 +1939,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/black-sails-693/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>BSails</patron>
       <patron>BS</patron>
@@ -1973,7 +1973,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/sin-limites-893/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Sl</patron>
       <patron>Sin limites</patron>
@@ -1987,7 +1987,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/las-cronicas-de-shannara-897/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Las cronicas de shannara</patron>
       <patron>LCDsh</patron>
@@ -2026,7 +2026,7 @@
     <numeroTemporadas>25</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/los-simpsons-1/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Los simpson</patron>
       <patron>Los.simpson</patron>
@@ -2054,7 +2054,7 @@
     <numeroTemporadas>6</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/juego-de-tronos-385/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Juego de tronos</patron>
       <patron>Juego.de.tronos</patron>
@@ -2074,7 +2074,7 @@
     <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/new-girl-515/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>New girl</patron>
       <patron>New.girl</patron>
@@ -2088,7 +2088,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/izombie-930/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>iZombie</patron>
       <patron>iZm</patron>
@@ -2116,7 +2116,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/narcos-818/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Narcos</patron>
       <patron>nrcs</patron>
@@ -2160,7 +2160,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/stranger-things-970/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Stranger things</patron>
       <patron>Stranger.things</patron>
@@ -2173,7 +2173,7 @@
     <numeroTemporadas>1</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/lucifer-1x10-971/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Lucifer</patron>
     </patrones>
