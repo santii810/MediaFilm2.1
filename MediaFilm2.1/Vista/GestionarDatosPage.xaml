@@ -116,9 +116,9 @@
         </Grid>
 
         <!-- I/O Serie-->
-        <Border Name="panelIOSerie" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Collapsed" Style="{StaticResource BorderBisque}">
+        <Border Name="panelIOSerie" Grid.Row="1" Grid.ColumnSpan="4" HorizontalAlignment="Center" Visibility="Visible" Style="{StaticResource BorderBisque}">
             <StackPanel >
-                <StackPanel Orientation="Horizontal"  Width="370" HorizontalAlignment="Stretch">
+                <StackPanel Orientation="Horizontal"  Width="380" HorizontalAlignment="Stretch">
                     <Label Content="{StaticResource strEstadoSerie}" Style="{StaticResource LabelMenuSecundario}"></Label>
                     <TextBox Text="Filtrar..." HorizontalAlignment="Right" Margin="125,0,0,0" x:Name="textBoxFiltrarSeries" Width="100" Style="{StaticResource TextBox}" GotFocus="TextBox_GotFocus" LostFocus="textBoxFiltrarSeries_LostFocus" KeyUp="textBoxFiltrarSeries_KeyUp"/>
                 </StackPanel>
