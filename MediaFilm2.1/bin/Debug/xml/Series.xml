@@ -138,11 +138,11 @@
   </serie>
   <serie tituloLocal="Forever">
     <tituloLocal>Forever</tituloLocal>
-    <temporadaActual>2</temporadaActual>
+    <temporadaActual>1</temporadaActual>
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>Forever</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>Forever</patron>
     </patrones>
@@ -179,7 +179,7 @@
   <serie tituloLocal="Modern Family">
     <tituloLocal>Modern Family</tituloLocal>
     <temporadaActual>7</temporadaActual>
-    <numeroTemporadas>7</numeroTemporadas>
+    <numeroTemporadas>8</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/modern-family/</href_divX>
     <estado>1</estado>
@@ -195,7 +195,7 @@
   <serie tituloLocal="Mozart in the jungle">
     <tituloLocal>Mozart in the jungle</tituloLocal>
     <temporadaActual>2</temporadaActual>
-    <numeroTemporadas>2</numeroTemporadas>
+    <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/mozart-in-the-jungle</href_divX>
     <estado>1</estado>
@@ -225,7 +225,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/scorpion/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>Scorpion</patron>
       <patron>Scrp</patron>
@@ -310,10 +310,10 @@
   <serie tituloLocal="The Walking Dead">
     <tituloLocal>The Walking Dead</tituloLocal>
     <temporadaActual>6</temporadaActual>
-    <numeroTemporadas>7</numeroTemporadas>
+    <numeroTemporadas>8</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/fear-the-walking-dead/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>The Walking Dead</patron>
       <patron>The.Walking.Dead</patron>
@@ -369,7 +369,7 @@
     <numeroTemporadas>7</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/juego-de-tronos/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>Juego de tronos</patron>
       <patron>Juego.de.tronos</patron>
@@ -389,7 +389,7 @@
     <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/new-girl/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>New girl</patron>
       <patron>New.girl</patron>
