@@ -35,7 +35,19 @@
                     </StackPanel>
                 </StackPanel>
             </Border>
-        
+            <Border Style="{StaticResource BorderBisque}">
+                <StackPanel Orientation="Horizontal">
+                    <Image Name="circuloDuplicidad" Source="../Res/Iconos/bluePoint.png"  Style="{StaticResource ImagenPuntos}"/>
+                    <StackPanel>
+                        <Label Content="{StaticResource strDuplicidad}" Style="{StaticResource LabelMenuSecundario}"/>
+                        <StackPanel Name="panelResultadoDuplicidad" Orientation="Horizontal">
+                            <Label Name="labelResultadoDuplicidad"  Width="110" Style="{StaticResource LabelListas}"/>
+                            <Button Content="{StaticResource strVer}" Style="{StaticResource Button}" Click="ButtonVerDuplicidad_Click"></Button>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+
         </StackPanel>
 
         

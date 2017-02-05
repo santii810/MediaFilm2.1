@@ -59,8 +59,22 @@ namespace MediaFilm2._1.Vista
                 circuloContinuidad.Source = CrearVistas.getPunto(Codigos.PUNTO_AMARILLO);
             #endregion
 
+            #region Duplicidad
+            labelResultadoDuplicidad.Content = mantenimientoResponse.ErroresDuplicidad.Count + " errores.";
+            if (mantenimientoResponse.ErroresDuplicidad.Count == 0)
+                circuloDuplicidad.Source = CrearVistas.getPunto(Codigos.PUNTO_VERDE);
+            else if (mantenimientoResponse.ErroresDuplicidad.Count > CANTIDAD_ERROR_GRAVE)
+                circuloDuplicidad.Source = CrearVistas.getPunto(Codigos.PUNTO_ROJO);
+            else
+                circuloDuplicidad.Source = CrearVistas.getPunto(Codigos.PUNTO_AMARILLO);
+            #endregion
 
             UpdateUI.updateManteminientoPage(Codigos.MANTENIMIENTO_ANALISIS_EJECUTADO, this);
+        }
+
+        private void ButtonVerDuplicidad_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
