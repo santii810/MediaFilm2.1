@@ -38,7 +38,7 @@ namespace MediaFilm2._1.Vista
         private void ButtonVerContinuidad_Click(object sender, RoutedEventArgs e)
         {
             UpdateUI.updateManteminientoPage(Codigos.MANTENIMIENTO_MOSTRAR_RESULTADO, this);
-            this.panelResultadoContinuidad.Children.Clear();
+            this.panelListaResultadoMantenimiento.Children.Clear();
             foreach (string error in mantenimientoResponse.ErroresContinuidad)
             {
                 this.panelListaResultadoMantenimiento.Children.Add(CrearVistas.LabelLista(error));
