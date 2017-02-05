@@ -36,6 +36,11 @@ namespace MediaFilm2._1.Vista
             }
         }
 
+        internal static void updateManteminientoPage(object mANTENIMIENTO_MOSTRAR_RESULTADO, MantenimientoPage mantenimientoPage)
+        {
+            throw new NotImplementedException();
+        }
+
         internal static void updateDescargasPage(int cod, DescargasPage xaml)
         {
             colapsarTodo(xaml);
@@ -125,11 +130,15 @@ namespace MediaFilm2._1.Vista
             colapsarTodo(xaml);
             switch (cod)
             {
+                case Codigos.ESTADO_INICIAL:
+                    break;
                 case Codigos.MANTENIMIENTO_ANALISIS_EJECUTADO:
                     xaml.panelResultadosMantenimiento.Visibility = Visibility.Visible;
                     break;
-                
-
+                case Codigos.MANTENIMIENTO_MOSTRAR_RESULTADO:
+                    xaml.panelResultadosMantenimiento.Visibility = Visibility.Visible;
+                    xaml.panelDetallesMantenimiento.Visibility = Visibility.Visible;
+                    break;
             }
         }
 

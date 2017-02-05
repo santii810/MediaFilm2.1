@@ -27,6 +27,7 @@ namespace MediaFilm2._1.Res
         public const int GESTIONAR_DATOS_TEMPORADAS = 26;
 
         public const int  MANTENIMIENTO_ANALISIS_EJECUTADO = 30;
+        public const int MANTENIMIENTO_MOSTRAR_RESULTADO = 31;
 
         public const int DESCARGAS_BUSCAR = 40;
         public const int MOSTRAR_CAPITULOS = 41;
@@ -37,6 +38,5 @@ namespace MediaFilm2._1.Res
         public const int PUNTO_AMARILLO = 101;
         public const int PUNTO_ROJO = 102;
         public const int PUNTO_AZUL = 103;
-
     }
 }
