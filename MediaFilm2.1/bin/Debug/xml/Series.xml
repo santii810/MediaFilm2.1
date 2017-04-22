@@ -6,7 +6,7 @@
     <numeroTemporadas>10</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/padre-made-in-usa</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>American dad</patron>
       <patron>American.dad</patron>
@@ -32,7 +32,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/better-call-saul/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>Better call Saul</patron>
       <patron>Better.call.Saul</patron>
@@ -47,7 +47,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/daredevil/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>DD</patron>
       <patron>Daredevil</patron>
@@ -95,7 +95,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/el-ultimo-hombre-en-la-tierra/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>El ultimo hombre en la tierra</patron>
       <patron>El.ultimo.hombre.en.la.tierra</patron>
@@ -113,7 +113,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/eres-lo-peor/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>ElPe</patron>
       <patron>ElP</patron>
@@ -142,7 +142,7 @@
     <numeroTemporadas>2</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>Forever</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Forever</patron>
     </patrones>
@@ -163,10 +163,10 @@
   <serie tituloLocal="Los cien">
     <tituloLocal>Los cien</tituloLocal>
     <temporadaActual>4</temporadaActual>
-    <numeroTemporadas>4</numeroTemporadas>
+    <numeroTemporadas>5</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/los-100/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>Los cien</patron>
       <patron>Los 100</patron>
@@ -212,7 +212,7 @@
     <numeroTemporadas>14</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/padre-de-familia/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Padre de familia</patron>
       <patron>Padre.de.familia</patron>
@@ -298,7 +298,7 @@
     <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/the-strain/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>Tstrn</patron>
       <patron>Tst</patron>
@@ -313,7 +313,7 @@
     <numeroTemporadas>8</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/fear-the-walking-dead/</href_divX>
-    <estado>1</estado>
+    <estado>2</estado>
     <patrones>
       <patron>The Walking Dead</patron>
       <patron>The.Walking.Dead</patron>
