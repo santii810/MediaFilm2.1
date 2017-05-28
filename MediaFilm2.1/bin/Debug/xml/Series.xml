@@ -32,7 +32,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/better-call-saul/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>Better call Saul</patron>
       <patron>Better.call.Saul</patron>
@@ -95,7 +95,7 @@
     <numeroTemporadas>3</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/el-ultimo-hombre-en-la-tierra/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>El ultimo hombre en la tierra</patron>
       <patron>El.ultimo.hombre.en.la.tierra</patron>
@@ -166,7 +166,7 @@
     <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/los-100/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>Los cien</patron>
       <patron>Los 100</patron>
@@ -212,7 +212,7 @@
     <numeroTemporadas>14</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/padre-de-familia/</href_divX>
-    <estado>1</estado>
+    <estado>3</estado>
     <patrones>
       <patron>Padre de familia</patron>
       <patron>Padre.de.familia</patron>
@@ -241,7 +241,7 @@
     <numeroTemporadas>4</numeroTemporadas>
     <capitulosPorTemporada>25</capitulosPorTemporada>
     <href_divX>series/silicon-valley/</href_divX>
-    <estado>2</estado>
+    <estado>1</estado>
     <patrones>
       <patron>Silicon Valley</patron>
       <patron>Silicon.Valley</patron>
