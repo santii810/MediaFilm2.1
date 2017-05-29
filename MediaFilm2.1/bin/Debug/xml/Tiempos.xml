@@ -351,6 +351,7 @@
   <NumeroSeriesActivas fecha="05/02/2017 1:28:03" valor="16" />
   <NumeroPatronesEjecutados fecha="05/02/2017 1:28:03" valor="83200" />
 <<<<<<< HEAD
+<<<<<<< HEAD
   <TiempoRenombrarVideos fecha="23/04/2017 23:36:51" valor="2489" />
   <NumeroSeriesActivas fecha="23/04/2017 23:36:51" valor="17" />
   <NumeroPatronesEjecutados fecha="23/04/2017 23:36:51" valor="77168" />
@@ -416,6 +417,8 @@
   <NumeroSeriesActivas fecha="26/05/2017 23:53:17" valor="19" />
   <NumeroPatronesEjecutados fecha="26/05/2017 23:53:17" valor="79248" />
 =======
+=======
+>>>>>>> origin/master
   <TiempoRecorrerTorrent fecha="06/02/2017 21:15:41" valor="598" />
   <TiempoRenombrarVideos fecha="06/02/2017 21:15:48" valor="4864" />
   <NumeroSeriesActivas fecha="06/02/2017 21:15:48" valor="16" />
@@ -504,5 +507,8 @@
   <TiempoRenombrarVideos fecha="18/04/2017 17:42:13" valor="3627" />
   <NumeroSeriesActivas fecha="18/04/2017 17:42:13" valor="12" />
   <NumeroPatronesEjecutados fecha="18/04/2017 17:42:13" valor="68848" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 </Estadisticas>

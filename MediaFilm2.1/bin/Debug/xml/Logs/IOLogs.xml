@@ -1603,6 +1603,7 @@
   <Log tipo="Movido" fecha="05/02/2017 1:27:57" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Big.Bang.Theory.10x13.HDTV.XviD.[www.DivxTotaL.com].avi" />
   <Log tipo="Renombrar capitulo" fecha="05/02/2017 1:28:01" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The big bang theory\Temporada10\The big bang theory 10x13.avi" nombreAntiguo="The.Big.Bang.Theory.10x13.HDTV.XviD.[www.DivxTotaL.com].avi" />
 <<<<<<< HEAD
+<<<<<<< HEAD
   <Log tipo="Movido" fecha="23/04/2017 23:40:46" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Better.Call.Saul.3x02.HDTV.XviD.[www.DivxTotaL.com].avi" />
   <Log tipo="Movido" fecha="23/04/2017 23:40:46" mensaje="Fichero movido correctamente" fichero="A:\Iomega\El.Ultimo.Hombre.En.La.Tierra.3x11.HDTV.XviD.[www.DivxTotaL.com].avi" />
   <Log tipo="Movido" fecha="23/04/2017 23:40:46" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Flash.3x16.HDTV.XviD.[www.DivxTotaL.com].avi" />
@@ -1719,6 +1720,8 @@
   <Log tipo="Movido" fecha="26/05/2017 23:53:15" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Big.Bang.Theory.10x22.HDTV.XviD.[www.DivxTotaL.com].avi" />
   <Log tipo="Renombrar capitulo" fecha="26/05/2017 23:53:16" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The big bang theory\Temporada10\The big bang theory 10x22.avi" nombreAntiguo="The.Big.Bang.Theory.10x22.HDTV.XviD.[www.DivxTotaL.com].avi" />
 =======
+=======
+>>>>>>> origin/master
   <Log tipo="Movido" fecha="06/02/2017 21:15:40" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.6x09.HDTV.XviD.[www.DivxTotaL.com].avi" />
   <Log tipo="Movido" fecha="06/02/2017 21:15:40" mensaje="Fichero movido correctamente" fichero="A:\Iomega\2.Chicas.Sin.Blanca.6x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
   <Log tipo="Movido" fecha="06/02/2017 21:15:40" mensaje="Fichero movido correctamente" fichero="A:\Iomega\Arrow.5x10.HDTV.XviD.[www.DivxTotaL.com].avi" />
@@ -1927,5 +1930,8 @@
   <Log tipo="Movido" fecha="18/04/2017 17:42:09" mensaje="Fichero movido correctamente" fichero="A:\Iomega\The.Big.Bang.Theory.10x19.HDTV.XviD.[www.DivxTotaL.com].avi" />
   <Log tipo="Renombrar capitulo" fecha="18/04/2017 17:42:10" mensaje="Fichero renombrado correctamente" fichero="A:\Series\Dos chicas sin blanca\Temporada6\Dos chicas sin blanca 6x20.avi" nombreAntiguo="2.Chicas.Sin.Blanca.6x20.HDTV.XviD.[www.DivxTotaL.com].avi" />
   <Log tipo="Renombrar capitulo" fecha="18/04/2017 17:42:11" mensaje="Fichero renombrado correctamente" fichero="A:\Series\The big bang theory\Temporada10\The big bang theory 10x19.avi" nombreAntiguo="The.Big.Bang.Theory.10x19.HDTV.XviD.[www.DivxTotaL.com].avi" />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 </Logs>
